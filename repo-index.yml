@@ -1,13 +1,16 @@
 ---
 plugins:
-- name: 
-  description:
-  version:
-  company:
+- name: echo
+  description: echo repeats input back to the terminal
+  version: 0.1.4
+  company: CF CLI Team
   author:
-  contact: 
-  homepage:
+  contact:
+  homepage: http://github.com/simonleung8/cli-plugin-echo
   binary:
-    - platform: 
-      url:
-      checksum: 
+    - platform: osx 
+      url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
+      checksum: 2a087d5cddcfb057fbda91e611c33f46
+    - platform: windows64 
+      url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
+      checksum: b4550d6594a3358563b9dcb81e40fd66
