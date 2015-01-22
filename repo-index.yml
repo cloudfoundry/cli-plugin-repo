@@ -7,7 +7,7 @@ plugins:
   author:
   contact:
   homepage: http://github.com/simonleung8/cli-plugin-echo
-  binary:
+  binaries:
     - platform: osx 
       url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
       checksum: 2a087d5cddcfb057fbda91e611c33f46
