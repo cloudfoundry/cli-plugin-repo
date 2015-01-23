@@ -59,6 +59,8 @@ var _ = Describe("Parser", func() {
 
 			rawData := fakeModel.PopulateModelArgsForCall(0)
 			Ω(rawData.(map[interface{}]interface{})["plugins"]).ShouldNot(Equal(nil))
+			Ω(rawData.(map[interface{}]interface{})["plugins"].([]interface{})[0].(map[interface{}]interface{})["name"]).Should(Equal("plugin1"))
+			Ω(rawData.(map[interface{}]interface{})["plugins"].([]interface{})[1].(map[interface{}]interface{})["name"]).Should(Equal("plugin2"))
 		})
 	})
 })
