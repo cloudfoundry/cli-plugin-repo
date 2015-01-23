@@ -37,10 +37,8 @@ func NewRepoServer(port int, addr string, handles ServerHandles) RepoServer {
 
 func (s server) registerHandlers() {
 	r := mux.NewRouter()
-	// r.Methods("GET").Path("/").HandlerFunc(h.RedirectBase)
 	r.Methods("GET").Path("/list").HandlerFunc(s.handles.ListPlugins)
 
-	// http.Handle("/ui/", http.StripPrefix("/ui/", http.FileServer(http.Dir(path.Join(h.BasePath(), "ui")))))
 	http.Handle("/", r)
 }
 

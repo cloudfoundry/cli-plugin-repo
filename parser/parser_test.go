@@ -26,27 +26,27 @@ var _ = Describe("Parser", func() {
 
 		It("logs error if file does not exist", func() {
 			yparser = NewYamlParser("../path/to/nowhere/bad.yml", logger, fakeModel)
-			err := yparser.Parse()
+			_, err := yparser.Parse()
 			Ω(err).To(HaveOccurred())
 			Ω(logger.ContainsSubstring([]string{"File does not exist"})).To(Equal(true))
 		})
 
 		It("logs error if file is not a valid yaml", func() {
 			yparser = NewYamlParser("../fixtures/parser/bad.yml", logger, fakeModel)
-			err := yparser.Parse()
+			_, err := yparser.Parse()
 			Ω(err).To(HaveOccurred())
 			Ω(logger.ContainsSubstring([]string{"Failed to decode document"})).To(Equal(true))
 		})
 
 		It("validate a yaml file", func() {
 			yparser = NewYamlParser("../fixtures/parser/test.yml", logger, fakeModel)
-			err := yparser.Parse()
+			_, err := yparser.Parse()
 			Ω(err).ToNot(HaveOccurred())
 		})
 
 		It("calls models.PopulateModel", func() {
 			yparser = NewYamlParser("../fixtures/parser/test.yml", logger, fakeModel)
-			err := yparser.Parse()
+			_, err := yparser.Parse()
 			Ω(err).ToNot(HaveOccurred())
 
 			Ω(fakeModel.PopulateModelCallCount()).To(Equal(1))
@@ -54,7 +54,7 @@ var _ = Describe("Parser", func() {
 
 		It("passes parsed yml raw data to models.PluginModel", func() {
 			yparser = NewYamlParser("../fixtures/parser/test.yml", logger, fakeModel)
-			err := yparser.Parse()
+			_, err := yparser.Parse()
 			Ω(err).ToNot(HaveOccurred())
 
 			rawData := fakeModel.PopulateModelArgsForCall(0)

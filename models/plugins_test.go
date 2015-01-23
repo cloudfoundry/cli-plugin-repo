@@ -56,11 +56,11 @@ var _ = Describe("Models", func() {
 
 		It("populates the plugin model with raw data", func() {
 			data := pluginModel.PluginsModel()
-			Ω(len(data)).To(Equal(2))
-			Ω(data[0].Name).To(Equal("test1"))
-			Ω(data[0].Binaries[0].Platform).To(Equal("osx"))
-			Ω(data[1].Name).To(Equal("test2"))
-			Ω(data[1].Binaries[1].Platform).To(Equal("linux32"))
+			Ω(len(data.Plugins)).To(Equal(2))
+			Ω(data.Plugins[0].Name).To(Equal("test1"))
+			Ω(data.Plugins[0].Binaries[0].Platform).To(Equal("osx"))
+			Ω(data.Plugins[1].Name).To(Equal("test2"))
+			Ω(data.Plugins[1].Binaries[1].Platform).To(Equal("linux32"))
 		})
 	})
 
@@ -87,7 +87,7 @@ var _ = Describe("Models", func() {
 
 		It("logs error to terminal", func() {
 			data := pluginModel.PluginsModel()
-			Ω(len(data)).To(Equal(1))
+			Ω(len(data.Plugins)).To(Equal(1))
 			Ω(logger.ContainsSubstring([]string{"unexpected field", "unknown_field"})).To(Equal(true))
 		})
 	})

@@ -12,11 +12,11 @@ type FakePluginModel struct {
 	populateModelArgsForCall []struct {
 		arg1 interface{}
 	}
-	PluginsModelStub        func() []models.Plugin
+	PluginsModelStub        func() models.Plugins
 	pluginsModelMutex       sync.RWMutex
 	pluginsModelArgsForCall []struct{}
 	pluginsModelReturns struct {
-		result1 []models.Plugin
+		result1 models.Plugins
 	}
 }
 
@@ -43,7 +43,7 @@ func (fake *FakePluginModel) PopulateModelArgsForCall(i int) interface{} {
 	return fake.populateModelArgsForCall[i].arg1
 }
 
-func (fake *FakePluginModel) PluginsModel() []models.Plugin {
+func (fake *FakePluginModel) PluginsModel() models.Plugins {
 	fake.pluginsModelMutex.Lock()
 	defer fake.pluginsModelMutex.Unlock()
 	fake.pluginsModelArgsForCall = append(fake.pluginsModelArgsForCall, struct{}{})
@@ -60,10 +60,10 @@ func (fake *FakePluginModel) PluginsModelCallCount() int {
 	return len(fake.pluginsModelArgsForCall)
 }
 
-func (fake *FakePluginModel) PluginsModelReturns(result1 []models.Plugin) {
+func (fake *FakePluginModel) PluginsModelReturns(result1 models.Plugins) {
 	fake.PluginsModelStub = nil
 	fake.pluginsModelReturns = struct {
-		result1 []models.Plugin
+		result1 models.Plugins
 	}{result1}
 }
 

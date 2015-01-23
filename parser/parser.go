@@ -10,7 +10,7 @@ import (
 )
 
 type YamlParser interface {
-	Parse() error
+	Parse() (models.Plugins, error)
 }
 
 type yamlParser struct {
@@ -27,11 +27,11 @@ func NewYamlParser(filePath string, logger io.Writer, pluginsModel models.Plugin
 	}
 }
 
-func (p yamlParser) Parse() error {
+func (p yamlParser) Parse() (models.Plugins, error) {
 	file, err := os.Open(p.filePath)
 	if err != nil {
 		p.logger.Write([]byte("File does not exist:" + err.Error()))
-		return err
+		return models.Plugins{}, err
 	}
 
 	document := new(interface{})
@@ -40,14 +40,14 @@ func (p yamlParser) Parse() error {
 
 	if err != nil {
 		p.logger.Write([]byte("Failed to decode document:" + err.Error()))
-		return err
+		return models.Plugins{}, err
 	}
 
 	output, _ := expandProperties(*document)
 
 	p.pluginsModel.PopulateModel(output)
 
-	return nil
+	return p.pluginsModel.PluginsModel(), nil
 }
 
 func expandProperties(input interface{}) (output interface{}, errs []error) {

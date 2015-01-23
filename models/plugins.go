@@ -4,24 +4,24 @@ import "io"
 
 type PluginModel interface {
 	PopulateModel(interface{})
-	PluginsModel() []Plugin
+	PluginsModel() Plugins
 }
 
 type Plugins struct {
-	Plugins []Plugin
+	Plugins []Plugin `json:"plugins"`
 	logger  io.Writer
 }
 
 type Plugin struct {
-	Name        string
-	Description string
-	Binaries    []Binary
+	Name        string   `json:"name"`
+	Description string   `json:"description"`
+	Binaries    []Binary `json:"binaries"`
 }
 
 type Binary struct {
-	Platform string
-	Url      string
-	Checksum string
+	Platform string `json:"platform"`
+	Url      string `json:"url"`
+	Checksum string `json:"checksum"`
 }
 
 func NewPlugins(logger io.Writer) PluginModel {
@@ -30,8 +30,10 @@ func NewPlugins(logger io.Writer) PluginModel {
 	}
 }
 
-func (p *Plugins) PluginsModel() []Plugin {
-	return p.Plugins
+func (p *Plugins) PluginsModel() Plugins {
+	return Plugins{
+		Plugins: p.Plugins,
+	}
 }
 
 func (p *Plugins) PopulateModel(input interface{}) {
@@ -40,7 +42,7 @@ func (p *Plugins) PopulateModel(input interface{}) {
 			p.Plugins = append(p.Plugins, p.extractPlugin(plugin))
 		}
 	} else {
-		p.logger.Write([]byte("unexpected yaml structure, 'plugins' field not found."))
+		p.logger.Write([]byte("unexpected yaml structure, 'plugins' field not found.\n"))
 	}
 }
 
@@ -57,7 +59,7 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 				plugin.Binaries = append(plugin.Binaries, p.extractBinaries(binary))
 			}
 		default:
-			p.logger.Write([]byte("unexpected field in plugins: " + k.(string)))
+			p.logger.Write([]byte("unexpected field in plugins: " + k.(string) + "\n"))
 		}
 	}
 	return plugin
@@ -74,7 +76,7 @@ func (p *Plugins) extractBinaries(input interface{}) Binary {
 		case "checksum":
 			binary.Checksum = v.(string)
 		default:
-			p.logger.Write([]byte("unexpected field in binaries: " + k.(string)))
+			p.logger.Write([]byte("unexpected field in binaries: %s" + k.(string) + "\n"))
 		}
 	}
 	return binary
