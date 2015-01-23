@@ -3,6 +3,7 @@ plugins:
 - name: echo
   description: echo repeats input back to the terminal
   version: 0.1.4
+  date: 2015-1-23
   company: CF CLI Team
   author:
   contact:
