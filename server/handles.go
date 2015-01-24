@@ -27,12 +27,14 @@ func NewServerHandles(yamlParser parser.YamlParser, logger io.Writer) ServerHand
 func (h *handlers) ListPlugins(w http.ResponseWriter, r *http.Request) {
 	pluginModel, err := h.yamlParser.Parse()
 	if err != nil {
-		panic("Error parsing repo-index.yml: " + err.Error())
+		h.logger.Write([]byte("Error parsing repo-index.yml: " + err.Error()))
+		return
 	}
 
 	b, err := json.Marshal(pluginModel)
 	if err != nil {
 		h.logger.Write([]byte("Error marshalling plugin models: " + err.Error()))
+		return
 	}
 
 	w.Header().Set("Content-Type", "application/json")
