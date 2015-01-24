@@ -1,6 +1,9 @@
 package models
 
-import "io"
+import (
+	"io"
+	"time"
+)
 
 type PluginModel interface {
 	PopulateModel(interface{})
@@ -13,9 +16,15 @@ type Plugins struct {
 }
 
 type Plugin struct {
-	Name        string   `json:"name"`
-	Description string   `json:"description"`
-	Binaries    []Binary `json:"binaries"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
+	Version     string    `json:"version"`
+	Date        time.Time `json:"date"`
+	Company     string    `json:"company"`
+	Author      string    `json:"author"`
+	Contact     string    `json:"contact"`
+	Homepage    string    `json:"homepage"`
+	Binaries    []Binary  `json:"binaries"`
 }
 
 type Binary struct {
@@ -58,6 +67,18 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 			for _, binary := range v.([]interface{}) {
 				plugin.Binaries = append(plugin.Binaries, p.extractBinaries(binary))
 			}
+		case "version":
+			plugin.Version = v.(string)
+		case "author":
+			plugin.Author = optionalStringField(v)
+		case "contact":
+			plugin.Contact = optionalStringField(v)
+		case "homepage":
+			plugin.Homepage = optionalStringField(v)
+		case "company":
+			plugin.Company = optionalStringField(v)
+		case "date":
+			plugin.Date = v.(time.Time)
 		default:
 			p.logger.Write([]byte("unexpected field in plugins: " + k.(string) + "\n"))
 		}
@@ -80,4 +101,11 @@ func (p *Plugins) extractBinaries(input interface{}) Binary {
 		}
 	}
 	return binary
+}
+
+func optionalStringField(v interface{}) string {
+	if v != nil {
+		return v.(string)
+	}
+	return ""
 }

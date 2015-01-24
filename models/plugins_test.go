@@ -62,6 +62,15 @@ var _ = Describe("Models", func() {
 			Ω(data.Plugins[1].Name).To(Equal("test2"))
 			Ω(data.Plugins[1].Binaries[1].Platform).To(Equal("linux32"))
 		})
+
+		It("turns optional string fields with nil value into empty string", func() {
+			data := pluginModel.PluginsModel()
+			Ω(len(data.Plugins)).To(Equal(2))
+			Ω(data.Plugins[0].Author).To(Equal(""))
+			Ω(data.Plugins[0].Company).To(Equal(""))
+			Ω(data.Plugins[0].Homepage).To(Equal(""))
+			Ω(data.Plugins[0].Contact).To(Equal(""))
+		})
 	})
 
 	Context("When raw data contains unknown field", func() {
