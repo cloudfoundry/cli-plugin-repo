@@ -35,5 +35,6 @@ func (h *handlers) ListPlugins(w http.ResponseWriter, r *http.Request) {
 		h.logger.Write([]byte("Error marshalling plugin models: " + err.Error()))
 	}
 
+	w.Header().Set("Content-Type", "application/json")
 	w.Write(b)
 }
