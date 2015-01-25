@@ -5,7 +5,6 @@ import (
 	"os"
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/cloudfoundry/cli/generic"
 	"github.com/fraenkel/candiedyaml"
 )
 
@@ -69,14 +68,6 @@ func expandProperties(input interface{}) (output interface{}, errs []error) {
 			outputMap[key] = itemOutput
 			errs = append(errs, itemErrs...)
 		}
-		output = outputMap
-	case generic.Map:
-		outputMap := generic.NewMap()
-		generic.Each(input, func(key, value interface{}) {
-			itemOutput, itemErrs := expandProperties(value)
-			outputMap.Set(key, itemOutput)
-			errs = append(errs, itemErrs...)
-		})
 		output = outputMap
 	default:
 		output = input
