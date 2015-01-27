@@ -29,8 +29,8 @@ var _ = Describe("Main", func() {
 		result.Kill()
 	})
 
-	It("-h flag sets server port", func() {
-		result := Repo("-h", "127.0.0.1")
+	It("-n flag sets server port", func() {
+		result := Repo("-n", "127.0.0.1")
 		Eventually(result.Out).Should(Say("127.0.0.1:"))
 		result.Kill()
 	})

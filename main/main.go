@@ -14,7 +14,7 @@ var flagPort int
 var flagAddr string
 
 func init() {
-	flag.StringVar(&flagAddr, "h", "0.0.0.0", "Address the server to listen on")
+	flag.StringVar(&flagAddr, "n", "0.0.0.0", "Address the server to listen on")
 	flag.IntVar(&flagPort, "p", 8080, "Port the server to listen on")
 	flag.Parse()
 }
