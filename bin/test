@@ -1,0 +1,52 @@
+#!/bin/bash
+
+(
+  set -e
+
+  function printStatus {
+      if [ $? -eq 0 ]; then
+          echo -e "\nSWEET SUITE SUCCESS"
+      else
+          echo -e "\nSUITE FAILURE"
+      fi
+  }
+
+  trap printStatus EXIT
+
+  go get github.com/tools/godep
+
+  GODEP=$(which godep)
+
+  # Clean up old .a files in GOPATH
+  # It seems like `go clean` should do this but ... not so much
+  if [[ -d $GOPATH/pkg ]] ; then
+    pushd $GOPATH/pkg
+    rm -Rf *
+    popd
+  fi
+
+  if [[ -d $($GODEP path)/pkg ]] ; then
+    pushd $($GODEP path)/pkg
+    rm -Rf *
+    popd
+  fi
+
+  export GOPATH=$($GODEP path):$GOPATH
+  export PATH=$($GODEP path)/bin:$PATH
+  go install github.com/onsi/ginkgo/ginkgo
+
+  echo -e "\n Formatting packages..."
+  go fmt ./...
+
+  echo -e "\n Testing packages..."
+  CF_HOME=$(pwd)/fixtures ginkgo -r $@
+
+  echo -e "\n Vetting packages for potential issues..."
+  for file in $(find {main,models,parser,server,test_helpers} \( -name "*.go" -not -iname "*test.go" \))
+  do
+    go tool vet -all -shadow=true $file
+  done
+
+  echo -e "\n Running build script to confirm everything compiles..."
+  bin/build
+)
