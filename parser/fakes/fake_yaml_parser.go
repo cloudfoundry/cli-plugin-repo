@@ -12,7 +12,7 @@ type FakeYamlParser struct {
 	ParseStub        func() (models.Plugins, error)
 	parseMutex       sync.RWMutex
 	parseArgsForCall []struct{}
-	parseReturns struct {
+	parseReturns     struct {
 		result1 models.Plugins
 		result2 error
 	}

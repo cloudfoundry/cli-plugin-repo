@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	"sync"
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
+	"sync"
 )
 
 type FakePluginModel struct {
@@ -15,7 +15,7 @@ type FakePluginModel struct {
 	PluginsModelStub        func() models.Plugins
 	pluginsModelMutex       sync.RWMutex
 	pluginsModelArgsForCall []struct{}
-	pluginsModelReturns struct {
+	pluginsModelReturns     struct {
 		result1 models.Plugins
 	}
 }
