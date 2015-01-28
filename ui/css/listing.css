@@ -1,6 +1,38 @@
+#listingBox {
+  width: 890px;
+  background: rgba(255, 255, 255, 0.2);
+  padding:  50px 0 50px 0; 
+}
+
 .listing-pluginName {
-	color:#355;
+	color:#555;
 	text-shadow: 0 1px 0 #fff;
   font-size: 1.5em;
+  background: rgba(150,150,150,.2);
+  padding:5px;
+  display: block;
   weight: bold;
 }
+
+.listing-caption {
+  color: #555; 
+  width: 100px;
+  float: left;
+}
+
+.listing-content {
+  color: #555; 
+  width: 300px;
+}
+
+.listing-description {
+  font-size: 1.1em;
+  color: #777; 
+}
+
+.listing-date {
+  font-size: 0.7em;
+  color: #999; 
+  float: right;
+}
+

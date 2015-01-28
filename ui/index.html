@@ -14,21 +14,74 @@
 </head>
 
 <body>
-  <h1 class="letterpress" style="text-align:center">CLI Community Plugins</h1>
-  <div style="height:50px"></div>
+    <div id="bodyBox">
 
-  <div style="width:80%; margin:auto">
-    <div ng-controller='CliprListing'>
-      <div ng-repeat="plugin in list.plugins">
-        <font class="listing-pluginName">{{plugin.name}}</font><span ng-if="plugin.version != ''"> - v.{{plugin.version}}</span>
-        <br>
-        <div style="margin-left:20px">
-          {{plugin.description}}
+      <div style="height:80px"></div>
+
+      <div id="listingBox">
+        <div style="background:transparent;width:80%; margin:auto">
+          <div ng-controller='CliprListing'>
+            <div ng-repeat="plugin in list.plugins">
+              <div class="listing-pluginName">
+                {{plugin.name}}
+                <span style="font-size: 0.75em" ng-if="plugin.version != ''"> - v.{{plugin.version}}</span>
+                <div class="listing-date" ng-bind="plugin.date | date:'MM/dd/yyyy'"></div>
+              </div>
+              <br>
+              <div style="margin-left:20px">
+                <div class="listing-description">{{plugin.description}}</div>
+                <div style="height:20px"></div>
+                <div ng-if="plugin.company != ''">
+                  <div class="listing-caption">company:</div>{{plugin.company}}
+                </div>  
+                <div ng-if="plugin.author != ''">
+                  <div class="listing-caption">author:</div>{{plugin.author}}
+                </div>  
+                <div ng-if="plugin.contact != ''">
+                  <div class="listing-caption">contact:</div>{{plugin.contact}}
+                </div>  
+                <div ng-if="plugin.homepage != ''">
+                  <div class="listing-caption">homepage:</div><a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
+                </div>  
+              </div>
+              <hr>
+            </div>
+          </div>
         </div>
-        <hr>
       </div>
-    </div>
-  </div>
 
+      <div id="adBox">
+        <div style="position: relavtive">
+          <div class="letterpress" id="titleDiv">
+            <font style="font-size:35px">Community</font>
+            <br>
+            <font style="font-size:25px">CLI Plugins</font>
+            <hr>
+            <font style="font-size:12px">
+              To include your plugin in our community repo, please goto our github page and follow our
+              <a href='http://github.com/cloudfoundry-incubator/cli-plugin-repo'>instruction</a>.
+            </font>
+            <hr>
+            <font style="font-size:12px">
+              To learn how to write your own plugin, see our
+              <a href='http://github.com/cloudfoundry/cli/plugin_examples'>examples</a>.
+            </font>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="header">
+      sdlfkj
+    </div>
+
+    <div id="githubFork">
+      <a href="https://github.com/cloudfoundry-incubator/cli-plugin-repo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    </div>
+
+    <img id="cfLogo" src="images/cloud-foundry-logo.png" />
 </body>
 </html>
