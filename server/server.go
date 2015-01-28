@@ -38,8 +38,14 @@ func NewRepoServer(port int, addr string, handles ServerHandles) RepoServer {
 func (s server) registerHandlers() {
 	r := mux.NewRouter()
 	r.Methods("GET").Path("/list").HandlerFunc(s.handles.ListPlugins)
+	r.Methods("GET").Path("/").HandlerFunc(redirectBase)
 
+	http.Handle("/ui/", http.StripPrefix("/ui/", http.FileServer(http.Dir("ui"))))
 	http.Handle("/", r)
+}
+
+func redirectBase(w http.ResponseWriter, r *http.Request) {
+	http.Redirect(w, r, "/ui", http.StatusFound)
 }
 
 func (s server) Serve() {

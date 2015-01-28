@@ -32,7 +32,7 @@ var _ = Describe("handles", func() {
 
 	Describe("ListPlugins()", func() {
 		It("logs any error returns by the parser, and returns empty body", func() {
-			fakeParser.ParseReturns(models.Plugins{}, errors.New("bad yaml file"))
+			fakeParser.ParseReturns([]models.Plugin{}, errors.New("bad yaml file"))
 			h := NewServerHandles(fakeParser, testLogger)
 			h.ListPlugins(resp, &http.Request{})
 
@@ -41,16 +41,14 @@ var _ = Describe("handles", func() {
 		})
 
 		It("marshals PluginModels into json object", func() {
-			model := models.Plugins{
-				Plugins: []models.Plugin{
-					models.Plugin{
-						Name:        "plugin1",
-						Description: "none",
-						Binaries: []models.Binary{
-							models.Binary{
-								Platform: "osx",
-								Url:      "asdf123",
-							},
+			model := []models.Plugin{
+				models.Plugin{
+					Name:        "plugin1",
+					Description: "none",
+					Binaries: []models.Binary{
+						models.Binary{
+							Platform: "osx",
+							Url:      "asdf123",
 						},
 					},
 				},
@@ -60,7 +58,8 @@ var _ = Describe("handles", func() {
 			h := NewServerHandles(fakeParser, testLogger)
 			h.ListPlugins(resp, &http.Request{})
 
-			var respondedModel models.Plugins
+			var respondedModel JsonPluginList
+
 			err := json.Unmarshal(resp.Body.Bytes(), &respondedModel)
 			Ω(err).ToNot(HaveOccurred())
 			Ω(respondedModel.Plugins[0].Name).To(Equal("plugin1"))

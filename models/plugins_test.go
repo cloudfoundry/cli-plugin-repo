@@ -14,6 +14,7 @@ var _ = Describe("Models", func() {
 	var (
 		parsedYaml  interface{}
 		pluginModel PluginModel
+		data        []Plugin
 	)
 
 	Context("When raw data is valid", func() {
@@ -51,25 +52,23 @@ var _ = Describe("Models", func() {
 			}
 
 			pluginModel = NewPlugins(os.Stdout)
-			pluginModel.PopulateModel(parsedYaml)
+			data = pluginModel.PopulateModel(parsedYaml)
 		})
 
 		It("populates the plugin model with raw data", func() {
-			data := pluginModel.PluginsModel()
-			Ω(len(data.Plugins)).To(Equal(2))
-			Ω(data.Plugins[0].Name).To(Equal("test1"))
-			Ω(data.Plugins[0].Binaries[0].Platform).To(Equal("osx"))
-			Ω(data.Plugins[1].Name).To(Equal("test2"))
-			Ω(data.Plugins[1].Binaries[1].Platform).To(Equal("linux32"))
+			Ω(len(data)).To(Equal(2))
+			Ω(data[0].Name).To(Equal("test1"))
+			Ω(data[0].Binaries[0].Platform).To(Equal("osx"))
+			Ω(data[1].Name).To(Equal("test2"))
+			Ω(data[1].Binaries[1].Platform).To(Equal("linux32"))
 		})
 
 		It("turns optional string fields with nil value into empty string", func() {
-			data := pluginModel.PluginsModel()
-			Ω(len(data.Plugins)).To(Equal(2))
-			Ω(data.Plugins[0].Author).To(Equal(""))
-			Ω(data.Plugins[0].Company).To(Equal(""))
-			Ω(data.Plugins[0].Homepage).To(Equal(""))
-			Ω(data.Plugins[0].Contact).To(Equal(""))
+			Ω(len(data)).To(Equal(2))
+			Ω(data[0].Author).To(Equal(""))
+			Ω(data[0].Company).To(Equal(""))
+			Ω(data[0].Homepage).To(Equal(""))
+			Ω(data[0].Contact).To(Equal(""))
 		})
 	})
 
@@ -91,12 +90,11 @@ var _ = Describe("Models", func() {
 
 			logger = test_helpers.NewTestLogger()
 			pluginModel = NewPlugins(logger)
-			pluginModel.PopulateModel(parsedYaml)
+			data = pluginModel.PopulateModel(parsedYaml)
 		})
 
 		It("logs error to terminal", func() {
-			data := pluginModel.PluginsModel()
-			Ω(len(data.Plugins)).To(Equal(1))
+			Ω(len(data)).To(Equal(1))
 			Ω(logger.ContainsSubstring([]string{"unexpected field", "unknown_field"})).To(Equal(true))
 		})
 	})

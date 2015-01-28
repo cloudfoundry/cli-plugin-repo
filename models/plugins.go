@@ -6,13 +6,11 @@ import (
 )
 
 type PluginModel interface {
-	PopulateModel(interface{})
-	PluginsModel() Plugins
+	PopulateModel(interface{}) []Plugin
 }
 
 type Plugins struct {
-	Plugins []Plugin `json:"plugins"`
-	logger  io.Writer
+	logger io.Writer
 }
 
 type Plugin struct {
@@ -39,20 +37,16 @@ func NewPlugins(logger io.Writer) PluginModel {
 	}
 }
 
-func (p *Plugins) PluginsModel() Plugins {
-	return Plugins{
-		Plugins: p.Plugins,
-	}
-}
-
-func (p *Plugins) PopulateModel(input interface{}) {
+func (p *Plugins) PopulateModel(input interface{}) []Plugin {
+	plugins := []Plugin{}
 	if contents, ok := input.(map[interface{}]interface{})["plugins"].([]interface{}); ok {
 		for _, plugin := range contents {
-			p.Plugins = append(p.Plugins, p.extractPlugin(plugin))
+			plugins = append(plugins, p.extractPlugin(plugin))
 		}
 	} else {
 		p.logger.Write([]byte("unexpected yaml structure, 'plugins' field not found.\n"))
 	}
+	return plugins
 }
 
 func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
@@ -68,7 +62,7 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 				plugin.Binaries = append(plugin.Binaries, p.extractBinaries(binary))
 			}
 		case "version":
-			plugin.Version = v.(string)
+			plugin.Version = optionalStringField(v)
 		case "author":
 			plugin.Author = optionalStringField(v)
 		case "contact":

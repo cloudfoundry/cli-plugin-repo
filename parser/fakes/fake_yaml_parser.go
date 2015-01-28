@@ -9,16 +9,16 @@ import (
 )
 
 type FakeYamlParser struct {
-	ParseStub        func() (models.Plugins, error)
+	ParseStub        func() ([]models.Plugin, error)
 	parseMutex       sync.RWMutex
 	parseArgsForCall []struct{}
-	parseReturns     struct {
-		result1 models.Plugins
+	parseReturns struct {
+		result1 []models.Plugin
 		result2 error
 	}
 }
 
-func (fake *FakeYamlParser) Parse() (models.Plugins, error) {
+func (fake *FakeYamlParser) Parse() ([]models.Plugin, error) {
 	fake.parseMutex.Lock()
 	defer fake.parseMutex.Unlock()
 	fake.parseArgsForCall = append(fake.parseArgsForCall, struct{}{})
@@ -35,10 +35,10 @@ func (fake *FakeYamlParser) ParseCallCount() int {
 	return len(fake.parseArgsForCall)
 }
 
-func (fake *FakeYamlParser) ParseReturns(result1 models.Plugins, result2 error) {
+func (fake *FakeYamlParser) ParseReturns(result1 []models.Plugin, result2 error) {
 	fake.ParseStub = nil
 	fake.parseReturns = struct {
-		result1 models.Plugins
+		result1 []models.Plugin
 		result2 error
 	}{result1, result2}
 }

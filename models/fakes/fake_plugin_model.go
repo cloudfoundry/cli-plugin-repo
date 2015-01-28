@@ -2,32 +2,31 @@
 package fakes
 
 import (
-	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
 	"sync"
+	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
 )
 
 type FakePluginModel struct {
-	PopulateModelStub        func(interface{})
+	PopulateModelStub        func(interface{}) []models.Plugin
 	populateModelMutex       sync.RWMutex
 	populateModelArgsForCall []struct {
 		arg1 interface{}
 	}
-	PluginsModelStub        func() models.Plugins
-	pluginsModelMutex       sync.RWMutex
-	pluginsModelArgsForCall []struct{}
-	pluginsModelReturns     struct {
-		result1 models.Plugins
+	populateModelReturns struct {
+		result1 []models.Plugin
 	}
 }
 
-func (fake *FakePluginModel) PopulateModel(arg1 interface{}) {
+func (fake *FakePluginModel) PopulateModel(arg1 interface{}) []models.Plugin {
 	fake.populateModelMutex.Lock()
 	defer fake.populateModelMutex.Unlock()
 	fake.populateModelArgsForCall = append(fake.populateModelArgsForCall, struct {
 		arg1 interface{}
 	}{arg1})
 	if fake.PopulateModelStub != nil {
-		fake.PopulateModelStub(arg1)
+		return fake.PopulateModelStub(arg1)
+	} else {
+		return fake.populateModelReturns.result1
 	}
 }
 
@@ -43,27 +42,10 @@ func (fake *FakePluginModel) PopulateModelArgsForCall(i int) interface{} {
 	return fake.populateModelArgsForCall[i].arg1
 }
 
-func (fake *FakePluginModel) PluginsModel() models.Plugins {
-	fake.pluginsModelMutex.Lock()
-	defer fake.pluginsModelMutex.Unlock()
-	fake.pluginsModelArgsForCall = append(fake.pluginsModelArgsForCall, struct{}{})
-	if fake.PluginsModelStub != nil {
-		return fake.PluginsModelStub()
-	} else {
-		return fake.pluginsModelReturns.result1
-	}
-}
-
-func (fake *FakePluginModel) PluginsModelCallCount() int {
-	fake.pluginsModelMutex.RLock()
-	defer fake.pluginsModelMutex.RUnlock()
-	return len(fake.pluginsModelArgsForCall)
-}
-
-func (fake *FakePluginModel) PluginsModelReturns(result1 models.Plugins) {
-	fake.PluginsModelStub = nil
-	fake.pluginsModelReturns = struct {
-		result1 models.Plugins
+func (fake *FakePluginModel) PopulateModelReturns(result1 []models.Plugin) {
+	fake.PopulateModelStub = nil
+	fake.populateModelReturns = struct {
+		result1 []models.Plugin
 	}{result1}
 }
 
