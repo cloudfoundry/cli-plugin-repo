@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html ng-app="clipr">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/clipr.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/listing.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>	
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>	
+  <script type="text/javascript" src="js/list.js"></script>	
+</head>
+
+<body>
+  <h1 class="letterpress" style="text-align:center">CLI Community Plugins</h1>
+  <div style="height:50px"></div>
+
+  <div style="width:80%; margin:auto">
+    <div ng-controller='CliprListing'>
+      <div ng-repeat="plugin in list.plugins">
+        <font class="listing-pluginName">{{plugin.name}}</font><span ng-if="plugin.version != ''"> - v.{{plugin.version}}</span>
+        <br>
+        <div style="margin-left:20px">
+          {{plugin.description}}
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

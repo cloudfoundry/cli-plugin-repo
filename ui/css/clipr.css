@@ -1,0 +1,14 @@
+
+body {
+  background:#ddd;
+}
+
+.letterpress {
+	color:#555;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.letterpress-white {
+	color:#eee;
+	text-shadow: 0 -1px 0 #555;
+}
