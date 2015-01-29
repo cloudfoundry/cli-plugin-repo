@@ -31,6 +31,10 @@ type Binary struct {
 	Checksum string `json:"checksum"`
 }
 
+type PluginsJson struct {
+	Plugins []Plugin `json:"plugins"`
+}
+
 func NewPlugins(logger io.Writer) PluginModel {
 	return &Plugins{
 		logger: logger,

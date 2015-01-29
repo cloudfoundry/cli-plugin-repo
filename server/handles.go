@@ -18,10 +18,6 @@ type handlers struct {
 	logger     io.Writer
 }
 
-type JsonPluginList struct {
-	Plugins []models.Plugin `json:"plugins"`
-}
-
 func NewServerHandles(yamlParser parser.YamlParser, logger io.Writer) ServerHandles {
 	return &handlers{
 		yamlParser: yamlParser,
@@ -36,7 +32,7 @@ func (h *handlers) ListPlugins(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	b, err := json.Marshal(JsonPluginList{
+	b, err := json.Marshal(models.PluginsJson{
 		Plugins: pluginModel,
 	})
 	if err != nil {
