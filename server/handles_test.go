@@ -58,7 +58,7 @@ var _ = Describe("handles", func() {
 			h := NewServerHandles(fakeParser, testLogger)
 			h.ListPlugins(resp, &http.Request{})
 
-			var respondedModel JsonPluginList
+			var respondedModel models.PluginsJson
 
 			err := json.Unmarshal(resp.Body.Bytes(), &respondedModel)
 			Ω(err).ToNot(HaveOccurred())
