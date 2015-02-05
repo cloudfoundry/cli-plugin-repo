@@ -2,6 +2,8 @@
 plugins:
 - name: plugin1
   description: testing yml
+  updated: 2015-02-01
+  created: 2015-02-01
   binaries:
     - platform: osx 
       url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
