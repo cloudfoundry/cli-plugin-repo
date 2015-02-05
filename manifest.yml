@@ -1,4 +1,5 @@
 ---
 applications:
-- name: plugin
+- name: plugins
   instance: 1
+  memory: 512M
