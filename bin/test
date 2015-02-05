@@ -42,7 +42,7 @@
   CF_HOME=$(pwd)/fixtures ginkgo -r $@
 
   echo -e "\n Vetting packages for potential issues..."
-  for file in $(find {main,models,parser,server,test_helpers} \( -name "*.go" -not -iname "*test.go" \))
+  for file in $(find {app,models,parser,server,test_helpers} \( -name "*.go" -not -iname "*test.go" \))
   do
     go tool vet -all -shadow=true $file
   done

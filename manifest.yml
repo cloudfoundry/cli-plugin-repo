@@ -1,0 +1,4 @@
+---
+applications:
+- name: plugin
+  instance: 1

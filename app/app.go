@@ -1,9 +1,11 @@
-package main
+package app
 
 import (
 	"flag"
 	"fmt"
+	"io"
 	"os"
+	"strconv"
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/parser"
@@ -12,21 +14,35 @@ import (
 
 var flagPort int
 var flagAddr string
+var logger io.Writer
 
 func init() {
+	logger = os.Stdout //turn this into a logger soon
+
 	flag.StringVar(&flagAddr, "n", "0.0.0.0", "Address the server to listen on")
 	flag.IntVar(&flagPort, "p", 8080, "Port the server to listen on")
 	flag.Parse()
+
+	if port := os.Getenv("PORT"); port != "" {
+
+		v, err := strconv.Atoi(port)
+		if err != nil {
+			logger.Write([]byte("Error getting port from VCAP: " + err.Error()))
+		} else {
+			flagPort = v
+			flagAddr = ""
+		}
+	}
 }
 
-func main() {
+func Start() {
+	model := models.NewPlugins(logger)
 
-	model := models.NewPlugins(os.Stdout)
-
-	yamlParser := parser.NewYamlParser("repo-index.yml", os.Stdout, model)
-	handles := server.NewServerHandles(yamlParser, os.Stdout)
+	yamlParser := parser.NewYamlParser("repo-index.yml", logger, model)
+	handles := server.NewServerHandles(yamlParser, logger)
 
 	repoServer := server.NewRepoServer(flagPort, flagAddr, handles)
+
 	fmt.Printf("\nServer is listening on %s:%d\n", flagAddr, flagPort)
 
 	repoServer.Serve()

@@ -13,5 +13,5 @@ ln -s $ROOT_DIR $CLIPR_GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-r
 
 GODEP_GOPATH=$ROOT_DIR/Godeps/_workspace
 
-GOPATH=$CLIPR_GOPATH:$GODEP_GOPATH:$GOPATH go build -o $ROOT_DIR/out/clipr ./main
+GOPATH=$CLIPR_GOPATH:$GODEP_GOPATH:$GOPATH go build -o $ROOT_DIR/out/clipr ./
 rm -rf $CLIPR_GOPATH
