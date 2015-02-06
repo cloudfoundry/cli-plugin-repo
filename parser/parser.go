@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
+	"github.com/cloudfoundry-incubator/candiedyaml"
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/fraenkel/candiedyaml"
 )
 
 type YamlParser interface {

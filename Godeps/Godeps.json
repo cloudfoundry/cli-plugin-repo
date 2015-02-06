@@ -6,12 +6,12 @@
 	],
 	"Deps": [
 		{
-			"ImportPath": "github.com/fraenkel/candiedyaml",
-			"Rev": "84842532f8194fe186b48a009251dfaec9924ccd"
+			"ImportPath": "github.com/cloudfoundry-incubator/candiedyaml",
+			"Rev": "150e4e8f749b21a7f0de8e3cfd885143fcea6b32"
 		},
 		{
 			"ImportPath": "github.com/gorilla/context",
-			"Rev": "14f550f51af52180c2eefed15e5fd18d63c0a64a"
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
 		},
 		{
 			"ImportPath": "github.com/gorilla/mux",
