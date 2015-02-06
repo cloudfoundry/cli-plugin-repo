@@ -42,12 +42,14 @@ Forking the repository for development
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
 1. Install [godep](https://github.com/tools/godep)
-1. Get the cli source code: `go get github.com/cloudfoundry/cli`
-  * (Ignore any warnings about "no buildable Go source files")
+1. Get the CLIPR source code: `go get github.com/cloudfoundry-incubator/cli-plugin-repo`
 1. Run `godep restore` (note: this will modify the dependencies in your $GOPATH)
 1. Fork the repository
-1. Add your fork as a remote: `cd $GOPATH/src/github.com/cloudfoundry/cli && git remote add your_name https://github.com/your_name/cli`
-
+1. Add your fork as a remote: 
+```
+cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
+git remote add your_name https://github.com/your_name/cli-plugin-repo
+```
   
 Creating your own Plugin Repo Server
 =============
