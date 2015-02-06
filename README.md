@@ -44,3 +44,7 @@ Please make sure the spacing and colons are correct in the entry.
  - `platform` The os for this binary. We support `osx`, `linux32`, `linux64`, `win32`, and `win64`.
  - `url` Link to the binary file itself.
  - `checksum` SHA-1 of the binary file for verification. See instructions below for calculating the SHA-1 of your binary.
+ 
+Running your own Plugin Repo Server
+=================
+Included as part of this repository is the CLI Plugin Repo, or CLIPR, a reference implementation of a repo server. Fpr information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/CLIPR.md)
