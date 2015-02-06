@@ -42,10 +42,10 @@ Please make sure the spacing and colons are correct in the entry.
 - `author` <b>Optional</b> field detailing the creator of the plugin.
 - `contact` Field detailing the best way for anyone to get in touch with the plugin creators, either an email address, a link to a github issue page, etc.
 - `homepage` Link to the homepage where the source code is hosted. Currently we only support open source plugins.
-- `binaries` This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Instructions for cross-compiling can be found below.
+- `binaries` This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms.
  - `platform` The os for this binary. We support `osx`, `linux32`, `linux64`, `win32`, and `win64`.
  - `url` Link to the binary file itself.
- - `checksum` SHA-1 of the binary file for verification. See instructions below for calculating the SHA-1 of your binary.
+ - `checksum` SHA-1 of the binary file for verification.
  
 Running your own Plugin Repo Server
 =================
