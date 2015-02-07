@@ -1,7 +1,7 @@
 ---
 plugins:
-- name: echo
-  description: echo repeats input back to the terminal
+- name: echo_sample
+  description: This is only a sample entry, to be removed soon.
   version: 0.1.4
   created: 2015-1-23
   updated: 2015-1-23
