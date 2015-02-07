@@ -52,10 +52,11 @@ Submitting Plugins
 
 1. After making the changes, fork the repository
 1. Add your fork as a remote
-```
-cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
-git remote add your_name https://github.com/your_name/cli-plugin-repo
-```
+   ```
+   cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
+   git remote add your_name https://github.com/your_name/cli-plugin-repo
+   ```
+   
 1. Push the changes to your fork and submit a Pull Request
 
  
