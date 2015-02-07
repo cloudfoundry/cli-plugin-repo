@@ -32,23 +32,26 @@ Submitting Plugins
         url: url: http://github.com/sample-author/new_plugin/raw/master/bin/linux32/echo
         checksum: f6540d6594a9684563b9lfa81e23id93
   ```
-  Please make sure the spacing and colons are correct in the entry.
-  - `name` Name of your plugin, must not conflict with other existing plugins in the repo.
-  - `description` Describe your plugin in a line or two. This desscription will show up when your plugin is listed on the command line.
-  - `version` Version number of your plugin, in [major].[minor].[build] form.
-  - `created` Date of first submission of the plugin, in year-month-day form.
-  - `updated` Date of last update of the plugin, in year-month-day form.
-  - `company` <b>Optional</b> field detailing company or organization that created the plugin.
-  - `author` <b>Optional</b> field detailing the creator of the plugin.
-  - `contact` Field detailing the best way for anyone to get in touch with the plugin creators, either an email address, a link to a github issue page, etc.
-  - `homepage` Link to the homepage where the source code is hosted. Currently we only support open source plugins.
-  - `binaries` This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms.
-   - `platform` The os for this binary. We support `osx`, `linux32`, `linux64`, `win32`, and `win64`.
-   - `url` Link to the binary file itself.
-   - `checksum` SHA-1 of the binary file for verification.
+  Please make sure the spacing and colons are correct in the entry. The following descibes each field's usage.
+  
+  Field | Description
+  ------ | ---------
+  `name` | Name of your plugin, must not conflict with other existing plugins in the repo.
+  `description` | Describe your plugin in a line or two. This desscription will show up when your plugin is listed on the command line
+  `version` | Version number of your plugin, in [major].[minor].[build] form
+  `created` | Date of first submission of the plugin, in year-month-day form
+  `updated` | Date of last update of the plugin, in year-month-day form
+  `company` | <b>Optional</b> field detailing company or organization that created the plugin
+  `author` | <b>Optional</b> field detailing the creator of the plugin
+  `contact` | Field detailing the best way for anyone to get in touch with the plugin creators, either an email address, a link to a github issue page, etc
+  `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins
+  `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms
+   `platform` | The os for this binary. We support `osx`, `linux32`, `linux64`, `win32`, and `win64`
+   `url` | Link to the binary file itself
+   `checksum` | SHA-1 of the binary file for verification
 
 1. After making the changes, fork the repository
-1. Add your fork as a remote: 
+1. Add your fork as a remote
 ```
 cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
 git remote add your_name https://github.com/your_name/cli-plugin-repo
