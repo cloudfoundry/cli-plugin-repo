@@ -16,13 +16,13 @@ Running CLIPR
   
 1. Push CLIPR to your instance of Cloud Foundry by doing `cf push` at the root of CLIPR
 
-#####Running as a stand along binary
+#####Running as a stand alone binary
 
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
 1. Use `go build` to build the binary
-  1. Include the path "$<REPO_LOCATION>/Godeps/_workspace" in the environment var $GOPATH, here is an example in OSX/Linux
-  ```
+  1. Include the path "{REPO_LOCATION}/Godeps/_workspace" in the environment variable `$GOPATH`, here is an example in OSX/Linux
+  ```shell
     $ SET GOPATH=$HOME/user/go/src/github.com/cloud-foundry/cli-plugin-repo/Godeps/_workspace:$GOPATH
     $ go build -o clipr main.go
   ```
@@ -46,7 +46,7 @@ Forking the repository for development
 1. Run `godep restore` (note: this will modify the dependencies in your $GOPATH)
 1. Fork the repository
 1. Add your fork as a remote: 
-```
+```shell
 cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
 git remote add your_name https://github.com/your_name/cli-plugin-repo
 ```
@@ -55,7 +55,7 @@ Creating your own Plugin Repo Server
 =============
 Alternatively, you can create your own plugin repo implementation. The server must meet the requirements:
 - server must have a `/list` endpoint which returns a JSON object that lists the plugin info in the correct form
-```
+```json
 {"plugins": [
   {
     "name":"echo",
