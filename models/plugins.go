@@ -21,7 +21,6 @@ type Plugin struct {
 	Updated     time.Time `json:"updated"`
 	Company     string    `json:"company"`
 	Authors     []Author  `json:"authors"`
-	Contact     string    `json:"contact"`
 	Homepage    string    `json:"homepage"`
 	Binaries    []Binary  `json:"binaries"`
 }
@@ -82,8 +81,6 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 					plugin.Authors = append(plugin.Authors, p.extractAuthors(author))
 				}
 			}
-		case "contact":
-			plugin.Contact = optionalStringField(v)
 		case "homepage":
 			plugin.Homepage = optionalStringField(v)
 		case "company":

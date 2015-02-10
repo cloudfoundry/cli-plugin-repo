@@ -35,7 +35,9 @@
                   <div class="listing-caption">company:</div>{{plugin.company}}
                 </div>  
                   <div ng-if="plugin.authors != {}">
-                    <div class="listing-caption">author:</div>
+                    <div class="listing-caption">
+                      <ng-pluralize count="plugin.authors.length" when="{'0': 'author', '1': 'author', 'other': 'authors'}"></ng-pluralize>   
+                    </div>
                     <span ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
                         {{author.name}}</a>
                         <span ng-if="author.contact != ''">
@@ -44,12 +46,13 @@
                         {{$last ? '' : ', '}}
                     </span>
                 </div>  
-                <div ng-if="plugin.contact != ''">
-                  <div class="listing-caption">contact:</div>{{plugin.contact}}
-                </div>  
                 <div ng-if="plugin.homepage != ''">
                   <div class="listing-caption">homepage:</div><a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
                 </div>  
+                <div class="listing-caption">platforms:</div>
+                <span ng-repeat="binary in plugin.binaries">
+                  <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
+                </span>
               </div>
               <hr>
             </div>

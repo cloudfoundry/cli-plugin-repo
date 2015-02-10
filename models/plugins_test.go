@@ -75,7 +75,6 @@ var _ = Describe("Models", func() {
 			Ω(data[0].Authors[0].Name).To(Equal("sample_name"))
 			Ω(data[0].Company).To(Equal(""))
 			Ω(data[0].Homepage).To(Equal(""))
-			Ω(data[0].Contact).To(Equal(""))
 		})
 	})
 
