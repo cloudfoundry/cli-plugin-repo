@@ -12,10 +12,6 @@ plugins:
     contact: sample@contact.no.where
   - name: Jonathan Berkhahn
     homepage: http://github.com/jberkhahn
-<<<<<<< HEAD
-    contact: cant.find.me@no.where.haha
-=======
->>>>>>> Authors field is an array of author struct
   contact:
   homepage: http://github.com/simonleung8/cli-plugin-echo
   binaries:
