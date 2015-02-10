@@ -21,3 +21,22 @@ plugins:
   - platform: windows64
     url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
     checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
+- name: plug-me-in-sct
+  description: checking to see if this really works
+  version: 0.0.1
+  created: 2015-2-10
+  updated: 2015-2-10
+  company: sct
+  authors:
+  - name: scott truitt
+    homepage: http://github.com/scottruitt
+    contact: me@scottruitt.com
+  contact:
+  homepage: http://github.com/scottruitt
+  binaries:
+  - platform: osx
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
+    checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
+  - platform: windows64
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
+    checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
