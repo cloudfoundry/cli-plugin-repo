@@ -34,8 +34,15 @@
                 <div ng-if="plugin.company != ''">
                   <div class="listing-caption">company:</div>{{plugin.company}}
                 </div>  
-                <div ng-if="plugin.author != ''">
-                  <div class="listing-caption">author:</div>{{plugin.author}}
+                  <div ng-if="plugin.authors != {}">
+                    <div class="listing-caption">author:</div>
+                    <span ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
+                        {{author.name}}</a>
+                        <span ng-if="author.contact != ''">
+                          &nbsp({{author.contact}})
+                        </span>
+                        {{$last ? '' : ', '}}
+                    </span>
                 </div>  
                 <div ng-if="plugin.contact != ''">
                   <div class="listing-caption">contact:</div>{{plugin.contact}}
