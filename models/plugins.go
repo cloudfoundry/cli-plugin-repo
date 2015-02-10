@@ -20,7 +20,7 @@ type Plugin struct {
 	Created     time.Time `json:"created"`
 	Updated     time.Time `json:"updated"`
 	Company     string    `json:"company"`
-	Author      string    `json:"author"`
+	Authors     []Author  `json:"authors"`
 	Contact     string    `json:"contact"`
 	Homepage    string    `json:"homepage"`
 	Binaries    []Binary  `json:"binaries"`
@@ -34,6 +34,12 @@ type Binary struct {
 
 type PluginsJson struct {
 	Plugins []Plugin `json:"plugins"`
+}
+
+type Author struct {
+	Name     string `json:"name"`
+	Homepage string `json:"homepage"`
+	Contact  string `json:"contact"`
 }
 
 func NewPlugins(logger io.Writer) PluginModel {
@@ -68,8 +74,10 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 			}
 		case "version":
 			plugin.Version = optionalStringField(v)
-		case "author":
-			plugin.Author = optionalStringField(v)
+		case "authors":
+			for _, author := range v.([]interface{}) {
+				plugin.Authors = append(plugin.Authors, p.extractAuthors(author))
+			}
 		case "contact":
 			plugin.Contact = optionalStringField(v)
 		case "homepage":
@@ -102,6 +110,23 @@ func (p *Plugins) extractBinaries(input interface{}) Binary {
 		}
 	}
 	return binary
+}
+
+func (p *Plugins) extractAuthors(input interface{}) Author {
+	author := Author{}
+	for k, v := range input.(map[interface{}]interface{}) {
+		switch k.(string) {
+		case "name":
+			author.Name = v.(string)
+		case "homepage":
+			author.Homepage = optionalStringField(v)
+		case "contact":
+			author.Contact = optionalStringField(v)
+		default:
+			p.logger.Write([]byte("unexpected field in Authors: %s" + k.(string) + "\n"))
+		}
+	}
+	return author
 }
 
 func optionalStringField(v interface{}) string {

@@ -6,13 +6,19 @@ plugins:
   created: 2015-1-23
   updated: 2015-1-23
   company: CF CLI Team
-  author:
+  authors:
+  - name: Simon Leung
+    homepage: http://github.com/simonleung8
+    contact: sample@contact.no.where
+  - name: Jonathan Berkhahn
+    homepage: http://github.com/jberkhahn
+    contact: cant.find.me@no.where.haha
   contact:
   homepage: http://github.com/simonleung8/cli-plugin-echo
   binaries:
-    - platform: osx 
-      url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
-      checksum: 2a087d5cddcfb057fbda91e611c33f46
-    - platform: windows64 
-      url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
-      checksum: b4550d6594a3358563b9dcb81e40fd66
+  - platform: osx
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
+    checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
+  - platform: windows64
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
+    checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
