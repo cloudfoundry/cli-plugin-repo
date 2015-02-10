@@ -1,0 +1,27 @@
+---
+plugins:
+- name: echo_sample
+  description: This is only a sample entry, to be removed soon.
+  version: 0.1.4
+  created: 2015-1-23
+  updated: 2015-1-23
+  company: CF CLI Team
+  authors:
+  - name: Simon Leung
+    homepage: http://github.com/simonleung8
+    contact: sample@contact.no.where
+  - name: Jonathan Berkhahn
+    homepage: http://github.com/jberkhahn
+<<<<<<< HEAD
+    contact: cant.find.me@no.where.haha
+=======
+>>>>>>> Authors field is an array of author struct
+  contact:
+  homepage: http://github.com/simonleung8/cli-plugin-echo
+  binaries:
+  - platform: osx
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
+    checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
+  - platform: windows64
+    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
+    checksum: 3062d690bc2991b93c29b823771c19257a7f42f5

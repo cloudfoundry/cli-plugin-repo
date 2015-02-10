@@ -75,12 +75,17 @@ func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
 		case "version":
 			plugin.Version = optionalStringField(v)
 		case "authors":
+<<<<<<< HEAD
+			for _, author := range v.([]interface{}) {
+				plugin.Authors = append(plugin.Authors, p.extractAuthors(author))
+=======
 			if v == nil {
 				plugin.Authors = []Author{}
 			} else {
 				for _, author := range v.([]interface{}) {
 					plugin.Authors = append(plugin.Authors, p.extractAuthors(author))
 				}
+>>>>>>> Authors field is an array of author struct
 			}
 		case "contact":
 			plugin.Contact = optionalStringField(v)
