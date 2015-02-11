@@ -18,7 +18,7 @@ plugins:
   - platform: osx
     url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
     checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
-  - platform: windows64
+  - platform: win64
     url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
     checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
 - name: plug-me-in-sct
@@ -37,6 +37,6 @@ plugins:
   - platform: osx
     url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
     checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
-  - platform: windows64
+  - platform: win64
     url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
     checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
