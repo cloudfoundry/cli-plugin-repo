@@ -28,32 +28,54 @@
                 <div class="listing-date" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></div>
               </div>
               <br>
-              <div style="margin-left:20px">
-                <div class="listing-description">{{plugin.description}}</div>
-                <div style="height:20px"></div>
-                <div ng-if="plugin.company != ''">
-                  <div class="listing-caption">company:</div>{{plugin.company}}
-                </div>  
-                  <div ng-if="plugin.authors != {}">
-                    <div class="listing-caption">
-                      <ng-pluralize count="plugin.authors.length" when="{'0': 'author', '1': 'author', 'other': 'authors'}"></ng-pluralize>   
-                    </div>
-                    <span ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
+              <table class="listing-table">
+                <tr class="listing-description">
+                  <td colspan="2">
+                    {{plugin.description}}
+                    <br><br>
+                  </td>
+                </tr>
+                <tr ng-if="plugin.company != ''">
+                  <td class="listing-caption">
+                    company:
+                  </td>
+                  <td class="listing-content">
+                    {{plugin.company}}
+                  </td>
+                </tr>
+                <tr ng-if="plugin.homepage != ''">
+                  <td class="listing-caption">
+                    homepage:
+                  </td>
+                  <td class="listing-content">
+                    <a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
+                  </td>
+                </tr>
+                <tr ng-if="plugin.authors != {}">
+                  <td class="listing-caption">
+                    <ng-pluralize count="plugin.authors.length" when="{'0': 'author', '1': 'author', 'other': 'authors'}"></ng-pluralize>   
+                  </td>
+                  <td class="listing-content">
+                    <div ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
                         {{author.name}}</a>
                         <span ng-if="author.contact != ''">
-                          &nbsp({{author.contact}})
+                          <span class="listing-light-text"> - {{author.contact}}</span>
                         </span>
-                        {{$last ? '' : ', '}}
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="listing-caption">
+                    platforms:
+                  </td>
+                  <td class="listing-content">
+                    <span ng-repeat="binary in plugin.binaries">
+                      <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
                     </span>
-                </div>  
-                <div ng-if="plugin.homepage != ''">
-                  <div class="listing-caption">homepage:</div><a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
-                </div>  
-                <div class="listing-caption">platforms:</div>
-                <span ng-repeat="binary in plugin.binaries">
-                  <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
-                </span>
-              </div>
+                  </td>
+                </tr>
+              </table>
+
               <hr>
             </div>
           </div>
@@ -85,7 +107,7 @@
 
 
     <div id="header">
-      sdlfkj
+      links
     </div>
 
     <div id="githubFork">

@@ -12,7 +12,6 @@ plugins:
     contact: sample@contact.no.where
   - name: Jonathan Berkhahn
     homepage: http://github.com/jberkhahn
-  contact:
   homepage: http://github.com/simonleung8/cli-plugin-echo
   binaries:
   - platform: osx
@@ -31,7 +30,6 @@ plugins:
   - name: scott truitt
     homepage: http://github.com/scottruitt
     contact: me@scottruitt.com
-  contact:
   homepage: http://github.com/scottruitt
   binaries:
   - platform: osx

@@ -5,10 +5,10 @@
 }
 
 .listing-pluginName {
-	color:#555;
-	text-shadow: 0 1px 0 #fff;
+  color:#777;
+  text-shadow: 0 1px 0 #fff;
   font-size: 1.5em;
-  background: rgba(150,150,150,.2);
+  background: rgba(190,190,190,.2);
   padding:5px;
   display: block;
   weight: bold;
@@ -17,12 +17,31 @@
 .listing-caption {
   color: #555; 
   width: 100px;
-  float: left;
+  vertical-align: top;
 }
 
 .listing-content {
   color: #555; 
-  width: 300px;
+}
+
+.listing-date {
+  font-size: 0.7em;
+  color: #999; 
+  float: right;
+}
+
+.listing-table {
+  width:95%;
+  margin:auto;
+  text-align:left;
+}
+
+.listing-table td {
+  padding: 5px;
+}
+
+.listing-table tr:nth-child(even) {
+  background: rgba(58, 178, 255,.1);
 }
 
 .listing-description {
@@ -30,9 +49,8 @@
   color: #777; 
 }
 
-.listing-date {
-  font-size: 0.7em;
-  color: #999; 
-  float: right;
+.listing-light-text {
+  font-size: 0.8em;
+  color: #777;
 }
 
