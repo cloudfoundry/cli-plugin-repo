@@ -1,22 +1,23 @@
 ---
 plugins:
-- name: echo_sample
-  description: This is only a sample entry, to be removed soon.
-  version: 0.1.4
-  created: 2015-1-23
-  updated: 2015-1-23
-  company: CF CLI Team
+- name: CLI-Recorder
+  description: Records and playbacks CLI commands. 
+  version: 1.0.0
+  created: 2015-2-12
+  updated: 2015-2-12
+  company: 
   authors:
   - name: Simon Leung
     homepage: http://github.com/simonleung8
-    contact: sample@contact.no.where
-  - name: Jonathan Berkhahn
-    homepage: http://github.com/jberkhahn
-  homepage: http://github.com/simonleung8/cli-plugin-echo
+    contact: contact@simonleung.info
+  homepage: http://github.com/simonleung8/cli-plugin-recorder
   binaries:
   - platform: osx
-    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/osx/echo
-    checksum: 86aed94e9efd8bdda669c96fc36c979d9acbea5c
+    url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/osx/cli-recorder.osx
+    checksum: 7d7ebd9195a5aa926565c11a529c290e0fd74fa5 
   - platform: win64
-    url: https://github.com/simonleung8/cli-plugin-echo/raw/master/bin/windows64/echo.exe
-    checksum: 3062d690bc2991b93c29b823771c19257a7f42f5
+    url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/win64/cli-recorder.exe
+    checksum: 302a2c91c90ab791feb2dec145840faaedaa5833
+  - platform: linux64
+    url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/linux64/cli-recorder.linux64
+    checksum: ee6e1a3144ab71f457f6ca487b3164597f243ff2

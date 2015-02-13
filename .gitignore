@@ -5,3 +5,6 @@ out/
 *.swp
 *.exe
 *.log
+
+main
+*.tar.gz
