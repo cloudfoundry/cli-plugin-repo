@@ -2,9 +2,9 @@
 plugins:
 - name: CLI-Recorder
   description: Records and playbacks CLI commands. 
-  version: 1.0.0
+  version: 1.0.1
   created: 2015-2-12
-  updated: 2015-2-12
+  updated: 2015-2-15
   company: 
   authors:
   - name: Simon Leung
@@ -14,10 +14,10 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/osx/cli-recorder.osx
-    checksum: 7d7ebd9195a5aa926565c11a529c290e0fd74fa5 
+    checksum: 96a99175e788c81020ee2d23fed1d8c7d931b59a
   - platform: win64
     url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/win64/cli-recorder.exe
-    checksum: 302a2c91c90ab791feb2dec145840faaedaa5833
+    checksum: ae27147e71bce4eefce053296e02eeacc620d7b1
   - platform: linux64
     url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/linux64/cli-recorder.linux64
-    checksum: ee6e1a3144ab71f457f6ca487b3164597f243ff2
+    checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
