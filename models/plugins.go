@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"io"
 	"time"
 )
@@ -132,7 +133,8 @@ func (p *Plugins) extractAuthors(input interface{}) Author {
 
 func optionalStringField(v interface{}) string {
 	if v != nil {
-		return v.(string)
+
+		return fmt.Sprintf("%v", v)
 	}
 	return ""
 }
