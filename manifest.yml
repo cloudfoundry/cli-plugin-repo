@@ -1,5 +1,5 @@
 ---
 applications:
 - name: plugins
-  instance: 3
+  instances: 3
   memory: 512M
