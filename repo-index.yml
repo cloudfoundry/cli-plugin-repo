@@ -23,7 +23,7 @@ plugins:
     checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
-  version: 1.0
+  version: "1.0"
   created: 2015-2-20
   updated: 2015-2-20
   company:
@@ -41,10 +41,10 @@ plugins:
     checksum: 9d40d0cfeb1f3863b3e35536653997168dfa2b44
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/linux64/cf-plugin-stats
-    checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
+    checksum: 7ed57c121d183a2b2a11984d00a042312e2871c0
 - name: Console
   description: Start a tmate session on an application container
-  version: 1.0
+  version: "1.0"
   created: 2015-2-20
   updated: 2015-2-20
   company:
@@ -58,5 +58,5 @@ plugins:
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
     checksum: 1ea3b7bdaaa2cf38cec6c221b8364e6efcb818c5
   - platform: linux64
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/linux64/cf-plugin-console
+    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
     checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
