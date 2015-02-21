@@ -133,8 +133,16 @@ func (p *Plugins) extractAuthors(input interface{}) Author {
 
 func optionalStringField(v interface{}) string {
 	if v != nil {
-
-		return fmt.Sprintf("%v", v)
+		switch v := v.(type) {
+		default:
+			return fmt.Sprintf("%v", v)
+		case float64:
+			return fmt.Sprintf("%.1f", v)
+		case int64:
+			return fmt.Sprintf("%d", v)
+		case bool:
+			return fmt.Sprintf("%t", v)
+		}
 	}
 	return ""
 }
