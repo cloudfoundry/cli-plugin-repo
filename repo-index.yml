@@ -23,7 +23,7 @@ plugins:
     checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
-  version: "1.0"
+  version: 1.0.0
   created: 2015-2-20
   updated: 2015-2-20
   company:
@@ -44,7 +44,7 @@ plugins:
     checksum: 7ed57c121d183a2b2a11984d00a042312e2871c0
 - name: Console
   description: Start a tmate session on an application container
-  version: "1.0"
+  version: 1.0.0
   created: 2015-2-20
   updated: 2015-2-20
   company:
@@ -60,3 +60,27 @@ plugins:
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
     checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
+- name: Diego-Beta
+  description: Enables Diego-specific commands and functionality 
+  version: 1.0.0
+  created: 2015-2-23
+  updated: 2015-2-23
+  company: Cloud Foundry CLI Team
+  authors:
+  - name: Simon Leung
+    homepage: http://github.com/simonleung8
+    contact: contact@simonleung.info
+  - name: Jonathan Berkhahn
+    homepage: http://github.com/jberkhahn
+    contact: jonathan.berkhahn@gmail.com
+  homepage: https://github.com/cloudfoundry-incubator/diego-cli-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/osx/diego-beta.osx
+    checksum: d5be54a580679b50b091fe672a6509aad8f1c4cb
+  - platform: win64
+    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/win64/diego-beta.win64
+    checksum: affaf04d4008bc5e5a56e36a9ac79060e672c247
+  - platform: linux64
+    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/linux64/diego-beta.linux64
+    checksum: 9ff30fe0a16c1dc8a14d1839a63ba8f1f806bc6e
