@@ -61,7 +61,7 @@ plugins:
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
     checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
 - name: Diego-Beta
-  description: Enables Diego-specific commands and functionality 
+  description: Enables Diego-specific commands and functionality
   version: 1.0.0
   created: 2015-2-23
   updated: 2015-2-23
@@ -84,3 +84,30 @@ plugins:
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/linux64/diego-beta.linux64
     checksum: 9ff30fe0a16c1dc8a14d1839a63ba8f1f806bc6e
+- name: Open
+  description: Open app url in browser
+  version: 1.1.0
+  created: 2015-2-27
+  updated: 2015-2-27
+  company: Stark and Wayne
+  authors:
+  - name: Long Nguyen
+    homepage: http://lnguyen.io/
+    contact: long@starkandwayne.com
+  - name: Doctor Nic
+    homepage: http://drnicwilliams.com/
+    contact: drnic@starkandwayne.com
+  - name: Van Nguyen
+    homepage: https://github.com/soutenniza
+    contact: vnguyen@starkandwayne.com
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-open
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/osx/cf-plugin-open
+    checksum: b6db8d5006799d8a1b6aa7005e74d8045617d649
+  - platform: win64
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/windows64/cf-plugin-open.exe
+    checksum: e3d7629463f24d3abb2e18e9416427457a9be1e4
+  - platform: linux64
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/linux64/cf-plugin-open
+    checksum: 3aee8652d6c88802d66e565e067d8433a43a2e08
