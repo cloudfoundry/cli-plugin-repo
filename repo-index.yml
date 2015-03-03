@@ -84,3 +84,24 @@ plugins:
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/linux64/diego-beta.linux64
     checksum: 9ff30fe0a16c1dc8a14d1839a63ba8f1f806bc6e
+- name: autopilot
+  description: zero downtime deploy plugin for cf applications
+  version: 0.0.1
+  created: 2015-3-1
+  updated: 2015-3-1
+  company: Concourse
+  authors:
+  - name: Chris Brown
+    homepage: http://github.com/xoebus
+    contact: xoebus@xoeb.us
+  homepage: http://github.com/concourse/autopilot
+  binaries:
+  - platform: osx
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-darwin
+    checksum: b250c6c7e01f9e495d1788728a7d65e21bcda203
+  - platform: win64
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot.exe
+    checksum: 8a5cc1ffcaaf71f3b1e0f83c9de68a8100bc94b1
+  - platform: linux64
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-linux
+    checksum: 3aaa4c0a7dc8ffeb277f5a111679709a1a5756c5
