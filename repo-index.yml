@@ -132,3 +132,18 @@ plugins:
   - platform: linux64
     url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-linux
     checksum: 3aaa4c0a7dc8ffeb277f5a111679709a1a5756c5
+- name: Brooklyn
+  description: Interact with Service Broker for Apache Brooklyn
+  version: 0.1.0
+  created: 2015-3-13
+  updated: 2015-3-13
+  company: Cloudsoft
+  authors:
+  - name: Robert Moss
+    homepage: https://github.com/robertgmoss
+    contact: robert.moss@cloudsoftcorp.com
+  homepage: https://github.com/cloudfoundry-community/brooklyn-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
+    checksum: e24b046a53f31eea60a1428c2347c6f2a01dc0b2
