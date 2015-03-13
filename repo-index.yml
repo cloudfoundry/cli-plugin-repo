@@ -146,4 +146,4 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
-    checksum: e24b046a53f31eea60a1428c2347c6f2a01dc0b2
+    checksum: cf4aee53c70b40b7e11d762e9ddd025ff762a650
