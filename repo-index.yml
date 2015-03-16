@@ -134,9 +134,9 @@ plugins:
     checksum: 3aaa4c0a7dc8ffeb277f5a111679709a1a5756c5
 - name: Brooklyn
   description: Interact with Service Broker for Apache Brooklyn
-  version: 0.1.0
+  version: 0.1.1
   created: 2015-3-13
-  updated: 2015-3-13
+  updated: 2015-3-16
   company: Cloudsoft
   authors:
   - name: Robert Moss
@@ -146,4 +146,7 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
-    checksum: cf4aee53c70b40b7e11d762e9ddd025ff762a650
+    checksum: ed982e8cbf16503f493c6f064c39a0e84bcd2836
+  - platform: linux64
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
+    checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
