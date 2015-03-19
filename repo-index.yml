@@ -92,10 +92,10 @@ plugins:
   company: Stark and Wayne
   authors:
   - name: Long Nguyen
-    homepage: http://lnguyen.io/
+    homepage: http://lnguyen.io
     contact: long@starkandwayne.com
-  - name: Doctor Nic
-    homepage: http://drnicwilliams.com/
+  - name: Dr Nic Williams
+    homepage: http://drnicwilliams.com
     contact: drnic@starkandwayne.com
   - name: Van Nguyen
     homepage: https://github.com/soutenniza
@@ -150,3 +150,24 @@ plugins:
   - platform: linux64
     url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
     checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
+- name: kibana-me-logs
+  description: Launches the kibana-me-logs UI to show only the target application logs.
+  version: 0.1.0
+  created: 2015-03-18
+  updated: 2015-03-18
+  company: "Stark & Wayne"
+  authors:
+  - name: "Dr Nic Williams"
+    homepage: http://drnicwilliams.com
+    contact: drnic@starkandwayne.com
+  homepage: http://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
+  binaries:
+  - platform: win64
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.1.0/cf-plugin-kibana-me-logs_windows_amd64.exe"
+    checksum: "a6ae7757a045047d961cecca01d530c4c888088b"
+  - platform: linux64
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.1.0/cf-plugin-kibana-me-logs_linux_amd64"
+    checksum: "94fe625402ce6e06c4f355278b774b0f8ed681e8"
+  - platform: osx
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.1.0/cf-plugin-kibana-me-logs_darwin_amd64"
+    checksum: "820ed9b31d2ae49265e9232338859ae7f1e8a640"
