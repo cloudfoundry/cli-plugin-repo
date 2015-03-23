@@ -102,15 +102,15 @@ plugins:
     contact: vnguyen@starkandwayne.com
   homepage: https://github.com/cloudfoundry-community/cf-plugin-open
   binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/osx/cf-plugin-open
-    checksum: b6db8d5006799d8a1b6aa7005e74d8045617d649
   - platform: win64
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/windows64/cf-plugin-open.exe
-    checksum: e3d7629463f24d3abb2e18e9416427457a9be1e4
+    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_windows_amd64.exe"
+    checksum: "aba8c8d3a1a0e21987a8864c5b239a518e668e3f"
   - platform: linux64
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/raw/master/bin/linux64/cf-plugin-open
-    checksum: 3aee8652d6c88802d66e565e067d8433a43a2e08
+    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_linux_amd64"
+    checksum: "184c5e358e3f9ec8355b8d5202fc8f23871b40c9"
+  - platform: osx
+    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_darwin_amd64"
+    checksum: "56eee6c22300d0915d67fee6921d1fd187d6d539"
 - name: autopilot
   description: zero downtime deploy plugin for cf applications
   version: 0.0.1
