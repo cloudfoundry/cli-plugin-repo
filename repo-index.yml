@@ -177,3 +177,30 @@ plugins:
   - platform: osx
     url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.2.1/cf-plugin-kibana-me-logs_darwin_amd64"
     checksum: "0edab853609b1458147e6ebc3a5f33957f9e9ac1"
+- name: Test User
+  description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
+  version: 0.0.1
+  created: 2015-03-30
+  updated: 2015-03-30
+  company: Ben Laplanche
+  authors:
+  - name: "Ben Laplanche"
+    homepage: http://ben.laplanche.co.uk
+    contact: ben@laplanche.co.uk
+  homepage: https://github.com/benlaplanche/cf-testuser-plugin
+  binaries:
+  - platform: win64
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/blob/master/bin/cf-testuser-plugin_windows_amd64.exe"
+    checksum: "c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21"
+  - platform: win32
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/blob/master/bin/cf-testuser-plugin_windows_386.exe"
+    checksum: "628a02c769c3c79b4ba80705c86d5bcf01fdaed9"
+  - platform: linux64
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/blob/master/bin/cf-testuser-plugin_linux_amd64"
+    checksum: "0c9152c81afd7899c8ef938ce1fb66e307d1a0f7"
+  - platform: linux32
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/blob/master/bin/cf-testuser-plugin_linux_386"
+    checksum: "5d9a2fdb7cca17b4244ab59bd50053257bfc5520"
+  - platform: osx
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/blob/master/bin/cf-testuser-plugin_darwin_amd64"
+    checksum: "e1a408e9be7dca29100a507193d646620c038736"
