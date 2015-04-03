@@ -192,3 +192,9 @@ plugins:
   - platform: osx
     url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.osx
     checksum: 4e32c209e5808f06456978be3ae495c2da03637e
+  - platform: win64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.win64.exe
+    checksum: 00c482fd2890435d160a73b2b1af72271c9ce6c8
+  - platform: linux64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
+    checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
