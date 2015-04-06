@@ -3,3 +3,4 @@ applications:
 - name: plugins
   instances: 3
   memory: 512M
+  buildpack: go_buildpack
