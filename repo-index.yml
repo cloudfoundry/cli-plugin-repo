@@ -177,3 +177,24 @@ plugins:
   - platform: osx
     url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_darwin_amd64"
     checksum: "cd3a33ae63fbe8e457fe6c3df7c59997a5785685"
+- name: Buildpack Usage
+  description: View all buildpacks used in the current CLI target context.
+  version: 1.0.0
+  created: 2015-04-02
+  updated: 2015-04-02
+  company: CenturyLink Cloud
+  authors:
+  - name: Chris Sterling
+    homepage: http://www.managingsoftwaredebt.com/
+    contact: chris.sterling@ctl.io
+  homepage: https://github.com/csterwa/cf_buildpacks_usage_cmd
+  binaries:
+  - platform: osx
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.osx
+    checksum: 2f551b0a2d6bf01461fe49978990577a607e87e5
+  - platform: win64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.win64.exe
+    checksum: 00c482fd2890435d160a73b2b1af72271c9ce6c8
+  - platform: linux64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
+    checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
