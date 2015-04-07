@@ -62,9 +62,9 @@ plugins:
     checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
 - name: Diego-Beta
   description: Enables Diego-specific commands and functionality
-  version: 1.1.0
+  version: 1.2.0
   created: 2015-2-23
-  updated: 2015-2-23
+  updated: 2015-4-7
   company: Cloud Foundry CLI Team
   authors:
   - name: Simon Leung
@@ -77,13 +77,13 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/osx/diego-beta.osx
-    checksum: 0255b4b2bbcd74848a4746a1befb8007e440df07
+    checksum: ee6be20b86e548b842d5c816e53d37f4e85f6433
   - platform: win64
     url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/win64/diego-beta.win64
-    checksum: 9525899f6527f99026db4b1b928df12a836b5c4a
+    checksum: 401d0e924894e2efa6f593d678ebfec0fc9e1daa
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/linux64/diego-beta.linux64
-    checksum: 015c27274e0f887fb7e08ea8d76c11b12b9ed5cc
+    checksum: 3859f59941d2f9754f28164092ac828f531bfb8d
 - name: Open
   description: Open app url in browser
   version: 1.1.0
@@ -198,3 +198,27 @@ plugins:
   - platform: linux64
     url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
     checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
+- name: CF App Stack Changer
+  description: Allows admins to list and update applications with outdated lucid64 stacks.
+  version: 1.0.0
+  created: 2015-04-07
+  updated: 2015-04-07
+  company: Cloud Foundry CLI Team
+  authors:
+  - name: Simon Leung
+    homepage: http://github.com/simonleung8
+    contact: contact@simonleung.info
+  - name: Jonathan Berkhahn
+    homepage: http://github.com/jberkhahn
+    contact: jonathan.berkhahn@gmail.com
+  homepage: https://github.com/simonleung8/cli-stack-changer
+  binaries:
+  - platform: osx
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer
+    checksum: a3b410a72eeed11b4b4fd8594328f215d559d19c
+  - platform: win64
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer
+    checksum: 1c2f87cc2f22d4e7ca701152a70e9ac66705320c
+  - platform: linux64
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer
+    checksum: a4bf3182e4fbc5e52c84ae8c7cef16b2773aff24
