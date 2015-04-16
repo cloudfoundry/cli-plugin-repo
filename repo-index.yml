@@ -21,6 +21,27 @@ plugins:
   - platform: linux64
     url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/linux64/cli-recorder.linux64
     checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
+- name: Copy Env
+  description: Expose remote VCAP_SERVICES on the client environment
+  version: 1.0.0
+  created: 2015-4-15
+  updated: 2015-4-15
+  company: IBM
+  authors: 
+  - name: James Thomas
+    homepage: http://github.com/jthomas
+    contact: james@jamesthom.as
+  homepage: http://github.com/jthomas/copyenv
+  binaries:
+  - platform: osx64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/osx/copy_env
+    checksum: dd102eb671b2cbf388ec0bc8de5c158bd9337635
+  - platform: linux64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/linux/copy_env
+    checksum: 16a5b477cddf76ff762d38fcbffa618f640e342f
+  - platform: win32
+    url: https://github.com/jthomas/copyenv/raw/master/bin/windows/copy_env.exe
+    checksum: 3cf5bfc275e3447041d4683a481b7fc891a0573e
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
   version: 1.0.0
