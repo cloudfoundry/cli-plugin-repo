@@ -222,3 +222,24 @@ plugins:
   - platform: linux64
     url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer
     checksum: a4bf3182e4fbc5e52c84ae8c7cef16b2773aff24
+- name: Targets
+  description: Easily manage multiple CF targets
+  version: 1.0.0
+  created: 2015-4-17
+  updated: 2015-4-17
+  company:
+  authors:
+  - name: Guido Westenberg
+    homepage: http://github.com/guidowb
+    contact: gwestenberg@pivotal.io
+  homepage: http://github.com/guidowb/cf-targets-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/osx/cf-targets-plugin
+    checksum: 42cb4874cfc22d00edb682d01263322dd8c03538
+  - platform: win64
+    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/win64/cf-targets-plugin.exe
+    checksum: a82a6f4a44b89cc23321e0795c2c68bfe724c633
+  - platform: linux64
+    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/linux64/cf-targets-plugin
+    checksum: f2f6544277d8bd89d82cd6f88b8e3153f9aa48f4
