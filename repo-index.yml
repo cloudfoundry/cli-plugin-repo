@@ -243,3 +243,24 @@ plugins:
   - platform: linux64
     url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/linux64/cf-targets-plugin
     checksum: f2f6544277d8bd89d82cd6f88b8e3153f9aa48f4
+- name: cf-download
+  description: Plugin for downloading your application contents after staging.
+  version: 1.0.0
+  created: 2015-4-21
+  updated: 2015-4-21
+  company: IBM jStart
+  authors:
+  - name: Miguel Clement
+    homepage: https://github.com/clement360
+    contact: mfclemen@us.ibm.com
+  homepage: https://github.com/ibmjstart/cf-download
+  binaries:
+  - platform: osx 
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/darwin/amd64/cf-download
+    checksum: f536776bb5cfa772c598a5655ed686ab
+  - platform: win64 
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe
+    checksum: b3716191fd03dfd315f2e7cdea89f09b
+  - platform: linux32
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/linux/amd64/cf-download
+    checksum: 9d02a2585de10cc60259957f749a3b87
