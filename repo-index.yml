@@ -239,7 +239,7 @@ plugins:
     checksum: 42cb4874cfc22d00edb682d01263322dd8c03538
   - platform: win64
     url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/win64/cf-targets-plugin.exe
-    checksum: a82a6f4a44b89cc23321e0795c2c68bfe724c633
+    checksum: 24551478fedf6dc4af3e18a608e320a97c179e2d
   - platform: linux64
     url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/linux64/cf-targets-plugin
     checksum: f2f6544277d8bd89d82cd6f88b8e3153f9aa48f4
