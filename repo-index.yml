@@ -270,3 +270,24 @@ plugins:
   - platform: osx
     url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64"
     checksum: "e1a408e9be7dca29100a507193d646620c038736"
+- name: cf-download
+  description: Plugin for downloading your application contents after staging.
+  version: 1.0.0
+  created: 2015-4-21
+  updated: 2015-4-21
+  company: IBM jStart
+  authors:
+  - name: Miguel Clement
+    homepage: https://github.com/clement360
+    contact: mfclemen@us.ibm.com
+  homepage: https://github.com/ibmjstart/cf-download
+  binaries:
+  - platform: osx 
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/darwin/amd64/cf-download
+    checksum: 5e8dc15bfa87829a08fd7eb2f578880ba32858f6
+  - platform: win64 
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/windows/amd64/cf-download.exe
+    checksum: f9831b0a61b4aa7b7c1b49b1eb013cddf3c8f8cb
+  - platform: linux64
+    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/linux/amd64/cf-download
+    checksum: 9692b00ce7dbde00b59122ee0f83fbb82bc39c4b
