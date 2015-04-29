@@ -259,11 +259,11 @@ plugins:
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
   - platform: osx 
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/darwin/amd64/cf-download
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
     checksum: 6b26447af164cb47fc6828d3e113efae29875a29
   - platform: win64 
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
     checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
   - platform: linux32
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/linux/amd64/cf-download
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
     checksum: 00352f048bea801048fd746f239efb88cb774cae
