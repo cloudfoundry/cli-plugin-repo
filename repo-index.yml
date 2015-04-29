@@ -280,14 +280,17 @@ plugins:
   - name: Miguel Clement
     homepage: https://github.com/clement360
     contact: mfclemen@us.ibm.com
+  - name: Jake Eden
+    homepage: https://github.com/jeden25
+    contact: jeden@us.ibm.com
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
   - platform: osx 
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/darwin/amd64/cf-download
-    checksum: 5e8dc15bfa87829a08fd7eb2f578880ba32858f6
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
+    checksum: 6b26447af164cb47fc6828d3e113efae29875a29
   - platform: win64 
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/windows/amd64/cf-download.exe
-    checksum: f9831b0a61b4aa7b7c1b49b1eb013cddf3c8f8cb
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
+    checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
   - platform: linux64
-    url: https://github.rtp.raleigh.ibm.com/jstart/cf-download/raw/master/binaries/linux/amd64/cf-download
-    checksum: 9692b00ce7dbde00b59122ee0f83fbb82bc39c4b
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
+    checksum: 00352f048bea801048fd746f239efb88cb774cae
