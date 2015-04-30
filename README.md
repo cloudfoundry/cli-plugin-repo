@@ -1,4 +1,4 @@
-Cloud Foundry CLI Plugin Repository [![Build Status](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo)
+Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo)
 =================
 
 This is a public repository for community created CF CLI plugins. To submit your plugin
