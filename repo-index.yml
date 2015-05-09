@@ -200,9 +200,9 @@ plugins:
     checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
 - name: CF App Stack Changer
   description: Allows admins to list and update applications with outdated lucid64 stacks.
-  version: 1.0.0
+  version: 1.1.0
   created: 2015-04-07
-  updated: 2015-04-07
+  updated: 2015-05-08
   company: Cloud Foundry CLI Team
   authors:
   - name: Simon Leung
@@ -214,14 +214,14 @@ plugins:
   homepage: https://github.com/simonleung8/cli-stack-changer
   binaries:
   - platform: osx
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer
-    checksum: a3b410a72eeed11b4b4fd8594328f215d559d19c
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
+    checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
   - platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer
-    checksum: 1c2f87cc2f22d4e7ca701152a70e9ac66705320c
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64
+    checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
   - platform: linux64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer
-    checksum: a4bf3182e4fbc5e52c84ae8c7cef16b2773aff24
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
+    checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
 - name: Targets
   description: Easily manage multiple CF targets
   version: 1.0.0
