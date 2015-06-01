@@ -315,3 +315,27 @@ plugins:
   - platform: linux64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
     checksum: 00352f048bea801048fd746f239efb88cb774cae
+- name: Scaleover
+  description: Roll traffic from one app to another by scaling over time
+  version: 0.1.0
+  created: 2015-5-27
+  updated: 2015-5-27
+  company:
+  authors:
+  - name: Guido Westenberg
+    homepage: http://github.com/guidowb
+    contact: gwestenberg@pivotal.io
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: http://github.com/krujos/scaleover-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/osx/scaleover-plugin
+    checksum: 0a76c49c9ce53aa5b3e0dff127fc18a4fceed2da
+  - platform: win64
+    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/win64/scaleover-plugin.exe
+    checksum: 2559d39d52b769a94b6896acf79078bd51f73418
+  - platform: linux64
+    url: https://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/linux64/scaleover-plugin
+    checksum: 7b4cde6f37f82277cf6075f7b87769917003a7f6
