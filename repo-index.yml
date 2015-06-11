@@ -238,7 +238,7 @@ plugins:
     url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
     checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
   - platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
     checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
   - platform: linux64
     url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
