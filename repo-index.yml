@@ -345,7 +345,7 @@ plugins:
   created: 2015-6-16
   updated: 2015-6-16
   authors:
-    name: Cloud Foundry
+  - name: Cloud Foundry
   homepage: https://github.com/cloudfoundry-incubator/diego-ssh
   binaries:
   - platform: osx
