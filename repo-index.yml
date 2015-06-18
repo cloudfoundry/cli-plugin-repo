@@ -339,3 +339,27 @@ plugins:
   - platform: linux64
     url: https://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/linux64/scaleover-plugin
     checksum: 7b4cde6f37f82277cf6075f7b87769917003a7f6
+- name: Diego-SSH
+  description: Access Diego containers with SSH
+  version: 0.1.0
+  created: 2015-6-16
+  updated: 2015-6-16
+  authors:
+  - name: Cloud Foundry
+  homepage: https://github.com/cloudfoundry-incubator/diego-ssh
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-darwin-amd64
+    checksum: ab754acdf9588a4e6f651d5a1d0f6564d34ce8b8
+  - platform: win32
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-win32
+    checksum: d75649f2cd1a45083a6468cb52b7452c75d6cbf8
+  - platform: win64
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-win64
+    checksum: 6ebb33850531117a96f904bcacdfda93e038bcf7
+  - platform: linux32
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-linux-386
+    checksum: 07dea98838f0281d5184958a9f037a1712750efc
+  - platform: linux64
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-linux-amd64
+    checksum: ec8825928ea0d5875ed6165effd9b91d2821d134
