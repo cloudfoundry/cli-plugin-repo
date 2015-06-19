@@ -341,25 +341,25 @@ plugins:
     checksum: 7b4cde6f37f82277cf6075f7b87769917003a7f6
 - name: Diego-SSH
   description: Access Diego containers with SSH
-  version: 0.1.0
+  version: 0.1.1
   created: 2015-6-16
-  updated: 2015-6-16
+  updated: 2015-6-19
   authors:
   - name: Cloud Foundry
   homepage: https://github.com/cloudfoundry-incubator/diego-ssh
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-darwin-amd64
-    checksum: ab754acdf9588a4e6f651d5a1d0f6564d34ce8b8
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.1/ssh-plugin-darwin-amd64
+    checksum: c8f35eb8d9001ab163cb53ef55272b2c789668c7
   - platform: win32
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-win32
-    checksum: d75649f2cd1a45083a6468cb52b7452c75d6cbf8
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.1/ssh-plugin-win32.exe
+    checksum: 640d073d9df4feab07473e434956ed636bd8cde8
   - platform: win64
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-win64
-    checksum: 6ebb33850531117a96f904bcacdfda93e038bcf7
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.1/ssh-plugin-win64.exe
+    checksum: 6dee7366b7b39b4bfe54bc3ba14ecf818bce8228
   - platform: linux32
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-linux-386
-    checksum: 07dea98838f0281d5184958a9f037a1712750efc
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.1/ssh-plugin-linux-386
+    checksum: 04f25cf8a6feb7f47eca050668a3f6c555f68ded
   - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.0/ssh-plugin-linux-amd64
-    checksum: ec8825928ea0d5875ed6165effd9b91d2821d134
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.1/ssh-plugin-linux-amd64
+    checksum: d595eb350a9246cea5e631fb5e8f4032e84f79ac
