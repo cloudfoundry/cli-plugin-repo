@@ -27,7 +27,7 @@ plugins:
   created: 2015-4-15
   updated: 2015-4-15
   company: IBM
-  authors: 
+  authors:
   - name: James Thomas
     homepage: http://github.com/jthomas
     contact: james@jamesthom.as
@@ -306,10 +306,10 @@ plugins:
     contact: jeden@us.ibm.com
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
-  - platform: osx 
+  - platform: osx
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
     checksum: 6b26447af164cb47fc6828d3e113efae29875a29
-  - platform: win64 
+  - platform: win64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
     checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
   - platform: linux64
@@ -317,7 +317,7 @@ plugins:
     checksum: 00352f048bea801048fd746f239efb88cb774cae
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
-  version: 0.1.0
+  version: 1.0.1
   created: 2015-5-27
   updated: 2015-5-27
   company:
@@ -331,14 +331,14 @@ plugins:
   homepage: http://github.com/krujos/scaleover-plugin
   binaries:
   - platform: osx
-    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/osx/scaleover-plugin
-    checksum: 0a76c49c9ce53aa5b3e0dff127fc18a4fceed2da
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
+    checksum: eeaec464b0c0f9c477aeabaeadda5bee0e7d235e
   - platform: win64
-    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/win64/scaleover-plugin.exe
-    checksum: 2559d39d52b769a94b6896acf79078bd51f73418
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
+    checksum: addd163da840f4c15d507d4e4acb536abcf43fa8
   - platform: linux64
-    url: https://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/linux64/scaleover-plugin
-    checksum: 7b4cde6f37f82277cf6075f7b87769917003a7f6
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/linux64/scaleover-plugin
+    checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
 - name: Diego-SSH
   description: Access Diego containers with SSH
   version: 0.1.2
