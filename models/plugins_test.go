@@ -27,6 +27,7 @@ var _ = Describe("package models", func() {
 						map[interface{}]interface{}{
 							"name":        "test1",
 							"description": "n/a",
+							"updated":     time.Date(2014, time.November, 10, 23, 0, 0, 0, time.UTC),
 							"authors": []interface{}{
 								map[interface{}]interface{}{
 									"name":     "sample_name",
@@ -45,6 +46,7 @@ var _ = Describe("package models", func() {
 						map[interface{}]interface{}{
 							"name":        "test2",
 							"description": "n/a",
+							"updated":     time.Date(2014, time.December, 01, 23, 0, 0, 0, time.UTC),
 							"binaries": []interface{}{
 								map[interface{}]interface{}{
 									"platform": "windows",
@@ -65,19 +67,20 @@ var _ = Describe("package models", func() {
 				data = pluginModel.PopulateModel(parsedYaml)
 			})
 
-			It("populates the plugin model with raw data", func() {
+			It("populates the plugin model with raw data sorted by last updated date", func() {
 				Ω(len(data)).To(Equal(2))
-				Ω(data[0].Name).To(Equal("test1"))
-				Ω(data[0].Binaries[0].Platform).To(Equal("osx"))
-				Ω(data[1].Name).To(Equal("test2"))
-				Ω(data[1].Binaries[1].Platform).To(Equal("linux32"))
+				Ω(data[0].Name).To(Equal("test2"))
+				Ω(data[0].Binaries[1].Platform).To(Equal("linux32"))
+				Ω(data[1].Name).To(Equal("test1"))
+				Ω(data[1].Binaries[0].Platform).To(Equal("osx"))
+				Ω(data[0].Updated.After(data[1].Updated)).To(BeTrue())
 			})
 
 			It("turns optional string fields with nil value into empty string", func() {
 				Ω(len(data)).To(Equal(2))
-				Ω(data[0].Authors[0].Name).To(Equal("sample_name"))
-				Ω(data[0].Company).To(Equal(""))
-				Ω(data[0].Homepage).To(Equal(""))
+				Ω(data[1].Authors[0].Name).To(Equal("sample_name"))
+				Ω(data[1].Company).To(Equal(""))
+				Ω(data[1].Homepage).To(Equal(""))
 			})
 		})
 
@@ -131,7 +134,7 @@ var _ = Describe("package models", func() {
 		})
 
 		Context("Sort", func() {
-			It("sorts the array by 'Updated' field", func() {
+			It("sorts the array by last 'Updated' date", func() {
 				sort.Sort(pluginJson)
 				Ω(pluginJson.Plugins[0].Name).To(Equal("plugin3"))
 				Ω(pluginJson.Plugins[1].Name).To(Equal("plugin2"))

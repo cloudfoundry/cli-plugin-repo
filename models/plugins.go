@@ -3,6 +3,7 @@ package models
 import (
 	"fmt"
 	"io"
+	"sort"
 	"time"
 )
 
@@ -57,7 +58,10 @@ func (p *Plugins) PopulateModel(input interface{}) []Plugin {
 	} else {
 		p.logger.Write([]byte("unexpected yaml structure, 'plugins' field not found.\n"))
 	}
-	return plugins
+
+	sortedJson := PluginsJson{Plugins: plugins}
+	sort.Sort(sortedJson)
+	return sortedJson.Plugins
 }
 
 func (p *Plugins) extractPlugin(rawData interface{}) Plugin {
