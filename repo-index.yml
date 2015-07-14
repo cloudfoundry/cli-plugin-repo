@@ -363,3 +363,24 @@ plugins:
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-amd64
     checksum: 53417cb73876fbbda11f480a03e7179e23e0e4db
+- name: Usage Report
+  description: Report on memory usage and application instances for orgs and spaces
+  version: 1.0.0
+  created: 2015-7-12
+  updated: 2015-7-12
+  company:
+  authors:
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: http://github.com/krujos/usagereport-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/krujos/usagereport-plugin/raw/1.0.0/bin/osx/usagereport-plugin
+    checksum: 9c6d1eae527fa2b431ed36fdbba95369145e782a
+  - platform: win64
+    url: http://github.com/krujos/usagereport-plugin/raw/1.0.0/bin/win64/usagereport-plugin.exe
+    checksum: 6d0df5b735a2deb215e9697da5c5c3262c023405
+  - platform: linux64
+    url: https://github.com/krujos/usagereport-plugin/raw/1.0.0/bin/linux64/usagereport-plugin
+    checksum: 4ce82f82116ac100bf3fb329f4ccff9846693735
