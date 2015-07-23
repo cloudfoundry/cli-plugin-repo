@@ -77,10 +77,10 @@ plugins:
   binaries:
   - platform: osx
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
-    checksum: 1ea3b7bdaaa2cf38cec6c221b8364e6efcb818c5
+    checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
-    checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
+    checksum: f1fe066cd95451422748779c56301829bca1e602
 - name: Diego-Beta
   description: Enables Diego-specific commands and functionality
   version: 1.3.0
