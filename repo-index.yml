@@ -27,7 +27,7 @@ plugins:
   created: 2015-4-15
   updated: 2015-4-15
   company: IBM
-  authors: 
+  authors:
   - name: James Thomas
     homepage: http://github.com/jthomas
     contact: james@jamesthom.as
@@ -77,10 +77,10 @@ plugins:
   binaries:
   - platform: osx
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
-    checksum: 1ea3b7bdaaa2cf38cec6c221b8364e6efcb818c5
+    checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
-    checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
+    checksum: f1fe066cd95451422748779c56301829bca1e602
 - name: Diego-Beta
   description: Enables Diego-specific commands and functionality
   version: 1.3.0
@@ -306,10 +306,10 @@ plugins:
     contact: jeden@us.ibm.com
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
-  - platform: osx 
+  - platform: osx
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
     checksum: 6b26447af164cb47fc6828d3e113efae29875a29
-  - platform: win64 
+  - platform: win64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
     checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
   - platform: linux64
@@ -317,7 +317,7 @@ plugins:
     checksum: 00352f048bea801048fd746f239efb88cb774cae
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
-  version: 0.1.0
+  version: 1.0.1
   created: 2015-5-27
   updated: 2015-5-27
   company:
@@ -331,14 +331,14 @@ plugins:
   homepage: http://github.com/krujos/scaleover-plugin
   binaries:
   - platform: osx
-    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/osx/scaleover-plugin
-    checksum: 0a76c49c9ce53aa5b3e0dff127fc18a4fceed2da
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
+    checksum: eeaec464b0c0f9c477aeabaeadda5bee0e7d235e
   - platform: win64
-    url: http://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/win64/scaleover-plugin.exe
-    checksum: 2559d39d52b769a94b6896acf79078bd51f73418
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
+    checksum: addd163da840f4c15d507d4e4acb536abcf43fa8
   - platform: linux64
-    url: https://github.com/krujos/scaleover-plugin/raw/0.1.0/bin/linux64/scaleover-plugin
-    checksum: 7b4cde6f37f82277cf6075f7b87769917003a7f6
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/linux64/scaleover-plugin
+    checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
 - name: Diego-SSH
   description: Access Diego containers with SSH
   version: 0.1.2
@@ -363,3 +363,45 @@ plugins:
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-amd64
     checksum: 53417cb73876fbbda11f480a03e7179e23e0e4db
+- name: Usage Report
+  description: Report on memory usage and application instances for orgs and spaces
+  version: 1.1.0
+  created: 2015-7-12
+  updated: 2015-7-15
+  company:
+  authors:
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: http://github.com/krujos/usagereport-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/osx/usagereport-plugin
+    checksum: 45956f0db14d338c70fb7e8dcbbc75a9bcc0bd9d
+  - platform: win64
+    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/win64/usagereport-plugin.exe
+    checksum: 515644c88926843930111feaebe7b9eb741e5c52
+  - platform: linux64
+    url: https://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/linux64/usagereport-plugin
+    checksum: 47f5d771569233fa2b69f17ccac031516c4a9987
+- name: Statistics
+  description: Display live metrics/statistics about an app
+  version: 1.0.0
+  created: 2015-07-07
+  updated: 2015-07-07
+  company: Swisscom (Schweiz) AG
+  authors:
+  - name: Fabio Berchtold
+    homepage: https://github.com/JamesClonk/
+    contact: fabio.berchtold@swisscom.com
+  homepage: https://github.com/swisscom/cf-statistics-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_darwin_amd64
+    checksum: 6729099ba88edfcb5392d2b42494f718c9b35d8c
+  - platform: win64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_windows_amd64.exe
+    checksum: 9b9f3f9fcb2511d5443e9baecf05f59fabe77857
+  - platform: linux64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
+    checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
