@@ -1,5 +1,26 @@
 ---
 plugins:
+- name: wildcard_plugin
+  description: Allows user to search and delete apps using wildcard(*) 
+  version: 1.0.0
+  created: 2015-07-02
+  updated: 2015-07-02
+  company:
+  authors:
+  - name: Eui Jin "Jeanie" Jung
+    homepage: https://github.com/jeaniejung
+    contact: jeaniejung95@gmail.com
+  homepage: https://github.com/jeaniejung/Wildcard_Plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/osx/wildcard_plugin
+    checksum: 8fc4a3040b5dbee9dcfcbb2a81203152ed7c0e5d
+  - platform: win64
+    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/win64/wildcard_plugin.exe
+    checksum: fbf2c6f3669d040aab5865444b7ed2802ff36f2a
+  - platform: linux64
+    url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/linux64/wildcard_plugin
+    checksum: f50b2900acc2105ca1794c36213ff4913ac2a964
 - name: CLI-Recorder
   description: Records and playbacks CLI commands.
   version: 1.0.1
