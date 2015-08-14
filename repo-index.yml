@@ -266,9 +266,9 @@ plugins:
     checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
 - name: Targets
   description: Easily manage multiple CF targets
-  version: 1.0.0
+  version: v1.1.0
   created: 2015-4-17
-  updated: 2015-4-17
+  updated: 2015-8-14
   company:
   authors:
   - name: Guido Westenberg
@@ -277,14 +277,14 @@ plugins:
   homepage: http://github.com/guidowb/cf-targets-plugin
   binaries:
   - platform: osx
-    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/osx/cf-targets-plugin
-    checksum: 42cb4874cfc22d00edb682d01263322dd8c03538
+    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
+    checksum: 42a77ed2430c09c6de70c09b839af1ae48a82b39
   - platform: win64
-    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/win64/cf-targets-plugin.exe
-    checksum: 24551478fedf6dc4af3e18a608e320a97c179e2d
+    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
+    checksum: c360ee333631cda7f0de426494abecfd8c356aea
   - platform: linux64
-    url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/linux64/cf-targets-plugin
-    checksum: f2f6544277d8bd89d82cd6f88b8e3153f9aa48f4
+    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
+    checksum: 45f0626f789871141d5194cbacdfac41bd08d1f2
 - name: Test User
   description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
   version: 0.0.1
