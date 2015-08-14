@@ -1,4 +1,4 @@
-Cloud Foundry CLI Plugin Repository [![Build Status](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo)
+Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo)
 =================
 
 This is a public repository for community created CF CLI plugins. To submit your plugin
@@ -25,13 +25,13 @@ Submitting Plugins
     homepage: http://github.com/sample-author/new_plugin
     binaries:
     - platform: osx 
-      url: http://github.com/sample-author/new_plugin/raw/master/bin/osx/echo
+      url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_darwin
       checksum: 2a087d5cddcfb057fbda91e611c33f46
     - platform: win64 
-      url: http://github.com/sample-author/new_plugin/raw/master/bin/windows64/echo.exe
+      url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_win64.exe
       checksum: b4550d6594a3358563b9dcb81e40fd66
     - platform: linux32
-      url: http://github.com/sample-author/new_plugin/raw/master/bin/linux32/echo
+      url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_linux32
       checksum: f6540d6594a9684563b9lfa81e23id93
   ```
   Please make sure the spacing and colons are correct in the entry. The following descibes each field's usage.

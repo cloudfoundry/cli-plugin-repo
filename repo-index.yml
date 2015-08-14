@@ -1,5 +1,26 @@
 ---
 plugins:
+- name: wildcard_plugin
+  description: Allows user to search and delete apps using wildcard(*) 
+  version: 1.0.0
+  created: 2015-07-02
+  updated: 2015-07-02
+  company:
+  authors:
+  - name: Eui Jin "Jeanie" Jung
+    homepage: https://github.com/jeaniejung
+    contact: jeaniejung95@gmail.com
+  homepage: https://github.com/jeaniejung/Wildcard_Plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/osx/wildcard_plugin
+    checksum: 8fc4a3040b5dbee9dcfcbb2a81203152ed7c0e5d
+  - platform: win64
+    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/win64/wildcard_plugin.exe
+    checksum: fbf2c6f3669d040aab5865444b7ed2802ff36f2a
+  - platform: linux64
+    url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/linux64/wildcard_plugin
+    checksum: f50b2900acc2105ca1794c36213ff4913ac2a964
 - name: CLI-Recorder
   description: Records and playbacks CLI commands.
   version: 1.0.1
@@ -21,6 +42,27 @@ plugins:
   - platform: linux64
     url: https://github.com/simonleung8/cli-plugin-recorder/raw/master/bin/linux64/cli-recorder.linux64
     checksum: 33e516fa377ae300feb25b78e260a3887c2276a8
+- name: Copy Env
+  description: Expose remote VCAP_SERVICES on the client environment
+  version: 1.0.0
+  created: 2015-4-15
+  updated: 2015-4-15
+  company: IBM
+  authors:
+  - name: James Thomas
+    homepage: http://github.com/jthomas
+    contact: james@jamesthom.as
+  homepage: http://github.com/jthomas/copyenv
+  binaries:
+  - platform: osx64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/osx/copyenv
+    checksum: 1f113d7367ab8c3874189a9f2310ea08ed550b97
+  - platform: linux64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/linux/copyenv
+    checksum: 9bb845d70155e77f0c25bb56c24a7166c70aa03a
+  - platform: win32
+    url: https://github.com/jthomas/copyenv/raw/master/bin/windows/copyenv.exe
+    checksum: fe03b7320fa9a58fae5cfef6e3d767bf0371f76f
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
   version: 1.0.0
@@ -56,10 +98,10 @@ plugins:
   binaries:
   - platform: osx
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
-    checksum: 1ea3b7bdaaa2cf38cec6c221b8364e6efcb818c5
+    checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
-    checksum: 9f7fcbfda234b5e32831cf0a3e851cab924b4b7d
+    checksum: f1fe066cd95451422748779c56301829bca1e602
 - name: Diego-Beta
   description: Enables Diego-specific commands and functionality
   version: 1.3.0
@@ -200,9 +242,9 @@ plugins:
     checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
 - name: CF App Stack Changer
   description: Allows admins to list and update applications with outdated lucid64 stacks.
-  version: 1.0.0
+  version: 1.1.0
   created: 2015-04-07
-  updated: 2015-04-07
+  updated: 2015-05-08
   company: Cloud Foundry CLI Team
   authors:
   - name: Simon Leung
@@ -214,14 +256,14 @@ plugins:
   homepage: https://github.com/simonleung8/cli-stack-changer
   binaries:
   - platform: osx
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer
-    checksum: a3b410a72eeed11b4b4fd8594328f215d559d19c
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
+    checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
   - platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer
-    checksum: 1c2f87cc2f22d4e7ca701152a70e9ac66705320c
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
+    checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
   - platform: linux64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer
-    checksum: a4bf3182e4fbc5e52c84ae8c7cef16b2773aff24
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
+    checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
 - name: Targets
   description: Easily manage multiple CF targets
   version: 1.0.0
@@ -239,7 +281,148 @@ plugins:
     checksum: 42cb4874cfc22d00edb682d01263322dd8c03538
   - platform: win64
     url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/win64/cf-targets-plugin.exe
-    checksum: a82a6f4a44b89cc23321e0795c2c68bfe724c633
+    checksum: 24551478fedf6dc4af3e18a608e320a97c179e2d
   - platform: linux64
     url: http://github.com/guidowb/cf-targets-plugin/raw/master/bin/linux64/cf-targets-plugin
     checksum: f2f6544277d8bd89d82cd6f88b8e3153f9aa48f4
+- name: Test User
+  description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
+  version: 0.0.1
+  created: 2015-03-30
+  updated: 2015-03-30
+  company: Ben Laplanche
+  authors:
+  - name: "Ben Laplanche"
+    homepage: http://ben.laplanche.co.uk
+    contact: ben@laplanche.co.uk
+  homepage: https://github.com/benlaplanche/cf-testuser-plugin
+  binaries:
+  - platform: win64
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_amd64.exe"
+    checksum: "c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21"
+  - platform: win32
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_386.exe"
+    checksum: "628a02c769c3c79b4ba80705c86d5bcf01fdaed9"
+  - platform: linux64
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_amd64"
+    checksum: "0c9152c81afd7899c8ef938ce1fb66e307d1a0f7"
+  - platform: linux32
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_386"
+    checksum: "5d9a2fdb7cca17b4244ab59bd50053257bfc5520"
+  - platform: osx
+    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64"
+    checksum: "e1a408e9be7dca29100a507193d646620c038736"
+- name: cf-download
+  description: Plugin for downloading your application contents after staging.
+  version: 1.0.0
+  created: 2015-4-21
+  updated: 2015-4-21
+  company: IBM jStart
+  authors:
+  - name: Miguel Clement
+    homepage: https://github.com/clement360
+    contact: mfclemen@us.ibm.com
+  - name: Jake Eden
+    homepage: https://github.com/jeden25
+    contact: jeden@us.ibm.com
+  homepage: https://github.com/ibmjstart/cf-download
+  binaries:
+  - platform: osx
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
+    checksum: 6b26447af164cb47fc6828d3e113efae29875a29
+  - platform: win64
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
+    checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
+  - platform: linux64
+    url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
+    checksum: 00352f048bea801048fd746f239efb88cb774cae
+- name: Scaleover
+  description: Roll traffic from one app to another by scaling over time
+  version: 1.0.1
+  created: 2015-5-27
+  updated: 2015-5-27
+  company:
+  authors:
+  - name: Guido Westenberg
+    homepage: http://github.com/guidowb
+    contact: gwestenberg@pivotal.io
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: http://github.com/krujos/scaleover-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
+    checksum: eeaec464b0c0f9c477aeabaeadda5bee0e7d235e
+  - platform: win64
+    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
+    checksum: addd163da840f4c15d507d4e4acb536abcf43fa8
+  - platform: linux64
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/linux64/scaleover-plugin
+    checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
+- name: Diego-SSH
+  description: Access Diego containers with SSH
+  version: 0.1.2
+  created: 2015-6-16
+  updated: 2015-6-24
+  authors:
+  - name: Cloud Foundry
+  homepage: https://github.com/cloudfoundry-incubator/diego-ssh
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-darwin-amd64
+    checksum: 35b79fba136db08a3cd05000f3171d1e7fb330c6
+  - platform: win32
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-win32.exe
+    checksum: 130b147799baeb8d10e219c0109de327394569c1
+  - platform: win64
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-win64.exe
+    checksum: 02c5d3e40b109dbca27e189ea2447ac1138159d2
+  - platform: linux32
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-386
+    checksum: 731be7b16b1d25869ffb7126adc84877e4792218
+  - platform: linux64
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-amd64
+    checksum: 53417cb73876fbbda11f480a03e7179e23e0e4db
+- name: Usage Report
+  description: Report on memory usage and application instances for orgs and spaces
+  version: 1.1.0
+  created: 2015-7-12
+  updated: 2015-7-15
+  company:
+  authors:
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: http://github.com/krujos/usagereport-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/osx/usagereport-plugin
+    checksum: 45956f0db14d338c70fb7e8dcbbc75a9bcc0bd9d
+  - platform: win64
+    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/win64/usagereport-plugin.exe
+    checksum: 515644c88926843930111feaebe7b9eb741e5c52
+  - platform: linux64
+    url: https://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/linux64/usagereport-plugin
+    checksum: 47f5d771569233fa2b69f17ccac031516c4a9987
+- name: Statistics
+  description: Display live metrics/statistics about an app
+  version: 1.0.0
+  created: 2015-07-07
+  updated: 2015-07-07
+  company: Swisscom (Schweiz) AG
+  authors:
+  - name: Fabio Berchtold
+    homepage: https://github.com/JamesClonk/
+    contact: fabio.berchtold@swisscom.com
+  homepage: https://github.com/swisscom/cf-statistics-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_darwin_amd64
+    checksum: 6729099ba88edfcb5392d2b42494f718c9b35d8c
+  - platform: win64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_windows_amd64.exe
+    checksum: 9b9f3f9fcb2511d5443e9baecf05f59fabe77857
+  - platform: linux64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
+    checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
