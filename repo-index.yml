@@ -266,7 +266,7 @@ plugins:
     checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
 - name: Targets
   description: Easily manage multiple CF targets
-  version: v1.1.0
+  version: 1.1.0
   created: 2015-4-17
   updated: 2015-8-14
   company:
