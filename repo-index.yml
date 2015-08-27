@@ -194,9 +194,9 @@ plugins:
     checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
 - name: kibana-me-logs
   description: Launches the Kibana UI (from kibana-me-logs) for an application.
-  version: 0.3.0
+  version: 0.3.1
   created: 2015-03-18
-  updated: 2015-03-24
+  updated: 2015-08-26
   company: "Stark & Wayne"
   authors:
   - name: "Dr Nic Williams"
@@ -205,20 +205,20 @@ plugins:
   homepage: http://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
   binaries:
   - platform: win64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_windows_amd64.exe"
-    checksum: "782870cebab47a9b89b1103a783980570b863aaf"
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.1/cf-plugin-kibana-me-logs_windows_amd64.exe"
+    checksum: "d2d2eec351d491423809b28216ae8a8b00bed6bd"
   - platform: win32
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_windows_386.exe"
-    checksum: "d510d99ee00d7e8263f94b3a108e99f49d7a464c"
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.1/cf-plugin-kibana-me-logs_windows_386.exe"
+    checksum: "bc3bafa16fb6c9713c45f73807255e74127f4875"
   - platform: linux64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_linux_amd64"
-    checksum: "969fd65f0365a0b587c3f98c0451be6c0f102a35"
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.1/cf-plugin-kibana-me-logs_linux_amd64"
+    checksum: "d3d367500e4c9c83b9e084830ae48d13525d7523"
   - platform: linux32
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_linux_386"
-    checksum: "961f7f7dfdb2e9d8e264aff3e27dfdedb17a8083"
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.1/cf-plugin-kibana-me-logs_linux_386"
+    checksum: "73919cad8e96e705903a6c31078d8c90a03cadf0"
   - platform: osx
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.0/cf-plugin-kibana-me-logs_darwin_amd64"
-    checksum: "cd3a33ae63fbe8e457fe6c3df7c59997a5785685"
+    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.3.1/cf-plugin-kibana-me-logs_darwin_amd64"
+    checksum: "edb6b42e4911d599862f1a0d857b4b5e5342d57e"
 - name: Buildpack Usage
   description: View all buildpacks used in the current CLI target context.
   version: 1.0.0
