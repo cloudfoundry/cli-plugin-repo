@@ -432,3 +432,24 @@ plugins:
   - platform: linux64
     url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
     checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
+- name: blue-green-deploy
+  description: Zero downtime deploys with smoke test support
+  version: 1.0.4
+  created: 2015-03-24
+  updated: 2015-08-04
+  company: IBM
+  authors:
+  - name: Bluemix Garage London
+    homepage: http://garage.mybluemix.net/
+    contact: garage@uk.ibm.com
+  homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
+  binaries:
+  - platform: osx
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.osx
+    checksum: 0fd1c5b76e4081f37476b1f075bd9607828b9295
+  - platform: linux32
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.linux32
+    checksum: c9ced1ef313daae7a876a103352d8f2b2f6fdad5
+  - platform: linux64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.linux64
+    checksum: 179c2b60eb63821534eeda096a64adc1085d3c51
