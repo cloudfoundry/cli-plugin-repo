@@ -432,3 +432,30 @@ plugins:
   - platform: linux64
     url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
     checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
+- name: Buildpack Management
+  description: Provides a declarative way to configure system buildpacks in a Cloud Foundry installation
+  version: 1.0.0
+  created: 2015-9-03
+  updated: 2015-9-03
+  company:
+  authors:
+  - name: David Ehringer
+    homepage: https://github.com/davidehringer
+    contact: david.ehringer@gmail.com
+  homepage: https://github.com/davidehringer/cf-buildpack-management-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_darwin_amd64
+    checksum: e102fa7c0f5ddc920965113972c03bb833af7fd1
+  - platform: win64
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_amd64.exe
+    checksum: b1024b0d3711a4c00cc935eeffd6fa27729b1b86
+  - platform: win32
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_386.exe
+    checksum: 54a7a62cba2ef4fdbe6b9d13a052648d68a8146b
+  - platform: linux64
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_amd64
+    checksum: 0e8688fbb5302af398b3f210ef5f33945a8f7f10
+  - platform: linux32
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
+    checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
