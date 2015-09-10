@@ -459,3 +459,24 @@ plugins:
   - platform: linux32
     url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
+- name: Firehose Plugin
+  description: This plugin allows you to connect to the firehose (CF admins only)
+  version: 0.2.0
+  created: 2015-09-09
+  updated: 2015-09-10
+  company:
+  authors:
+  - name: Johannes Tuchscherer
+    homepage: http://github.com/jtuchscherer
+    contact: jtuchschererg@gmail.com
+  homepage: http://github.com/jtuchscherer/nozzle-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin-darwin
+    checksum: 1a6bf7e76c1c0577b9e04a588a8df03c19a2fe27
+  - platform: win64
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin.exe
+    checksum: 9c65fcd6c5bd8b1131aa2b2ec0ac9a9da661b356
+  - platform: linux64
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin-linux
+    checksum: 02b5decb852e15adf90ea4844907f34a2deccd14
