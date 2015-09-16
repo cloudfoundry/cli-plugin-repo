@@ -461,9 +461,9 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: 0.3.0
+  version: v0.4.0
   created: 2015-09-09
-  updated: 2015-09-15
+  updated: 2015-09-16
   company:
   authors:
   - name: Johannes Tuchscherer
@@ -472,11 +472,11 @@ plugins:
   homepage: http://github.com/jtuchscherer/nozzle-plugin
   binaries:
   - platform: osx
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin-darwin
-    checksum: fabf4f36ec192122dc5276d544a9a3b0702ec709
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin-darwin
+    checksum: 9ae769e2dc529dbfea51595d0400244ca0209201
   - platform: win64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin.exe
-    checksum: 5648806179c589b9b27bd2d3af2491ebf356895c
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin.exe
+    checksum: ff250a59eacffff56938255a7950019b1e34d2ab
   - platform: linux64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin-linux
-    checksum: 683515aa9966129db3716fd6e07f3130aa83f1cc
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin-linux
+    checksum: ae4982ba7567e7521711c1a8522deaba3fcf0e47
