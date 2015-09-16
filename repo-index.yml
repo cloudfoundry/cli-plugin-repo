@@ -1,7 +1,7 @@
 ---
 plugins:
 - name: wildcard_plugin
-  description: Allows user to search and delete apps using wildcard(*) 
+  description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
   created: 2015-07-02
   updated: 2015-07-02
@@ -461,9 +461,9 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: 0.2.0
+  version: 0.3.0
   created: 2015-09-09
-  updated: 2015-09-10
+  updated: 2015-09-15
   company:
   authors:
   - name: Johannes Tuchscherer
@@ -472,11 +472,11 @@ plugins:
   homepage: http://github.com/jtuchscherer/nozzle-plugin
   binaries:
   - platform: osx
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin-darwin
-    checksum: 1a6bf7e76c1c0577b9e04a588a8df03c19a2fe27
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin-darwin
+    checksum: fabf4f36ec192122dc5276d544a9a3b0702ec709
   - platform: win64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin.exe
-    checksum: 9c65fcd6c5bd8b1131aa2b2ec0ac9a9da661b356
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin.exe
+    checksum: 5648806179c589b9b27bd2d3af2491ebf356895c
   - platform: linux64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/_TAG_/nozzle-plugin-linux
-    checksum: 02b5decb852e15adf90ea4844907f34a2deccd14
+    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/0.3.0/nozzle-plugin-linux
+    checksum: 683515aa9966129db3716fd6e07f3130aa83f1cc
