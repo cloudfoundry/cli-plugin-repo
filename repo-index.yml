@@ -461,7 +461,7 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: v0.4.0
+  version: v0.5.0
   created: 2015-09-09
   updated: 2015-09-16
   company:
@@ -469,14 +469,14 @@ plugins:
   - name: Johannes Tuchscherer
     homepage: http://github.com/jtuchscherer
     contact: jtuchschererg@gmail.com
-  homepage: http://github.com/jtuchscherer/nozzle-plugin
+  homepage: http://github.com/pivotal-cf-experimental/nozzle-plugin
   binaries:
   - platform: osx
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin-darwin
-    checksum: 9ae769e2dc529dbfea51595d0400244ca0209201
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-darwin
+    checksum: 459ba424dc31b790fbc43e5031be354d8b0b4cea
   - platform: win64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin.exe
-    checksum: ff250a59eacffff56938255a7950019b1e34d2ab
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin.exe
+    checksum: 648befa818f33bd924c290273cf3f8a110600230
   - platform: linux64
-    url: http://github.com/jtuchscherer/nozzle-plugin/releases/download/v0.4.0/nozzle-plugin-linux
-    checksum: ae4982ba7567e7521711c1a8522deaba3fcf0e47
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-linux
+    checksum: 3e5ab6c09f96335627ee350fb7d53ceb3cf4ed49
