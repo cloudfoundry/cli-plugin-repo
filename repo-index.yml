@@ -1,7 +1,7 @@
 ---
 plugins:
 - name: wildcard_plugin
-  description: Allows user to search and delete apps using wildcard(*) 
+  description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
   created: 2015-07-02
   updated: 2015-07-02
@@ -459,3 +459,24 @@ plugins:
   - platform: linux32
     url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
+- name: Firehose Plugin
+  description: This plugin allows you to connect to the firehose (CF admins only)
+  version: v0.5.0
+  created: 2015-09-09
+  updated: 2015-09-16
+  company:
+  authors:
+  - name: Johannes Tuchscherer
+    homepage: http://github.com/jtuchscherer
+    contact: jtuchschererg@gmail.com
+  homepage: http://github.com/pivotal-cf-experimental/nozzle-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-darwin
+    checksum: 459ba424dc31b790fbc43e5031be354d8b0b4cea
+  - platform: win64
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin.exe
+    checksum: 648befa818f33bd924c290273cf3f8a110600230
+  - platform: linux64
+    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-linux
+    checksum: 3e5ab6c09f96335627ee350fb7d53ceb3cf4ed49
