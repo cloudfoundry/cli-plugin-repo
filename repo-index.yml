@@ -480,3 +480,23 @@ plugins:
   - platform: linux64
     url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-linux
     checksum: 3e5ab6c09f96335627ee350fb7d53ceb3cf4ed49
+- name: Cloud Deployment Plugin
+  description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
+  version: v1.0.0
+  created: 2015-09-21
+  company:
+  authors:
+  - name: John Calabrese
+    homepage: http://github.com/xchapter7x
+    contact: xchapter7x@gmail.com
+  homepage: http://github.com/xchapter7x/deploycloud
+  binaries:
+  - platform: osx
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.0/deploycloud_darwin_amd64
+    checksum: bfeefcd62c7724e065edb256ee214fc281d41def
+  - platform: win64
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.0/deploycloud_windows_amd64.exe
+    checksum: a761e0400d2ac9a5051404ec4ad55f0fed32b06e
+  - platform: linux64
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.0/deploycloud_linux_amd64
+    checksum: a1a765bdfa5c50d8c97b6baa6d1879d0e8658afc
