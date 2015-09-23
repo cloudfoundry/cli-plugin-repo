@@ -368,28 +368,28 @@ plugins:
     checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
 - name: Diego-SSH
   description: Access Diego containers with SSH
-  version: 0.1.2
-  created: 2015-6-16
-  updated: 2015-6-24
+  version: 0.2.1
+  created: 2015-06-16
+  updated: 2015-09-23
   authors:
   - name: Cloud Foundry
   homepage: https://github.com/cloudfoundry-incubator/diego-ssh
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-darwin-amd64
-    checksum: 35b79fba136db08a3cd05000f3171d1e7fb330c6
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.2.1/ssh-plugin-darwin-amd64
+    checksum: 7e47003e70e9d10982b55bce3d4636e20f466b76
   - platform: win32
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-win32.exe
-    checksum: 130b147799baeb8d10e219c0109de327394569c1
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.2.1/ssh-plugin-win32.exe
+    checksum: 9214fae3baa14e451da2be2c5509d22619866223
   - platform: win64
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-win64.exe
-    checksum: 02c5d3e40b109dbca27e189ea2447ac1138159d2
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.2.1/ssh-plugin-win64.exe
+    checksum: c7b818848b7f76e4d878c787b7cb1bde612f79c0
   - platform: linux32
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-386
-    checksum: 731be7b16b1d25869ffb7126adc84877e4792218
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.2.1/ssh-plugin-linux-386
+    checksum: dd74818324dc31db2f53ea9fb871f0dca8985a1b
   - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.1.2/ssh-plugin-linux-amd64
-    checksum: 53417cb73876fbbda11f480a03e7179e23e0e4db
+    url: https://github.com/cloudfoundry-incubator/diego-ssh/releases/download/plugin-0.2.1/ssh-plugin-linux-amd64
+    checksum: 41fe93c2cd70ee17dbb22cd60837bdb089411a45
 - name: Usage Report
   description: Report on memory usage and application instances for orgs and spaces
   version: 1.1.0
