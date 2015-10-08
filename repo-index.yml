@@ -461,25 +461,28 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: v0.5.0
+  version: 0.6.0
   created: 2015-09-09
-  updated: 2015-09-16
+  updated: 2015-10-08
   company:
   authors:
   - name: Johannes Tuchscherer
     homepage: http://github.com/jtuchscherer
     contact: jtuchschererg@gmail.com
-  homepage: http://github.com/pivotal-cf-experimental/nozzle-plugin
+  - name: Warren Fernandes
+    homepage: http://github.com/wfernandes
+    contact: warren.f.fernandes@gmail.com
+  homepage: http://github.com/cloudfoundry/firehose-plugin
   binaries:
   - platform: osx
-    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-darwin
-    checksum: 459ba424dc31b790fbc43e5031be354d8b0b4cea
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin-darwin
+    checksum: ae377d4ed976215be94559e8fe533fc3392ed571
   - platform: win64
-    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin.exe
-    checksum: 648befa818f33bd924c290273cf3f8a110600230
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin.exe
+    checksum: b2da0d6ccf7dd0bbc7ef99b2c041124d5afdc1d5
   - platform: linux64
-    url: http://github.com/pivotal-cf-experimental/nozzle-plugin/releases/download/v0.5.0/nozzle-plugin-linux
-    checksum: 3e5ab6c09f96335627ee350fb7d53ceb3cf4ed49
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin-linux
+    checksum: 5338a7893f5a7e9ba8c1feadd3fb82f5b67c912d
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
   version: v1.0.1
