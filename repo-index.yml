@@ -484,6 +484,7 @@ plugins:
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
   version: v1.0.1
   created: 2015-09-21
+  updated: 2015-09-21
   company:
   authors:
   - name: John Calabrese
