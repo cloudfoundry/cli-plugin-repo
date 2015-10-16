@@ -1,6 +1,6 @@
 ---
 plugins:
-- name: Diego Enabler
+- name: Diego-Enabler
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   version: 1.0.0
   created: 2015-10-16
