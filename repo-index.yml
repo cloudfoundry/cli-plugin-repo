@@ -1,5 +1,32 @@
 ---
 plugins:
+- name: Diego Enabler
+  description: Enable/Disable Diego support for an app (CLI v6.13.0+)
+  version: 1.0.0
+  created: 2015-10-16
+  updated: 2015-10-16
+  company:
+  authors:
+  - name: Simon Leung
+    homepage: http://github.com/simonleung8
+    contact: contact@simonleung.info
+  homepage: http://github.com/cloudfoundry-incubator/Diego-Enabler
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_darwin_amd64
+    checksum: 24950599e0922f4640042209c2279bac2148e0d9
+  - platform: win64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_windows_amd64.exe
+    checksum: 7f0305fae0d94a7d3b1b3f3dc95087594ccb98c3
+  - platform: win32
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_windows_386.exe
+    checksum: 0b2bbcc3bcdc242168ff62ad581332700033cf7b
+  - platform: linux64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_linux_amd64
+    checksum: 0923a0059eeaf305b6c5746d9557ca1a64353176
+  - platform: linux32
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_linux_386
+    checksum: 67e48bacda093cbe77ccd8da04f9631f373e6c49
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
