@@ -135,30 +135,6 @@ plugins:
   - platform: linux64
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
     checksum: f1fe066cd95451422748779c56301829bca1e602
-- name: Diego-Beta
-  description: Enables Diego-specific commands and functionality
-  version: 1.3.0
-  created: 2015-2-23
-  updated: 2015-4-9
-  company: Cloud Foundry CLI Team
-  authors:
-  - name: Simon Leung
-    homepage: http://github.com/simonleung8
-    contact: contact@simonleung.info
-  - name: Jonathan Berkhahn
-    homepage: http://github.com/jberkhahn
-    contact: jonathan.berkhahn@gmail.com
-  homepage: https://github.com/cloudfoundry-incubator/diego-cli-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/osx/diego-beta.osx
-    checksum: b01e81858a034281c811bcb84dae302b9203541f
-  - platform: win64
-    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/win64/diego-beta.win64
-    checksum: 7425ab964580f663c94241d95e79cb0f54a6fe1d
-  - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/diego-cli-plugin/raw/master/bin/linux64/diego-beta.linux64
-    checksum: 37be01cb235e0edfe6f958666402af5215aa2102
 - name: Open
   description: Open app url in browser
   version: 1.1.0
