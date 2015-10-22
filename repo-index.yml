@@ -440,9 +440,9 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: 0.6.0
+  version: 0.7.0
   created: 2015-09-09
-  updated: 2015-10-08
+  updated: 2015-10-21
   company:
   authors:
   - name: Johannes Tuchscherer
@@ -454,14 +454,14 @@ plugins:
   homepage: http://github.com/cloudfoundry/firehose-plugin
   binaries:
   - platform: osx
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin-darwin
-    checksum: ae377d4ed976215be94559e8fe533fc3392ed571
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.7.0/nozzle-plugin-darwin
+    checksum: a4ec2dd1f4d7450f372e0742bde2b37f864a0a64
   - platform: win64
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin.exe
-    checksum: b2da0d6ccf7dd0bbc7ef99b2c041124d5afdc1d5
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.7.0/nozzle-plugin.exe
+    checksum: 15d2a90a9b0e1f70be758ab50e4021323c7e65ab
   - platform: linux64
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.6.0/nozzle-plugin-linux
-    checksum: 5338a7893f5a7e9ba8c1feadd3fb82f5b67c912d
+    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.7.0/nozzle-plugin-linux
+    checksum: fa823cdca0e2f273bf2506bcd1ea9f69f8408b9f
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
   version: v1.0.1
