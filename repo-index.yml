@@ -504,3 +504,30 @@ plugins:
   - platform: linux64
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.linux64
     checksum: 179c2b60eb63821534eeda096a64adc1085d3c51
+- name: manifest-generator
+  description: Help you to generate a manifest from 0 (CLI v6.7.0+)
+  version: 1.0.0
+  created: 2015-11-11
+  updated: 2015-11-11
+  company: 
+  authors:
+    - name: Arthur Halet
+      homepage: https://github.com/ArthurHlt
+      contact: arthurh.halet@gmail.com
+  homepage: https://github.com/ArthurHlt/plugin-cf-manifest-generator
+  binaries:
+    - platform: osx
+      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_darwin_amd64
+      checksum: 37d226e2587949f64b239063753613b2482cc853
+    - platform: win64
+      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_amd64.exe
+      checksum: 8cfc04315d945bdba504e8448b0795b00f7ba80c
+    - platform: win32
+      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_386.exe
+      checksum: 6220726e5fa4165e126c7d73ed3f36ab6780a10a
+    - platform: linux64
+      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_amd64
+      checksum: 540a9bcc7c2fe03635f59b18de5a11607efd2cb1
+    - platform: linux32
+      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
+      checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
