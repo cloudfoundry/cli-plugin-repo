@@ -13,20 +13,20 @@ plugins:
   homepage: http://github.com/cloudfoundry-incubator/Diego-Enabler
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_darwin_amd64
-    checksum: 24950599e0922f4640042209c2279bac2148e0d9
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.1/diego-enabler_darwin_amd64
+    checksum: 321ddae9c55e8a98fe9e207c705e0922661ce2dc
   - platform: win64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_windows_amd64.exe
-    checksum: 7f0305fae0d94a7d3b1b3f3dc95087594ccb98c3
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.1/diego-enabler_windows_amd64.exe
+    checksum: 7f5b31a32269881e37409f5fc1b4273beee9d0f7
   - platform: win32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_windows_386.exe
-    checksum: 0b2bbcc3bcdc242168ff62ad581332700033cf7b
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.1/diego-enabler_windows_386.exe
+    checksum: 5f70f5563f02355598e4087a38e5e629fcca07bb
   - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_linux_amd64
-    checksum: 0923a0059eeaf305b6c5746d9557ca1a64353176
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.1/diego-enabler_linux_amd64
+    checksum: 9793e8334cb7be360ab36769437f238fd8ed99a0
   - platform: linux32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.0/diego-enabler_linux_386
-    checksum: 67e48bacda093cbe77ccd8da04f9631f373e6c49
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.0.1/diego-enabler_linux_386
+    checksum: c843bacae2ea268643fbe36015aed68d5273cca9
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
