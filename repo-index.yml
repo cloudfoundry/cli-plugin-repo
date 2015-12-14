@@ -2,7 +2,7 @@
 plugins:
 - name: Diego-Enabler
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
-  version: 1.0.0
+  version: 1.0.1
   created: 2015-10-16
   updated: 2015-10-16
   company:
@@ -531,3 +531,30 @@ plugins:
     - platform: linux32
       url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
       checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
+- name: doctor
+  description: anomaly scans in your cf cluster (CLI v6.7.0+)
+  version: 1.0.0
+  created: 2015-12-13
+  updated: 2015-12-13
+  company: Mendix
+  authors:
+    - name: Emir Ozer
+      homepage: https://github.com/emirozer
+      contact: emirozer@yandex.com
+  homepage: https://github.com/emirozer/cf-doctor-plugin
+  binaries:
+    - platform: osx
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_darwin_amd64
+      checksum: bc5f54371d47b0491dc82ba78119195a
+    - platform: win64
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_amd64.exe
+      checksum: 8b8c5006186d6b811b21ce6d9da4f14f
+    - platform: win32
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_386.exe
+      checksum: 2edc9424aa568e157d30de9cc5e0198b
+    - platform: linux64
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_amd64
+      checksum: c7468e9f37de1fe0cffcb2814f7bb91c
+    - platform: linux32
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_386
+      checksum: 981b38694e0bb6bd413b762789fcc482
