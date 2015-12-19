@@ -531,3 +531,30 @@ plugins:
     - platform: linux32
       url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
       checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
+- name: doctor
+  description: doctor scans your deployed applications and routes for anomalies and reports any issues found. (CLI v6.7.0+)
+  version: 1.0.0
+  created: 2015-12-13
+  updated: 2015-12-13
+  company:
+  authors:
+    - name: Emir Ozer
+      homepage: https://github.com/emirozer
+      contact: emirozer@yandex.com
+  homepage: https://github.com/emirozer/cf-doctor-plugin
+  binaries:
+    - platform: osx
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_darwin_amd64
+      checksum: 816c1e3e34be40e5495b766285c9be2416d57233
+    - platform: win64
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_amd64.exe
+      checksum: aac70cf38ec1c68c4927ae0d7d2779cf3cb5368d
+    - platform: win32
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_386.exe
+      checksum: 64b6d634e8bac8c1f31cf46daad9be975f17469f
+    - platform: linux64
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_amd64
+      checksum: b3c15abed0cad826a49f85516019103ba18ff0d4
+    - platform: linux32
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_386
+      checksum: bc2143782f6dfb19f54cdccdbedebbb5fbda8026
