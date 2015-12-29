@@ -532,10 +532,10 @@ plugins:
       url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
       checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
 - name: doctor
-  description: doctor scans your deployed applications and routes for anomalies and reports any issues found. (CLI v6.7.0+)
-  version: 1.0.0
+  description: doctor scans your deployed applications, routes and services for anomalies and reports any issues found. (CLI v6.7.0+)
+  version: 1.0.1
   created: 2015-12-13
-  updated: 2015-12-13
+  updated: 2015-12-29
   company:
   authors:
     - name: Emir Ozer
@@ -544,17 +544,17 @@ plugins:
   homepage: https://github.com/emirozer/cf-doctor-plugin
   binaries:
     - platform: osx
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_darwin_amd64
-      checksum: 816c1e3e34be40e5495b766285c9be2416d57233
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_darwin_amd64
+      checksum: 7d49eec3dec43dece80941fc1195ebe0a7464256
     - platform: win64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_amd64.exe
-      checksum: aac70cf38ec1c68c4927ae0d7d2779cf3cb5368d
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_windows_amd64.exe
+      checksum: 6c302180b3b78524d39303f8a6089cd5e16fcad1
     - platform: win32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_windows_386.exe
-      checksum: 64b6d634e8bac8c1f31cf46daad9be975f17469f
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_windows_386.exe
+      checksum: 097c5a4ed4e90a01da8450ccfc2513dc9b6d6802
     - platform: linux64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_amd64
-      checksum: b3c15abed0cad826a49f85516019103ba18ff0d4
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_linux_amd64
+      checksum: fde7e8bdbea4e792ba42aee2f6469bea464e2247
     - platform: linux32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.0/doctor_plugin_linux_386
-      checksum: bc2143782f6dfb19f54cdccdbedebbb5fbda8026
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_linux_386
+      checksum: d15192fbe37b40c0889fc8c7853db715eaeaac71
