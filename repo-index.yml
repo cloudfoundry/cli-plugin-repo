@@ -571,7 +571,7 @@ plugins:
   homepage: https://github.com/krujos/download_droplet_plugin
   binaries:
   - platform: osx
-    url: https://github.com/krujos/download_droplet_pluginraw/1.0.0/bin/osx/download_droplet_plugin
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/osx/download_droplet_plugin
     checksum: 9bad71a66613f0838fdfcbb9d84847bc1832af9a
   - platform: win64
     url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/win64/download_droplet_plugin.exe
