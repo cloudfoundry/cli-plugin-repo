@@ -558,3 +558,24 @@ plugins:
     - platform: linux32
       url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_linux_386
       checksum: d15192fbe37b40c0889fc8c7853db715eaeaac71
+- name: Download Droplet
+  description: Download droplets to your local machine
+  version: 1.0.0
+  created: 2016-1-11
+  updated: 2016-1-11
+  company:
+  authors:
+  - name: Josh Kruck
+    homepage: http://github.com/krujos/
+    contact: jkruck@pivotal.io
+  homepage: https://github.com/krujos/download_droplet_plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/krujos/download_droplet_pluginraw/1.0.0/bin/osx/download_droplet_plugin
+    checksum: 9bad71a66613f0838fdfcbb9d84847bc1832af9a
+  - platform: win64
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/win64/download_droplet_plugin.exe
+    checksum: c89e87e40434c2bb898a83ee4da14c82cb5c7a42
+  - platform: linux64
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/linux64/download_droplet_plugin
+    checksum: 4813abbe844859d618a0a3dc5bb175b7d30657d4
