@@ -560,9 +560,9 @@ plugins:
       checksum: d15192fbe37b40c0889fc8c7853db715eaeaac71
 - name: Download Droplet
   description: Download droplets to your local machine
-  version: 1.0.0
+  version: 1.0.1
   created: 2016-1-11
-  updated: 2016-1-11
+  updated: 2016-2-08
   company:
   authors:
   - name: Josh Kruck
@@ -571,11 +571,11 @@ plugins:
   homepage: https://github.com/krujos/download_droplet_plugin
   binaries:
   - platform: osx
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/osx/download_droplet_plugin
-    checksum: 9bad71a66613f0838fdfcbb9d84847bc1832af9a
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/osx/download_droplet_plugin
+    checksum: 344f50566263abaf7a4a9549c454b6a4f1f77eed
   - platform: win64
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/win64/download_droplet_plugin.exe
-    checksum: c89e87e40434c2bb898a83ee4da14c82cb5c7a42
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/win64/download_droplet_plugin.exe
+    checksum: 70a8cce34cac7ea493e72f18eabe2abd55e63b99
   - platform: linux64
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.0/bin/linux64/download_droplet_plugin
-    checksum: 4813abbe844859d618a0a3dc5bb175b7d30657d4
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/linux64/download_droplet_plugin
+    checksum: a1076347648f7dfb7268c4fa275a3787762a088f
