@@ -533,9 +533,9 @@ plugins:
       checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
 - name: doctor
   description: doctor scans your deployed applications, routes and services for anomalies and reports any issues found. (CLI v6.7.0+)
-  version: 1.0.1
+  version: 1.0.2
   created: 2015-12-13
-  updated: 2015-12-29
+  updated: 2016-02-10
   company:
   authors:
     - name: Emir Ozer
@@ -544,20 +544,20 @@ plugins:
   homepage: https://github.com/emirozer/cf-doctor-plugin
   binaries:
     - platform: osx
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_darwin_amd64
-      checksum: 7d49eec3dec43dece80941fc1195ebe0a7464256
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_darwin_amd64
+      checksum: bdd99c37bd78dd9334e15728afb5d7121199fb8f
     - platform: win64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_windows_amd64.exe
-      checksum: 6c302180b3b78524d39303f8a6089cd5e16fcad1
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_windows_amd64.exe
+      checksum: f6506689733d98c167cd915f38dd9699541943eb
     - platform: win32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_windows_386.exe
-      checksum: 097c5a4ed4e90a01da8450ccfc2513dc9b6d6802
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_windows_386.exe
+      checksum: bc728e6799b7b764d7ed19aba03fc620bc724e91
     - platform: linux64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_linux_amd64
-      checksum: fde7e8bdbea4e792ba42aee2f6469bea464e2247
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_linux_amd64
+      checksum: 270149d858c376f8d2c9f4f92cc1d7e16fe5652d
     - platform: linux32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.1/doctor_plugin_linux_386
-      checksum: d15192fbe37b40c0889fc8c7853db715eaeaac71
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_linux_386
+      checksum: c9bb79ff93524a5be975a734edb77bd70ae0bbf5
 - name: Download Droplet
   description: Download droplets to your local machine
   version: 1.0.1
