@@ -579,3 +579,24 @@ plugins:
   - platform: linux64
     url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/linux64/download_droplet_plugin
     checksum: a1076347648f7dfb7268c4fa275a3787762a088f
+- name: fastpush
+  description: Fast, non-persistent, smart and incrementally updating of your application
+  version: 1.0.0
+  created: 2016-2-21
+  updated: 2016-2-21
+  company: Mendix
+  authors:
+    - name: Xiwen Cheng
+      homepage: https://github.com/xiwenc
+      contact: x@cinaq.com
+  homepage: https://github.com/xiwenc/cf-fastpush-plugin
+  binaries:
+    - platform: osx
+      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_darwin_amd64
+      checksum: 504a7198f754085cf45a5be90acaa5647deb2d19
+    - platform: win64
+      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_windows_amd64.exe
+      checksum: 885c9c26ae5463e2819cfd8ba5a7ab85b48f38e3
+    - platform: linux64
+      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
+      checksum: 689f21bb554372032096d122d04ce80a0defed3b
