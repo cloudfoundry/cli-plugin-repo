@@ -371,25 +371,27 @@ plugins:
     checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
 - name: Usage Report
   description: Report on memory usage and application instances for orgs and spaces
-  version: 1.1.0
+  version: 1.3.0
   created: 2015-7-12
-  updated: 2015-7-15
+  updated: 2016-2-26
   company:
   authors:
   - name: Josh Kruck
     homepage: http://github.com/krujos/
     contact: jkruck@pivotal.io
-  homepage: http://github.com/krujos/usagereport-plugin
+  - name: Cornelia Davis
+    homepage: http://github.com/cdavisafc/
+    contact: cdavis@pivotal.io
   binaries:
   - platform: osx
-    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/osx/usagereport-plugin
-    checksum: 45956f0db14d338c70fb7e8dcbbc75a9bcc0bd9d
+    url: http://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/osx/usagereport-plugin
+    checksum: 7a7c97a470e47ce1406f094916891e0bcfab2946
   - platform: win64
-    url: http://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/win64/usagereport-plugin.exe
-    checksum: 515644c88926843930111feaebe7b9eb741e5c52
+    url: http://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/win64/usagereport-plugin.exe
+    checksum: 17707cdcb2f9a80a0b409aea1725215acb013c2f
   - platform: linux64
-    url: https://github.com/krujos/usagereport-plugin/raw/1.1.0/bin/linux64/usagereport-plugin
-    checksum: 47f5d771569233fa2b69f17ccac031516c4a9987
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/linux64/usagereport-plugin
+    checksum: 1e128c2ca91f02ccef96b60d371213c746501da5
 - name: Statistics
   description: Display live metrics/statistics about an app
   version: 1.0.0
