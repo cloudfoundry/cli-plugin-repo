@@ -382,6 +382,7 @@ plugins:
   - name: Cornelia Davis
     homepage: http://github.com/cdavisafc/
     contact: cdavis@pivotal.io
+  homepage: http://github.com/krujos/usagereport-plugin
   binaries:
   - platform: osx
     url: http://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/osx/usagereport-plugin
