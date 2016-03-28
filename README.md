@@ -4,8 +4,6 @@ Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.or
 This is a public repository for community created CF CLI plugins. To submit your plugin
 approval, please submit a pull request according to the guidelines below.
 
-*If you are looking for information about the Plugin Repo Server, please go [here](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/CLIPR.md)
-
 Submitting Plugins
 =================
 1. You need to have [git](http://git-scm.com/downloads) installed
@@ -60,4 +58,4 @@ Submitting Plugins
  
 Running your own Plugin Repo Server
 =================
-Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/CLIPR.md)
+Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/docs/CLIPR.md)
