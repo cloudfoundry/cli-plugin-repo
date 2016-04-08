@@ -13,10 +13,6 @@
 
   trap printStatus EXIT
 
-  go get github.com/tools/godep
-
-  GODEP=$(which godep)
-
   # Clean up old .a files in GOPATH
   # It seems like `go clean` should do this but ... not so much
   if [[ -d $GOPATH/pkg ]] ; then
@@ -25,21 +21,13 @@
     popd
   fi
 
-  if [[ -d $($GODEP path)/pkg ]] ; then
-    pushd $($GODEP path)/pkg
-    rm -Rf *
-    popd
-  fi
-
-  export GOPATH=$($GODEP path):$GOPATH
-  export PATH=$($GODEP path)/bin:$PATH
   go install github.com/onsi/ginkgo/ginkgo
 
   echo -e "\n Formatting packages..."
   go fmt ./...
 
   echo -e "\n Testing packages..."
-  CF_HOME=$(pwd)/fixtures ginkgo -r $@
+  CF_HOME=$(pwd)/fixtures ginkgo -r -race -cover -failOnPending -randomizeAllSpecs $@
 
   echo -e "\n Vetting packages for potential issues..."
   for file in $(find {app,models,parser,server,test_helpers} \( -name "*.go" -not -iname "*test.go" \))
