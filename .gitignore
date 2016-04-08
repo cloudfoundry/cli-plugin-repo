@@ -1,11 +1,11 @@
 out/
 
 *.test
+*.coverprofile
 .DS_Store
 *.swp
 *.exe
 *.log
-
 main
 *.tar.gz
 

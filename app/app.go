@@ -16,7 +16,7 @@ var flagPort int
 var flagAddr string
 var logger io.Writer
 
-func init() {
+func Start() {
 	logger = os.Stdout //turn this into a logger soon
 
 	flag.StringVar(&flagAddr, "n", "0.0.0.0", "Address the server to listen on")
@@ -33,9 +33,7 @@ func init() {
 			flagAddr = ""
 		}
 	}
-}
 
-func Start() {
 	model := models.NewPlugins(logger)
 
 	yamlParser := parser.NewYamlParser("repo-index.yml", logger, model)
