@@ -603,3 +603,24 @@ plugins:
     - platform: linux64
       url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
       checksum: 689f21bb554372032096d122d04ce80a0defed3b
+- name: Predix
+  description: Sets the target API endpoint to a Predix API
+  version: 1.0.0
+  created: 2016-04-07
+  updated: 2016-04-07
+  company: GE Digital
+  authors:
+  - name: Predix
+    homepage: http://predix.io
+    contact: info@predix.io
+  homepage: http://github.com/PredixDev/cf-predix
+  binaries:
+  - platform: osx
+    url: https://github.com/PredixDev/cf-predix/releases/download/v1.0.0/predix_osx
+    checksum: caa1f3711303bae021c2260de7a559a9f19d99b3
+  - platform: win64
+    url: https://github.com/PredixDev/cf-predix/releases/download/v1.0.0/predix_win64.exe
+    checksum: 23df8e68d0e61c0a98ef25b8bea61f2192d81295
+  - platform: linux64
+    url: https://github.com/PredixDev/cf-predix/releases/download/v1.0.0/predix_linux64
+    checksum: a82ef40671cad1fec30cffdc61118734f86c1899
