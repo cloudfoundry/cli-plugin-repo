@@ -20,10 +20,13 @@ Running CLIPR
 
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
-1. Use `go build` to build the binary, here is an example in OSX/Linux which produces an executable called `clipr`
-```shell
-$ go build -o clipr main.go
-```
+1. Use `go build` to build the binary
+  1. Include the path "{REPO_LOCATION}/Godeps/_workspace" in the environment variable `$GOPATH`, here is an example in OSX/Linux
+  ```shell
+    $ SET GOPATH=$HOME/user/go/src/github.com/cloud-foundry/cli-plugin-repo/Godeps/_workspace:$GOPATH
+    $ go build -o clipr main.go
+  ```
+  1. this will produce a executable called `clipr`
 1. Invoke the binary `./clipr` with the following options
   - `-n`: IP Address for the server to listen on, default is `0.0.0.0`
   - `-p`: Port number for the server to listen on, default is `8080`
@@ -38,7 +41,9 @@ Forking the repository for development
 
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
+1. Install [godep](https://github.com/tools/godep)
 1. Get the CLIPR source code: `go get github.com/cloudfoundry-incubator/cli-plugin-repo`
+1. Run `godep restore` (note: this will modify the dependencies in your $GOPATH)
 1. Fork the repository
 1. Add your fork as a remote: 
 ```shell

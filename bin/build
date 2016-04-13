@@ -6,4 +6,12 @@ echo -e "\nGenerating Binary..."
 
 ROOT_DIR=$(cd $(dirname $(dirname $0)) && pwd)
 
-go build -o $ROOT_DIR/out/clipr .
+CLIPR_GOPATH=$ROOT_DIR/tmp/clipr_gopath
+rm -rf $CLIPR_GOPATH
+mkdir -p $CLIPR_GOPATH/src/github.com/cloudfoundry-incubator/
+ln -s $ROOT_DIR $CLIPR_GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+
+GODEP_GOPATH=$ROOT_DIR/Godeps/_workspace
+
+GOPATH=$CLIPR_GOPATH:$GODEP_GOPATH:$GOPATH go build -o $ROOT_DIR/out/clipr ./
+rm -rf $CLIPR_GOPATH
