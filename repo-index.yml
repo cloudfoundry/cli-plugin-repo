@@ -603,3 +603,23 @@ plugins:
     - platform: linux64
       url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
       checksum: 689f21bb554372032096d122d04ce80a0defed3b
+- name: cf-willitconnect
+  description: Can CF connect to a thing?
+  version: v1.1.0
+  created: 2016-4-9
+  updated: 2016-4-11
+  company:
+  authors:
+  - name: Thomas Gamble
+    homepage: http://github.com/gambtho
+  homepage: https://github.com/gambtho/cf_will_it_connect_plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_darwin_amd64
+    checksum: 9ba8a64e2ecceac7745545cb646d94eb43477247
+  - platform: win64
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_willitcon_win64.exe
+    checksum: 51323e773936268f97233336a487ffd48dc79a0d
+  - platform: linux64
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_linux_amd64
+    checksum: 6ff4a6a85acfbd65871721efad387f3174bfa4bb
