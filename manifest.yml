@@ -7,3 +7,5 @@ domains:
 - cfapps.io
 applications:
 - name: plugins
+  env:
+    GO15VENDOREXPERIMENT: 1

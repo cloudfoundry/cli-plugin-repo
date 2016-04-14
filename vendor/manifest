@@ -1,0 +1,40 @@
+{
+  "version": 0,
+  "dependencies": [
+    {
+      "importpath": "github.com/cloudfoundry-incubator/candiedyaml",
+      "repository": "https://github.com/cloudfoundry-incubator/candiedyaml",
+      "revision": "150e4e8f749b21a7f0de8e3cfd885143fcea6b32",
+      "branch": "master",
+      "notests": true
+    },
+    {
+      "importpath": "github.com/gorilla/context",
+      "repository": "https://github.com/gorilla/context",
+      "revision": "215affda49addc4c8ef7e2534915df2c8c35c6cd",
+      "branch": "master",
+      "notests": true
+    },
+    {
+      "importpath": "github.com/gorilla/mux",
+      "repository": "https://github.com/gorilla/mux",
+      "revision": "e444e69cbd2e2e3e0749a2f3c717cec491552bbf",
+      "branch": "master",
+      "notests": true
+    },
+    {
+      "importpath": "github.com/onsi/ginkgo",
+      "repository": "https://github.com/onsi/ginkgo",
+      "revision": "18c73cfeca1095f984c036a04c42ac0b08048685",
+      "branch": "master",
+      "notests": true
+    },
+    {
+      "importpath": "github.com/onsi/gomega",
+      "repository": "https://github.com/onsi/gomega",
+      "revision": "2cd6d99ccf3ac7ae8398d8296429161bf7061ae2",
+      "branch": "master",
+      "notests": true
+    }
+  ]
+}

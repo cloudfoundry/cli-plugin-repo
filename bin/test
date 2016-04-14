@@ -27,7 +27,7 @@
   go fmt ./...
 
   echo -e "\n Testing packages..."
-  CF_HOME=$(pwd)/fixtures ginkgo -r $@
+  CF_HOME=$(pwd)/fixtures ginkgo -r -race -cover -failOnPending -randomizeAllSpecs $@
 
   echo -e "\n Vetting packages for potential issues..."
   for file in $(find {app,models,parser,server,test_helpers} \( -name "*.go" -not -iname "*test.go" \))
