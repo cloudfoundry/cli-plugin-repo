@@ -6,7 +6,7 @@ approval, please submit a pull request according to the guidelines below.
 
 Submitting Plugins
 =================
-1. You need to have [git](http://git-scm.com/downloads) installed
+1. You need to have [git](https://git-scm.com/downloads) installed
 1. Clone this repo `git clone https://github.com/cloudfoundry-incubator/cli-plugin-repo`
 1. Include your plugin information in `repo-index.yml`, here is an example of a new plugin entry
   ```yaml
@@ -18,9 +18,9 @@ Submitting Plugins
     company:
     authors:
     - name: Sample-Author
-      homepage: http://github.com/sample-author
+      homepage: https://github.com/sample-author
       contact: contact@sample-author.io
-    homepage: http://github.com/sample-author/new_plugin
+    homepage: https://github.com/sample-author/new_plugin
     binaries:
     - platform: osx 
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_darwin
@@ -44,7 +44,7 @@ Submitting Plugins
   `company` | <b>Optional</b> field detailing company or organization that created the plugin
   `authors` | Fields to detail the authors of the plugin<br>`name`: name of author<br>`homepage`: <b>Optional</b> link to the homepage of the author<br>`contact`: <b>Optional</b> ways to contact author, email, twitter, phone etc ...
   `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins
-  `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms<br>`platform`: The os for this binary. Supports `osx`, `linux32`, `linux64`, `win32`, `win64`<br>`url`: Link to the binary file itself<br>`checksum`: SHA-1 of the binary file for verification
+  `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms<br>`platform`: The os for this binary. Supports `osx`, `linux32`, `linux64`, `win32`, `win64`<br>`url`: HTTPS link to the binary file itself<br>`checksum`: SHA-1 of the binary file for verification
 
 1. After making the changes, fork the repository
 1. Add your fork as a remote

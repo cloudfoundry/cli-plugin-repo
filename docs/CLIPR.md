@@ -60,7 +60,7 @@ Alternatively, you can create your own plugin repo implementation. The server mu
     "company":"",
     "author":"",
     "contact":"feedback@email.com",
-    "homepage":"http://github.com/johndoe/plugin-repo",
+    "homepage":"https://github.com/johndoe/plugin-repo",
     "binaries": [
       {
         "platform":"osx",
