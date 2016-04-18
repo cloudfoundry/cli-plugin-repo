@@ -10,7 +10,7 @@ plugins:
   - name: Cloud Foundry CLI Team
     homepage: https://github.com/cloudfoundry
     contact: cf-cli-eng@pivotal.io
-  homepage: http://github.com/cloudfoundry-incubator/Diego-Enabler
+  homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
   binaries:
   - platform: osx
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_darwin_amd64
@@ -40,10 +40,10 @@ plugins:
   homepage: https://github.com/jeaniejung/Wildcard_Plugin
   binaries:
   - platform: osx
-    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/osx/wildcard_plugin
+    url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/osx/wildcard_plugin
     checksum: 8fc4a3040b5dbee9dcfcbb2a81203152ed7c0e5d
   - platform: win64
-    url: http://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/win64/wildcard_plugin.exe
+    url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/win64/wildcard_plugin.exe
     checksum: fbf2c6f3669d040aab5865444b7ed2802ff36f2a
   - platform: linux64
     url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/linux64/wildcard_plugin
@@ -56,9 +56,9 @@ plugins:
   company:
   authors:
   - name: Simon Leung
-    homepage: http://github.com/simonleung8
+    homepage: https://github.com/simonleung8
     contact: contact@simonleung.info
-  homepage: http://github.com/simonleung8/cli-plugin-recorder
+  homepage: https://github.com/simonleung8/cli-plugin-recorder
   binaries:
   - platform: osx
     url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_darwin_amd64
@@ -83,9 +83,9 @@ plugins:
   company: IBM
   authors:
   - name: James Thomas
-    homepage: http://github.com/jthomas
+    homepage: https://github.com/jthomas
     contact: james@jamesthom.as
-  homepage: http://github.com/jthomas/copyenv
+  homepage: https://github.com/jthomas/copyenv
   binaries:
   - platform: osx64
     url: https://github.com/jthomas/copyenv/raw/master/bin/osx/copyenv
@@ -104,9 +104,9 @@ plugins:
   company:
   authors:
   - name: Dan Higham
-    homepage: http://github.com/danhigham
+    homepage: https://github.com/danhigham
     contact: dhigham@pivotal.io
-  homepage: http://github.com/danhigham/cf-live-stats
+  homepage: https://github.com/danhigham/cf-live-stats
   binaries:
   - platform: osx
     url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/osx/cf-plugin-stats
@@ -125,9 +125,9 @@ plugins:
   company:
   authors:
   - name: Dan Higham
-    homepage: http://github.com/danhigham
+    homepage: https://github.com/danhigham
     contact: dhigham@pivotal.io
-  homepage: http://github.com/danhigham/cf-console
+  homepage: https://github.com/danhigham/cf-console
   binaries:
   - platform: osx
     url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
@@ -170,9 +170,9 @@ plugins:
   company: Concourse
   authors:
   - name: Chris Brown
-    homepage: http://github.com/xoebus
+    homepage: https://github.com/xoebus
     contact: xoebus@xoeb.us
-  homepage: http://github.com/concourse/autopilot
+  homepage: https://github.com/concourse/autopilot
   binaries:
   - platform: osx
     url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-darwin
@@ -211,7 +211,7 @@ plugins:
   - name: "Dr Nic Williams"
     homepage: http://drnicwilliams.com
     contact: drnic@starkandwayne.com
-  homepage: http://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
   binaries:
   - platform: win64
     url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_windows_amd64.exe"
@@ -257,10 +257,10 @@ plugins:
   company: Cloud Foundry CLI Team
   authors:
   - name: Simon Leung
-    homepage: http://github.com/simonleung8
+    homepage: https://github.com/simonleung8
     contact: contact@simonleung.info
   - name: Jonathan Berkhahn
-    homepage: http://github.com/jberkhahn
+    homepage: https://github.com/jberkhahn
     contact: jonathan.berkhahn@gmail.com
   homepage: https://github.com/simonleung8/cli-stack-changer
   binaries:
@@ -281,18 +281,18 @@ plugins:
   company:
   authors:
   - name: Guido Westenberg
-    homepage: http://github.com/guidowb
+    homepage: https://github.com/guidowb
     contact: gwestenberg@pivotal.io
-  homepage: http://github.com/guidowb/cf-targets-plugin
+  homepage: https://github.com/guidowb/cf-targets-plugin
   binaries:
   - platform: osx
-    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
     checksum: 42a77ed2430c09c6de70c09b839af1ae48a82b39
   - platform: win64
-    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
     checksum: c360ee333631cda7f0de426494abecfd8c356aea
   - platform: linux64
-    url: http://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
     checksum: 45f0626f789871141d5194cbacdfac41bd08d1f2
 - name: Test User
   description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
@@ -353,18 +353,18 @@ plugins:
   company:
   authors:
   - name: Guido Westenberg
-    homepage: http://github.com/guidowb
+    homepage: https://github.com/guidowb
     contact: gwestenberg@pivotal.io
   - name: Josh Kruck
-    homepage: http://github.com/krujos/
+    homepage: https://github.com/krujos/
     contact: jkruck@pivotal.io
-  homepage: http://github.com/krujos/scaleover-plugin
+  homepage: https://github.com/krujos/scaleover-plugin
   binaries:
   - platform: osx
-    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
     checksum: eeaec464b0c0f9c477aeabaeadda5bee0e7d235e
   - platform: win64
-    url: http://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
     checksum: addd163da840f4c15d507d4e4acb536abcf43fa8
   - platform: linux64
     url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/linux64/scaleover-plugin
@@ -377,18 +377,18 @@ plugins:
   company:
   authors:
   - name: Josh Kruck
-    homepage: http://github.com/krujos/
+    homepage: https://github.com/krujos/
     contact: jkruck@pivotal.io
   - name: Cornelia Davis
-    homepage: http://github.com/cdavisafc/
+    homepage: https://github.com/cdavisafc/
     contact: cdavis@pivotal.io
-  homepage: http://github.com/krujos/usagereport-plugin
+  homepage: https://github.com/krujos/usagereport-plugin
   binaries:
   - platform: osx
-    url: http://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/osx/usagereport-plugin
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/osx/usagereport-plugin
     checksum: 7a7c97a470e47ce1406f094916891e0bcfab2946
   - platform: win64
-    url: http://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/win64/usagereport-plugin.exe
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/win64/usagereport-plugin.exe
     checksum: 17707cdcb2f9a80a0b409aea1725215acb013c2f
   - platform: linux64
     url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/linux64/usagereport-plugin
@@ -449,21 +449,21 @@ plugins:
   company:
   authors:
   - name: Johannes Tuchscherer
-    homepage: http://github.com/jtuchscherer
+    homepage: https://github.com/jtuchscherer
     contact: jtuchschererg@gmail.com
   - name: Warren Fernandes
-    homepage: http://github.com/wfernandes
+    homepage: https://github.com/wfernandes
     contact: warren.f.fernandes@gmail.com
-  homepage: http://github.com/cloudfoundry/firehose-plugin
+  homepage: https://github.com/cloudfoundry/firehose-plugin
   binaries:
   - platform: osx
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin-darwin
+    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin-darwin
     checksum: b4cadb414692ed20ae0788ea4e22eb680c17fa29
   - platform: win64
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin.exe
+    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin.exe
     checksum: 27346e1ee1dfeac17c7ed463c28a4c04c5a68eaa
   - platform: linux64
-    url: http://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin-linux
+    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.8.0/nozzle-plugin-linux
     checksum: 40de001efee8b2bd45312ae4f99b08eb13bba0ee
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
@@ -473,9 +473,9 @@ plugins:
   company:
   authors:
   - name: John Calabrese
-    homepage: http://github.com/xchapter7x
+    homepage: https://github.com/xchapter7x
     contact: xchapter7x@gmail.com
-  homepage: http://github.com/xchapter7x/deploycloud
+  homepage: https://github.com/xchapter7x/deploycloud
   binaries:
   - platform: osx
     url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_darwin_amd64
@@ -569,7 +569,7 @@ plugins:
   company:
   authors:
   - name: Josh Kruck
-    homepage: http://github.com/krujos/
+    homepage: https://github.com/krujos/
     contact: jkruck@pivotal.io
   homepage: https://github.com/krujos/download_droplet_plugin
   binaries:
@@ -611,7 +611,7 @@ plugins:
   company:
   authors:
   - name: Thomas Gamble
-    homepage: http://github.com/gambtho
+    homepage: https://github.com/gambtho
   homepage: https://github.com/gambtho/cf_will_it_connect_plugin
   binaries:
   - platform: osx
