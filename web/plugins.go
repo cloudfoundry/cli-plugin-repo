@@ -1,4 +1,4 @@
-package models
+package web
 
 import "time"
 

@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
+	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 	"github.com/onsi/gomega/gexec"
 	"github.com/onsi/gomega/types"
 	"gopkg.in/yaml.v2"
@@ -33,7 +33,7 @@ var _ = SynchronizedAfterSuite(func() {}, func() {
 
 var _ = Describe("Database", func() {
 	It("correctly parses the current repo-index.yml", func() {
-		var plugins models.PluginsJson
+		var plugins web.PluginsJson
 
 		b, err := ioutil.ReadFile("repo-index.yml")
 		Expect(err).NotTo(HaveOccurred())
