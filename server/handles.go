@@ -9,16 +9,12 @@ import (
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/parser"
 )
 
-type ServerHandles interface {
-	ListPlugins(w http.ResponseWriter, r *http.Request)
-}
-
 type handlers struct {
 	yamlParser parser.YamlParser
 	logger     io.Writer
 }
 
-func NewServerHandles(yamlParser parser.YamlParser, logger io.Writer) ServerHandles {
+func NewServerHandles(yamlParser parser.YamlParser, logger io.Writer) *handlers {
 	return &handlers{
 		yamlParser: yamlParser,
 		logger:     logger,

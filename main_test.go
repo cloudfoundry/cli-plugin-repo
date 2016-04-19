@@ -39,7 +39,7 @@ var _ = Describe("Integration", func() {
 	BeforeEach(func() {
 		port = strconv.Itoa(8080 + GinkgoParallelNode())
 		session, err = gexec.Start(
-			exec.Command(buildPath, "-p", port, "-n", "127.0.0.1"),
+			exec.Command(buildPath, "-p", port),
 			GinkgoWriter,
 			GinkgoWriter,
 		)
@@ -53,25 +53,13 @@ var _ = Describe("Integration", func() {
 	})
 
 	Describe("/", func() {
-		It("redirects / to /ui/", func() {
-			client := http.DefaultClient
-			response, err := client.Get("http://127.0.0.1:" + port)
-
-			Expect(err).NotTo(HaveOccurred())
-			Expect(response).To(BeSuccessful())
-
-			Expect(response.Request.URL.Path).To(Equal("/ui/"))
-		})
-	})
-
-	Describe("/ui", func() {
 		It("returns HTML we expect", func() {
 			client := http.DefaultClient
-			response, err := client.Get("http://127.0.0.1:" + port + "/ui")
+			response, err := client.Get("http://127.0.0.1:" + port)
 			Expect(err).NotTo(HaveOccurred())
 			Expect(response).To(BeSuccessful())
 
-			b, err := ioutil.ReadFile("fixtures/ui.html")
+			b, err := ioutil.ReadFile("fixtures/index.html")
 			Expect(err).NotTo(HaveOccurred())
 
 			defer response.Body.Close()
