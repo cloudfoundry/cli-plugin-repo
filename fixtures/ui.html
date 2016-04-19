@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+
+<html ng-app="clipr">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/clipr.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/listing.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>	
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>	
+  <script type="text/javascript" src="js/list.js"></script>	
+</head>
+
+<body>
+    <div id="bodyBox">
+
+      <div style="height:80px"></div>
+
+      <div id="listingBox">
+        <div style="background:transparent;width:80%; margin:auto">
+          <div ng-controller='CliprListing'>
+            <div ng-repeat="plugin in list.plugins">
+              <div class="listing-pluginName">
+                {{plugin.name}}
+                <span style="font-size: 0.75em" ng-if="plugin.version != ''"> - v.{{plugin.version}}</span>
+                <div class="listing-date" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></div>
+              </div>
+              <br>
+              <table class="listing-table">
+                <tr class="listing-description">
+                  <td colspan="2">
+                    {{plugin.description}}
+                    <br><br>
+                  </td>
+                </tr>
+                <tr ng-if="plugin.company != ''">
+                  <td class="listing-caption">
+                    company:
+                  </td>
+                  <td class="listing-content">
+                    {{plugin.company}}
+                  </td>
+                </tr>
+                <tr ng-if="plugin.homepage != ''">
+                  <td class="listing-caption">
+                    homepage:
+                  </td>
+                  <td class="listing-content">
+                    <a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
+                  </td>
+                </tr>
+                <tr ng-if="plugin.authors != {}">
+                  <td class="listing-caption">
+                    <ng-pluralize count="plugin.authors.length" when="{'0': 'author', '1': 'author', 'other': 'authors'}"></ng-pluralize>   
+                  </td>
+                  <td class="listing-content">
+                    <div ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
+                        {{author.name}}</a>
+                        <span ng-if="author.contact != ''">
+                          <span class="listing-light-text"> - {{author.contact}}</span>
+                        </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="listing-caption">
+                    platforms:
+                  </td>
+                  <td class="listing-content">
+                    <span ng-repeat="binary in plugin.binaries">
+                      <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
+                    </span>
+                  </td>
+                </tr>
+              </table>
+
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="adBox">
+        <div style="position: relavtive">
+          <div class="letterpress" id="titleDiv">
+            <font style="font-size:35px">Community</font>
+            <br>
+            <font style="font-size:25px">CLI Plugins</font>
+            <hr>
+            <font style="font-size:12px">
+              To include your plugin in our community repo, please goto our github page and follow our
+              <a href='http://github.com/cloudfoundry-incubator/cli-plugin-repo'>instruction</a>.
+            </font>
+            <hr>
+            <font style="font-size:12px">
+              To learn how to write your own plugin, see our
+              <a href='https://github.com/cloudfoundry/cli/tree/master/plugin_examples'>examples</a>.
+            </font>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="header">
+      links
+    </div>
+
+    <div id="githubFork">
+      <a href="https://github.com/cloudfoundry-incubator/cli-plugin-repo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    </div>
+
+    <img id="cfLogo" src="images/cloud-foundry-logo.png" />
+</body>
+</html>
