@@ -3,8 +3,8 @@ plugins:
 - name: Diego-Enabler
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   version: 1.1.0
-  created: 2015-10-16
-  updated: 2016-03-25
+  created: 2015-10-16T00:00:00Z
+  updated: 2016-03-25T00:00:00Z
   company:
   authors:
   - name: Cloud Foundry CLI Team
@@ -30,8 +30,8 @@ plugins:
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
-  created: 2015-07-02
-  updated: 2015-07-02
+  created: 2015-07-02T00:00:00Z
+  updated: 2015-07-02T00:00:00Z
   company:
   authors:
   - name: Eui Jin "Jeanie" Jung
@@ -51,8 +51,8 @@ plugins:
 - name: CLI-Recorder
   description: Records and playbacks CLI commands.
   version: 1.0.2
-  created: 2015-2-12
-  updated: 2015-9-03
+  created: 2015-02-12T00:00:00Z
+  updated: 2015-09-03T00:00:00Z
   company:
   authors:
   - name: Simon Leung
@@ -78,8 +78,8 @@ plugins:
 - name: Copy Env
   description: Expose remote VCAP_SERVICES on the client environment
   version: 1.0.0
-  created: 2015-4-15
-  updated: 2015-4-15
+  created: 2015-04-15T00:00:00Z
+  updated: 2015-04-15T00:00:00Z
   company: IBM
   authors:
   - name: James Thomas
@@ -99,8 +99,8 @@ plugins:
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
   version: 1.0.0
-  created: 2015-2-20
-  updated: 2015-2-20
+  created: 2015-02-20T00:00:00Z
+  updated: 2015-02-20T00:00:00Z
   company:
   authors:
   - name: Dan Higham
@@ -120,8 +120,8 @@ plugins:
 - name: Console
   description: Start a tmate session on an application container
   version: 1.0.0
-  created: 2015-2-20
-  updated: 2015-2-20
+  created: 2015-02-20T00:00:00Z
+  updated: 2015-02-20T00:00:00Z
   company:
   authors:
   - name: Dan Higham
@@ -138,8 +138,8 @@ plugins:
 - name: Open
   description: Open app url in browser
   version: 1.1.0
-  created: 2015-2-27
-  updated: 2015-2-27
+  created: 2015-02-27T00:00:00Z
+  updated: 2015-02-27T00:00:00Z
   company: Stark and Wayne
   authors:
   - name: Long Nguyen
@@ -165,8 +165,8 @@ plugins:
 - name: autopilot
   description: zero downtime deploy plugin for cf applications
   version: 0.0.1
-  created: 2015-3-1
-  updated: 2015-3-1
+  created: 2015-03-01T00:00:00Z
+  updated: 2015-03-01T00:00:00Z
   company: Concourse
   authors:
   - name: Chris Brown
@@ -186,8 +186,8 @@ plugins:
 - name: Brooklyn
   description: Interact with Service Broker for Apache Brooklyn
   version: 0.1.1
-  created: 2015-3-13
-  updated: 2015-3-16
+  created: 2015-03-13T00:00:00Z
+  updated: 2015-03-16T00:00:00Z
   company: Cloudsoft
   authors:
   - name: Robert Moss
@@ -204,8 +204,8 @@ plugins:
 - name: kibana-me-logs
   description: Launches the Kibana UI (from kibana-me-logs) for an application.
   version: 0.4.3
-  created: 2015-03-18
-  updated: 2015-10-15
+  created: 2015-03-18T00:00:00Z
+  updated: 2015-10-15T00:00:00Z
   company: "Stark & Wayne"
   authors:
   - name: "Dr Nic Williams"
@@ -231,8 +231,8 @@ plugins:
 - name: Buildpack Usage
   description: View all buildpacks used in the current CLI target context.
   version: 1.0.0
-  created: 2015-04-02
-  updated: 2015-04-02
+  created: 2015-04-02T00:00:00Z
+  updated: 2015-04-02T00:00:00Z
   company: CenturyLink Cloud
   authors:
   - name: Chris Sterling
@@ -252,8 +252,8 @@ plugins:
 - name: CF App Stack Changer
   description: Allows admins to list and update applications with outdated lucid64 stacks.
   version: 1.1.0
-  created: 2015-04-07
-  updated: 2015-05-08
+  created: 2015-04-07T00:00:00Z
+  updated: 2015-05-08T00:00:00Z
   company: Cloud Foundry CLI Team
   authors:
   - name: Simon Leung
@@ -276,8 +276,8 @@ plugins:
 - name: Targets
   description: Easily manage multiple CF targets
   version: 1.1.0
-  created: 2015-4-17
-  updated: 2015-8-14
+  created: 2015-04-17T00:00:00Z
+  updated: 2015-08-14T00:00:00Z
   company:
   authors:
   - name: Guido Westenberg
@@ -297,8 +297,8 @@ plugins:
 - name: Test User
   description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
   version: 0.0.1
-  created: 2015-03-30
-  updated: 2015-03-30
+  created: 2015-03-30T00:00:00Z
+  updated: 2015-03-30T00:00:00Z
   company: Ben Laplanche
   authors:
   - name: "Ben Laplanche"
@@ -324,8 +324,8 @@ plugins:
 - name: cf-download
   description: Plugin for downloading your application contents after staging.
   version: 1.0.0
-  created: 2015-4-21
-  updated: 2015-4-21
+  created: 2015-04-21T00:00:00Z
+  updated: 2015-04-21T00:00:00Z
   company: IBM jStart
   authors:
   - name: Miguel Clement
@@ -348,8 +348,8 @@ plugins:
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
   version: 1.0.1
-  created: 2015-5-27
-  updated: 2015-5-27
+  created: 2015-05-27T00:00:00Z
+  updated: 2015-05-27T00:00:00Z
   company:
   authors:
   - name: Guido Westenberg
@@ -372,8 +372,8 @@ plugins:
 - name: Usage Report
   description: Report on memory usage and application instances for orgs and spaces
   version: 1.3.0
-  created: 2015-7-12
-  updated: 2016-2-26
+  created: 2015-07-12T00:00:00Z
+  updated: 2016-02-26T00:00:00Z
   company:
   authors:
   - name: Josh Kruck
@@ -396,8 +396,8 @@ plugins:
 - name: Statistics
   description: Display live metrics/statistics about an app
   version: 1.0.0
-  created: 2015-07-07
-  updated: 2015-07-07
+  created: 2015-07-07T00:00:00Z
+  updated: 2015-07-07T00:00:00Z
   company: Swisscom (Schweiz) AG
   authors:
   - name: Fabio Berchtold
@@ -417,8 +417,8 @@ plugins:
 - name: Buildpack Management
   description: Provides a declarative way to configure system buildpacks in a Cloud Foundry installation
   version: 1.0.0
-  created: 2015-9-03
-  updated: 2015-9-03
+  created: 2015-09-03T00:00:00Z
+  updated: 2015-09-03T00:00:00Z
   company:
   authors:
   - name: David Ehringer
@@ -444,8 +444,8 @@ plugins:
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
   version: 0.8.0
-  created: 2015-09-09
-  updated: 2016-01-05
+  created: 2015-09-09T00:00:00Z
+  updated: 2016-01-05T00:00:00Z
   company:
   authors:
   - name: Johannes Tuchscherer
@@ -468,8 +468,8 @@ plugins:
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
   version: v1.0.1
-  created: 2015-09-21
-  updated: 2015-09-21
+  created: 2015-09-21T00:00:00Z
+  updated: 2015-09-21T00:00:00Z
   company:
   authors:
   - name: John Calabrese
@@ -489,8 +489,8 @@ plugins:
 - name: blue-green-deploy
   description: Zero downtime deploys with smoke test support
   version: 1.0.4
-  created: 2015-03-24
-  updated: 2015-08-04
+  created: 2015-03-24T00:00:00Z
+  updated: 2015-08-04T00:00:00Z
   company: IBM
   authors:
   - name: Bluemix Garage London
@@ -510,8 +510,8 @@ plugins:
 - name: manifest-generator
   description: Help you to generate a manifest from 0 (CLI v6.7.0+)
   version: 1.0.0
-  created: 2015-11-11
-  updated: 2015-11-11
+  created: 2015-11-11T00:00:00Z
+  updated: 2015-11-11T00:00:00Z
   company: 
   authors:
     - name: Arthur Halet
@@ -537,8 +537,8 @@ plugins:
 - name: doctor
   description: doctor scans your deployed applications, routes and services for anomalies and reports any issues found. (CLI v6.7.0+)
   version: 1.0.2
-  created: 2015-12-13
-  updated: 2016-02-10
+  created: 2015-12-13T00:00:00Z
+  updated: 2016-02-10T00:00:00Z
   company:
   authors:
     - name: Emir Ozer
@@ -564,8 +564,8 @@ plugins:
 - name: Download Droplet
   description: Download droplets to your local machine
   version: 1.0.1
-  created: 2016-1-11
-  updated: 2016-2-08
+  created: 2016-01-11T00:00:00Z
+  updated: 2016-02-08T00:00:00Z
   company:
   authors:
   - name: Josh Kruck
@@ -585,8 +585,8 @@ plugins:
 - name: fastpush
   description: Fast, non-persistent, smart and incrementally updating of your application
   version: 1.0.0
-  created: 2016-2-21
-  updated: 2016-2-21
+  created: 2016-02-21T00:00:00Z
+  updated: 2016-02-21T00:00:00Z
   company: Mendix
   authors:
     - name: Xiwen Cheng
@@ -606,8 +606,8 @@ plugins:
 - name: cf-willitconnect
   description: Can CF connect to a thing?
   version: v1.1.0
-  created: 2016-4-9
-  updated: 2016-4-11
+  created: 2016-04-09T00:00:00Z
+  updated: 2016-04-11T00:00:00Z
   company:
   authors:
   - name: Thomas Gamble

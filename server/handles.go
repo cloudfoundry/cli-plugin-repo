@@ -6,31 +6,22 @@ import (
 	"net/http"
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/cloudfoundry-incubator/cli-plugin-repo/parser"
 )
 
 type handlers struct {
-	yamlParser parser.YamlParser
-	logger     io.Writer
+	plugins models.PluginsJson
+	logger  io.Writer
 }
 
-func NewServerHandles(yamlParser parser.YamlParser, logger io.Writer) *handlers {
+func NewServerHandles(plugins models.PluginsJson, logger io.Writer) *handlers {
 	return &handlers{
-		yamlParser: yamlParser,
-		logger:     logger,
+		plugins: plugins,
+		logger:  logger,
 	}
 }
 
 func (h *handlers) ListPlugins(w http.ResponseWriter, r *http.Request) {
-	pluginModel, err := h.yamlParser.Parse()
-	if err != nil {
-		h.logger.Write([]byte("Error parsing repo-index.yml: " + err.Error()))
-		return
-	}
-
-	b, err := json.Marshal(models.PluginsJson{
-		Plugins: pluginModel,
-	})
+	b, err := json.Marshal(h.plugins)
 	if err != nil {
 		h.logger.Write([]byte("Error marshalling plugin models: " + err.Error()))
 		return

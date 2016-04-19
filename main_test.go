@@ -9,8 +9,10 @@ import (
 	"os/exec"
 	"strconv"
 
+	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
 	"github.com/onsi/gomega/gexec"
 	"github.com/onsi/gomega/types"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"time"
 )
@@ -29,6 +31,18 @@ var _ = SynchronizedAfterSuite(func() {}, func() {
 	gexec.CleanupBuildArtifacts()
 })
 
+var _ = Describe("Database", func() {
+	It("correctly parses the current repo-index.yml", func() {
+		var plugins models.PluginsJson
+
+		b, err := ioutil.ReadFile("repo-index.yml")
+		Expect(err).NotTo(HaveOccurred())
+
+		err = yaml.Unmarshal(b, &plugins)
+		Expect(err).NotTo(HaveOccurred())
+	})
+})
+
 var _ = Describe("Integration", func() {
 	var (
 		session *gexec.Session
@@ -39,7 +53,7 @@ var _ = Describe("Integration", func() {
 	BeforeEach(func() {
 		port = strconv.Itoa(8080 + GinkgoParallelNode())
 		session, err = gexec.Start(
-			exec.Command(buildPath, "-p", port),
+			exec.Command(buildPath, "-p", port, "-f", "fixtures/repo-index.yml"),
 			GinkgoWriter,
 			GinkgoWriter,
 		)

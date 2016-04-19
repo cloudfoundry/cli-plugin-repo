@@ -6,11 +6,14 @@ import (
 
 	"net/http"
 
+	"io/ioutil"
+
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/cloudfoundry-incubator/cli-plugin-repo/parser"
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/server"
 	"github.com/jessevdk/go-flags"
 	"github.com/tedsuo/rata"
+	"gopkg.in/yaml.v2"
+	"sort"
 )
 
 type CLIPR struct {
@@ -39,10 +42,20 @@ func main() {
 func (cmd *CLIPR) Execute(args []string) error {
 	logger := os.Stdout //turn this into a logger soon
 
-	model := models.NewPlugins(logger)
+	var plugins models.PluginsJson
 
-	yamlParser := parser.NewYamlParser("repo-index.yml", logger, model)
-	handles := server.NewServerHandles(yamlParser, logger)
+	b, err := ioutil.ReadFile(cmd.RepoIndexPath)
+	if err != nil {
+		return err
+	}
+
+	err = yaml.Unmarshal(b, &plugins)
+	if err != nil {
+		return err
+	}
+
+	sort.Sort(plugins)
+	handles := server.NewServerHandles(plugins, logger)
 
 	handlers := map[string]http.Handler{
 		Index: http.FileServer(http.Dir("ui")),

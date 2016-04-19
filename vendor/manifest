@@ -9,13 +9,6 @@
 			"notests": true
 		},
 		{
-			"importpath": "github.com/cloudfoundry-incubator/candiedyaml",
-			"repository": "https://github.com/cloudfoundry-incubator/candiedyaml",
-			"revision": "150e4e8f749b21a7f0de8e3cfd885143fcea6b32",
-			"branch": "master",
-			"notests": true
-		},
-		{
 			"importpath": "github.com/gorilla/context",
 			"repository": "https://github.com/gorilla/context",
 			"revision": "215affda49addc4c8ef7e2534915df2c8c35c6cd",
@@ -55,6 +48,13 @@
 			"repository": "https://github.com/tedsuo/rata",
 			"revision": "b15ebd8bd97ae9202eb00c076d59b2f2824bce37",
 			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
+			"branch": "v2",
 			"notests": true
 		}
 	]
