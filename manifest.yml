@@ -4,7 +4,7 @@ applications:
   env:
     GOPACKAGENAME: github.com/cloudfoundry-incubator/cli-plugin-repo
   instances: 2
-  buildpack:  https://github.com/cloudfoundry/go-buildpack#develop
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#develop
   memory: 128M
   domains:
   - cloudfoundry.org

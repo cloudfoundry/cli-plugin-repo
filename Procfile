@@ -1,1 +1,1 @@
-web: cli-plugin-repo
+web: cli-plugin-repo -p $PORT -f repo-index.yml
