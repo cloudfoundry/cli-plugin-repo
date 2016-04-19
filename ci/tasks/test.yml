@@ -1,0 +1,23 @@
+---
+platform: linux
+image: docker:///cloudfoundry/cli-ci
+
+inputs:
+- name: cli-plugin-repo
+  path: gopath/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+
+run:
+  path: bash
+  args:
+  - -c
+  - |
+    set -ex
+
+    export GOPATH=$PWD/gopath
+    export PATH=$GOPATH/bin:$PATH
+
+    go get github.com/onsi/ginkgo/ginkgo
+
+    cd $GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+
+    bin/test

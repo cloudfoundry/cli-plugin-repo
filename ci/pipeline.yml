@@ -1,0 +1,34 @@
+---
+resources:
+- name: cli-plugin-repo
+  type: git
+  source:
+    uri: https://github.com/cloudfoundry-incubator/cli-plugin-repo
+
+- name: cli-plugin-repo-pws
+  type: cf
+  source:
+    api: https://api.run.pivotal.io
+    username: {{cli-pws-username}}
+    password: {{cli-pws-password}}
+    organization: {{cli-pws-oss-org}}
+    space: {{cli-pws-oss-space}}
+    skip_cert_check: false
+
+jobs:
+- name: test
+  plan:
+  - get: cli-plugin-repo
+    trigger: true
+  - task: test
+    file: cli-plugin-repo/ci/tasks/test.yml
+
+- name: deploy
+  plan:
+  - get: cli-plugin-repo
+    passed: [test]
+  - put: cli-plugin-repo-pws
+    params:
+      manifest: cli-plugin-repo/manifest.yml
+      path: cli-plugin-repo
+      current_app_name: plugins
