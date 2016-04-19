@@ -1,11 +1,11 @@
 ---
-instances: 3
-buildpack: go_buildpack
-memory: 512M
-domains:
-- cloudfoundry.org
-- cfapps.io
 applications:
 - name: plugins
   env:
-    GO15VENDOREXPERIMENT: 1
+    GOPACKAGENAME: github.com/cloudfoundry-incubator/cli-plugin-repo
+  instances: 2
+  buildpack:  https://github.com/cloudfoundry/go-buildpack#develop
+  memory: 128M
+  domains:
+  - cloudfoundry.org
+  - cfapps.io
