@@ -467,7 +467,7 @@ plugins:
     checksum: 40de001efee8b2bd45312ae4f99b08eb13bba0ee
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
-  version: v1.0.1
+  version: 1.0.1
   created: 2015-09-21T00:00:00Z
   updated: 2015-09-21T00:00:00Z
   company:
@@ -512,7 +512,7 @@ plugins:
   version: 1.0.0
   created: 2015-11-11T00:00:00Z
   updated: 2015-11-11T00:00:00Z
-  company: 
+  company:
   authors:
     - name: Arthur Halet
       homepage: https://github.com/ArthurHlt
@@ -605,7 +605,7 @@ plugins:
       checksum: 689f21bb554372032096d122d04ce80a0defed3b
 - name: cf-willitconnect
   description: Can CF connect to a thing?
-  version: v1.1.0
+  version: 1.1.0
   created: 2016-04-09T00:00:00Z
   updated: 2016-04-11T00:00:00Z
   company:

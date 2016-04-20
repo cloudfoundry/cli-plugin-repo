@@ -9,39 +9,12 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
-	"github.com/onsi/gomega/gexec"
-	"github.com/onsi/gomega/types"
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"time"
+
+	"github.com/onsi/gomega/gexec"
+	"github.com/onsi/gomega/types"
 )
-
-var buildPath string
-
-var _ = SynchronizedBeforeSuite(func() []byte {
-	path, buildErr := gexec.Build("github.com/cloudfoundry-incubator/cli-plugin-repo")
-	Expect(buildErr).NotTo(HaveOccurred())
-	return []byte(path)
-}, func(data []byte) {
-	buildPath = string(data)
-})
-
-var _ = SynchronizedAfterSuite(func() {}, func() {
-	gexec.CleanupBuildArtifacts()
-})
-
-var _ = Describe("Database", func() {
-	It("correctly parses the current repo-index.yml", func() {
-		var plugins web.PluginsJson
-
-		b, err := ioutil.ReadFile("repo-index.yml")
-		Expect(err).NotTo(HaveOccurred())
-
-		err = yaml.Unmarshal(b, &plugins)
-		Expect(err).NotTo(HaveOccurred())
-	})
-})
 
 var _ = Describe("Integration", func() {
 	var (
