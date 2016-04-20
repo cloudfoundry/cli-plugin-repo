@@ -1,19 +1,24 @@
 package main_test
 
 import (
+	"encoding/hex"
 	"io/ioutil"
+	"os"
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 
 	"net/url"
 
+	"crypto/sha1"
+	"fmt"
+	"net/http"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"gopkg.in/yaml.v2"
-	"fmt"
 )
 
-var _ = FDescribe("Database", func() {
+var _ = Describe("Database", func() {
 	It("correctly parses the current repo-index.yml", func() {
 		var plugins web.PluginsJson
 
@@ -53,7 +58,25 @@ var _ = FDescribe("Database", func() {
 		})
 
 		It("every binary download had a matching sha1", func() {
+			if os.Getenv("BINARY_VALIDATION") != "true" {
+				Skip("Skipping SHA1 binary checking. To enable, set the BINARY_VALIDATION env variable to 'true'")
+			}
 
+			fmt.Println("\nRunning Binary Validations, this could take 10+ minutes")
+
+			for _, plugin := range plugins.Plugins {
+				for _, binary := range plugin.Binaries {
+					resp, err := http.Get(binary.Url)
+					Expect(err).NotTo(HaveOccurred())
+
+					defer resp.Body.Close()
+					b, err := ioutil.ReadAll(resp.Body)
+					Expect(err).NotTo(HaveOccurred())
+
+					s := sha1.Sum(b)
+					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum), fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'", plugin.Name, binary.Platform))
+				}
+			}
 		})
 	})
 })
