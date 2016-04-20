@@ -74,6 +74,18 @@ var _ = Describe("Integration", func() {
 			Expect(string(contents)).To(Equal(string(b)))
 		})
 	})
+
+	Describe("/ui", func() {
+		It("redirects to index", func() {
+			client := http.DefaultClient
+			response, err := client.Get("http://127.0.0.1:" + port + "/ui")
+			Expect(err).NotTo(HaveOccurred())
+			Expect(response).To(BeSuccessful())
+
+			Expect(response.Request.URL.Path).To(Equal("/"))
+		})
+	})
+
 })
 
 func BeSuccessful() types.GomegaMatcher {

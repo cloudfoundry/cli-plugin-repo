@@ -37,6 +37,7 @@ func (cmd *CLIPR) Execute(args []string) error {
 	handlers := map[string]http.Handler{
 		Index: http.FileServer(http.Dir("ui")),
 		List:  web.NewListPluginsHandler(plugins, logger),
+		UI:    http.RedirectHandler("/", http.StatusMovedPermanently),
 	}
 
 	router, err := rata.NewRouter(Routes, handlers)
