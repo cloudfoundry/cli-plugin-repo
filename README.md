@@ -13,8 +13,8 @@ Submitting Plugins
   - name: new_plugin
     description: new_plugin to be made available for the CF community
     version: 1.0.0
-    created: 2015-1-31
-    updated: 2015-1-31
+    created: 2015-01-31T00:00:00Z
+    updated: 2015-01-31T00:00:00Z
     company:
     authors:
     - name: Sample-Author
@@ -39,8 +39,8 @@ Submitting Plugins
   `name` | Name of your plugin, must not conflict with other existing plugins in the repo.
   `description` | Describe your plugin in a line or two. This desscription will show up when your plugin is listed on the command line
   `version` | Version number of your plugin, in [major].[minor].[build] form
-  `created` | Date of first submission of the plugin, in year-month-day form
-  `updated` | Date of last update of the plugin, in year-month-day form
+  `created` | Date of first submission of the plugin, in [ISO 8601 Combined Date and Time with Timezone Format](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations)
+  `updated` | Date of last update of the plugin, in [ISO 8601 Combined Date and Time with Timezone Format](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations)
   `company` | <b>Optional</b> field detailing company or organization that created the plugin
   `authors` | Fields to detail the authors of the plugin<br>`name`: name of author<br>`homepage`: <b>Optional</b> link to the homepage of the author<br>`contact`: <b>Optional</b> ways to contact author, email, twitter, phone etc ...
   `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins
