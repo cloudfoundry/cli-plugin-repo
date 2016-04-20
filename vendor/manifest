@@ -32,7 +32,7 @@
 		{
 			"importpath": "github.com/onsi/ginkgo",
 			"repository": "https://github.com/onsi/ginkgo",
-			"revision": "18c73cfeca1095f984c036a04c42ac0b08048685",
+			"revision": "2c2e9bb47b4e44067024f29339588cac8b34dd12",
 			"branch": "master",
 			"notests": true
 		},
