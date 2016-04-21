@@ -156,6 +156,22 @@ var _ = Describe("Integration", func() {
 					Expect(redirectLocation).To(MatchRegexp("^https:"))
 				})
 			})
+
+			Describe("https request", func() {
+				It("does not do a redirect", func() {
+					transport := http.Transport{}
+					request, err := http.NewRequest("GET", "http://127.0.0.1:"+port, nil)
+					Expect(err).NotTo(HaveOccurred())
+					request.Header.Set("x-forwarded-proto", "https")
+
+					response, err := transport.RoundTrip(request)
+					Expect(err).NotTo(HaveOccurred())
+					Expect(response).To(BeSuccessful())
+
+					_, err = response.Location()
+					Expect(err).To(HaveOccurred())
+				})
+			})
 		})
 	})
 })

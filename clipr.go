@@ -49,7 +49,10 @@ func (cmd *CLIPR) Execute(args []string) error {
 	}
 
 	if cmd.ForceSSL {
-		secureMiddleware := secure.New(secure.Options{SSLRedirect: true})
+		secureMiddleware := secure.New(secure.Options{
+			SSLRedirect:     true,
+			SSLProxyHeaders: map[string]string{"X-Forwarded-Proto": "https"},
+		})
 		router = secureMiddleware.Handler(router)
 	}
 
