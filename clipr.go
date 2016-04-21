@@ -9,12 +9,14 @@ import (
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 	"github.com/tedsuo/rata"
+	"github.com/unrolled/secure"
 	"gopkg.in/yaml.v2"
 )
 
 type CLIPR struct {
 	Port          int    `short:"p" long:"port" default:"8080" description:"Port that the plugin repo listens on"`
 	RepoIndexPath string `short:"f" long:"filepath" default:"repo-index.yml" description:"Path to repo-index file"`
+	ForceSSL      bool   `long:"force-ssl"  description:"Force SSL on every request"`
 }
 
 func (cmd *CLIPR) Execute(args []string) error {
@@ -46,9 +48,12 @@ func (cmd *CLIPR) Execute(args []string) error {
 		return err
 	}
 
-	err = http.ListenAndServe(cmd.bindAddr(), router)
+	if cmd.ForceSSL {
+		secureMiddleware := secure.New(secure.Options{SSLRedirect: true})
+		router = secureMiddleware.Handler(router)
+	}
 
-	return err
+	return http.ListenAndServe(cmd.bindAddr(), router)
 }
 
 func (cmd *CLIPR) bindAddr() string {

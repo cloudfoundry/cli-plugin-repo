@@ -1,1 +1,1 @@
-web: cli-plugin-repo -p $PORT -f repo-index.yml
+web: cli-plugin-repo -p $PORT -f repo-index.yml --force-ssl

@@ -51,6 +51,13 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/unrolled/secure",
+			"repository": "https://github.com/unrolled/secure",
+			"revision": "4b41e52ab568cbfd31eda3612d98192da1575c77",
+			"branch": "v1",
+			"notests": true
+		},
+		{
 			"importpath": "gopkg.in/yaml.v2",
 			"repository": "https://gopkg.in/yaml.v2",
 			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
