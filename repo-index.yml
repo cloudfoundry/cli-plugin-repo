@@ -1,5 +1,26 @@
 ---
 plugins:
+- name: antifreeze
+  description: Detect if an app has unexpected ENV vars or services bound which are missing from the manifest
+  version: 0.2.1
+  created: 2016-04-23T00:00:00Z
+  updated: 2016-04-23T00:00:00Z
+  company:
+  authors:
+  - name: Oliver Peate
+    homepage: https://github.com/odlp
+    contact: opeate+github@pivotal.io
+  homepage: https://github.com/odlp/antifreeze
+  binaries:
+  - platform: osx
+    url: https://github.com/odlp/antifreeze/releases/download/v0.2.1/antifreeze-darwin
+    checksum: 567312743cc7f0bc454010523e1b093cde26aed4
+  - platform: win64
+    url: https://github.com/odlp/antifreeze/releases/download/v0.2.1/antifreeze.exe
+    checksum: 6d70b9566a5738b60438c5107c0c6baa3a155c30
+  - platform: linux64
+    url: https://github.com/odlp/antifreeze/releases/download/v0.2.1/antifreeze-linux
+    checksum: 20b8a6bc1e36631b74f6d2ae51fc998bb02a6090
 - name: Diego-Enabler
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   version: 1.1.0
