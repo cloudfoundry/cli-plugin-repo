@@ -15,6 +15,13 @@ resources:
     space: {{cli-pws-oss-space}}
     skip_cert_check: false
 
+- name: cf-cli-tracker
+  type: tracker
+  source:
+    token: {{cf-cli-public-tracker-token}}
+    project_id: {{cf-cli-public-tracker-project-id}}
+    tracker_url: https://www.pivotaltracker.com
+
 jobs:
 - name: test
   plan:
@@ -32,3 +39,7 @@ jobs:
       manifest: cli-plugin-repo/manifest.yml
       path: cli-plugin-repo
       current_app_name: plugins
+  - put: cf-cli-tracker
+    params:
+      repos:
+      - cli-plugin-repo
