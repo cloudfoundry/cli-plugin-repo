@@ -47,7 +47,7 @@ var _ = Describe("Integration", func() {
 				Expect(err).NotTo(HaveOccurred())
 				Expect(response).To(BeSuccessful())
 
-				b, err := ioutil.ReadFile("fixtures/index.html")
+				b, err := ioutil.ReadFile("ui/index.html")
 				Expect(err).NotTo(HaveOccurred())
 
 				defer response.Body.Close()
