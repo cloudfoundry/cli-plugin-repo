@@ -368,10 +368,10 @@ plugins:
     checksum: 00352f048bea801048fd746f239efb88cb774cae
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
-  version: 1.0.1
-  created: 2015-05-27T00:00:00Z
-  updated: 2015-05-27T00:00:00Z
-  company:
+  version: 1.0.3
+  created: 2015-5-27
+  updated: 2016-5-14
+  company: Pivotal
   authors:
   - name: Guido Westenberg
     homepage: https://github.com/guidowb
@@ -382,14 +382,14 @@ plugins:
   homepage: https://github.com/krujos/scaleover-plugin
   binaries:
   - platform: osx
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/osx/scaleover-plugin
-    checksum: eeaec464b0c0f9c477aeabaeadda5bee0e7d235e
+    url: https://github.com/krujos/scaleover-plugin/tree/1.0.3/bin/osx/scaleover-plugin
+    checksum: 75ae7b721d1252f66325b0b6f480dde5c88f354b
   - platform: win64
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/win64/scaleover-plugin.exe
-    checksum: addd163da840f4c15d507d4e4acb536abcf43fa8
+    url: https://github.com/krujos/scaleover-plugin/tree/1.0.3/bin/win64/scaleover-plugin.exe
+    checksum: a626d6eea0c263757de3f1fa5a13e98ec18e3869
   - platform: linux64
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.1/bin/linux64/scaleover-plugin
-    checksum: 7eb85c1cfd98e7f7e2a210170df72a25ab0e349c
+    url: https://github.com/krujos/scaleover-plugin/tree/1.0.3/bin/linux64/scaleover-plugin
+    checksum: 682e80ac124d1f3f1a1107337bb1820d8dad60cf
 - name: Usage Report
   description: Report on memory usage and application instances for orgs and spaces
   version: 1.3.0
