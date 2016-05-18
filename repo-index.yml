@@ -369,8 +369,8 @@ plugins:
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
   version: 1.0.3
-  created: 2015-5-27T00:00:00Z
-  updated: 2016-5-14T00:00:00Z
+  created: 2015-05-27T00:00:00Z
+  updated: 2016-05-14T00:00:00Z
   company: Pivotal
   authors:
   - name: Guido Westenberg
