@@ -370,7 +370,7 @@ plugins:
   description: Roll traffic from one app to another by scaling over time
   version: 1.0.4
   created: 2015-05-27T00:00:00Z
-  updated: 2015-05-27T00:00:00Z
+  updated: 2016-05-19T00:00:00Z
   company:
   authors:
   - name: Guido Westenberg
