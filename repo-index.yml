@@ -392,9 +392,9 @@ plugins:
     checksum: 682e80ac124d1f3f1a1107337bb1820d8dad60cf
 - name: Usage Report
   description: Report on memory usage and application instances for orgs and spaces
-  version: 1.3.0
+  version: 1.3.1
   created: 2015-07-12T00:00:00Z
-  updated: 2016-02-26T00:00:00Z
+  updated: 2016-06-15T00:00:00Z
   company:
   authors:
   - name: Josh Kruck
@@ -406,14 +406,17 @@ plugins:
   homepage: https://github.com/krujos/usagereport-plugin
   binaries:
   - platform: osx
-    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/osx/usagereport-plugin
-    checksum: 7a7c97a470e47ce1406f094916891e0bcfab2946
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.1/bin/osx/usagereport-plugin
+    checksum: 84c958e61a68f7ed9fc0e392797e75861fea8583
   - platform: win64
-    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/win64/usagereport-plugin.exe
-    checksum: 17707cdcb2f9a80a0b409aea1725215acb013c2f
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.1/bin/win64/usagereport-plugin.exe
+    checksum: e20fa1d4c47f60b53ad9a89a5a4f0a4a5b3cb785
+  - platform: win32
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.1/bin/win32/usagereport-plugin.exe
+    checksum: 4b9cd2180f31a08b57d09ac51aa02a685e4f3a6d
   - platform: linux64
-    url: https://github.com/krujos/usagereport-plugin/raw/1.3.0/bin/linux64/usagereport-plugin
-    checksum: 1e128c2ca91f02ccef96b60d371213c746501da5
+    url: https://github.com/krujos/usagereport-plugin/raw/1.3.1/bin/linux64/usagereport-plugin
+    checksum: 5f1b9eca87493f16f4cc7c37a53c3c815ff73141
 - name: Statistics
   description: Display live metrics/statistics about an app
   version: 1.0.0
