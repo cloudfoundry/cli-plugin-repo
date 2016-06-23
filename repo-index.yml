@@ -100,7 +100,7 @@ plugins:
   description: Expose remote VCAP_SERVICES on the client environment
   version: 1.0.0
   created: 2015-04-15T00:00:00Z
-  updated: 2015-04-15T00:00:00Z
+  updated: 2016-06-23T00:00:00Z
   company: IBM
   authors:
   - name: James Thomas
@@ -108,15 +108,15 @@ plugins:
     contact: james@jamesthom.as
   homepage: https://github.com/jthomas/copyenv
   binaries:
-  - platform: osx64
+  - platform: osx
     url: https://github.com/jthomas/copyenv/raw/master/bin/osx/copyenv
-    checksum: 1f113d7367ab8c3874189a9f2310ea08ed550b97
+    checksum: 40f601adae7c37f58f24952e60f09458359731eb
   - platform: linux64
     url: https://github.com/jthomas/copyenv/raw/master/bin/linux/copyenv
-    checksum: 9bb845d70155e77f0c25bb56c24a7166c70aa03a
+    checksum: 62e8160841e70ab2d4fbed3b049ce3681e15d5ea
   - platform: win32
     url: https://github.com/jthomas/copyenv/raw/master/bin/windows/copyenv.exe
-    checksum: fe03b7320fa9a58fae5cfef6e3d767bf0371f76f
+    checksum: bcda3c920239ca57a6c54d7b12864e04e30fdedf
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
   version: 1.0.0
