@@ -4,6 +4,7 @@ import (
 	"encoding/hex"
 	"io/ioutil"
 	"os"
+	"strings"
 
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 
@@ -54,6 +55,21 @@ var _ = Describe("Database", func() {
 		It("has every version parseable by semver", func() {
 			for _, plugin := range plugins.Plugins {
 				Expect(plugin.Version).To(MatchRegexp(`^\d+\.\d+\.\d+$`), fmt.Sprintf("Plugin '%s' has a non-semver version", plugin.Name))
+			}
+		})
+
+		It("validates the platforms for every binary", func() {
+			for _, plugin := range plugins.Plugins {
+				for _, binary := range plugin.Binaries {
+					Expect(web.ValidPlatforms).To(
+						ContainElement(binary.Platform),
+						fmt.Sprintf(
+							"Plunin '%s' contains a platform '%s' that is invalid. Please use one of the following: '%s'",
+							plugin.Name,
+							binary.Platform,
+							strings.Join(web.ValidPlatforms, ", "),
+						))
+				}
 			}
 		})
 

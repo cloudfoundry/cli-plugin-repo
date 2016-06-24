@@ -2,6 +2,8 @@ package web
 
 import "time"
 
+var ValidPlatforms = []string{"osx", "linux32", "linux64", "win32", "win64"}
+
 type Plugin struct {
 	Name        string    `json:"name"`
 	Description string    `json:"description"`
