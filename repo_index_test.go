@@ -64,10 +64,24 @@ var _ = Describe("Database", func() {
 					Expect(web.ValidPlatforms).To(
 						ContainElement(binary.Platform),
 						fmt.Sprintf(
-							"Plunin '%s' contains a platform '%s' that is invalid. Please use one of the following: '%s'",
+							"Plugin '%s' contains a platform '%s' that is invalid. Please use one of the following: '%s'",
 							plugin.Name,
 							binary.Platform,
 							strings.Join(web.ValidPlatforms, ", "),
+						))
+				}
+			}
+		})
+
+		It("requires HTTPS for all downloads", func() {
+			for _, plugin := range plugins.Plugins {
+				for _, binary := range plugin.Binaries {
+					Expect(binary.Url).To(
+						MatchRegexp("^https|ftps"),
+						fmt.Sprintf(
+							"Plugin '%s' links to a Binary's URL '%s' that cannot be downloaded over SSL (begins with https/ftps). Please provide a secure download link to your binaries. If you are unsure how to provide one, try out GitHub Releases: https://help.github.com/articles/creating-releases",
+							plugin.Name,
+							binary.Url,
 						))
 				}
 			}
