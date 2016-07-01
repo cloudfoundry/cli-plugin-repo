@@ -344,9 +344,9 @@ plugins:
     checksum: "e1a408e9be7dca29100a507193d646620c038736"
 - name: cf-download
   description: Plugin for downloading your application contents after staging.
-  version: 1.0.0
+  version: 1.1.0
   created: 2015-04-21T00:00:00Z
-  updated: 2015-04-21T00:00:00Z
+  updated: 2016-07-01T00:00:00Z
   company: IBM jStart
   authors:
   - name: Miguel Clement
@@ -359,13 +359,13 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
-    checksum: 6b26447af164cb47fc6828d3e113efae29875a29
+    checksum: d097b37657d814a4b934ae39e41fc61078630b49
   - platform: win64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
-    checksum: a92d562fa24d9e76267c46bbd7f56ee19b8ba17b
+    checksum: 1d9a0e458f623d12c36669678b9a7b86387d8578
   - platform: linux64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
-    checksum: 00352f048bea801048fd746f239efb88cb774cae
+    checksum: 793e68b97896be69f4b91aaa063d82609542f26d
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
   version: 1.0.4
