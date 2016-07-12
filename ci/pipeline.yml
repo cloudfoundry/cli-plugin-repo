@@ -34,6 +34,7 @@ jobs:
   plan:
   - get: cli-plugin-repo
     passed: [test]
+    trigger: true
   - put: cli-plugin-repo-pws
     params:
       manifest: cli-plugin-repo/manifest.yml
