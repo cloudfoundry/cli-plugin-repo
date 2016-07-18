@@ -469,7 +469,7 @@ plugins:
   description: This plugin allows you to connect to the firehose (CF admins only)
   version: 0.10.0
   created: 2015-09-09T00:00:00Z
-  updated: 2016-07-17
+  updated: 2016-07-17T00:00:00Z
   company:
   authors:
   - name: Johannes Tuchscherer
