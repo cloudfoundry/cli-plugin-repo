@@ -23,9 +23,9 @@ plugins:
     checksum: dd63f82673592cd15a048606f4f7bd9ee11254f4
 - name: Diego-Enabler
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
-  version: 1.1.0
+  version: 1.2.0
   created: 2015-10-16T00:00:00Z
-  updated: 2016-03-25T00:00:00Z
+  updated: 2016-04-04T00:00:00Z
   company:
   authors:
   - name: Cloud Foundry CLI Team
@@ -34,20 +34,20 @@ plugins:
   homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_darwin_amd64
-    checksum: 7a4683bd225c669a83d17cb8229a92401da04085
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.0/diego-enabler_darwin_amd64
+    checksum: 7b45116c1e23e9f8a25c906fbaebc797dedd33c2
   - platform: win64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_windows_amd64.exe
-    checksum: 3e0a0771cc2f71f17b303685387e5ffffec90eed
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.0/diego-enabler_windows_amd64.exe
+    checksum: dcf7085247e7db341255e26a0ab6c3257fb7f5f9
   - platform: win32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_windows_386.exe
-    checksum: d981177de0157110fc86da18b7bc6fc3f454f613
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.0/diego-enabler_windows_386.exe
+    checksum: 8eee86a99a1f59e5bde9304fda4408d79cc5b5e9
   - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_linux_amd64
-    checksum: 95f8de829260ff730e620ad446d51cc92b67ed6c
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.0/diego-enabler_linux_amd64
+    checksum: 8139440ae14a531a8f9420e3e63751e92db7ac25
   - platform: linux32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.1.0/diego-enabler_linux_386
-    checksum: e0245a05418b4db43b77ced8d81345731cdcfd11
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.0/diego-enabler_linux_386
+    checksum: e5714311357fc79949dd6c8483e1f26f5ce1f9e8
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
