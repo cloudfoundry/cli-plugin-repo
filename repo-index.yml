@@ -98,9 +98,9 @@ plugins:
     checksum: a1227df100e59e8c56309a70f6337f093eb91115
 - name: Copy Env
   description: Expose remote VCAP_SERVICES on the client environment
-  version: 1.0.0
+  version: 1.1.1
   created: 2015-04-15T00:00:00Z
-  updated: 2016-06-23T00:00:00Z
+  updated: 2016-09-09T00:00:00Z
   company: IBM
   authors:
   - name: James Thomas
@@ -109,14 +109,20 @@ plugins:
   homepage: https://github.com/jthomas/copyenv
   binaries:
   - platform: osx
-    url: https://github.com/jthomas/copyenv/raw/master/bin/osx/copyenv
-    checksum: 40f601adae7c37f58f24952e60f09458359731eb
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
+    checksum: f4be69bbeff73e5c213ea9ea2e6d4e9d2c94e75c
+  - platform: linux32
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
+    checksum: ea67ef333e08cd42b76f1b6194cf2b56b5cbd37b
   - platform: linux64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/linux/copyenv
-    checksum: 62e8160841e70ab2d4fbed3b049ce3681e15d5ea
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
+    checksum: d422ef04e4ce530696d4254a907ed1264f97f6cc
   - platform: win32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/windows/copyenv.exe
-    checksum: bcda3c920239ca57a6c54d7b12864e04e30fdedf
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
+    checksum: 1524af809f1e41c4f0e8dfcf0070ec5912e17992
+  - platform: win64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
+    checksum: 3138f13efdb4213c3ced0e716a132d3c74b21089
 - name: Live Stats
   description: Monitor CPU and Memory usage on an app via the browser.
   version: 1.0.0
