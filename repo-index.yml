@@ -674,3 +674,30 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/do-all/releases/download/v1.0.1/do-all-plugin-linux
     checksum: 32d5807bf1325c243ca54f62e4db978956787cb6
+- name: cf-predix-analytics-plugin
+  description:  Provides CLI based access to Predix Analytics Catalog features
+  version: 0.0.1
+  created: 2016-09-21T00:00:00Z
+  updated: 2016-09-21T00:00:00Z
+  company: Altoros
+  authors:
+  - name: Stanislav Turlo
+    homepage: https://github.com/nobodyzzz
+    contact: stanislav.turlo@altoros.com
+  homepage: https://github.com/Altoros/cf-predix-analytics-plugin
+  binaries:
+  - platform: linux32
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux32
+    checksum: d7145496e1ed6df361e2e73b0b0ac6b8564c5bc6
+  - platform: linux64
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux64
+    checksum: 060658b366d0dc96447b5c6f87e1424bb51771d2
+  - platform: osx
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.osx
+    checksum: fb197f5a1fcea15a4de02db652dbb3d34cdbb948
+  - platform: win32
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win32
+    checksum: 5dbf18efdf7c1a9e8a05f81429fb0842b741dfa6
+  - platform: win64
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win64
+    checksum: 20bbd6e72afb5c15602112f8ab94721e4206b5b1
