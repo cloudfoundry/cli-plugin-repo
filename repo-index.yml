@@ -382,17 +382,20 @@ plugins:
   - name: Jake Eden
     homepage: https://github.com/jeden25
     contact: jeden@us.ibm.com
+  - name: Ryan Soley
+    homepage: https://github.com/reSoley
+    contact: resoley@us.ibm.com
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
   - platform: osx
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/darwin/amd64/cf-download?raw=true
-    checksum: c7ff94fafc7e04ee8253074c3928146fc7ac2b68
+    checksum: c7ff94fafc7e04ee8253074c3928146fc7ac2b68 
   - platform: win64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/windows/amd64/cf-download.exe?raw=true
-    checksum: 610b4dce0a05063ce880b1fa930091ac563fc081
+    checksum: 66186de33a9c83d63f88ca0bf01ea4ced4bfecb4 
   - platform: linux64
     url: https://github.com/ibmjstart/cf-download/blob/master/binaries/linux/amd64/cf-download?raw=true
-    checksum: 66186de33a9c83d63f88ca0bf01ea4ced4bfecb4
+    checksum: 610b4dce0a05063ce880b1fa930091ac563fc081 
 - name: Scaleover
   description: Roll traffic from one app to another by scaling over time
   version: 1.0.4
