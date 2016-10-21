@@ -1,5 +1,26 @@
 ---
 plugins:
+- name: update-cli
+  description: Update cloudfoundry/cli to the latest version
+  version: 0.1.1
+  created: 2016-10-21T00:00:00Z
+  updated: 2016-10-21T00:00:00Z
+  company: Rakuten
+  authors:
+  - name: Taichi Nakashima
+    homepage: https://github.com/tcnksm
+    contact: taichi.nakashima@rakuten.com
+  homepage: https://github.com/tcnksm/cf-plugin-update-cli
+  binaries:
+  - platform: osx
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_darwin_amd64
+    checksum: 34ce1d76d1dd872096159dd2bdfa5b8cbaef4e24
+  - platform: win64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_windows_amd64.exe
+    checksum: 575fa3f122fb20db0bd95b908ca6f0d43b70b266
+  - platform: linux64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_linux_amd64
+    checksum: 2358f4b5c7f6b8664dd5d578cc24a6f4734b8119
 - name: antifreeze
   description: Detect if an app has unexpected ENV vars or services bound which are missing from the manifest
   version: 0.3.0
