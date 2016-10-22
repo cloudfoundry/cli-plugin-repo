@@ -732,7 +732,7 @@ plugins:
   - name: Josh Ghiloni
     homepage: https://github.com/jghiloni
     contact: jghiloni@ecsteam.com
-  homepage: https://github.com/ECSTeam/buildpack-plugin
+  homepage: https://github.com/ECSTeam/buildpack-usage
   binaries:
   - platform: osx
     url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-macosx
