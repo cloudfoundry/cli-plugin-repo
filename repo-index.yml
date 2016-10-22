@@ -722,3 +722,24 @@ plugins:
   - platform: win64
     url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win64
     checksum: 20bbd6e72afb5c15602112f8ab94721e4206b5b1
+- name: buildpack-usage
+  description: Show which apps are using an installed buildpack
+  version: 1.0.0
+  created: 2016-10-19T12:00:00Z
+  updated: 2016-10-22T01:30:00Z
+  company: ECS Team
+  authors:
+  - name: Josh Ghiloni
+    homepage: https://github.com/jghiloni
+    contact: jghiloni@ecsteam.com
+  homepage: https://github.com/ECSTeam/buildpack-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-macosx
+    checksum: 5670e75545535730a9b2a6c85b2d9f5fb4e9beb6
+  - platform: win64
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-windows.exe
+    checksum: c50008c417d0b06273cd113414e178c5e5527ea9
+  - platform: linux64
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-linux
+    checksum: aa52f5f90f5a2c9f4d83e0b563fe896331051973
