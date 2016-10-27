@@ -57,18 +57,18 @@ plugins:
   - platform: osx
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_darwin_amd64
     checksum: e1cc318d35c8b72f6004f33d557238aa365fb102
-  - platform: win64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_amd64.exe
-    checksum: 0dbd7db6784464b640ce3dda6f7d799e4a22afe5
-  - platform: win32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_386.exe
-    checksum: bbdad64f63708ab61fde879b5fdcf606cdd50c39
-  - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_linux_amd64
-    checksum: bbdad64f63708ab61fde879b5fdcf606cdd50c39
   - platform: linux32
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_linux_386
     checksum: 55d6ebd4d1cf3bdd21ff9c50d812286b815a8951
+  - platform: linux64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_linux_amd64
+    checksum: f0a646d143a6accf913d34d521117b80359e4c2d
+  - platform: win32
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_386.exe
+    checksum: bbdad64f63708ab61fde879b5fdcf606cdd50c39
+  - platform: win64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_amd64.exe
+    checksum: 0dbd7db6784464b640ce3dda6f7d799e4a22afe5
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
