@@ -2,7 +2,6 @@
 applications:
 - name: plugins
   env:
-    GOVERSION: 1.7.3
     GOPACKAGENAME: github.com/cloudfoundry-incubator/cli-plugin-repo
   instances: 2
   buildpack: go_buildpack
