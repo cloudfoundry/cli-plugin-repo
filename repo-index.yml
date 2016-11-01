@@ -382,6 +382,9 @@ plugins:
   - name: Jake Eden
     homepage: https://github.com/jeden25
     contact: jeden@us.ibm.com
+  - name: Ryan Soley
+    homepage: https://github.com/reSoley
+    contact: resoley@us.ibm.com
   homepage: https://github.com/ibmjstart/cf-download
   binaries:
   - platform: osx
