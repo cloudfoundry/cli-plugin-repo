@@ -746,3 +746,24 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-linux
     checksum: aa52f5f90f5a2c9f4d83e0b563fe896331051973
+- name: docker-usage
+  description: Show which apps are using docker images
+  version: 1.0.3
+  created: 2016-11-03T12:00:00Z
+  updated: 2016-11-03T12:00:00Z
+  company: ECS Team
+  authors:
+  - name: Josh Ghiloni
+    homepage: https://github.com/jghiloni
+    contact: jghiloni@ecsteam.com
+  homepage: https://github.com/ECSTeam/docker-usage
+  binaries:
+  - platform: osx
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-macosx
+    checksum: 27a3fa33e0f2d6b69e423b44c08e54f2f4742d80
+  - platform: win64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-windows.exe
+    checksum: 00f5c86bb06e893b881a7054f9389382a744c748
+  - platform: linux64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-linux
+    checksum: c523b8b414d89c368b07a89dbf7ede570edea129
