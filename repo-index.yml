@@ -746,3 +746,24 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-linux
     checksum: aa52f5f90f5a2c9f4d83e0b563fe896331051973
+- name: copy
+  description: Copies applications and services in current space to another space or Cloud Foundry target.
+  version: 0.0.6
+  created: 2016-10-01T00:00:00Z
+  updated: 2016-11-04T06:29:30Z
+  company:
+  authors:
+  - name: Mevan Samaratunga
+    homepage: http://github.com/mevansam/
+    contact: mevansam@gmail.com
+  homepage: http://github.com/mevansam/cf-copy-plugin
+  binaries:
+  - platform: osx
+    url: http://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/osx/copy_plugin
+    checksum: (stdin)= 3b201e76451dd6938cafc70c41c0fefcca422080
+  - platform: win64
+    url: http://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/win64/copy_plugin.exe
+    checksum: (stdin)= 50f051f2f63b38f54e971d7f9a4a823a40c8edd2
+  - platform: linux64
+    url: http://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/linux64/copy_plugin
+    checksum: (stdin)= 7852c4985b0728dc80e5aa4329d16349156826e1
