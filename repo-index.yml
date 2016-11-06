@@ -781,10 +781,11 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/osx/cf-copy-plugin
-    checksum: (stdin)= 3b201e76451dd6938cafc70c41c0fefcca422080
+    checksum: 3b201e76451dd6938cafc70c41c0fefcca422080
   - platform: win64
     url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/win64/cf-copy-plugin.exe
-    checksum: (stdin)= 50f051f2f63b38f54e971d7f9a4a823a40c8edd2
+    checksum: 50f051f2f63b38f54e971d7f9a4a823a40c8edd2
   - platform: linux64
     url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/linux64/cf-copy-plugin
-    checksum: (stdin)= 7852c4985b0728dc80e5aa4329d16349156826e1
+    checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
+  
