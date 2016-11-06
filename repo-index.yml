@@ -46,7 +46,7 @@ plugins:
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   version: 1.2.2
   created: 2015-10-16T00:00:00Z
-  updated: 2016-10-27T00:00:00Z
+  updated: 2016-11-02T00:00:00Z
   company:
   authors:
   - name: Cloud Foundry CLI Team
@@ -56,19 +56,19 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_darwin_amd64
-    checksum: e1cc318d35c8b72f6004f33d557238aa365fb102
+    checksum: e1f3dbee22ccd300de625f795c574e8a3700c41e
   - platform: linux32
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_linux_386
-    checksum: 55d6ebd4d1cf3bdd21ff9c50d812286b815a8951
+    checksum: 8bf1410e2f4d6600bdcbfbfcfd204931bf332b4c
   - platform: linux64
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_linux_amd64
-    checksum: f0a646d143a6accf913d34d521117b80359e4c2d
+    checksum: 341f4a00802ed8399ca4889113c58947dee2cfaa
   - platform: win32
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_386.exe
-    checksum: bbdad64f63708ab61fde879b5fdcf606cdd50c39
+    checksum: 6d6a709c2f68ac6be83b621b1e79c825204008dc
   - platform: win64
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.2/diego-enabler_windows_amd64.exe
-    checksum: 0dbd7db6784464b640ce3dda6f7d799e4a22afe5
+    checksum: da1766199dfe57ec2a823b475f57e4dd561f40b5
 - name: wildcard_plugin
   description: Allows user to search and delete apps using wildcard(*)
   version: 1.0.0
@@ -746,6 +746,27 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/buildpack-usage/releases/download/v1.0.0/buildpack-usage-linux
     checksum: aa52f5f90f5a2c9f4d83e0b563fe896331051973
+- name: docker-usage
+  description: Show which apps are using docker images
+  version: 1.0.3
+  created: 2016-11-03T12:00:00Z
+  updated: 2016-11-03T12:00:00Z
+  company: ECS Team
+  authors:
+  - name: Josh Ghiloni
+    homepage: https://github.com/jghiloni
+    contact: jghiloni@ecsteam.com
+  homepage: https://github.com/ECSTeam/docker-usage
+  binaries:
+  - platform: osx
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-macosx
+    checksum: 27a3fa33e0f2d6b69e423b44c08e54f2f4742d80
+  - platform: win64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-windows.exe
+    checksum: 00f5c86bb06e893b881a7054f9389382a744c748
+  - platform: linux64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-linux
+    checksum: c523b8b414d89c368b07a89dbf7ede570edea129
 - name: copy
   description: Copies applications and services in current space to another space or Cloud Foundry target.
   version: 0.0.6
@@ -767,3 +788,4 @@ plugins:
   - platform: linux64
     url: http://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/linux64/copy_plugin
     checksum: (stdin)= 7852c4985b0728dc80e5aa4329d16349156826e1
+  
