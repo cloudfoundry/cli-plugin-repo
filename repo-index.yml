@@ -542,9 +542,9 @@ plugins:
     checksum: acc12a25c634acaf560c1718c4a0378acfab6eb6
 - name: blue-green-deploy
   description: Zero downtime deploys with smoke test support
-  version: 1.0.4
+  version: 1.1.0
   created: 2015-03-24T00:00:00Z
-  updated: 2015-08-04T00:00:00Z
+  updated: 2016-12-05T15:31:00Z
   company: IBM
   authors:
   - name: Bluemix Garage London
@@ -553,14 +553,14 @@ plugins:
   homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
   binaries:
   - platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.osx
-    checksum: 0fd1c5b76e4081f37476b1f075bd9607828b9295
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.osx
+    checksum: 5367a848afbb8b2aa54db23e1fca6449613b3936
   - platform: linux32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.linux32
-    checksum: c9ced1ef313daae7a876a103352d8f2b2f6fdad5
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.linux32
+    checksum: 51640139484b9c83eeaa0edc031bccc203cce13b
   - platform: linux64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.0.4/blue-green-deploy.linux64
-    checksum: 179c2b60eb63821534eeda096a64adc1085d3c51
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.linux64
+    checksum: 0dd2562342f1aecf4309dd4a1374dedb93d0fc35
 - name: manifest-generator
   description: Help you to generate a manifest from 0 (CLI v6.7.0+)
   version: 1.0.0
