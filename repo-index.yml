@@ -795,9 +795,9 @@ plugins:
     checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
 - name: top
   description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  (CF admins only)
-  version: 0.7.3
-  created: 2015-11-07T00:00:00Z
-  updated: 2016-12-19T00:42:44Z
+  version: 0.7.5
+  created: 2016-11-07T00:00:00Z
+  updated: 2016-12-20T01:34:56Z
   company: ECS Team
   authors:
   - name: Kurt Kellner of ECS Team
@@ -806,11 +806,11 @@ plugins:
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.3/top-plugin-darwin
-    checksum: cddaa32e9f0bdb41268346b5399eb184d61885d5
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.5/top-plugin-darwin
+    checksum: 752a7aede133e3df873172173b08db500e8edd60
   - platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.3/top-plugin.exe
-    checksum: 8d87bd18c427c9433d373be2cbedcbe0ef59e45b
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.5/top-plugin.exe
+    checksum: 4af3f8186bcb531f320c8fa45669034293ff61b0
   - platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.3/top-plugin-linux
-    checksum: c9ba2817955492562d252b463dc4663fe90d964c
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.5/top-plugin-linux
+    checksum: 18fb48f9ba4e61404c4e46a16e7bf2fe90fdb5a3
