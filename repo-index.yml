@@ -814,3 +814,25 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.7.5/top-plugin-linux
     checksum: 18fb48f9ba4e61404c4e46a16e7bf2fe90fdb5a3
+- name: get-events
+  description: Get microservice events
+  version: 0.5.3
+  created: 2016-12-28T14:00:00Z
+  updated: 2016-12-28T20:15:48Z
+  company: ECS Team
+  authors:
+  - name: Ajay Koranne of ECS Team
+    homepage: https://github.com/akoranne
+    contact: akoranne@ecsteam.com
+  homepage: https://github.com/ECSTeam/cf_get_events
+  binaries:
+  - platform: osx
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin-darwin
+    checksum: 2f3342bd1fe64f7133bb97b2e7d1e1d9fb3f140b
+  - platform: win64
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin.exe
+    checksum: 56598263f08bd2e3eb5ed79d8b561a77fd5d79c7
+  - platform: linux64
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin-linux
+    checksum: 0ad96976be9a4c7b6a9b582498b81ab8e42564c6
+
