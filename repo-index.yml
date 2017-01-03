@@ -816,9 +816,9 @@ plugins:
     checksum: 4222b186ffd6fbe63acb94a2764f5faaea49441e
 - name: get-events
   description: Get microservice events
-  version: 0.5.3
+  version: 0.5.4
   created: 2016-12-28T14:00:00Z
-  updated: 2016-12-28T20:15:48Z
+  updated: 2017-01-03T17:21:10Z
   company: ECS Team
   authors:
   - name: Ajay Koranne of ECS Team
@@ -827,11 +827,11 @@ plugins:
   homepage: https://github.com/ECSTeam/cf_get_events
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin-darwin
-    checksum: 2f3342bd1fe64f7133bb97b2e7d1e1d9fb3f140b
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.4/get-events-plugin-darwin
+    checksum: 6addcb6279c703fb6163168ba5f96682eb82b54e
   - platform: win64
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin.exe
-    checksum: 56598263f08bd2e3eb5ed79d8b561a77fd5d79c7
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.4/get-events-plugin.exe
+    checksum: 805bf58ce851cff68602049f3e32bc88958f8743
   - platform: linux64
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin-linux
-    checksum: 0ad96976be9a4c7b6a9b582498b81ab8e42564c6
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.4/get-events-plugin-linux
+    checksum: 8a7ed776917d1a543afa50af2796272f75b13328
