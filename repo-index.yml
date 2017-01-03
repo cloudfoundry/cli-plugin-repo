@@ -595,9 +595,9 @@ plugins:
       checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
 - name: doctor
   description: doctor scans your deployed applications, routes and services for anomalies and reports any issues found. (CLI v6.7.0+)
-  version: 1.0.2
+  version: 1.0.3
   created: 2015-12-13T00:00:00Z
-  updated: 2016-02-10T00:00:00Z
+  updated: 2017-01-03T00:00:00Z
   company:
   authors:
     - name: Emir Ozer
@@ -606,20 +606,20 @@ plugins:
   homepage: https://github.com/emirozer/cf-doctor-plugin
   binaries:
     - platform: osx
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_darwin_amd64
-      checksum: bdd99c37bd78dd9334e15728afb5d7121199fb8f
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_darwin_amd64
+      checksum: d3fc1fda712387e32963adb2e6635f1703559772
     - platform: win64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_windows_amd64.exe
-      checksum: f6506689733d98c167cd915f38dd9699541943eb
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_amd64.exe
+      checksum: e790ae6ffc87c28e9cfe59986294cc154f06ee1d
     - platform: win32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_windows_386.exe
-      checksum: bc728e6799b7b764d7ed19aba03fc620bc724e91
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_386.exe
+      checksum: 35e5ea89596b7a7b0ee9ef41aa1522341b02c4bd
     - platform: linux64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_linux_amd64
-      checksum: 270149d858c376f8d2c9f4f92cc1d7e16fe5652d
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_amd64
+      checksum: 3ca35cace709c12e664a95c4d0d1893d52f2db49
     - platform: linux32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.2/doctor_plugin_linux_386
-      checksum: c9bb79ff93524a5be975a734edb77bd70ae0bbf5
+      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_386
+      checksum: 5c7dc24fb9cc8c10ac38dd8ec0f9f80d01d2f97a
 - name: Download Droplet
   description: Download droplets to your local machine
   version: 1.0.1
@@ -835,4 +835,3 @@ plugins:
   - platform: linux64
     url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.5.3/get-events-plugin-linux
     checksum: 0ad96976be9a4c7b6a9b582498b81ab8e42564c6
-
