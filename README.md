@@ -21,10 +21,10 @@ approval, please submit a pull request according to the guidelines below.
       contact: contact@sample-author.io
     homepage: https://github.com/sample-author/new_plugin
     binaries:
-    - platform: osx 
+    - platform: osx
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_darwin
       checksum: 2a087d5cddcfb057fbda91e611c33f46
-    - platform: win64 
+    - platform: win64
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_win64.exe
       checksum: b4550d6594a3358563b9dcb81e40fd66
     - platform: linux32
@@ -32,7 +32,7 @@ approval, please submit a pull request according to the guidelines below.
       checksum: f6540d6594a9684563b9lfa81e23id93
   ```
   Please make sure the spacing and colons are correct in the entry. The following descibes each field's usage.
-  
+
   Field | Description
   ------ | ---------
   `name` | Name of your plugin, must not conflict with other existing plugins in the repo.
@@ -51,7 +51,7 @@ approval, please submit a pull request according to the guidelines below.
    cd $GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-repo
    git remote add your_name https://github.com/your_name/cli-plugin-repo
    ```
-   
+
 1. Push the changes to your fork and submit a Pull Request
 
 ## Releasing Plugins
@@ -80,7 +80,7 @@ GOOS=linux GOARCH=amd64 go build -o ${PLUGIN_NAME}.linux64
 GOOS=linux GOARCH=386 go build -o ${PLUGIN_NAME}.linux32
 GOOS=windows GOARCH=amd64 go build -o ${PLUGIN_NAME}.win64
 GOOS=windows GOARCH=386 go build -o ${PLUGIN_NAME}.win32
-GOOS=osx GOARCH=amd64 go build -o ${PLUGIN_NAME}.osx
+GOOS=darwin GOARCH=amd64 go build -o ${PLUGIN_NAME}.osx
 ```
 
 ### Checksums
@@ -109,7 +109,7 @@ You should then copy the resulting links for the uploaded binaries from the rele
 
 This process can get a little tedious if you do it manually every time, that's why some plugin developers have automated it. You can probably put together scripts based on the snippets above to automate compiling, generating checksums and uploading the release to GitHub. There are tools available to manage GitHub releases such as [this one](https://github.com/aktau/github-release).
 
- 
+
 ## Running your own Plugin Repo Server
 
 Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/docs/CLIPR.md)
