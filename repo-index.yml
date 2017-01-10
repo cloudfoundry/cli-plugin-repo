@@ -837,9 +837,9 @@ plugins:
     checksum: 8a7ed776917d1a543afa50af2796272f75b13328
 - name: route-lookup
   description: Find the application(s) associated with a given hostname
-  version: 1.0.0
+  version: 1.1.0
   created: 2017-01-08T00:30:56Z
-  updated: 2017-01-08T00:30:56Z
+  updated: 2017-01-10T17:53:53Z
   company: "18F"
   authors:
   - name: Aidan Feldman
@@ -848,17 +848,17 @@ plugins:
   homepage: https://github.com/18F/cf-route-lookup
   binaries:
   - platform: osx
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.0.0/cf-route-lookup.osx
-    checksum: 614ea69bf82e8299aae949a987c9e471a2daef67
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.osx
+    checksum: 8d7bf2ec54a235c3c078f98b50e5cc7149d4c42d
   - platform: win32
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.0.0/cf-route-lookup.win32
-    checksum: 10446d35cd014257d66e27a4297cdb7d6e466008
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win32
+    checksum: f20ae336b478cff009d9d5e42f8a07f6e02a5fa9
   - platform: win64
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.0.0/cf-route-lookup.win64
-    checksum: 42f814434f8c2d5b51842f349c27c5a881de7e4e
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win64
+    checksum: 56b699be5d9aefac9edd4d5206f99f3f197cb1cf
   - platform: linux32
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.0.0/cf-route-lookup.linux32
-    checksum: 501a404ec937b2081d3988d585b45860760419d9
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux32
+    checksum: dfc486119d2860f709e9f80d5f7351a583862187
   - platform: linux64
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.0.0/cf-route-lookup.linux64
-    checksum: 3cad6a4dbc993a099be601e3c95efa7043f9867f
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux64
+    checksum: 817ea097afff3b81f97f58694d48822fdb85847d
