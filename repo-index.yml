@@ -683,26 +683,32 @@ plugins:
     url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_linux_amd64
     checksum: 6ff4a6a85acfbd65871721efad387f3174bfa4bb
 - name: do-all
-  description: Run the same command on all the apps in a given space
-  version: 1.0.1
+  description: Run the same command on all the apps in a space, org, or globally
+  version: 1.1.2
   created: 2016-07-07T00:00:00Z
   updated: 2016-07-12T19:00:00Z
   company: ECS Team
   authors:
-  - name: Josh Ghiloni
+  - name: Josh Ghiloni of ECS Team
     homepage: https://github.com/jghiloni
     contact: jghiloni@ecsteam.com
   homepage: https://github.com/ECSTeam/do-all
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/do-all/releases/download/v1.0.1/do-all-plugin-macosx
-    checksum: 8c0662979aa1445c65421701ba8d827e686886fa
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-macosx
+    checksum: 501f5734e280fd81bce1ca1cfa0e9def6b26ae00
   - platform: win64
-    url: https://github.com/ECSTeam/do-all/releases/download/v1.0.1/do-all-plugin-windows.exe
-    checksum: f907c36b0566809d74ec85dd52f7807ebac16ccf
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-amd64.exe
+    checksum: 3cde5f2124a0978bc6c3f0724164a1b3c7c924b7
   - platform: linux64
-    url: https://github.com/ECSTeam/do-all/releases/download/v1.0.1/do-all-plugin-linux
-    checksum: 32d5807bf1325c243ca54f62e4db978956787cb6
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-amd64
+    checksum: b50c2f359c938a0bdf849224c155f45a5c878f2c
+  - platform: win32
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-386.exe
+    checksum: 77ed19f866c99dde97c50a6dc9a18222495f3c3e
+  - platform: linux32
+    url: https://github.com/ECSTeam/do-all/releases/download/v1.1.2/do-all-linux-386
+    checksum: ef4de9d5b336adc872dbfd2f3f057dfca47a7685
 - name: cf-predix-analytics-plugin
   description:  Provides CLI based access to Predix Analytics Catalog features
   version: 0.0.1
@@ -737,7 +743,7 @@ plugins:
   updated: 2016-10-22T01:30:00Z
   company: ECS Team
   authors:
-  - name: Josh Ghiloni
+  - name: Josh Ghiloni of ECS Team
     homepage: https://github.com/jghiloni
     contact: jghiloni@ecsteam.com
   homepage: https://github.com/ECSTeam/buildpack-usage
@@ -758,7 +764,7 @@ plugins:
   updated: 2016-11-03T12:00:00Z
   company: ECS Team
   authors:
-  - name: Josh Ghiloni
+  - name: Josh Ghiloni of ECS Team
     homepage: https://github.com/jghiloni
     contact: jghiloni@ecsteam.com
   homepage: https://github.com/ECSTeam/docker-usage
