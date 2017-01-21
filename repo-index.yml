@@ -707,7 +707,7 @@ plugins:
     url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-386.exe
     checksum: 77ed19f866c99dde97c50a6dc9a18222495f3c3e
   - platform: linux32
-    url: https://github.com/ECSTeam/do-all/releases/download/v1.1.2/do-all-linux-386
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-386
     checksum: ef4de9d5b336adc872dbfd2f3f057dfca47a7685
 - name: cf-predix-analytics-plugin
   description:  Provides CLI based access to Predix Analytics Catalog features
