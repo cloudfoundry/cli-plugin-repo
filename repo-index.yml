@@ -686,7 +686,7 @@ plugins:
   description: Run the same command on all the apps in a space, org, or globally
   version: 1.1.2
   created: 2016-07-07T00:00:00Z
-  updated: 2016-07-12T19:00:00Z
+  updated: 2017-01-21T00:00:00Z
   company: ECS Team
   authors:
   - name: Josh Ghiloni of ECS Team
