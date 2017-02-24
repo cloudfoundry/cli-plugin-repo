@@ -547,9 +547,9 @@ plugins:
     checksum: acc12a25c634acaf560c1718c4a0378acfab6eb6
 - name: blue-green-deploy
   description: Zero downtime deploys with smoke test support
-  version: 1.1.0
+  version: 1.2.0
   created: 2015-03-24T00:00:00Z
-  updated: 2016-12-05T15:31:00Z
+  updated: 2017-02-21T15:50:13Z
   company: IBM
   authors:
   - name: Bluemix Garage London
@@ -558,14 +558,20 @@ plugins:
   homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
   binaries:
   - platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.osx
-    checksum: 5367a848afbb8b2aa54db23e1fca6449613b3936
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.osx
+    checksum: 47c758a1b74a23303533e1868ee284c7b593fe26
   - platform: linux32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.linux32
-    checksum: 51640139484b9c83eeaa0edc031bccc203cce13b
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux32
+    checksum: ad2504534cdb324efed813ed076befa865aee21a
   - platform: linux64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.1.0/blue-green-deploy.linux64
-    checksum: 0dd2562342f1aecf4309dd4a1374dedb93d0fc35
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux64
+    checksum: dfbf816750ce6b3343d87c0e001df6cf5cb5d8ff
+  - platform: win32
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win32
+    checksum: 90886fa46c9153d252d73b93fde6df2ff43f7f13
+  - platform: win64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win64
+    checksum: a6d0b654de5ae40bf94eb16dc0d79e16fa1e5eea
 - name: manifest-generator
   description: Help you to generate a manifest from 0 (CLI v6.7.0+)
   version: 1.0.0
