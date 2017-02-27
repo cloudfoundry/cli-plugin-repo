@@ -16,11 +16,18 @@ resources:
     skip_cert_check: false
 
 - name: cf-cli-tracker
-  type: tracker
+  type: tracker-resource-fixed
   source:
     token: {{cf-cli-public-tracker-token}}
     project_id: {{cf-cli-public-tracker-project-id}}
     tracker_url: https://www.pivotaltracker.com
+
+# using temp tracker resource until https://github.com/concourse/tracker-resource/issues/17 is fixed
+resource_types:
+- name: tracker-resource-fixed
+  type: docker-image
+  source:
+    repository: concourse/tracker-resource
 
 jobs:
 - name: test
