@@ -906,7 +906,7 @@ plugins:
   version: 0.0.8
   created: 2017-03-16T00:00:00Z
   updated: 2017-03-16T00:00:00Z
-  company:
+  company: IBM
   authors:
   - name: Mark Williams
     homepage: https://github.com/willmark
