@@ -917,8 +917,8 @@ plugins:
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_osx
     checksum: c223438ac117dac20e86291fdf616df74c4d6ef8
   - platform: win64
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_win64
-    checksum: 224576a948a4867d70b7f11a628de2c35bda881e 
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_win64.exe
+    checksum: 224576a948a4867d70b7f11a628de2c35bda881e
   - platform: linux64
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_linux64
     checksum: 58600078de913352773ede00d3a4368c3e97da84
