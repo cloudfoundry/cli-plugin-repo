@@ -901,4 +901,24 @@ plugins:
   - platform: linux64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-linux-amd64
     checksum: 1d5a648806bfce0e5d094d7fd7a3b781b79f1d99
-
+- name: cf-icd-plugin
+  description: Helper plugin for traceability function in IBM Continuous Delivery
+  version: 0.0.8
+  created: 2017-03-16T00:00:00Z
+  updated: 2017-03-16T00:00:00Z
+  company: IBM
+  authors:
+  - name: Mark Williams
+    homepage: https://github.com/willmark
+    contact: markwill@us.ibm.com
+  homepage: https://github.com/IBM/cf-icd-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_osx
+    checksum: c223438ac117dac20e86291fdf616df74c4d6ef8
+  - platform: win64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_win64.exe
+    checksum: 224576a948a4867d70b7f11a628de2c35bda881e
+  - platform: linux64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.8/icd_linux64
+    checksum: 58600078de913352773ede00d3a4368c3e97da84
