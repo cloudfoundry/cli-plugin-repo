@@ -915,10 +915,10 @@ plugins:
   binaries:
   - platform: osx
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.9/icd_osx
-    checksum: 9dbfa39db491713f23b633d2a6afa6bc55359503
+    checksum: 5c861cedc8958c3d7a4d80955ed53a846659b1cb
   - platform: win64
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.9/icd_win64.exe
-    checksum: 826005ddf5e07e22bb2df3438dfb663e44813909
+    checksum: abf5b572d3b1df2ae2852c14b7f0fa7f12fc4ce6
   - platform: linux64
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.9/icd_linux64
-    checksum: f24190605992d7742799eb5c5627687cb5134f99
+    checksum: 10dc87695738e06b2ec9e867f01e206a4e78bf7b
