@@ -903,9 +903,9 @@ plugins:
     checksum: 1d5a648806bfce0e5d094d7fd7a3b781b79f1d99
 - name: cf-icd-plugin
   description: Helper plugin for traceability function in IBM Cloud Devops
-  version: 0.0.8
+  version: 0.0.9
   created: 2017-03-16T00:00:00Z
-  updated: 2017-03-16T00:00:00Z
+  updated: 2017-03-23T00:00:00Z
   company: IBM
   authors:
   - name: Mark Williams
