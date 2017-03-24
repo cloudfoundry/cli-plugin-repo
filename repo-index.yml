@@ -922,3 +922,24 @@ plugins:
   - platform: linux64
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.9/icd_linux64
     checksum: 10dc87695738e06b2ec9e867f01e206a4e78bf7b
+- name: cflocal
+  description: Stage and launch CF apps, push and pull droplets, and connect to real CF services -- locally in Docker
+  version: 0.8.0
+  created: 2017-03-23T00:00:00Z
+  updated: 2017-03-23T00:00:00Z
+  company:
+  authors:
+  - name: Stephen Levine
+    homepage: https://github.com/sclevine
+    contact: stephen.levine@gmail.com
+  homepage: https://github.com/sclevine/cflocal
+  binaries:
+  - platform: osx
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-macos
+    checksum: c7dae2832049ba848dd6be57638a59385b39794e
+  - platform: win64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-windows.exe
+    checksum: 016ce1581cda564efdabf0cc0eb24ffcabc8e7b8
+  - platform: linux64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-linux
+    checksum: 000a4b7056ad420c075d974d98e57264216f47f5
