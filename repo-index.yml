@@ -502,9 +502,9 @@ plugins:
     checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
 - name: Firehose Plugin
   description: This plugin allows you to connect to the firehose (CF admins only)
-  version: 0.11.0
+  version: 0.12.0
   created: 2015-09-09T00:00:00Z
-  updated: 2016-08-04T04:30:44Z
+  updated: 2017-03-24T02:11:56Z
   company:
   authors:
   - name: Johannes Tuchscherer
@@ -513,17 +513,17 @@ plugins:
   - name: Warren Fernandes
     homepage: https://github.com/wfernandes
     contact: warren.f.fernandes@gmail.com
-  homepage: http://github.com/cloudfoundry/firehose-plugin
+  homepage: http://github.com/cloudfoundry-community/firehose-plugin
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.11.0/nozzle-plugin-darwin
-    checksum: ab2a2e0ddd3c5d405cb0bce2bd05709010e4fb92
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-darwin
+    checksum: 64365de9fd00e18fc4bbcb02dfc172e0a1a2cff8
   - platform: win64
-    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.11.0/nozzle-plugin.exe
-    checksum: a83b2768c37778cd113c4373fdece9b6afeef836
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin.exe
+    checksum: 74f0c6aaeace310565ceb8e76ca0d16cb1ef7bbc
   - platform: linux64
-    url: https://github.com/cloudfoundry/firehose-plugin/releases/download/0.11.0/nozzle-plugin-linux
-    checksum: 9fe7ea8439f89bb54adff3b12541799ed7d4de29
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-linux
+    checksum: 31d07b66bee543ec082a9c6e17073eddaab10afa
 - name: Cloud Deployment Plugin
   description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
   version: 1.0.1
@@ -904,8 +904,8 @@ plugins:
 - name: java-plugin
   description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled Java application.
   version: 1.0.0
-  created: 2017-03-14T09:00:00Z
-  updated: 2017-03-14T09:00:00Z
+  created: 2017-03-27T09:00:00Z
+  updated: 2017-03-27T09:00:00Z
   company:
   authors:
   - name: Michele Mancioppi
@@ -928,4 +928,45 @@ plugins:
   - platform: linux64
     url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux64
     checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
-
+- name: cf-icd-plugin
+  description: Helper plugin for traceability function in IBM Cloud Devops
+  version: 0.0.10
+  created: 2017-03-16T00:00:00Z
+  updated: 2017-03-24T00:00:00Z
+  company: IBM
+  authors:
+  - name: Mark Williams
+    homepage: https://github.com/willmark
+    contact: markwill@us.ibm.com
+  homepage: https://github.com/IBM/cf-icd-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_osx
+    checksum: f6cc9eefa43b70d6dfc5844a05ff04ef4475b2a2
+  - platform: win64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_win64.exe
+    checksum: e585efd1d59037b9a2152d1149e8df7685060b9d
+  - platform: linux64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_linux64
+    checksum: a28edfbf74c3ade490e768bb77f214e9c904db1e
+- name: cflocal
+  description: Stage and launch CF apps, push and pull droplets, and connect to real CF services -- locally in Docker
+  version: 0.8.0
+  created: 2017-03-23T00:00:00Z
+  updated: 2017-03-23T00:00:00Z
+  company:
+  authors:
+  - name: Stephen Levine
+    homepage: https://github.com/sclevine
+    contact: stephen.levine@gmail.com
+  homepage: https://github.com/sclevine/cflocal
+  binaries:
+  - platform: osx
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-macos
+    checksum: c7dae2832049ba848dd6be57638a59385b39794e
+  - platform: win64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-windows.exe
+    checksum: 016ce1581cda564efdabf0cc0eb24ffcabc8e7b8
+  - platform: linux64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-linux
+    checksum: 000a4b7056ad420c075d974d98e57264216f47f5
