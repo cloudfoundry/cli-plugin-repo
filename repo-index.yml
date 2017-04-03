@@ -943,3 +943,30 @@ plugins:
   - platform: linux64
     url: https://github.com/sclevine/cflocal/releases/download/v0.8.0/cflocal-0.8.0-linux
     checksum: 000a4b7056ad420c075d974d98e57264216f47f5
+- name: java-plugin
+  description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled Java application.
+  version: 1.0.0
+  created: 2017-03-14T09:00:00Z
+  updated: 2017-03-14T09:00:00Z
+  company:
+  authors:
+  - name: Michele Mancioppi
+    homepage: https://github.com/michele-mancioppi
+    contact: michele.mancioppi@sap.com
+  homepage: https://github.com/SAP/cf-cli-java-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-osx
+    checksum: ed0db38110402cc65dc7a185e7fdc0501bbd8164
+  - platform: win64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win64.exe
+    checksum: a2e23deffab15edd6bde5250ec67d66ff17567ae
+  - platform: win32
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win32.exe
+    checksum: cbd89f62911f7785a56e41c5027b10168bfe1b8c
+  - platform: linux32
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux32
+    checksum: 80d2c9dd30cdfffca7f8b8c1b1d73205996cf27b
+  - platform: linux64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux64
+    checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
