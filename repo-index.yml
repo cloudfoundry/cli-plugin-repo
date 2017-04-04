@@ -903,25 +903,28 @@ plugins:
     checksum: 1d5a648806bfce0e5d094d7fd7a3b781b79f1d99
 - name: cf-icd-plugin
   description: Helper plugin for traceability function in IBM Cloud Devops
-  version: 0.0.10
+  version: 0.0.11
   created: 2017-03-16T00:00:00Z
-  updated: 2017-03-24T00:00:00Z
+  updated: 2017-04-04T00:00:00Z
   company: IBM
   authors:
   - name: Mark Williams
     homepage: https://github.com/willmark
     contact: markwill@us.ibm.com
+  - name: Ruoyu Bai
+    homepage: https://github.com/brybwy
+    contact: bair@us.ibm.com
   homepage: https://github.com/IBM/cf-icd-plugin
   binaries:
   - platform: osx
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_osx
-    checksum: f6cc9eefa43b70d6dfc5844a05ff04ef4475b2a2
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_osx
+    checksum: 3542e77ecb52a384b569654ad74c360da048f16d
   - platform: win64
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_win64.exe
-    checksum: e585efd1d59037b9a2152d1149e8df7685060b9d
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_win64.exe
+    checksum: 3bfd44a253f462266f247f24f74378a85bda6785
   - platform: linux64
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.10/icd_linux64
-    checksum: a28edfbf74c3ade490e768bb77f214e9c904db1e
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_linux64
+    checksum: 64a3149fd38756c448969894a225edbb0687dec0
 - name: cflocal
   description: Stage and launch CF apps, push and pull droplets, and connect to real CF services -- locally in Docker
   version: 0.8.0
