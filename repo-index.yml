@@ -973,3 +973,30 @@ plugins:
   - platform: linux64
     url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux64
     checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
+- name: sync
+  description: Synchronize a local folder to a remote folder inside a Cloud Foundry app to make changes on the fly
+  version: 1.1.1
+  created: 2017-04-04T00:00:00Z
+  updated: 2017-04-04T00:00:00Z
+  company: Orange
+  authors:
+    - name: Arthur Halet
+      homepage: https://github.com/ArthurHlt
+      contact: arthur.halet@orange.com
+  homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
+  binaries:
+    - platform: osx
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_darwin_amd64
+      checksum: b6bbd4657a105ab03da14972e0f7719f16e166dd
+    - platform: win64
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_windows_amd64.exe
+      checksum: f5a6f78c5c7e0a18fd947ec65593a54307e650bd
+    - platform: win32
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_windows_386.exe
+      checksum: 51a76d1652fdd227a42cb65260270ae98dee910f
+    - platform: linux64
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_linux_amd64
+      checksum: 6b28f16b7181a89b9024d36b2a86d9f5a0020b50
+    - platform: linux32
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_linux_386
+      checksum: f30b83193de5f6d4e1e253994998da39e34141db
