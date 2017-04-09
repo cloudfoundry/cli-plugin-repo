@@ -807,9 +807,9 @@ plugins:
     checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
 - name: top
   description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - Added support for isolation segments.
-  version: 0.8.1
+  version: v0.8.2
   created: 2016-11-07T00:00:00Z
-  updated: 2017-04-03T01:12:59Z
+  updated: 2017-04-09T18:27:21Z
   company: ECS Team
   authors:
   - name: Kurt Kellner of ECS Team
@@ -818,14 +818,14 @@ plugins:
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.1/top-plugin-darwin
-    checksum: 7939c3640acc7c1d27ebcb8195db47ca4c896ffb
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.2/top-plugin-darwin
+    checksum: bdf375b912afe7f2c1dcc1d870f3173596d8ddcc
   - platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.1/top-plugin.exe
-    checksum: dbfe722fe6d54b31d65a65c3c9e1f86971a9b2ea
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.2/top-plugin.exe
+    checksum: 65bb839395f54490317debc3dd431a363620b06e
   - platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.1/top-plugin-linux
-    checksum: 3b33f52320b71d1720f1b03bcc7f3da8b31e8315
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.2/top-plugin-linux
+    checksum: 52703f45cc69be3bae387a2900ea5114b3b6f4f5
 - name: get-events
   description: Get microservice events
   version: 0.6.0
