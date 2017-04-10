@@ -807,7 +807,7 @@ plugins:
     checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
 - name: top
   description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - Added support for isolation segments.
-  version: v0.8.2
+  version: 0.8.2
   created: 2016-11-07T00:00:00Z
   updated: 2017-04-09T18:27:21Z
   company: ECS Team
