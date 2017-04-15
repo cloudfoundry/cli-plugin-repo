@@ -975,9 +975,9 @@ plugins:
     checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
 - name: sync
   description: Synchronize a local folder to a remote folder inside a Cloud Foundry app to make changes on the fly
-  version: 1.1.1
+  version: 1.2.0
   created: 2017-04-04T00:00:00Z
-  updated: 2017-04-04T00:00:00Z
+  updated: 2017-04-14T00:00:00Z
   company: Orange
   authors:
     - name: Arthur Halet
@@ -986,17 +986,17 @@ plugins:
   homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
   binaries:
     - platform: osx
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_darwin_amd64
-      checksum: b6bbd4657a105ab03da14972e0f7719f16e166dd
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_darwin_amd64
+      checksum: 9c5a470dfe482057e4b03e7a4b0686747558df7d
     - platform: win64
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_windows_amd64.exe
-      checksum: f5a6f78c5c7e0a18fd947ec65593a54307e650bd
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_amd64.exe
+      checksum: 959dd939437f5640c26da319f697d1b07f1b5c8d
     - platform: win32
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_windows_386.exe
-      checksum: 51a76d1652fdd227a42cb65260270ae98dee910f
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_386.exe
+      checksum: c6706581c93e4884f3ae14cb94417fbc6ef327fb
     - platform: linux64
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_linux_amd64
-      checksum: 6b28f16b7181a89b9024d36b2a86d9f5a0020b50
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_amd64
+      checksum: 1f8482d26d108ed6091a75de611ed0928e7d4e3c
     - platform: linux32
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.1.1/cf-plugin-sync_linux_386
-      checksum: f30b83193de5f6d4e1e253994998da39e34141db
+      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_386
+      checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
