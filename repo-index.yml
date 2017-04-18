@@ -1002,9 +1002,9 @@ plugins:
       checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
 - name: deploy
   description: Create/update initial Cloud Foundry state (orgs, spaces, users, services, apps, and more) via a yml file
-  version: 0.1.0
+  version: 0.1.1
   created: 2016-06-28T00:00:00Z
-  updated: 2016-06-28T00:00:00Z
+  updated: 2017-04-18T00:00:00Z
   company:
   authors:
   - name: James Hunt
@@ -1016,11 +1016,11 @@ plugins:
   homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-darwin
-    checksum: 494e07a1d668c42dbc078ab1925df3f0e199fae2
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.1/cf-plugin-deploy-darwin
+    checksum: 01038bf35e21dab5a8878cb0fd42a6b99cce242d
   - platform: win64
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-windows.exe
-    checksum: 061aec154e1dfed5f79e12b505c2ad315a97c8b7
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.1/cf-plugin-deploy-windows.exe
+    checksum: 865abaee30b48f4314f16e7d1ae2223cbde5ca33
   - platform: linux32
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-linux
-    checksum: f92118bf1bda044a7b1e49fd40cf311d1880136e
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.1/cf-plugin-deploy-linux
+    checksum: 3c37793ea1f97fc88c47369707f4a8c04bc74b8f
