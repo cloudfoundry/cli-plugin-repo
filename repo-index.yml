@@ -1000,3 +1000,27 @@ plugins:
     - platform: linux32
       url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_386
       checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
+- name: deploy
+  description: Create/update initial Cloud Foundry state (orgs, spaces, users, services, apps, and more) via a yml file
+  version: 0.1.0
+  created: 2016-06-28T00:00:00Z
+  updated: 2016-06-28T00:00:00Z
+  company:
+  authors:
+  - name: James Hunt
+    homepage: https://github.com/jhunt
+    contact: jhunt@starkandwayne.com
+  - name: Quintessence Anx
+    homepage: https://github.com/quintessence
+    contact: quinn@starkandwayne.com
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
+  binaries:
+  - platform: osx
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-darwin
+    checksum: 494e07a1d668c42dbc078ab1925df3f0e199fae2
+  - platform: win64
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-windows.exe
+    checksum: 061aec154e1dfed5f79e12b505c2ad315a97c8b7
+  - platform: linux32
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.0/cf-plugin-deploy-linux
+    checksum: f92118bf1bda044a7b1e49fd40cf311d1880136e
