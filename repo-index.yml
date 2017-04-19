@@ -818,13 +818,13 @@ plugins:
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/0.8.3/top-plugin-darwin
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.3/top-plugin-darwin
     checksum: dbb5200b44a6a76dfce47ea9e988191bd02e23e0
   - platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/0.8.3/top-plugin.exe
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.3/top-plugin.exe
     checksum: e302b7ea5f5e8d54794c243aaf480154a6f54527
   - platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/0.8.3/top-plugin-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.3/top-plugin-linux
     checksum: d2657e0aca29ba0b6fb476b15c4194937df507ad
 - name: get-events
   description: Get microservice events
