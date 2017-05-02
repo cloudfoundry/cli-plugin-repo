@@ -806,10 +806,10 @@ plugins:
     url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/linux64/cf-copy-plugin
     checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
 - name: top
-  description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - Better non-privileged (developer) support.
-  version: 0.8.4
+  description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - HTTP Response Info View access from App Detail via 'd' menu.
+  version: 0.8.5
   created: 2016-11-07T00:00:00Z
-  updated: 2017-04-24T21:55:31Z
+  updated: 2017-05-02T14:47:31Z
   company: ECS Team
   authors:
   - name: Kurt Kellner of ECS Team
@@ -818,14 +818,14 @@ plugins:
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   binaries:
   - platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.4/top-plugin-darwin
-    checksum: bd106e347a61b416cee70c3213a1e2b327a6e0ff
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-darwin
+    checksum: f270cce4344213d3b24af31a74930466e2722160
   - platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.4/top-plugin.exe
-    checksum: 46197c7a2688759d84c2b8b12d662884d3294fcd
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin.exe
+    checksum: d6fafb5b81b8b1fcc0206733c6a5e402c9985480
   - platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.4/top-plugin-linux
-    checksum: 77f39ccc979b97ea078db50f58949c1343454bc9
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-linux
+    checksum: 1e9e5d355944bd2fc5b7b479b68140a1cd4babd7
 - name: get-events
   description: Get microservice events
   version: 0.6.0
