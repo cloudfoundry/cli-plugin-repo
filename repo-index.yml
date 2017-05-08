@@ -1024,3 +1024,24 @@ plugins:
   - platform: linux32
     url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.1.1/cf-plugin-deploy-linux
     checksum: 3c37793ea1f97fc88c47369707f4a8c04bc74b8f
+- name: whoami-plugin
+  description: This plugin shows you the name of the currently logged in user
+  version: 0.2.0
+  created: 2015-12-22T00:00:00Z
+  updated: 2017-05-08T00:00:00Z
+  company:
+  authors:
+  - name: Johannes Tuchscherer
+    homepage: https://github.com/jtuchscherer
+    contact: jtuchschererg@gmail.com
+  homepage: https://github.com/jtuchscherer/whoami-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-darwin
+    checksum: 23c86dfc79d038634d8be7ded55876c5895ef493
+  - platform: win64
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin.exe
+    checksum: 416f3c9d7518c71749c02ad1aebaa371c4fe6409
+  - platform: linux64
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-linux
+    checksum: c467f0c1fd5f972bbc5e5d43b41a18680cc74101
