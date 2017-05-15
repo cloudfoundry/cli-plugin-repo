@@ -95,9 +95,11 @@
                   platforms:
                 </div>
                 <div class="td col col-20">
-                  <span ng-repeat="binary in plugin.binaries">
-                    <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
-                  </span>
+                  <div>
+                    <span ng-repeat="binary in plugin.binaries">
+                      <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
