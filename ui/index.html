@@ -90,6 +90,16 @@
                   </div>
                 </div>
               </div>
+              <div class="tr grid">
+                <div class="td col col-4 txt-r">
+                  platforms:
+                </div>
+                <div class="td col col-20">
+                  <span ng-repeat="binary in plugin.binaries">
+                    <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
+                  </span>
+                </div>
+              </div>
             </div>
             <hr class="divider-alternate-1"/>
           </div>
