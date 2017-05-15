@@ -1,141 +1,128 @@
+
 <!DOCTYPE HTML>
 
 <html ng-app="clipr">
 
 <head>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/clipr.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/listing.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/css/components.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/css/cff.css" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
   <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>	
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/angular.min.js"></script>	
   <script type="text/javascript" src="js/list.js"></script>	
 
-  <title>Cloud Foundry CLI Plugins</title>
+  <title>cf CLI Plugins &ndash; Cloud Foundry Community</title>
 
   <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
-<body>
-    <div id="bodyBox">
-
-      <div style="height:80px"></div>
-
-      <div id="listingBox">
-        <div style="background:transparent;width:80%; margin:auto">
-          <div ng-controller='CliprListing'>
-            <div ng-repeat="plugin in list.plugins">
-              <div class="listing-pluginName">
-                {{plugin.name}}
-                <span style="font-size: 0.75em" ng-if="plugin.version != ''"> - v.{{plugin.version}}</span>
-                <div class="listing-date" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></div>
+<body class="bg-neutral-10">
+  <div class="container-fluid" style="min-width: 1024px; background-color: #0c9ed5; padding: 15px 90px 12px 90px;">
+    <div class="row-fluid">
+      <div class="row txt-r">
+        <div class="col-xs-24 col-sm-24 col-md-24 col-lg-24">
+          <ul class="list-inline-divider pts mbn list-of-links em-high">
+            <li class="plxl">
+              <a href="https://github.com/cloudfoundry/cli" target="_blank" class="type-neutral-11">
+                <span>Download cf CLI</span></a>
+            </li>
+            <li class="plxl">
+              <a href="https://cloudfoundry.org" target="_blank" class="type-neutral-11">
+                <span>Visit CloudFoundry.org</span></a>
+            </li>
+            <li class="plxl">
+              <a href="https://github.com/cloudfoundry-incubator/cli-plugin-repo" target="_blank" class="type-neutral-11">
+                <span>Fork me on Github</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="min-width: 1024px; max-width: 1280px; margin-bottom: 60px">
+    <!-- plugin list -->
+    <div ng-controller='CliprListing'>
+      <div class="row mtxxxl">
+        <!-- main column -->
+        <div class="col-xs-18 col-sm-18 col-md-18 col-lg-18 bg-neutral-11 phxxxl">
+          <div ng-repeat="plugin in list.plugins">
+            <div class="mtxxl"></div>
+            <h3 class="name" style="display: inline-block">{{plugin.name}}</h3>
+            <span class="version type-sm" ng-if="plugin.version != ''"> &ndash; v.{{plugin.version}}</span>
+            <p class="date pull-right mvl type-sm type-neutral-4" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></p>
+            <p class="description mtl">
+              {{plugin.description}}
+            </p>
+            <div class="table">
+              <div class="tr grid">
+                <div class="td col col-4 txt-r">install:</div>
+                <div class="td col col-20">
+                  <code class="bg-neutral-10 type-brand-6 phl">cf install-plugin -r CF-Community "{{plugin.name}}"</code>
+                </div>
               </div>
-              <br>
-              <table class="listing-table">
-                <tr class="listing-description">
-                  <td colspan="2">
-                    {{plugin.description}}
-                    <br><br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="listing-caption">
-                    install:
-                  </td>
-                  <td class="listing-content">
-                    <code>cf install-plugin -r CF-Community "{{plugin.name}}"</code>
-                  </td>
-                </tr>
-                <tr ng-if="plugin.company != ''">
-                  <td class="listing-caption">
-                    company:
-                  </td>
-                  <td class="listing-content">
-                    {{plugin.company}}
-                  </td>
-                </tr>
-                <tr ng-if="plugin.homepage != ''">
-                  <td class="listing-caption">
-                    homepage:
-                  </td>
-                  <td class="listing-content">
-                    <a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
-                  </td>
-                </tr>
-                <tr ng-if="plugin.authors != {}">
-                  <td class="listing-caption">
-                    <ng-pluralize count="plugin.authors.length" when="{'0': 'author', '1': 'author', 'other': 'authors'}"></ng-pluralize>   
-                  </td>
-                  <td class="listing-content">
-                    <div ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target=_blank>
-                        {{author.name}}</a>
-                        <span ng-if="author.contact != ''">
-                          <span class="listing-light-text"> - {{author.contact}}</span>
-                        </span>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="listing-caption">
-                    platforms:
-                  </td>
-                  <td class="listing-content">
-                    <span ng-repeat="binary in plugin.binaries">
-                      <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
-                    </span>
-                  </td>
-                </tr>
-              </table>
-
-              <hr>
+              <div class="tr grid" ng-if="plugin.company != ''">
+                <div class="td col col-4 txt-r">
+                  company:
+                </div>
+                <div class="td col col-20">
+                  {{plugin.company}}
+                </div>
+              </div>
+              <div class="tr grid" ng-if="plugin.homepage != ''">
+                <div class="td col col-4 txt-r">
+                  homepage:
+                </div>
+                <div class="td col col-20">
+                  <a href='{{plugin.homepage}}' target="_blank">{{plugin.homepage}}</a>
+                </div>
+              </div>
+              <div class="tr grid" ng-if="plugin.authors != {}">
+                <div class="td col col-4 txt-r">
+                  <ng-pluralize count="plugin.authors.length" when="{'0': 'author:', '1': 'author:', 'other': 'authors:'}"></ng-pluralize>
+                </div>
+                <div class="td col col-20">
+                  <div ng-repeat="author in plugin.authors"><a href='{{author.homepage}}' target="_blank">
+                      {{author.name}}</a>
+                      <span ng-if="author.contact != ''">
+                        <span class="type-sm type-neutral-4"> - {{author.contact}}</span>
+                      </span>
+                  </div>
+                </div>
+              </div>
+              <div class="tr grid">
+                <div class="td col col-4 txt-r">
+                  platforms:
+                </div>
+                <div class="td col col-20">
+                  <span ng-repeat="binary in plugin.binaries">
+                    <a href='{{binary.url}}' target=_blank>{{binary.platform}}</a>{{$last ? '' : ', '}}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <hr class="divider-alternate-1"/>
+          </div>
+        </div>
+        <!-- right column -->
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="plxxl" style="margin-top: 144px;">
+            <h1>Cloud Foundry Community</h1>
+            <h2 class="mtl">cf CLI Plugins</h2>
+            <p class="mvxl type-sm">
+              To include your plugin in our community repo, please follow the <a href="http://github.com/cloudfoundry-incubator/cli-plugin-repo" target="_blank">instructions on Github</a>.
+            </p>
+            <p class="mvxl type-sm">
+              To learn how to write your own plugin, see our <a href="https://github.com/cloudfoundry/cli/tree/master/plugin/plugin_examples" target="_blank">examples</a>.
+            <div class="mtxxxxl">
+              <a href="https://cloudfoundry.org" target="_blank">
+                <img src="/images/cff-logo-horizontal.png" class="img-responsive" alt="Cloud Foundry Foundation Logo"/>
+              </a>
             </div>
           </div>
         </div>
       </div>
-
-      <div id="adBox">
-        <div style="position: relavtive">
-          <div class="letterpress" id="titleDiv">
-            <font style="font-size:35px">Community</font>
-            <br>
-            <font style="font-size:25px">CLI Plugins</font>
-            <hr>
-            <font style="font-size:12px">
-              To include your plugin in our community repo, please goto our github page and follow our
-              <a href='http://github.com/cloudfoundry-incubator/cli-plugin-repo'>instruction</a>.
-            </font>
-            <hr>
-            <font style="font-size:12px">
-              To learn how to write your own plugin, see our
-              <a href='https://github.com/cloudfoundry/cli/tree/master/plugin/plugin_examples'>examples</a>.
-            </font>
-            <hr>
-          </div>
-        </div>
-      </div>
-
     </div>
-
-
-    <div id="header">
-      links
-    </div>
-
-    <div id="githubFork">
-      <a href="https://github.com/cloudfoundry-incubator/cli-plugin-repo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-    </div>
-
-    <img id="cfLogo" src="images/cloud-foundry-logo.png" />
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-52116311-3', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+  </div>
 </body>
 </html>
