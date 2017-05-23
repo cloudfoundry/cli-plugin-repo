@@ -786,9 +786,9 @@ plugins:
     checksum: c523b8b414d89c368b07a89dbf7ede570edea129
 - name: copy
   description: Copies applications and services in current space to another space or Cloud Foundry target.
-  version: 0.0.6
+  version: 0.9.4
   created: 2016-10-01T00:00:00Z
-  updated: 2016-11-06T16:36:31Z
+  updated: 2017-05-22T11:44:18Z
   company:
   authors:
   - name: Mevan Samaratunga
@@ -796,15 +796,15 @@ plugins:
     contact: mevansam@gmail.com
   homepage: http://github.com/mevansam/cf-copy-plugin
   binaries:
-  - platform: osx
-    url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/osx/cf-copy-plugin
-    checksum: 3b201e76451dd6938cafc70c41c0fefcca422080
+  - platform: osx         
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_osx
+    checksum: 538e3fa1ad902cb2d56e67135fee8d7a1a006c23
   - platform: win64
-    url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/win64/cf-copy-plugin.exe
-    checksum: 50f051f2f63b38f54e971d7f9a4a823a40c8edd2
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_win64.exe
+    checksum: fc32a58ab9c59c6ff7ea645c3a0c1c5691dd8a42
   - platform: linux64
-    url: https://github.com/mevansam/cf-copy-plugin/raw/0.0.6/bin/linux64/cf-copy-plugin
-    checksum: 7852c4985b0728dc80e5aa4329d16349156826e1
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_linux64
+    checksum: f8400ea82cdd5d453c1c26d204cca9e10e4e2738
 - name: top
   description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - HTTP Response Info View access from App Detail via 'd' menu.
   version: 0.8.5
