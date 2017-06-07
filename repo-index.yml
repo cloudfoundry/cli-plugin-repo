@@ -927,9 +927,9 @@ plugins:
     checksum: 64a3149fd38756c448969894a225edbb0687dec0
 - name: cflocal
   description: Stage and launch CF apps, push and pull droplets, and connect to real CF services -- in Docker
-  version: 0.10.0
+  version: 0.12.0
   created: 2017-03-23T00:00:00Z
-  updated: 2017-05-15T00:00:00Z
+  updated: 2017-06-07T00:00:00Z
   company:
   authors:
   - name: Stephen Levine
@@ -938,14 +938,14 @@ plugins:
   homepage: https://github.com/sclevine/cflocal
   binaries:
   - platform: osx
-    url: https://github.com/sclevine/cflocal/releases/download/v0.10.0/cflocal-0.10.0-macos
-    checksum: 2d6347a4dbc76a10f454d35db1fda87242552ca7
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-macos
+    checksum: 1eecec40e96f57c7a62d7558f9450c2c9fb105ba
   - platform: win64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.10.0/cflocal-0.10.0-windows.exe
-    checksum: 04b6d2ff1faa2ebe2b0417664c3a9c19cea312e5
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-windows.exe
+    checksum: 3c165c7130a600187d8427c18f82d7bfa5e95e47
   - platform: linux64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.10.0/cflocal-0.10.0-linux
-    checksum: f32466a7e71051e6fbb523aca38357aa9fcbea39
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-linux
+    checksum: 857bd99204b9ceb25582b567a45d5bf8a67e77ed
 - name: java-plugin
   description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled Java application.
   version: 1.0.0
