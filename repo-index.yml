@@ -1002,9 +1002,9 @@ plugins:
       checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
 - name: deploy
   description: Create/update initial Cloud Foundry state (orgs, spaces, users, services, apps, and more) via a yml file
-  version: 0.2.0
+  version: 0.3.0
   created: 2016-06-28T00:00:00Z
-  updated: 2017-06-21T00:00:00Z
+  updated: 2017-06-23T00:00:00Z
   company:
   authors:
   - name: James Hunt
@@ -1016,17 +1016,17 @@ plugins:
   homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
   binaries:
   - platform: osx
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.2.0/cf-plugin-deploy-darwin
-    checksum: 6a337ef7db0ed3980dbc75a6ce994cdf7c5cf84a
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-darwin
+    checksum: 2c21e98fa6b548a7fb728a6e7f9ac84ba586899e
   - platform: win64
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.2.0/cf-plugin-deploy-windows.exe
-    checksum: e6a613753628840bcbcc27f5f1ab265128ef2883
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-windows.exe
+    checksum: d37a64ac0447af2ed5549132b7de8e4f79877ef6
   - platform: linux32
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.2.0/cf-plugin-deploy-linux32
-    checksum: 9259d7b3c28ca2a08017241626833b194db8ec1c
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux32
+    checksum: 4e0e79068f08db8c440cf59272854795c42c60e5
   - platform: linux64
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.2.0/cf-plugin-deploy-linux64
-    checksum: 842bba1132e8bfaac21994b2cadab342d55d2ebe
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux64
+    checksum: 9ad8bb5a89550e177923de57c7494ef4b7859682
 - name: whoami-plugin
   description: This plugin shows you the name of the currently logged in user
   version: 0.2.0
