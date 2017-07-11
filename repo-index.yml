@@ -1,1077 +1,1092 @@
----
 plugins:
-- name: antifreeze
-  description: Detect if an app has unexpected ENV vars or services bound which are missing from the manifest
-  version: 0.3.0
-  created: 2016-04-23T00:00:00Z
-  updated: 2016-05-20T00:00:00Z
-  company:
-  authors:
-  - name: Oliver Peate
+- authors:
+  - contact: opeate+github@pivotal.io
     homepage: https://github.com/odlp
-    contact: opeate+github@pivotal.io
-  homepage: https://github.com/odlp/antifreeze
+    name: Oliver Peate
   binaries:
-  - platform: osx
+  - checksum: 68e8e06ad853488b681e9c538a889596fcf2b3a2
+    platform: osx
     url: https://github.com/odlp/antifreeze/releases/download/v0.3.0/antifreeze-darwin
-    checksum: 68e8e06ad853488b681e9c538a889596fcf2b3a2
-  - platform: win64
+  - checksum: 2b58d45d936e5a4a6eb6e134913c3c335478cdc4
+    platform: win64
     url: https://github.com/odlp/antifreeze/releases/download/v0.3.0/antifreeze.exe
-    checksum: 2b58d45d936e5a4a6eb6e134913c3c335478cdc4
-  - platform: linux64
+  - checksum: dd63f82673592cd15a048606f4f7bd9ee11254f4
+    platform: linux64
     url: https://github.com/odlp/antifreeze/releases/download/v0.3.0/antifreeze-linux
-    checksum: dd63f82673592cd15a048606f4f7bd9ee11254f4
-- name: autopilot
-  description: zero downtime deploy plugin for cf applications
-  version: 0.0.1
-  created: 2015-03-01T00:00:00Z
-  updated: 2015-03-01T00:00:00Z
-  company: Concourse
-  authors:
-  - name: Chris Brown
-    homepage: https://github.com/xoebus
-    contact: xoebus@xoeb.us
-  homepage: https://github.com/concourse/autopilot
-  binaries:
-  - platform: osx
-    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-darwin
-    checksum: b250c6c7e01f9e495d1788728a7d65e21bcda203
-  - platform: win64
-    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot.exe
-    checksum: 8a5cc1ffcaaf71f3b1e0f83c9de68a8100bc94b1
-  - platform: linux64
-    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-linux
-    checksum: 3aaa4c0a7dc8ffeb277f5a111679709a1a5756c5
-- name: bg-restage
-  description: Perform a zero-downtime restage of an application over the top of an old one (highly inspired by autopilot)
-  version: 1.0.0
-  created: 2017-05-28T00:00:00Z
-  updated: 2017-05-28T00:00:00Z
-  company: Orange
-  authors:
-  - name: Arthur Halet
-    homepage: https://github.com/ArthurHlt
-    contact: arthur.halet@orange.com
-  homepage: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage
-  binaries:
-  - platform: osx
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_darwin_amd64
-    checksum: de883d2dda017f22c67d1fd392956b86e2b23112
-  - platform: win64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_amd64.exe
-    checksum: 4a32be2f4acedc7f9231fdf55e4df09ad04c50e7
-  - platform: win32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_386.exe
-    checksum: 8e2384b76d179495baa0137b91d8eb7467ceba33
-  - platform: linux64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_amd64
-    checksum: 65c8d6db1c4a2a81395b0ded376430b177e9bd1c
-  - platform: linux32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_386
-    checksum: e88cd85b4002f9e1fc4801733f0d7a8458c87469
-- name: blue-green-deploy
-  description: Zero downtime deploys with smoke test support
-  version: 1.2.0
-  created: 2015-03-24T00:00:00Z
-  updated: 2017-02-21T15:50:13Z
-  company: IBM
-  authors:
-  - name: Bluemix Garage London
-    homepage: http://garage.mybluemix.net/
-    contact: garage@uk.ibm.com
-  homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
-  binaries:
-  - platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.osx
-    checksum: 47c758a1b74a23303533e1868ee284c7b593fe26
-  - platform: linux32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux32
-    checksum: ad2504534cdb324efed813ed076befa865aee21a
-  - platform: linux64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux64
-    checksum: dfbf816750ce6b3343d87c0e001df6cf5cb5d8ff
-  - platform: win32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win32
-    checksum: 90886fa46c9153d252d73b93fde6df2ff43f7f13
-  - platform: win64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win64
-    checksum: a6d0b654de5ae40bf94eb16dc0d79e16fa1e5eea
-- name: Brooklyn
-  description: Interact with Service Broker for Apache Brooklyn
-  version: 0.1.1
-  created: 2015-03-13T00:00:00Z
-  updated: 2015-03-16T00:00:00Z
-  company: Cloudsoft
-  authors:
-  - name: Robert Moss
-    homepage: https://github.com/robertgmoss
-    contact: robert.moss@cloudsoftcorp.com
-  homepage: https://github.com/cloudfoundry-community/brooklyn-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
-    checksum: ed982e8cbf16503f493c6f064c39a0e84bcd2836
-  - platform: linux64
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
-    checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
-- name: Buildpack Management
-  description: Provides a declarative way to configure system buildpacks in a Cloud Foundry installation
-  version: 1.0.0
-  created: 2015-09-03T00:00:00Z
-  updated: 2015-09-03T00:00:00Z
-  company:
-  authors:
-  - name: David Ehringer
-    homepage: https://github.com/davidehringer
-    contact: david.ehringer@gmail.com
-  homepage: https://github.com/davidehringer/cf-buildpack-management-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_darwin_amd64
-    checksum: e102fa7c0f5ddc920965113972c03bb833af7fd1
-  - platform: win64
-    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_amd64.exe
-    checksum: b1024b0d3711a4c00cc935eeffd6fa27729b1b86
-  - platform: win32
-    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_386.exe
-    checksum: 54a7a62cba2ef4fdbe6b9d13a052648d68a8146b
-  - platform: linux64
-    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_amd64
-    checksum: 0e8688fbb5302af398b3f210ef5f33945a8f7f10
-  - platform: linux32
-    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
-    checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
-- name: Buildpack Usage
-  description: View all buildpacks used in the current CLI target context.
-  version: 1.0.0
-  created: 2015-04-02T00:00:00Z
-  updated: 2015-04-02T00:00:00Z
-  company: CenturyLink Cloud
-  authors:
-  - name: Chris Sterling
-    homepage: http://www.managingsoftwaredebt.com/
-    contact: chris.sterling@ctl.io
-  homepage: https://github.com/csterwa/cf_buildpacks_usage_cmd
-  binaries:
-  - platform: osx
-    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.osx
-    checksum: 2f551b0a2d6bf01461fe49978990577a607e87e5
-  - platform: win64
-    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.win64.exe
-    checksum: 00c482fd2890435d160a73b2b1af72271c9ce6c8
-  - platform: linux64
-    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
-    checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
-- name: buildpack-usage
-  description: Show which apps are using an installed buildpack
-  version: 1.0.4
-  created: 2016-10-19T12:00:00Z
-  updated: 2017-02-15T12:42:00Z
-  company: ECS Team
-  authors:
-  - name: Josh Ghiloni of ECS Team
-    homepage: https://github.com/jghiloni
-    contact: jghiloni@ecsteam.com
-  homepage: https://github.com/ECSTeam/buildpack-usage
-  binaries:
-  - platform: osx
-    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-macosx
-    checksum: 5be6c6d99ee0592ff5d790cfb18ae9f08f634d71
-  - platform: win64
-    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-windows.exe
-    checksum: da1880f5c3753ea9e7814bd6abfb9fd5b74b7013
-  - platform: linux64
-    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-linux
-    checksum: 55b09563e14a2a52bb6353163a76fe8f08c54737
-- name: CF App Stack Changer
-  description: Allows admins to list and update applications with outdated lucid64 stacks.
-  version: 1.1.0
-  created: 2015-04-07T00:00:00Z
-  updated: 2015-05-08T00:00:00Z
-  company: Cloud Foundry CLI Team
-  authors:
-  - name: Simon Leung
-    homepage: https://github.com/simonleung8
-    contact: contact@simonleung.info
-  - name: Jonathan Berkhahn
-    homepage: https://github.com/jberkhahn
-    contact: jonathan.berkhahn@gmail.com
-  homepage: https://github.com/simonleung8/cli-stack-changer
-  binaries:
-  - platform: osx
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
-    checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
-  - platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
-    checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
-  - platform: linux64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
-    checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
-- name: cf-download
-  description: Plugin for downloading your application contents after staging.
-  version: 1.2.0
-  created: 2015-04-21T00:00:00Z
-  updated: 2016-11-01T00:00:00Z
-  company: IBM jStart
-  authors:
-  - name: Miguel Clement
-    homepage: https://github.com/clement360
-    contact: mfclemen@us.ibm.com
-  - name: Jake Eden
-    homepage: https://github.com/jeden25
-    contact: jeden@us.ibm.com
-  - name: Ryan Soley
-    homepage: https://github.com/reSoley
-    contact: resoley@us.ibm.com
-  homepage: https://github.com/ibmjstart/cf-download
-  binaries:
-  - platform: osx
-    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-darwin
-    checksum: 4a4b2fbdde159a8a8b5e9c7dba208983b085df86
-  - platform: win64
-    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-windows.exe
-    checksum: 26941628204f84eea0d9db4e0b5dc3fe57ddc0e0
-  - platform: linux64
-    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-linux
-    checksum: 94fa054d9d9b45b17cfcdf7b6521c06b0f66e0da
-- name: cf-icd-plugin
-  description: Helper plugin for traceability function in IBM Cloud Devops
-  version: 0.0.11
-  created: 2017-03-16T00:00:00Z
-  updated: 2017-04-04T00:00:00Z
-  company: IBM
-  authors:
-  - name: Mark Williams
-    homepage: https://github.com/willmark
-    contact: markwill@us.ibm.com
-  - name: Ruoyu Bai
-    homepage: https://github.com/brybwy
-    contact: bair@us.ibm.com
-  homepage: https://github.com/IBM/cf-icd-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_osx
-    checksum: 3542e77ecb52a384b569654ad74c360da048f16d
-  - platform: win64
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_win64.exe
-    checksum: 3bfd44a253f462266f247f24f74378a85bda6785
-  - platform: linux64
-    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_linux64
-    checksum: 64a3149fd38756c448969894a225edbb0687dec0
-- name: cf-predix-analytics-plugin
-  description:  Provides CLI based access to Predix Analytics Catalog features
-  version: 0.0.1
-  created: 2016-09-21T00:00:00Z
-  updated: 2016-09-21T00:00:00Z
-  company: Altoros
-  authors:
-  - name: Stanislav Turlo
-    homepage: https://github.com/nobodyzzz
-    contact: stanislav.turlo@altoros.com
-  homepage: https://github.com/Altoros/cf-predix-analytics-plugin
-  binaries:
-  - platform: linux32
-    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux32
-    checksum: d7145496e1ed6df361e2e73b0b0ac6b8564c5bc6
-  - platform: linux64
-    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux64
-    checksum: 060658b366d0dc96447b5c6f87e1424bb51771d2
-  - platform: osx
-    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.osx
-    checksum: fb197f5a1fcea15a4de02db652dbb3d34cdbb948
-  - platform: win32
-    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win32
-    checksum: 5dbf18efdf7c1a9e8a05f81429fb0842b741dfa6
-  - platform: win64
-    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win64
-    checksum: 20bbd6e72afb5c15602112f8ab94721e4206b5b1
-- name: cf-willitconnect
-  description: Can CF connect to a thing?
-  version: 1.1.0
-  created: 2016-04-09T00:00:00Z
-  updated: 2016-04-11T00:00:00Z
-  company:
-  authors:
-  - name: Thomas Gamble
-    homepage: https://github.com/gambtho
-  homepage: https://github.com/gambtho/cf_will_it_connect_plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_darwin_amd64
-    checksum: 9ba8a64e2ecceac7745545cb646d94eb43477247
-  - platform: win64
-    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_willitcon_win64.exe
-    checksum: 51323e773936268f97233336a487ffd48dc79a0d
-  - platform: linux64
-    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_linux_amd64
-    checksum: 6ff4a6a85acfbd65871721efad387f3174bfa4bb
-- name: cflocal
-  description: Stage and launch CF apps, push and pull droplets, and connect to real CF services -- in Docker
-  version: 0.12.0
-  created: 2017-03-23T00:00:00Z
-  updated: 2017-06-07T00:00:00Z
-  company:
-  authors:
-  - name: Stephen Levine
-    homepage: https://github.com/sclevine
-    contact: stephen.levine@gmail.com
-  homepage: https://github.com/sclevine/cflocal
-  binaries:
-  - platform: osx
-    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-macos
-    checksum: 1eecec40e96f57c7a62d7558f9450c2c9fb105ba
-  - platform: win64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-windows.exe
-    checksum: 3c165c7130a600187d8427c18f82d7bfa5e95e47
-  - platform: linux64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-linux
-    checksum: 857bd99204b9ceb25582b567a45d5bf8a67e77ed
-- name: CLI-Recorder
-  description: Records and playbacks CLI commands.
-  version: 1.0.2
-  created: 2015-02-12T00:00:00Z
-  updated: 2015-09-03T00:00:00Z
-  company:
-  authors:
-  - name: Simon Leung
-    homepage: https://github.com/simonleung8
-    contact: contact@simonleung.info
-  homepage: https://github.com/simonleung8/cli-plugin-recorder
-  binaries:
-  - platform: osx
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_darwin_amd64
-    checksum: 6b87ba654fe63406c7f3887351d7305c5a95a82d
-  - platform: win64
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_windows_amd64.exe
-    checksum: 9296495cbec778e6bf01bbadb4c996bee11a1121
-  - platform: win32
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_windows_386.exe
-    checksum: a70a6749ac32ef9b6b509f6218edcdd41f22f6e9
-  - platform: linux64
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_linux_amd64
-    checksum: 5eae3efe42c60b10dc51c6730ef7754c24925510
-  - platform: linux32
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_linux_386
-    checksum: a1227df100e59e8c56309a70f6337f093eb91115
-- name: Cloud Deployment Plugin
-  description: This plugin allows you to manage application deployment details and manifests in a github repo (like spring cloud config server for deployments)
-  version: 1.0.1
-  created: 2015-09-21T00:00:00Z
-  updated: 2015-09-21T00:00:00Z
-  company:
-  authors:
-  - name: John Calabrese
-    homepage: https://github.com/xchapter7x
-    contact: xchapter7x@gmail.com
-  homepage: https://github.com/xchapter7x/deploycloud
-  binaries:
-  - platform: osx
-    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_darwin_amd64
-    checksum: 30b8160d9583e1c408530c120cdfe73b2d923152
-  - platform: win64
-    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_windows_amd64.exe
-    checksum: 5f6e1668020e51b16a7495c118a8c43be87bc309
-  - platform: linux64
-    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_linux_amd64
-    checksum: acc12a25c634acaf560c1718c4a0378acfab6eb6
-- name: Console
-  description: Start a tmate session on an application container
-  version: 1.0.0
-  created: 2015-02-20T00:00:00Z
-  updated: 2015-02-20T00:00:00Z
-  company:
-  authors:
-  - name: Dan Higham
-    homepage: https://github.com/danhigham
-    contact: dhigham@pivotal.io
-  homepage: https://github.com/danhigham/cf-console
-  binaries:
-  - platform: osx
-    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
-    checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
-  - platform: linux64
-    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
-    checksum: f1fe066cd95451422748779c56301829bca1e602
-- name: copy
-  description: Copies applications and services in current space to another space or Cloud Foundry target.
-  version: 0.9.4
-  created: 2016-10-01T00:00:00Z
-  updated: 2017-05-22T11:44:18Z
-  company:
-  authors:
-  - name: Mevan Samaratunga
-    homepage: http://github.com/mevansam/
-    contact: mevansam@gmail.com
-  homepage: http://github.com/mevansam/cf-copy-plugin
-  binaries:
-  - platform: osx         
-    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_osx
-    checksum: 538e3fa1ad902cb2d56e67135fee8d7a1a006c23
-  - platform: win64
-    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_win64.exe
-    checksum: fc32a58ab9c59c6ff7ea645c3a0c1c5691dd8a42
-  - platform: linux64
-    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_linux64
-    checksum: f8400ea82cdd5d453c1c26d204cca9e10e4e2738
-- name: Copy Env
-  description: Expose remote VCAP_SERVICES on the client environment
-  version: 1.1.1
-  created: 2015-04-15T00:00:00Z
-  updated: 2016-09-09T00:00:00Z
-  company: IBM
-  authors:
-  - name: James Thomas
-    homepage: https://github.com/jthomas
-    contact: james@jamesthom.as
-  homepage: https://github.com/jthomas/copyenv
-  binaries:
-  - platform: osx
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
-    checksum: f4be69bbeff73e5c213ea9ea2e6d4e9d2c94e75c
-  - platform: linux32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
-    checksum: ea67ef333e08cd42b76f1b6194cf2b56b5cbd37b
-  - platform: linux64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
-    checksum: d422ef04e4ce530696d4254a907ed1264f97f6cc
-  - platform: win32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
-    checksum: 1524af809f1e41c4f0e8dfcf0070ec5912e17992
-  - platform: win64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
-    checksum: 3138f13efdb4213c3ced0e716a132d3c74b21089
-- name: deploy
-  description: Create/update initial Cloud Foundry state (orgs, spaces, users, services, apps, and more) via a yml file
+  company: null
+  created: 2016-04-23T00:00:00Z
+  description: Detect if an app has unexpected ENV vars or services bound which are
+    missing from the manifest
+  homepage: https://github.com/odlp/antifreeze
+  name: antifreeze
+  updated: 2016-05-20T00:00:00Z
   version: 0.3.0
-  created: 2016-06-28T00:00:00Z
-  updated: 2017-06-23T00:00:00Z
-  company:
-  authors:
-  - name: James Hunt
-    homepage: https://github.com/jhunt
-    contact: jhunt@starkandwayne.com
-  - name: Quintessence Anx
-    homepage: https://github.com/quintessence
-    contact: quinn@starkandwayne.com
-  homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
+- authors:
+  - contact: xoebus@xoeb.us
+    homepage: https://github.com/xoebus
+    name: Chris Brown
   binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-darwin
-    checksum: 2c21e98fa6b548a7fb728a6e7f9ac84ba586899e
-  - platform: win64
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-windows.exe
-    checksum: d37a64ac0447af2ed5549132b7de8e4f79877ef6
-  - platform: linux32
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux32
-    checksum: 4e0e79068f08db8c440cf59272854795c42c60e5
-  - platform: linux64
-    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux64
-    checksum: 9ad8bb5a89550e177923de57c7494ef4b7859682
-- name: Diego-Enabler
-  description: Enable/Disable Diego support for an app (CLI v6.13.0+)
-  version: 1.2.3
-  created: 2015-10-16T00:00:00Z
-  updated: 2017-01-27T00:00:00Z
-  company:
-  authors:
-  - name: Cloud Foundry CLI Team
-    homepage: https://github.com/cloudfoundry
-    contact: cf-cli-eng@pivotal.io
-  homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
-  binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_darwin_amd64
-    checksum: 4a4d1c6b9d2944117e69839bf43c14cc0e6880c1
-  - platform: linux32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_386
-    checksum: 3d745a0a033042c98ea7e95085b21708f2f5d34a
-  - platform: linux64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_amd64
-    checksum: cc7d8120ce1866ec920a1714e51dfad44741919e
-  - platform: win32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_386.exe
-    checksum: 351c4c504af14c81fa2efad92d6d6914c808ec7d
-  - platform: win64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_amd64.exe
-    checksum: 0a8b009dff1972f0c58750066c73c1d2feed1530
-- name: do-all
-  description: Run the same command on all the apps in a space, org, or globally
-  version: 1.1.2
-  created: 2016-07-07T00:00:00Z
-  updated: 2017-01-21T00:00:00Z
-  company: ECS Team
-  authors:
-  - name: Josh Ghiloni of ECS Team
-    homepage: https://github.com/jghiloni
-    contact: jghiloni@ecsteam.com
-  homepage: https://github.com/ECSTeam/do-all
-  binaries:
-  - platform: osx
-    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-macosx
-    checksum: 501f5734e280fd81bce1ca1cfa0e9def6b26ae00
-  - platform: win64
-    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-amd64.exe
-    checksum: 3cde5f2124a0978bc6c3f0724164a1b3c7c924b7
-  - platform: linux64
-    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-amd64
-    checksum: b50c2f359c938a0bdf849224c155f45a5c878f2c
-  - platform: win32
-    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-386.exe
-    checksum: 77ed19f866c99dde97c50a6dc9a18222495f3c3e
-  - platform: linux32
-    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-386
-    checksum: ef4de9d5b336adc872dbfd2f3f057dfca47a7685
-- name: docker-usage
-  description: Show which apps are using docker images
-  version: 1.0.3
-  created: 2016-11-03T12:00:00Z
-  updated: 2016-11-03T12:00:00Z
-  company: ECS Team
-  authors:
-  - name: Josh Ghiloni of ECS Team
-    homepage: https://github.com/jghiloni
-    contact: jghiloni@ecsteam.com
-  homepage: https://github.com/ECSTeam/docker-usage
-  binaries:
-  - platform: osx
-    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-macosx
-    checksum: 27a3fa33e0f2d6b69e423b44c08e54f2f4742d80
-  - platform: win64
-    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-windows.exe
-    checksum: 00f5c86bb06e893b881a7054f9389382a744c748
-  - platform: linux64
-    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-linux
-    checksum: c523b8b414d89c368b07a89dbf7ede570edea129
-- name: doctor
-  description: doctor scans your deployed applications, routes and services for anomalies and reports any issues found. (CLI v6.7.0+)
-  version: 1.0.3
-  created: 2015-12-13T00:00:00Z
-  updated: 2017-01-03T00:00:00Z
-  company:
-  authors:
-    - name: Emir Ozer
-      homepage: https://github.com/emirozer
-      contact: emirozer@yandex.com
-  homepage: https://github.com/emirozer/cf-doctor-plugin
-  binaries:
-    - platform: osx
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_darwin_amd64
-      checksum: d3fc1fda712387e32963adb2e6635f1703559772
-    - platform: win64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_amd64.exe
-      checksum: e790ae6ffc87c28e9cfe59986294cc154f06ee1d
-    - platform: win32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_386.exe
-      checksum: 35e5ea89596b7a7b0ee9ef41aa1522341b02c4bd
-    - platform: linux64
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_amd64
-      checksum: 3ca35cace709c12e664a95c4d0d1893d52f2db49
-    - platform: linux32
-      url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_386
-      checksum: 5c7dc24fb9cc8c10ac38dd8ec0f9f80d01d2f97a
-- name: Download Droplet
-  description: Download droplets to your local machine
-  version: 1.0.1
-  created: 2016-01-11T00:00:00Z
-  updated: 2016-02-08T00:00:00Z
-  company:
-  authors:
-  - name: Josh Kruck
-    homepage: https://github.com/krujos/
-    contact: jkruck@pivotal.io
-  homepage: https://github.com/krujos/download_droplet_plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/osx/download_droplet_plugin
-    checksum: 344f50566263abaf7a4a9549c454b6a4f1f77eed
-  - platform: win64
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/win64/download_droplet_plugin.exe
-    checksum: 70a8cce34cac7ea493e72f18eabe2abd55e63b99
-  - platform: linux64
-    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/linux64/download_droplet_plugin
-    checksum: a1076347648f7dfb7268c4fa275a3787762a088f
-- name: fastpush
-  description: Fast, non-persistent, smart and incrementally updating of your application
-  version: 1.0.0
-  created: 2016-02-21T00:00:00Z
-  updated: 2016-02-21T00:00:00Z
-  company: Mendix
-  authors:
-    - name: Xiwen Cheng
-      homepage: https://github.com/xiwenc
-      contact: x@cinaq.com
-  homepage: https://github.com/xiwenc/cf-fastpush-plugin
-  binaries:
-    - platform: osx
-      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_darwin_amd64
-      checksum: 504a7198f754085cf45a5be90acaa5647deb2d19
-    - platform: win64
-      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_windows_amd64.exe
-      checksum: 885c9c26ae5463e2819cfd8ba5a7ab85b48f38e3
-    - platform: linux64
-      url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
-      checksum: 689f21bb554372032096d122d04ce80a0defed3b
-- name: Firehose Plugin
-  description: This plugin allows you to connect to the firehose (CF admins only)
-  version: 0.12.0
-  created: 2015-09-09T00:00:00Z
-  updated: 2017-03-24T02:11:56Z
-  company:
-  authors:
-  - name: Johannes Tuchscherer
-    homepage: https://github.com/jtuchscherer
-    contact: jtuchschererg@gmail.com
-  - name: Warren Fernandes
-    homepage: https://github.com/wfernandes
-    contact: warren.f.fernandes@gmail.com
-  homepage: http://github.com/cloudfoundry-community/firehose-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-darwin
-    checksum: 64365de9fd00e18fc4bbcb02dfc172e0a1a2cff8
-  - platform: win64
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin.exe
-    checksum: 74f0c6aaeace310565ceb8e76ca0d16cb1ef7bbc
-  - platform: linux64
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-linux
-    checksum: 31d07b66bee543ec082a9c6e17073eddaab10afa
-- name: get-events
-  description: Get microservice events
-  version: 0.6.0
-  created: 2016-12-28T14:00:00Z
-  updated: 2017-01-11T21:29:06Z
-  company: ECS Team
-  authors:
-  - name: Ajay Koranne of ECS Team
-    homepage: https://github.com/akoranne
-    contact: akoranne@ecsteam.com
-  homepage: https://github.com/ECSTeam/cf_get_events
-  binaries:
-  - platform: osx
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin-darwin
-    checksum: 8d3679ab3788ab70d5bdec8e88a2fb0c87bf7ac1
-  - platform: win64
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin.exe
-    checksum: 1d725d77b4355ec5a86f19a67242dd14242309b0
-  - platform: linux64
-    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin-linux
-    checksum: a066448490f0523ea04d5e02b55d3edada8cb858
-- name: java-plugin
-  description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled Java application.
-  version: 1.0.0
-  created: 2017-03-14T09:00:00Z
-  updated: 2017-03-14T09:00:00Z
-  company:
-  authors:
-  - name: Michele Mancioppi
-    homepage: https://github.com/michele-mancioppi
-    contact: michele.mancioppi@sap.com
-  homepage: https://github.com/SAP/cf-cli-java-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-osx
-    checksum: ed0db38110402cc65dc7a185e7fdc0501bbd8164
-  - platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win64.exe
-    checksum: a2e23deffab15edd6bde5250ec67d66ff17567ae
-  - platform: win32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win32.exe
-    checksum: cbd89f62911f7785a56e41c5027b10168bfe1b8c
-  - platform: linux32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux32
-    checksum: 80d2c9dd30cdfffca7f8b8c1b1d73205996cf27b
-  - platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux64
-    checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
-- name: kibana-me-logs
-  description: Launches the Kibana UI (from kibana-me-logs) for an application.
-  version: 0.4.3
-  created: 2015-03-18T00:00:00Z
-  updated: 2015-10-15T00:00:00Z
-  company: "Stark & Wayne"
-  authors:
-  - name: "Dr Nic Williams"
-    homepage: http://drnicwilliams.com
-    contact: drnic@starkandwayne.com
-  homepage: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
-  binaries:
-  - platform: win64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_windows_amd64.exe"
-    checksum: "bd19227826d5f3481322b14f5fb89031bc2cd7ba"
-  - platform: win32
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_windows_386.exe"
-    checksum: "841a3c4f9b69ba2bca8ce0758149487a893fc2e4"
-  - platform: linux64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_linux_amd64"
-    checksum: "2117aa0bf44c3344eff73580db5cccc667e9a961"
-  - platform: linux32
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_linux_386"
-    checksum: "26037c0b6b5dc6751210dbaabf06c3fdf418991d"
-  - platform: osx
-    url: "https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_darwin_amd64"
-    checksum: "2677d50cd71b70b27e94cb0ae6cee6f71b51e805"
-- name: Live Stats
-  description: Monitor CPU and Memory usage on an app via the browser.
-  version: 1.0.0
-  created: 2015-02-20T00:00:00Z
-  updated: 2015-02-20T00:00:00Z
-  company:
-  authors:
-  - name: Dan Higham
-    homepage: https://github.com/danhigham
-    contact: dhigham@pivotal.io
-  homepage: https://github.com/danhigham/cf-live-stats
-  binaries:
-  - platform: osx
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/osx/cf-plugin-stats
-    checksum: 826053a55fc65f8b42a7426ac6feacb55a424f1b
-  - platform: win64
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/win64/cf-plugin-stats.exe
-    checksum: 9d40d0cfeb1f3863b3e35536653997168dfa2b44
-  - platform: linux64
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/linux64/cf-plugin-stats
-    checksum: 7ed57c121d183a2b2a11984d00a042312e2871c0
-- name: manifest-generator
-  description: Help you to generate a manifest from 0 (CLI v6.7.0+)
-  version: 1.0.0
-  created: 2015-11-11T00:00:00Z
-  updated: 2015-11-11T00:00:00Z
-  company:
-  authors:
-    - name: Arthur Halet
-      homepage: https://github.com/ArthurHlt
-      contact: arthurh.halet@gmail.com
-  homepage: https://github.com/ArthurHlt/plugin-cf-manifest-generator
-  binaries:
-    - platform: osx
-      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_darwin_amd64
-      checksum: 37d226e2587949f64b239063753613b2482cc853
-    - platform: win64
-      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_amd64.exe
-      checksum: 8cfc04315d945bdba504e8448b0795b00f7ba80c
-    - platform: win32
-      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_386.exe
-      checksum: 6220726e5fa4165e126c7d73ed3f36ab6780a10a
-    - platform: linux64
-      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_amd64
-      checksum: 540a9bcc7c2fe03635f59b18de5a11607efd2cb1
-    - platform: linux32
-      url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
-      checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
-- name: mysql-plugin
-  description: Runs mysql and mysqldump clients against your CF database services. Use it to inspect, dump and restore your DB.
-  version: 1.3.6
-  created: 2017-02-02T09:30:00Z
-  updated: 2017-02-02T09:30:00Z
-  company:
-  authors:
-  - name: Andreas Fleig
-    homepage: https://github.com/andreasf
-    contact: afleig@pivotal.io
-  homepage: https://github.com/andreasf/cf-mysql-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-darwin-amd64
-    checksum: a11d80c7ce2dc019e9fb85af5b502a1b39ee2998
-  - platform: win64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-amd64.exe
-    checksum: 9f9b5a082e34250a4ce020b5eb1ba2224e4a3845
-  - platform: win32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-386.exe
-    checksum: 60f736f61854bea03d60a97af1a5bfc35df2790b
-  - platform: linux32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-linux-386
-    checksum: a01074af5ee72997709027f4331d393158ef85f6
-  - platform: linux64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-linux-amd64
-    checksum: 1d5a648806bfce0e5d094d7fd7a3b781b79f1d99
-- name: Open
-  description: Open app url in browser
-  version: 1.1.0
-  created: 2015-02-27T00:00:00Z
-  updated: 2015-02-27T00:00:00Z
-  company: Stark and Wayne
-  authors:
-  - name: Long Nguyen
-    homepage: http://lnguyen.io
-    contact: long@starkandwayne.com
-  - name: Dr Nic Williams
-    homepage: http://drnicwilliams.com
-    contact: drnic@starkandwayne.com
-  - name: Van Nguyen
-    homepage: https://github.com/soutenniza
-    contact: vnguyen@starkandwayne.com
-  homepage: https://github.com/cloudfoundry-community/cf-plugin-open
-  binaries:
-  - platform: win64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_windows_amd64.exe"
-    checksum: "aba8c8d3a1a0e21987a8864c5b239a518e668e3f"
-  - platform: linux64
-    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_linux_amd64"
-    checksum: "184c5e358e3f9ec8355b8d5202fc8f23871b40c9"
-  - platform: osx
-    url: "https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_darwin_amd64"
-    checksum: "56eee6c22300d0915d67fee6921d1fd187d6d539"
-- name: route-lookup
-  description: Find the application(s) associated with a given hostname
-  version: 1.1.0
-  created: 2017-01-08T00:30:56Z
-  updated: 2017-01-10T17:53:53Z
-  company: "18F"
-  authors:
-  - name: Aidan Feldman
-    homepage: https://github.com/afeld
-    contact: aidan.feldman@gsa.gov
-  homepage: https://github.com/18F/cf-route-lookup
-  binaries:
-  - platform: osx
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.osx
-    checksum: 8d7bf2ec54a235c3c078f98b50e5cc7149d4c42d
-  - platform: win32
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win32
-    checksum: f20ae336b478cff009d9d5e42f8a07f6e02a5fa9
-  - platform: win64
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win64
-    checksum: 56b699be5d9aefac9edd4d5206f99f3f197cb1cf
-  - platform: linux32
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux32
-    checksum: dfc486119d2860f709e9f80d5f7351a583862187
-  - platform: linux64
-    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux64
-    checksum: 817ea097afff3b81f97f58694d48822fdb85847d
-- name: Scaleover
-  description: Roll traffic from one app to another by scaling over time
-  version: 1.0.4
-  created: 2015-05-27T00:00:00Z
-  updated: 2016-05-19T00:00:00Z
-  company:
-  authors:
-  - name: Guido Westenberg
-    homepage: https://github.com/guidowb
-    contact: gwestenberg@pivotal.io
-  - name: Josh Kruck
-    homepage: https://github.com/krujos/
-    contact: jkruck@pivotal.io
-  homepage: https://github.com/krujos/scaleover-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/osx/scaleover-plugin
-    checksum: 75ae7b721d1252f66325b0b6f480dde5c88f354b
-  - platform: win64
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/win64/scaleover-plugin.exe
-    checksum: a626d6eea0c263757de3f1fa5a13e98ec18e3869
-  - platform: linux64
-    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/linux64/scaleover-plugin
-    checksum: 682e80ac124d1f3f1a1107337bb1820d8dad60cf
-- name: Statistics
-  description: Display live metrics/statistics about an app
-  version: 1.0.0
-  created: 2015-07-07T00:00:00Z
-  updated: 2015-07-07T00:00:00Z
-  company: Swisscom (Schweiz) AG
-  authors:
-  - name: Fabio Berchtold
-    homepage: https://github.com/JamesClonk/
-    contact: fabio.berchtold@swisscom.com
-  homepage: https://github.com/swisscom/cf-statistics-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_darwin_amd64
-    checksum: 6729099ba88edfcb5392d2b42494f718c9b35d8c
-  - platform: win64
-    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_windows_amd64.exe
-    checksum: 9b9f3f9fcb2511d5443e9baecf05f59fabe77857
-  - platform: linux64
-    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
-    checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
-- name: sync
-  description: Synchronize a local folder to a remote folder inside a Cloud Foundry app to make changes on the fly
-  version: 1.2.0
-  created: 2017-04-04T00:00:00Z
-  updated: 2017-04-14T00:00:00Z
-  company: Orange
-  authors:
-    - name: Arthur Halet
-      homepage: https://github.com/ArthurHlt
-      contact: arthur.halet@orange.com
-  homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
-  binaries:
-    - platform: osx
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_darwin_amd64
-      checksum: 9c5a470dfe482057e4b03e7a4b0686747558df7d
-    - platform: win64
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_amd64.exe
-      checksum: 959dd939437f5640c26da319f697d1b07f1b5c8d
-    - platform: win32
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_386.exe
-      checksum: c6706581c93e4884f3ae14cb94417fbc6ef327fb
-    - platform: linux64
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_amd64
-      checksum: 1f8482d26d108ed6091a75de611ed0928e7d4e3c
-    - platform: linux32
-      url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_386
-      checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
-- name: Targets
-  description: Easily manage multiple CF targets
-  version: 1.1.0
-  created: 2015-04-17T00:00:00Z
-  updated: 2015-08-14T00:00:00Z
-  company:
-  authors:
-  - name: Guido Westenberg
-    homepage: https://github.com/guidowb
-    contact: gwestenberg@pivotal.io
-  homepage: https://github.com/guidowb/cf-targets-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
-    checksum: 42a77ed2430c09c6de70c09b839af1ae48a82b39
-  - platform: win64
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
-    checksum: c360ee333631cda7f0de426494abecfd8c356aea
-  - platform: linux64
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
-    checksum: 45f0626f789871141d5194cbacdfac41bd08d1f2
-- name: Test User
-  description: Create a user and assign all possible permissions, organisation and space are created if they do not already exist as well. If no organisation or space name are specified then the default value of 'development' is used
+  - checksum: b250c6c7e01f9e495d1788728a7d65e21bcda203
+    platform: osx
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-darwin
+  - checksum: 8a5cc1ffcaaf71f3b1e0f83c9de68a8100bc94b1
+    platform: win64
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot.exe
+  - checksum: 3aaa4c0a7dc8ffeb277f5a111679709a1a5756c5
+    platform: linux64
+    url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-linux
+  company: Concourse
+  created: 2015-03-01T00:00:00Z
+  description: zero downtime deploy plugin for cf applications
+  homepage: https://github.com/concourse/autopilot
+  name: autopilot
+  updated: 2015-03-01T00:00:00Z
   version: 0.0.1
-  created: 2015-03-30T00:00:00Z
-  updated: 2015-03-30T00:00:00Z
-  company: Ben Laplanche
-  authors:
-  - name: "Ben Laplanche"
-    homepage: http://ben.laplanche.co.uk
-    contact: ben@laplanche.co.uk
-  homepage: https://github.com/benlaplanche/cf-testuser-plugin
+- authors:
+  - contact: arthur.halet@orange.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
   binaries:
-  - platform: win64
-    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_amd64.exe"
-    checksum: "c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21"
-  - platform: win32
-    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_386.exe"
-    checksum: "628a02c769c3c79b4ba80705c86d5bcf01fdaed9"
-  - platform: linux64
-    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_amd64"
-    checksum: "0c9152c81afd7899c8ef938ce1fb66e307d1a0f7"
-  - platform: linux32
-    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_386"
-    checksum: "5d9a2fdb7cca17b4244ab59bd50053257bfc5520"
-  - platform: osx
-    url: "https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64"
-    checksum: "e1a408e9be7dca29100a507193d646620c038736"
-- name: top
-  description: An interactive interface that shows top statistics similar in concept as the UNIX top command.  NEW - HTTP Response Info View access from App Detail via 'd' menu.
-  version: 0.8.5
-  created: 2016-11-07T00:00:00Z
-  updated: 2017-05-02T14:47:31Z
-  company: ECS Team
-  authors:
-  - name: Kurt Kellner of ECS Team
-    homepage: https://github.com/kkellner
-    contact: kkellner@ecsteam.com
-  homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-darwin
-    checksum: f270cce4344213d3b24af31a74930466e2722160
-  - platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin.exe
-    checksum: d6fafb5b81b8b1fcc0206733c6a5e402c9985480
-  - platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-linux
-    checksum: 1e9e5d355944bd2fc5b7b479b68140a1cd4babd7
-- name: update-cli
-  description: Update cloudfoundry/cli to the latest version
-  version: 0.1.1
-  created: 2016-10-21T00:00:00Z
-  updated: 2016-10-21T00:00:00Z
-  company: Rakuten
-  authors:
-  - name: Taichi Nakashima
-    homepage: https://github.com/tcnksm
-    contact: taichi.nakashima@rakuten.com
-  homepage: https://github.com/tcnksm/cf-plugin-update-cli
-  binaries:
-  - platform: osx
-    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_darwin_amd64
-    checksum: 34ce1d76d1dd872096159dd2bdfa5b8cbaef4e24
-  - platform: win64
-    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_windows_amd64.exe
-    checksum: 575fa3f122fb20db0bd95b908ca6f0d43b70b266
-  - platform: linux64
-    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_linux_amd64
-    checksum: 2358f4b5c7f6b8664dd5d578cc24a6f4734b8119
-- name: Usage Report
-  description: Report on memory usage and application instances for orgs and spaces
-  version: 1.4.1
-  created: 2015-07-12T00:00:00Z
-  updated: 2016-12-12T00:00:00Z
-  homepage: https://github.com/krujos/usagereport-plugin
-  authors:
-  - name: Josh Kruck
-    homepage: https://github.com/krujos/
-    contact: jkruck@pivotal.io
-  - name: Cornelia Davis
-    homepage: https://github.com/cdavisafc/
-    contact: cdavis@pivotal.io
-  - name: Alan Moran
-    contact: bonzofenix@gmail.com
-  - name: Anthony Lee
-    contact: anthony.lee@allstate.com
-  - name: Kieran Robinson
-    contact: krobn@allstate.com
-  binaries:
-  - platform: osx
-    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/osx/usagereport-plugin
-    checksum: ccf2b36bebc7bd3c6af8fca12e5b078a770af67e
-  - platform: win64
-    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/win64/usagereport-plugin.exe?raw=true
-    checksum: 7e2838be21c3437d1b7ae487af64b667c3008d44
-  - platform: win32
-    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/win32/usagereport-plugin.exe?raw=true
-    checksum: 8714a55e275f86bad8b0ac3224103a105bcebc7e
-  - platform: linux64
-    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/linux64/usagereport-plugin?raw=true
-    checksum: 63221ac784f6528b132ee8cf4fb45aae16f3ac87
-- name: whoami-plugin
-  description: This plugin shows you the name of the currently logged in user
-  version: 0.2.0
-  created: 2015-12-22T00:00:00Z
-  updated: 2017-05-08T00:00:00Z
-  company:
-  authors:
-  - name: Johannes Tuchscherer
-    homepage: https://github.com/jtuchscherer
-    contact: jtuchschererg@gmail.com
-  homepage: https://github.com/jtuchscherer/whoami-plugin
-  binaries:
-  - platform: osx
-    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-darwin
-    checksum: 23c86dfc79d038634d8be7ded55876c5895ef493
-  - platform: win64
-    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin.exe
-    checksum: 416f3c9d7518c71749c02ad1aebaa371c4fe6409
-  - platform: linux64
-    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-linux
-    checksum: c467f0c1fd5f972bbc5e5d43b41a18680cc74101
-- name: wildcard_plugin
-  description: Allows user to search and delete apps using wildcard(*)
+  - checksum: de883d2dda017f22c67d1fd392956b86e2b23112
+    platform: osx
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_darwin_amd64
+  - checksum: 4a32be2f4acedc7f9231fdf55e4df09ad04c50e7
+    platform: win64
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_amd64.exe
+  - checksum: 8e2384b76d179495baa0137b91d8eb7467ceba33
+    platform: win32
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_386.exe
+  - checksum: 65c8d6db1c4a2a81395b0ded376430b177e9bd1c
+    platform: linux64
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_amd64
+  - checksum: e88cd85b4002f9e1fc4801733f0d7a8458c87469
+    platform: linux32
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_386
+  company: Orange
+  created: 2017-05-28T00:00:00Z
+  description: Perform a zero-downtime restage of an application over the top of an
+    old one (highly inspired by autopilot)
+  homepage: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage
+  name: bg-restage
+  updated: 2017-05-28T00:00:00Z
   version: 1.0.0
-  created: 2015-07-02T00:00:00Z
-  updated: 2015-07-02T00:00:00Z
-  company:
-  authors:
-  - name: Eui Jin "Jeanie" Jung
-    homepage: https://github.com/jeaniejung
-    contact: jeaniejung95@gmail.com
-  homepage: https://github.com/jeaniejung/Wildcard_Plugin
+- authors:
+  - contact: garage@uk.ibm.com
+    homepage: http://garage.mybluemix.net/
+    name: Bluemix Garage London
   binaries:
-  - platform: osx
+  - checksum: 47c758a1b74a23303533e1868ee284c7b593fe26
+    platform: osx
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.osx
+  - checksum: ad2504534cdb324efed813ed076befa865aee21a
+    platform: linux32
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux32
+  - checksum: dfbf816750ce6b3343d87c0e001df6cf5cb5d8ff
+    platform: linux64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux64
+  - checksum: 90886fa46c9153d252d73b93fde6df2ff43f7f13
+    platform: win32
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win32
+  - checksum: a6d0b654de5ae40bf94eb16dc0d79e16fa1e5eea
+    platform: win64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win64
+  company: IBM
+  created: 2015-03-24T00:00:00Z
+  description: Zero downtime deploys with smoke test support
+  homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
+  name: blue-green-deploy
+  updated: 2017-02-21T15:50:13Z
+  version: 1.2.0
+- authors:
+  - contact: robert.moss@cloudsoftcorp.com
+    homepage: https://github.com/robertgmoss
+    name: Robert Moss
+  binaries:
+  - checksum: ed982e8cbf16503f493c6f064c39a0e84bcd2836
+    platform: osx
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
+  - checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
+    platform: linux64
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
+  company: Cloudsoft
+  created: 2015-03-13T00:00:00Z
+  description: Interact with Service Broker for Apache Brooklyn
+  homepage: https://github.com/cloudfoundry-community/brooklyn-plugin
+  name: Brooklyn
+  updated: 2015-03-16T00:00:00Z
+  version: 0.1.1
+- authors:
+  - contact: david.ehringer@gmail.com
+    homepage: https://github.com/davidehringer
+    name: David Ehringer
+  binaries:
+  - checksum: e102fa7c0f5ddc920965113972c03bb833af7fd1
+    platform: osx
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_darwin_amd64
+  - checksum: b1024b0d3711a4c00cc935eeffd6fa27729b1b86
+    platform: win64
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_amd64.exe
+  - checksum: 54a7a62cba2ef4fdbe6b9d13a052648d68a8146b
+    platform: win32
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_windows_386.exe
+  - checksum: 0e8688fbb5302af398b3f210ef5f33945a8f7f10
+    platform: linux64
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_amd64
+  - checksum: 66b5c8bac00e17195afe9be8e987049226bcbc2c
+    platform: linux32
+    url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
+  company: null
+  created: 2015-09-03T00:00:00Z
+  description: Provides a declarative way to configure system buildpacks in a Cloud
+    Foundry installation
+  homepage: https://github.com/davidehringer/cf-buildpack-management-plugin
+  name: Buildpack Management
+  updated: 2015-09-03T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: chris.sterling@ctl.io
+    homepage: http://www.managingsoftwaredebt.com/
+    name: Chris Sterling
+  binaries:
+  - checksum: 2f551b0a2d6bf01461fe49978990577a607e87e5
+    platform: osx
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.osx
+  - checksum: 00c482fd2890435d160a73b2b1af72271c9ce6c8
+    platform: win64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.win64.exe
+  - checksum: 5a27d23dce3efde97d0bb8eedce695327a2f0c22
+    platform: linux64
+    url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
+  company: CenturyLink Cloud
+  created: 2015-04-02T00:00:00Z
+  description: View all buildpacks used in the current CLI target context.
+  homepage: https://github.com/csterwa/cf_buildpacks_usage_cmd
+  name: Buildpack Usage
+  updated: 2015-04-02T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: jghiloni@ecsteam.com
+    homepage: https://github.com/jghiloni
+    name: Josh Ghiloni of ECS Team
+  binaries:
+  - checksum: 5be6c6d99ee0592ff5d790cfb18ae9f08f634d71
+    platform: osx
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-macosx
+  - checksum: da1880f5c3753ea9e7814bd6abfb9fd5b74b7013
+    platform: win64
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-windows.exe
+  - checksum: 55b09563e14a2a52bb6353163a76fe8f08c54737
+    platform: linux64
+    url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-linux
+  company: ECS Team
+  created: 2016-10-19T12:00:00Z
+  description: Show which apps are using an installed buildpack
+  homepage: https://github.com/ECSTeam/buildpack-usage
+  name: buildpack-usage
+  updated: 2017-02-15T12:42:00Z
+  version: 1.0.4
+- authors:
+  - contact: contact@simonleung.info
+    homepage: https://github.com/simonleung8
+    name: Simon Leung
+  - contact: jonathan.berkhahn@gmail.com
+    homepage: https://github.com/jberkhahn
+    name: Jonathan Berkhahn
+  binaries:
+  - checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
+    platform: osx
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
+  - checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
+    platform: win64
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
+  - checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
+    platform: linux64
+    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
+  company: Cloud Foundry CLI Team
+  created: 2015-04-07T00:00:00Z
+  description: Allows admins to list and update applications with outdated lucid64
+    stacks.
+  homepage: https://github.com/simonleung8/cli-stack-changer
+  name: CF App Stack Changer
+  updated: 2015-05-08T00:00:00Z
+  version: 1.1.0
+- authors:
+  - contact: mfclemen@us.ibm.com
+    homepage: https://github.com/clement360
+    name: Miguel Clement
+  - contact: jeden@us.ibm.com
+    homepage: https://github.com/jeden25
+    name: Jake Eden
+  - contact: resoley@us.ibm.com
+    homepage: https://github.com/reSoley
+    name: Ryan Soley
+  binaries:
+  - checksum: 4a4b2fbdde159a8a8b5e9c7dba208983b085df86
+    platform: osx
+    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-darwin
+  - checksum: 26941628204f84eea0d9db4e0b5dc3fe57ddc0e0
+    platform: win64
+    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-windows.exe
+  - checksum: 94fa054d9d9b45b17cfcdf7b6521c06b0f66e0da
+    platform: linux64
+    url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-linux
+  company: IBM jStart
+  created: 2015-04-21T00:00:00Z
+  description: Plugin for downloading your application contents after staging.
+  homepage: https://github.com/ibmjstart/cf-download
+  name: cf-download
+  updated: 2016-11-01T00:00:00Z
+  version: 1.2.0
+- authors:
+  - contact: markwill@us.ibm.com
+    homepage: https://github.com/willmark
+    name: Mark Williams
+  - contact: bair@us.ibm.com
+    homepage: https://github.com/brybwy
+    name: Ruoyu Bai
+  binaries:
+  - checksum: 3542e77ecb52a384b569654ad74c360da048f16d
+    platform: osx
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_osx
+  - checksum: 3bfd44a253f462266f247f24f74378a85bda6785
+    platform: win64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_win64.exe
+  - checksum: 64a3149fd38756c448969894a225edbb0687dec0
+    platform: linux64
+    url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_linux64
+  company: IBM
+  created: 2017-03-16T00:00:00Z
+  description: Helper plugin for traceability function in IBM Cloud Devops
+  homepage: https://github.com/IBM/cf-icd-plugin
+  name: cf-icd-plugin
+  updated: 2017-04-04T00:00:00Z
+  version: 0.0.11
+- authors:
+  - contact: stanislav.turlo@altoros.com
+    homepage: https://github.com/nobodyzzz
+    name: Stanislav Turlo
+  binaries:
+  - checksum: d7145496e1ed6df361e2e73b0b0ac6b8564c5bc6
+    platform: linux32
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux32
+  - checksum: 060658b366d0dc96447b5c6f87e1424bb51771d2
+    platform: linux64
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.linux64
+  - checksum: fb197f5a1fcea15a4de02db652dbb3d34cdbb948
+    platform: osx
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.osx
+  - checksum: 5dbf18efdf7c1a9e8a05f81429fb0842b741dfa6
+    platform: win32
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win32
+  - checksum: 20bbd6e72afb5c15602112f8ab94721e4206b5b1
+    platform: win64
+    url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win64
+  company: Altoros
+  created: 2016-09-21T00:00:00Z
+  description: Provides CLI based access to Predix Analytics Catalog features
+  homepage: https://github.com/Altoros/cf-predix-analytics-plugin
+  name: cf-predix-analytics-plugin
+  updated: 2016-09-21T00:00:00Z
+  version: 0.0.1
+- authors:
+  - homepage: https://github.com/gambtho
+    name: Thomas Gamble
+  binaries:
+  - checksum: 9ba8a64e2ecceac7745545cb646d94eb43477247
+    platform: osx
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_darwin_amd64
+  - checksum: 51323e773936268f97233336a487ffd48dc79a0d
+    platform: win64
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_willitcon_win64.exe
+  - checksum: 6ff4a6a85acfbd65871721efad387f3174bfa4bb
+    platform: linux64
+    url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_linux_amd64
+  company: null
+  created: 2016-04-09T00:00:00Z
+  description: Can CF connect to a thing?
+  homepage: https://github.com/gambtho/cf_will_it_connect_plugin
+  name: cf-willitconnect
+  updated: 2016-04-11T00:00:00Z
+  version: 1.1.0
+- authors:
+  - contact: stephen.levine@gmail.com
+    homepage: https://github.com/sclevine
+    name: Stephen Levine
+  binaries:
+  - checksum: 1eecec40e96f57c7a62d7558f9450c2c9fb105ba
+    platform: osx
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-macos
+  - checksum: 3c165c7130a600187d8427c18f82d7bfa5e95e47
+    platform: win64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-windows.exe
+  - checksum: 857bd99204b9ceb25582b567a45d5bf8a67e77ed
+    platform: linux64
+    url: https://github.com/sclevine/cflocal/releases/download/v0.12.0/cflocal-0.12.0-linux
+  company: null
+  created: 2017-03-23T00:00:00Z
+  description: Stage and launch CF apps, push and pull droplets, and connect to real
+    CF services -- in Docker
+  homepage: https://github.com/sclevine/cflocal
+  name: cflocal
+  updated: 2017-06-07T00:00:00Z
+  version: 0.12.0
+- authors:
+  - contact: contact@simonleung.info
+    homepage: https://github.com/simonleung8
+    name: Simon Leung
+  binaries:
+  - checksum: 6b87ba654fe63406c7f3887351d7305c5a95a82d
+    platform: osx
+    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_darwin_amd64
+  - checksum: 9296495cbec778e6bf01bbadb4c996bee11a1121
+    platform: win64
+    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_windows_amd64.exe
+  - checksum: a70a6749ac32ef9b6b509f6218edcdd41f22f6e9
+    platform: win32
+    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_windows_386.exe
+  - checksum: 5eae3efe42c60b10dc51c6730ef7754c24925510
+    platform: linux64
+    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_linux_amd64
+  - checksum: a1227df100e59e8c56309a70f6337f093eb91115
+    platform: linux32
+    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_linux_386
+  company: null
+  created: 2015-02-12T00:00:00Z
+  description: Records and playbacks CLI commands.
+  homepage: https://github.com/simonleung8/cli-plugin-recorder
+  name: CLI-Recorder
+  updated: 2015-09-03T00:00:00Z
+  version: 1.0.2
+- authors:
+  - contact: xchapter7x@gmail.com
+    homepage: https://github.com/xchapter7x
+    name: John Calabrese
+  binaries:
+  - checksum: 30b8160d9583e1c408530c120cdfe73b2d923152
+    platform: osx
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_darwin_amd64
+  - checksum: 5f6e1668020e51b16a7495c118a8c43be87bc309
+    platform: win64
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_windows_amd64.exe
+  - checksum: acc12a25c634acaf560c1718c4a0378acfab6eb6
+    platform: linux64
+    url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_linux_amd64
+  company: null
+  created: 2015-09-21T00:00:00Z
+  description: This plugin allows you to manage application deployment details and
+    manifests in a github repo (like spring cloud config server for deployments)
+  homepage: https://github.com/xchapter7x/deploycloud
+  name: Cloud Deployment Plugin
+  updated: 2015-09-21T00:00:00Z
+  version: 1.0.1
+- authors:
+  - contact: dhigham@pivotal.io
+    homepage: https://github.com/danhigham
+    name: Dan Higham
+  binaries:
+  - checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
+    platform: osx
+    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
+  - checksum: f1fe066cd95451422748779c56301829bca1e602
+    platform: linux64
+    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
+  company: null
+  created: 2015-02-20T00:00:00Z
+  description: Start a tmate session on an application container
+  homepage: https://github.com/danhigham/cf-console
+  name: Console
+  updated: 2015-02-20T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: mevansam@gmail.com
+    homepage: http://github.com/mevansam/
+    name: Mevan Samaratunga
+  binaries:
+  - checksum: 538e3fa1ad902cb2d56e67135fee8d7a1a006c23
+    platform: osx
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_osx
+  - checksum: fc32a58ab9c59c6ff7ea645c3a0c1c5691dd8a42
+    platform: win64
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_win64.exe
+  - checksum: f8400ea82cdd5d453c1c26d204cca9e10e4e2738
+    platform: linux64
+    url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_linux64
+  company: null
+  created: 2016-10-01T00:00:00Z
+  description: Copies applications and services in current space to another space
+    or Cloud Foundry target.
+  homepage: http://github.com/mevansam/cf-copy-plugin
+  name: copy
+  updated: 2017-05-22T11:44:18Z
+  version: 0.9.4
+- authors:
+  - contact: james@jamesthom.as
+    homepage: https://github.com/jthomas
+    name: James Thomas
+  binaries:
+  - checksum: f4be69bbeff73e5c213ea9ea2e6d4e9d2c94e75c
+    platform: osx
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
+  - checksum: ea67ef333e08cd42b76f1b6194cf2b56b5cbd37b
+    platform: linux32
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
+  - checksum: d422ef04e4ce530696d4254a907ed1264f97f6cc
+    platform: linux64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
+  - checksum: 1524af809f1e41c4f0e8dfcf0070ec5912e17992
+    platform: win32
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
+  - checksum: 3138f13efdb4213c3ced0e716a132d3c74b21089
+    platform: win64
+    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
+  company: IBM
+  created: 2015-04-15T00:00:00Z
+  description: Expose remote VCAP_SERVICES on the client environment
+  homepage: https://github.com/jthomas/copyenv
+  name: Copy Env
+  updated: 2016-09-09T00:00:00Z
+  version: 1.1.1
+- authors:
+  - contact: jhunt@starkandwayne.com
+    homepage: https://github.com/jhunt
+    name: James Hunt
+  - contact: quinn@starkandwayne.com
+    homepage: https://github.com/quintessence
+    name: Quintessence Anx
+  binaries:
+  - checksum: 2c21e98fa6b548a7fb728a6e7f9ac84ba586899e
+    platform: osx
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-darwin
+  - checksum: d37a64ac0447af2ed5549132b7de8e4f79877ef6
+    platform: win64
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-windows.exe
+  - checksum: 4e0e79068f08db8c440cf59272854795c42c60e5
+    platform: linux32
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux32
+  - checksum: 9ad8bb5a89550e177923de57c7494ef4b7859682
+    platform: linux64
+    url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux64
+  company: null
+  created: 2016-06-28T00:00:00Z
+  description: Create/update initial Cloud Foundry state (orgs, spaces, users, services,
+    apps, and more) via a yml file
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
+  name: deploy
+  updated: 2017-06-23T00:00:00Z
+  version: 0.3.0
+- authors:
+  - contact: cf-cli-eng@pivotal.io
+    homepage: https://github.com/cloudfoundry
+    name: Cloud Foundry CLI Team
+  binaries:
+  - checksum: 4a4d1c6b9d2944117e69839bf43c14cc0e6880c1
+    platform: osx
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_darwin_amd64
+  - checksum: 3d745a0a033042c98ea7e95085b21708f2f5d34a
+    platform: linux32
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_386
+  - checksum: cc7d8120ce1866ec920a1714e51dfad44741919e
+    platform: linux64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_amd64
+  - checksum: 351c4c504af14c81fa2efad92d6d6914c808ec7d
+    platform: win32
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_386.exe
+  - checksum: 0a8b009dff1972f0c58750066c73c1d2feed1530
+    platform: win64
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_amd64.exe
+  company: null
+  created: 2015-10-16T00:00:00Z
+  description: Enable/Disable Diego support for an app (CLI v6.13.0+)
+  homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
+  name: Diego-Enabler
+  updated: 2017-01-27T00:00:00Z
+  version: 1.2.3
+- authors:
+  - contact: jghiloni@ecsteam.com
+    homepage: https://github.com/jghiloni
+    name: Josh Ghiloni of ECS Team
+  binaries:
+  - checksum: 501f5734e280fd81bce1ca1cfa0e9def6b26ae00
+    platform: osx
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-macosx
+  - checksum: 3cde5f2124a0978bc6c3f0724164a1b3c7c924b7
+    platform: win64
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-amd64.exe
+  - checksum: b50c2f359c938a0bdf849224c155f45a5c878f2c
+    platform: linux64
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-amd64
+  - checksum: 77ed19f866c99dde97c50a6dc9a18222495f3c3e
+    platform: win32
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-windows-386.exe
+  - checksum: ef4de9d5b336adc872dbfd2f3f057dfca47a7685
+    platform: linux32
+    url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-386
+  company: ECS Team
+  created: 2016-07-07T00:00:00Z
+  description: Run the same command on all the apps in a space, org, or globally
+  homepage: https://github.com/ECSTeam/do-all
+  name: do-all
+  updated: 2017-01-21T00:00:00Z
+  version: 1.1.2
+- authors:
+  - contact: jghiloni@ecsteam.com
+    homepage: https://github.com/jghiloni
+    name: Josh Ghiloni of ECS Team
+  binaries:
+  - checksum: 27a3fa33e0f2d6b69e423b44c08e54f2f4742d80
+    platform: osx
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-macosx
+  - checksum: 00f5c86bb06e893b881a7054f9389382a744c748
+    platform: win64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-windows.exe
+  - checksum: c523b8b414d89c368b07a89dbf7ede570edea129
+    platform: linux64
+    url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-linux
+  company: ECS Team
+  created: 2016-11-03T12:00:00Z
+  description: Show which apps are using docker images
+  homepage: https://github.com/ECSTeam/docker-usage
+  name: docker-usage
+  updated: 2016-11-03T12:00:00Z
+  version: 1.0.3
+- authors:
+  - contact: emirozer@yandex.com
+    homepage: https://github.com/emirozer
+    name: Emir Ozer
+  binaries:
+  - checksum: d3fc1fda712387e32963adb2e6635f1703559772
+    platform: osx
+    url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_darwin_amd64
+  - checksum: e790ae6ffc87c28e9cfe59986294cc154f06ee1d
+    platform: win64
+    url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_amd64.exe
+  - checksum: 35e5ea89596b7a7b0ee9ef41aa1522341b02c4bd
+    platform: win32
+    url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_windows_386.exe
+  - checksum: 3ca35cace709c12e664a95c4d0d1893d52f2db49
+    platform: linux64
+    url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_amd64
+  - checksum: 5c7dc24fb9cc8c10ac38dd8ec0f9f80d01d2f97a
+    platform: linux32
+    url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_386
+  company: null
+  created: 2015-12-13T00:00:00Z
+  description: doctor scans your deployed applications, routes and services for anomalies
+    and reports any issues found. (CLI v6.7.0+)
+  homepage: https://github.com/emirozer/cf-doctor-plugin
+  name: doctor
+  updated: 2017-01-03T00:00:00Z
+  version: 1.0.3
+- authors:
+  - contact: jkruck@pivotal.io
+    homepage: https://github.com/krujos/
+    name: Josh Kruck
+  binaries:
+  - checksum: 344f50566263abaf7a4a9549c454b6a4f1f77eed
+    platform: osx
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/osx/download_droplet_plugin
+  - checksum: 70a8cce34cac7ea493e72f18eabe2abd55e63b99
+    platform: win64
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/win64/download_droplet_plugin.exe
+  - checksum: a1076347648f7dfb7268c4fa275a3787762a088f
+    platform: linux64
+    url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/linux64/download_droplet_plugin
+  company: null
+  created: 2016-01-11T00:00:00Z
+  description: Download droplets to your local machine
+  homepage: https://github.com/krujos/download_droplet_plugin
+  name: Download Droplet
+  updated: 2016-02-08T00:00:00Z
+  version: 1.0.1
+- authors:
+  - contact: x@cinaq.com
+    homepage: https://github.com/xiwenc
+    name: Xiwen Cheng
+  binaries:
+  - checksum: 504a7198f754085cf45a5be90acaa5647deb2d19
+    platform: osx
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_darwin_amd64
+  - checksum: 885c9c26ae5463e2819cfd8ba5a7ab85b48f38e3
+    platform: win64
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_windows_amd64.exe
+  - checksum: 689f21bb554372032096d122d04ce80a0defed3b
+    platform: linux64
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
+  company: Mendix
+  created: 2016-02-21T00:00:00Z
+  description: Fast, non-persistent, smart and incrementally updating of your application
+  homepage: https://github.com/xiwenc/cf-fastpush-plugin
+  name: fastpush
+  updated: 2016-02-21T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: jtuchschererg@gmail.com
+    homepage: https://github.com/jtuchscherer
+    name: Johannes Tuchscherer
+  - contact: warren.f.fernandes@gmail.com
+    homepage: https://github.com/wfernandes
+    name: Warren Fernandes
+  binaries:
+  - checksum: 64365de9fd00e18fc4bbcb02dfc172e0a1a2cff8
+    platform: osx
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-darwin
+  - checksum: 74f0c6aaeace310565ceb8e76ca0d16cb1ef7bbc
+    platform: win64
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin.exe
+  - checksum: 31d07b66bee543ec082a9c6e17073eddaab10afa
+    platform: linux64
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-linux
+  company: null
+  created: 2015-09-09T00:00:00Z
+  description: This plugin allows you to connect to the firehose (CF admins only)
+  homepage: http://github.com/cloudfoundry-community/firehose-plugin
+  name: Firehose Plugin
+  updated: 2017-03-24T02:11:56Z
+  version: 0.12.0
+- authors:
+  - contact: akoranne@ecsteam.com
+    homepage: https://github.com/akoranne
+    name: Ajay Koranne of ECS Team
+  binaries:
+  - checksum: 8d3679ab3788ab70d5bdec8e88a2fb0c87bf7ac1
+    platform: osx
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin-darwin
+  - checksum: 1d725d77b4355ec5a86f19a67242dd14242309b0
+    platform: win64
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin.exe
+  - checksum: a066448490f0523ea04d5e02b55d3edada8cb858
+    platform: linux64
+    url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin-linux
+  company: ECS Team
+  created: 2016-12-28T14:00:00Z
+  description: Get microservice events
+  homepage: https://github.com/ECSTeam/cf_get_events
+  name: get-events
+  updated: 2017-01-11T21:29:06Z
+  version: 0.6.0
+- authors:
+  - contact: michele.mancioppi@sap.com
+    homepage: https://github.com/michele-mancioppi
+    name: Michele Mancioppi
+  binaries:
+  - checksum: ed0db38110402cc65dc7a185e7fdc0501bbd8164
+    platform: osx
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-osx
+  - checksum: a2e23deffab15edd6bde5250ec67d66ff17567ae
+    platform: win64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win64.exe
+  - checksum: cbd89f62911f7785a56e41c5027b10168bfe1b8c
+    platform: win32
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-win32.exe
+  - checksum: 80d2c9dd30cdfffca7f8b8c1b1d73205996cf27b
+    platform: linux32
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux32
+  - checksum: a91b96ef1e49a72c2bf8e8deafa3f135965a28c6
+    platform: linux64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.0.0/cf-cli-java-plugin-linux64
+  company: null
+  created: 2017-03-14T09:00:00Z
+  description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled
+    Java application.
+  homepage: https://github.com/SAP/cf-cli-java-plugin
+  name: java-plugin
+  updated: 2017-03-14T09:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: drnic@starkandwayne.com
+    homepage: http://drnicwilliams.com
+    name: Dr Nic Williams
+  binaries:
+  - checksum: bd19227826d5f3481322b14f5fb89031bc2cd7ba
+    platform: win64
+    url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_windows_amd64.exe
+  - checksum: 841a3c4f9b69ba2bca8ce0758149487a893fc2e4
+    platform: win32
+    url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_windows_386.exe
+  - checksum: 2117aa0bf44c3344eff73580db5cccc667e9a961
+    platform: linux64
+    url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_linux_amd64
+  - checksum: 26037c0b6b5dc6751210dbaabf06c3fdf418991d
+    platform: linux32
+    url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_linux_386
+  - checksum: 2677d50cd71b70b27e94cb0ae6cee6f71b51e805
+    platform: osx
+    url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_darwin_amd64
+  company: Stark & Wayne
+  created: 2015-03-18T00:00:00Z
+  description: Launches the Kibana UI (from kibana-me-logs) for an application.
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
+  name: kibana-me-logs
+  updated: 2015-10-15T00:00:00Z
+  version: 0.4.3
+- authors:
+  - contact: dhigham@pivotal.io
+    homepage: https://github.com/danhigham
+    name: Dan Higham
+  binaries:
+  - checksum: 826053a55fc65f8b42a7426ac6feacb55a424f1b
+    platform: osx
+    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/osx/cf-plugin-stats
+  - checksum: 9d40d0cfeb1f3863b3e35536653997168dfa2b44
+    platform: win64
+    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/win64/cf-plugin-stats.exe
+  - checksum: 7ed57c121d183a2b2a11984d00a042312e2871c0
+    platform: linux64
+    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/linux64/cf-plugin-stats
+  company: null
+  created: 2015-02-20T00:00:00Z
+  description: Monitor CPU and Memory usage on an app via the browser.
+  homepage: https://github.com/danhigham/cf-live-stats
+  name: Live Stats
+  updated: 2015-02-20T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: arthurh.halet@gmail.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
+  binaries:
+  - checksum: 37d226e2587949f64b239063753613b2482cc853
+    platform: osx
+    url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_darwin_amd64
+  - checksum: 8cfc04315d945bdba504e8448b0795b00f7ba80c
+    platform: win64
+    url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_amd64.exe
+  - checksum: 6220726e5fa4165e126c7d73ed3f36ab6780a10a
+    platform: win32
+    url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_windows_386.exe
+  - checksum: 540a9bcc7c2fe03635f59b18de5a11607efd2cb1
+    platform: linux64
+    url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_amd64
+  - checksum: 69e22d7c72148674e86fa2949caad107e938a9a9
+    platform: linux32
+    url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
+  company: null
+  created: 2015-11-11T00:00:00Z
+  description: Help you to generate a manifest from 0 (CLI v6.7.0+)
+  homepage: https://github.com/ArthurHlt/plugin-cf-manifest-generator
+  name: manifest-generator
+  updated: 2015-11-11T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: afleig@pivotal.io
+    homepage: https://github.com/andreasf
+    name: Andreas Fleig
+  binaries:
+  - checksum: a11d80c7ce2dc019e9fb85af5b502a1b39ee2998
+    platform: osx
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-darwin-amd64
+  - checksum: 9f9b5a082e34250a4ce020b5eb1ba2224e4a3845
+    platform: win64
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-amd64.exe
+  - checksum: 60f736f61854bea03d60a97af1a5bfc35df2790b
+    platform: win32
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-386.exe
+  - checksum: a01074af5ee72997709027f4331d393158ef85f6
+    platform: linux32
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-linux-386
+  - checksum: 1d5a648806bfce0e5d094d7fd7a3b781b79f1d99
+    platform: linux64
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.3.6/cf-mysql-plugin-linux-amd64
+  company: null
+  created: 2017-02-02T09:30:00Z
+  description: Runs mysql and mysqldump clients against your CF database services.
+    Use it to inspect, dump and restore your DB.
+  homepage: https://github.com/andreasf/cf-mysql-plugin
+  name: mysql-plugin
+  updated: 2017-02-02T09:30:00Z
+  version: 1.3.6
+- authors:
+  - contact: long@starkandwayne.com
+    homepage: http://lnguyen.io
+    name: Long Nguyen
+  - contact: drnic@starkandwayne.com
+    homepage: http://drnicwilliams.com
+    name: Dr Nic Williams
+  - contact: vnguyen@starkandwayne.com
+    homepage: https://github.com/soutenniza
+    name: Van Nguyen
+  binaries:
+  - checksum: aba8c8d3a1a0e21987a8864c5b239a518e668e3f
+    platform: win64
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_windows_amd64.exe
+  - checksum: 184c5e358e3f9ec8355b8d5202fc8f23871b40c9
+    platform: linux64
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_linux_amd64
+  - checksum: 56eee6c22300d0915d67fee6921d1fd187d6d539
+    platform: osx
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.1.0/cf-plugin-open_darwin_amd64
+  company: Stark and Wayne
+  created: 2015-02-27T00:00:00Z
+  description: Open app url in browser
+  homepage: https://github.com/cloudfoundry-community/cf-plugin-open
+  name: Open
+  updated: 2015-02-27T00:00:00Z
+  version: 1.1.0
+- authors:
+  - contact: aidan.feldman@gsa.gov
+    homepage: https://github.com/afeld
+    name: Aidan Feldman
+  binaries:
+  - checksum: 8d7bf2ec54a235c3c078f98b50e5cc7149d4c42d
+    platform: osx
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.osx
+  - checksum: f20ae336b478cff009d9d5e42f8a07f6e02a5fa9
+    platform: win32
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win32
+  - checksum: 56b699be5d9aefac9edd4d5206f99f3f197cb1cf
+    platform: win64
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.win64
+  - checksum: dfc486119d2860f709e9f80d5f7351a583862187
+    platform: linux32
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux32
+  - checksum: 817ea097afff3b81f97f58694d48822fdb85847d
+    platform: linux64
+    url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux64
+  company: 18F
+  created: 2017-01-08T00:30:56Z
+  description: Find the application(s) associated with a given hostname
+  homepage: https://github.com/18F/cf-route-lookup
+  name: route-lookup
+  updated: 2017-01-10T17:53:53Z
+  version: 1.1.0
+- authors:
+  - contact: gwestenberg@pivotal.io
+    homepage: https://github.com/guidowb
+    name: Guido Westenberg
+  - contact: jkruck@pivotal.io
+    homepage: https://github.com/krujos/
+    name: Josh Kruck
+  binaries:
+  - checksum: 75ae7b721d1252f66325b0b6f480dde5c88f354b
+    platform: osx
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/osx/scaleover-plugin
+  - checksum: a626d6eea0c263757de3f1fa5a13e98ec18e3869
+    platform: win64
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/win64/scaleover-plugin.exe
+  - checksum: 682e80ac124d1f3f1a1107337bb1820d8dad60cf
+    platform: linux64
+    url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/linux64/scaleover-plugin
+  company: null
+  created: 2015-05-27T00:00:00Z
+  description: Roll traffic from one app to another by scaling over time
+  homepage: https://github.com/krujos/scaleover-plugin
+  name: Scaleover
+  updated: 2016-05-19T00:00:00Z
+  version: 1.0.4
+- authors:
+  - contact: fabio.berchtold@swisscom.com
+    homepage: https://github.com/JamesClonk/
+    name: Fabio Berchtold
+  binaries:
+  - checksum: 6729099ba88edfcb5392d2b42494f718c9b35d8c
+    platform: osx
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_darwin_amd64
+  - checksum: 9b9f3f9fcb2511d5443e9baecf05f59fabe77857
+    platform: win64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_windows_amd64.exe
+  - checksum: c9375112c42669f9d7198d2b70c990bac0c21aa3
+    platform: linux64
+    url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
+  company: Swisscom (Schweiz) AG
+  created: 2015-07-07T00:00:00Z
+  description: Display live metrics/statistics about an app
+  homepage: https://github.com/swisscom/cf-statistics-plugin
+  name: Statistics
+  updated: 2015-07-07T00:00:00Z
+  version: 1.0.0
+- authors:
+  - contact: arthur.halet@orange.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
+  binaries:
+  - checksum: 9c5a470dfe482057e4b03e7a4b0686747558df7d
+    platform: osx
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_darwin_amd64
+  - checksum: 959dd939437f5640c26da319f697d1b07f1b5c8d
+    platform: win64
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_amd64.exe
+  - checksum: c6706581c93e4884f3ae14cb94417fbc6ef327fb
+    platform: win32
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_386.exe
+  - checksum: 1f8482d26d108ed6091a75de611ed0928e7d4e3c
+    platform: linux64
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_amd64
+  - checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
+    platform: linux32
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_386
+  company: Orange
+  created: 2017-04-04T00:00:00Z
+  description: Synchronize a local folder to a remote folder inside a Cloud Foundry
+    app to make changes on the fly
+  homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
+  name: sync
+  updated: 2017-04-14T00:00:00Z
+  version: 1.2.0
+- authors:
+  - contact: gwestenberg@pivotal.io
+    homepage: https://github.com/guidowb
+    name: Guido Westenberg
+  binaries:
+  - checksum: 42a77ed2430c09c6de70c09b839af1ae48a82b39
+    platform: osx
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
+  - checksum: c360ee333631cda7f0de426494abecfd8c356aea
+    platform: win64
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
+  - checksum: 45f0626f789871141d5194cbacdfac41bd08d1f2
+    platform: linux64
+    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
+  company: null
+  created: 2015-04-17T00:00:00Z
+  description: Easily manage multiple CF targets
+  homepage: https://github.com/guidowb/cf-targets-plugin
+  name: Targets
+  updated: 2015-08-14T00:00:00Z
+  version: 1.1.0
+- authors:
+  - contact: ben@laplanche.co.uk
+    homepage: http://ben.laplanche.co.uk
+    name: Ben Laplanche
+  binaries:
+  - checksum: c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21
+    platform: win64
+    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_amd64.exe
+  - checksum: 628a02c769c3c79b4ba80705c86d5bcf01fdaed9
+    platform: win32
+    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_386.exe
+  - checksum: 0c9152c81afd7899c8ef938ce1fb66e307d1a0f7
+    platform: linux64
+    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_amd64
+  - checksum: 5d9a2fdb7cca17b4244ab59bd50053257bfc5520
+    platform: linux32
+    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_386
+  - checksum: e1a408e9be7dca29100a507193d646620c038736
+    platform: osx
+    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64
+  company: Ben Laplanche
+  created: 2015-03-30T00:00:00Z
+  description: Create a user and assign all possible permissions, organisation and
+    space are created if they do not already exist as well. If no organisation or
+    space name are specified then the default value of 'development' is used
+  homepage: https://github.com/benlaplanche/cf-testuser-plugin
+  name: Test User
+  updated: 2015-03-30T00:00:00Z
+  version: 0.0.1
+- authors:
+  - contact: kkellner@ecsteam.com
+    homepage: https://github.com/kkellner
+    name: Kurt Kellner of ECS Team
+  binaries:
+  - checksum: f270cce4344213d3b24af31a74930466e2722160
+    platform: osx
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-darwin
+  - checksum: d6fafb5b81b8b1fcc0206733c6a5e402c9985480
+    platform: win64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin.exe
+  - checksum: 1e9e5d355944bd2fc5b7b479b68140a1cd4babd7
+    platform: linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-linux
+  company: ECS Team
+  created: 2016-11-07T00:00:00Z
+  description: An interactive interface that shows top statistics similar in concept
+    as the UNIX top command.  NEW - HTTP Response Info View access from App Detail
+    via 'd' menu.
+  homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
+  name: top
+  updated: 2017-05-02T14:47:31Z
+  version: 0.8.5
+- authors:
+  - contact: taichi.nakashima@rakuten.com
+    homepage: https://github.com/tcnksm
+    name: Taichi Nakashima
+  binaries:
+  - checksum: 34ce1d76d1dd872096159dd2bdfa5b8cbaef4e24
+    platform: osx
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_darwin_amd64
+  - checksum: 575fa3f122fb20db0bd95b908ca6f0d43b70b266
+    platform: win64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_windows_amd64.exe
+  - checksum: 2358f4b5c7f6b8664dd5d578cc24a6f4734b8119
+    platform: linux64
+    url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_linux_amd64
+  company: Rakuten
+  created: 2016-10-21T00:00:00Z
+  description: Update cloudfoundry/cli to the latest version
+  homepage: https://github.com/tcnksm/cf-plugin-update-cli
+  name: update-cli
+  updated: 2016-10-21T00:00:00Z
+  version: 0.1.1
+- authors:
+  - contact: jkruck@pivotal.io
+    homepage: https://github.com/krujos/
+    name: Josh Kruck
+  - contact: cdavis@pivotal.io
+    homepage: https://github.com/cdavisafc/
+    name: Cornelia Davis
+  - contact: bonzofenix@gmail.com
+    name: Alan Moran
+  - contact: anthony.lee@allstate.com
+    name: Anthony Lee
+  - contact: krobn@allstate.com
+    name: Kieran Robinson
+  binaries:
+  - checksum: ccf2b36bebc7bd3c6af8fca12e5b078a770af67e
+    platform: osx
+    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/osx/usagereport-plugin
+  - checksum: 7e2838be21c3437d1b7ae487af64b667c3008d44
+    platform: win64
+    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/win64/usagereport-plugin.exe?raw=true
+  - checksum: 8714a55e275f86bad8b0ac3224103a105bcebc7e
+    platform: win32
+    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/win32/usagereport-plugin.exe?raw=true
+  - checksum: 63221ac784f6528b132ee8cf4fb45aae16f3ac87
+    platform: linux64
+    url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/linux64/usagereport-plugin?raw=true
+  created: 2015-07-12T00:00:00Z
+  description: Report on memory usage and application instances for orgs and spaces
+  homepage: https://github.com/krujos/usagereport-plugin
+  name: Usage Report
+  updated: 2016-12-12T00:00:00Z
+  version: 1.4.1
+- authors:
+  - contact: jtuchschererg@gmail.com
+    homepage: https://github.com/jtuchscherer
+    name: Johannes Tuchscherer
+  binaries:
+  - checksum: 23c86dfc79d038634d8be7ded55876c5895ef493
+    platform: osx
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-darwin
+  - checksum: 416f3c9d7518c71749c02ad1aebaa371c4fe6409
+    platform: win64
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin.exe
+  - checksum: c467f0c1fd5f972bbc5e5d43b41a18680cc74101
+    platform: linux64
+    url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-linux
+  company: null
+  created: 2015-12-22T00:00:00Z
+  description: This plugin shows you the name of the currently logged in user
+  homepage: https://github.com/jtuchscherer/whoami-plugin
+  name: whoami-plugin
+  updated: 2017-05-08T00:00:00Z
+  version: 0.2.0
+- authors:
+  - contact: jeaniejung95@gmail.com
+    homepage: https://github.com/jeaniejung
+    name: Eui Jin "Jeanie" Jung
+  binaries:
+  - checksum: 8fc4a3040b5dbee9dcfcbb2a81203152ed7c0e5d
+    platform: osx
     url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/osx/wildcard_plugin
-    checksum: 8fc4a3040b5dbee9dcfcbb2a81203152ed7c0e5d
-  - platform: win64
+  - checksum: fbf2c6f3669d040aab5865444b7ed2802ff36f2a
+    platform: win64
     url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/win64/wildcard_plugin.exe
-    checksum: fbf2c6f3669d040aab5865444b7ed2802ff36f2a
-  - platform: linux64
+  - checksum: f50b2900acc2105ca1794c36213ff4913ac2a964
+    platform: linux64
     url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/linux64/wildcard_plugin
-    checksum: f50b2900acc2105ca1794c36213ff4913ac2a964
+  company: null
+  created: 2015-07-02T00:00:00Z
+  description: Allows user to search and delete apps using wildcard(*)
+  homepage: https://github.com/jeaniejung/Wildcard_Plugin
+  name: wildcard_plugin
+  updated: 2015-07-02T00:00:00Z
+  version: 1.0.0
