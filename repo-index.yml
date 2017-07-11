@@ -1090,3 +1090,22 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
+- authors:
+  - name: CF Networking Team
+  binaries:
+  - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
+    platform: osx
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-darwin64
+  - checksum: cf1135050fb907d6e6274b4487a0b728493db31a
+    platform: win64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-windows64.exe
+  - checksum: b997525534c2b1795a195fad21b0870d41baaed9
+    platform: linux64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-linux64
+  company: Pivotal
+  created: 2017-07-10T00:00:00Z
+  description: Allow the user to manage application network policies
+  homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
+  name: network-policy
+  updated: 2017-07-11T00:47:13Z
+  version: 1.2.0
