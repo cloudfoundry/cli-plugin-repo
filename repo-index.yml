@@ -499,8 +499,8 @@ plugins:
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
   name: Diego-Enabler
-  updated: 2017-01-27T00:00:00Z
-  version: 1.2.3
+  updated: 2017-07-27T00:00:00Z
+  version: 1.2.4
 - authors:
   - contact: jghiloni@ecsteam.com
     homepage: https://github.com/jghiloni
