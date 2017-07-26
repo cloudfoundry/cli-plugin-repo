@@ -479,19 +479,19 @@ plugins:
     homepage: https://github.com/cloudfoundry
     name: Cloud Foundry CLI Team
   binaries:
-  - checksum: c571cc81ebe4a6f8b63ac5b4e094ce40d3ce40a7
+  - checksum: aa6b19e204b202cbe7fa5a317ef28a2f7e132c8b
     platform: osx
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_darwin_amd64
-  - checksum: d34f4a4b02f168d4b324c4eed41a7c70dd70eb4c
+  - checksum: 51601344dedb262f7c4ff35542c4b1f4d2e02a2c
     platform: linux32
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_linux_386
-  - checksum: 3d4d01b2564272ca5dd3fb5ff95a9ad8cd7d8fba
+  - checksum: 6c778b955b3775d5e7b3ae86cc00925a81751fd2
     platform: linux64
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_linux_amd64
-  - checksum: dac9917e19805c7ee9e3846e5bf34507f9488c5d
+  - checksum: 7acf72e7c43a28a50cc78bc58eb3b1dd6fcd842a
     platform: win32
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_windows_386.exe
-  - checksum: f90be19c84f901c182f144adf7edddbc35e93c3d
+  - checksum: 424d1345fbb1b4a5daaadad681518232b517d047
     platform: win64
     url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_windows_amd64.exe
   company: null
@@ -499,7 +499,7 @@ plugins:
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
   homepage: https://github.com/cloudfoundry-incubator/Diego-Enabler
   name: Diego-Enabler
-  updated: 2017-07-27T00:00:00Z
+  updated: 2017-07-26T00:00:00Z
   version: 1.2.4
 - authors:
   - contact: jghiloni@ecsteam.com
