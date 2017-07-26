@@ -479,21 +479,21 @@ plugins:
     homepage: https://github.com/cloudfoundry
     name: Cloud Foundry CLI Team
   binaries:
-  - checksum: 4a4d1c6b9d2944117e69839bf43c14cc0e6880c1
+  - checksum: c571cc81ebe4a6f8b63ac5b4e094ce40d3ce40a7
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_darwin_amd64
-  - checksum: 3d745a0a033042c98ea7e95085b21708f2f5d34a
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_darwin_amd64
+  - checksum: d34f4a4b02f168d4b324c4eed41a7c70dd70eb4c
     platform: linux32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_386
-  - checksum: cc7d8120ce1866ec920a1714e51dfad44741919e
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_linux_386
+  - checksum: 3d4d01b2564272ca5dd3fb5ff95a9ad8cd7d8fba
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_linux_amd64
-  - checksum: 351c4c504af14c81fa2efad92d6d6914c808ec7d
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_linux_amd64
+  - checksum: dac9917e19805c7ee9e3846e5bf34507f9488c5d
     platform: win32
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_386.exe
-  - checksum: 0a8b009dff1972f0c58750066c73c1d2feed1530
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_windows_386.exe
+  - checksum: f90be19c84f901c182f144adf7edddbc35e93c3d
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.3/diego-enabler_windows_amd64.exe
+    url: https://github.com/cloudfoundry-incubator/Diego-Enabler/releases/download/v1.2.4/diego-enabler_windows_amd64.exe
   company: null
   created: 2015-10-16T00:00:00Z
   description: Enable/Disable Diego support for an app (CLI v6.13.0+)
