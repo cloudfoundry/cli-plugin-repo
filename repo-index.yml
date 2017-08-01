@@ -974,26 +974,28 @@ plugins:
 - authors:
   - contact: kkellner@ecsteam.com
     homepage: https://github.com/kkellner
-    name: Kurt Kellner of ECS Team
+    name: Kurt Kellner
   binaries:
-  - checksum: f270cce4344213d3b24af31a74930466e2722160
+  - checksum: e99c1074fe5a6ec22a6d505e2c98bc00698fefed
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-darwin
-  - checksum: d6fafb5b81b8b1fcc0206733c6a5e402c9985480
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-darwin
+  - checksum: 77fa0a8ef9098ab1c50f6701c8376c89cc620e6b
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin.exe
-  - checksum: 1e9e5d355944bd2fc5b7b479b68140a1cd4babd7
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin.exe
+  - checksum: c46f8139ad64d290792bc9c3752e9f38d2ca1f16
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.5/top-plugin-linux
-  company: ECS Team
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-linux
+  - checksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
+    platform: linux-arm6
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-linux-arm6
+  company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: An interactive interface that shows top statistics similar in concept
-    as the UNIX top command.  NEW - HTTP Response Info View access from App Detail
-    via 'd' menu.
+    as the UNIX top command.  NEW - Realtime container status updates on App Detail View
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2017-05-02T14:47:31Z
-  version: 0.8.5
+  updated: 2017-08-01T20:03:13Z
+  version: 0.8.6
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
