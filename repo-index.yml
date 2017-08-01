@@ -985,9 +985,6 @@ plugins:
   - checksum: c46f8139ad64d290792bc9c3752e9f38d2ca1f16
     platform: linux64
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-linux
-  - checksum: da39a3ee5e6b4b0d3255bfef95601890afd80709
-    platform: linux-arm6
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-linux-arm6
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: An interactive interface that shows top statistics similar in concept
