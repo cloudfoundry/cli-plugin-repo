@@ -976,23 +976,24 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: e99c1074fe5a6ec22a6d505e2c98bc00698fefed
+  - checksum: 8d263b628ee5b24773b84b2b0b46f3f4c7398109
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-darwin
-  - checksum: 77fa0a8ef9098ab1c50f6701c8376c89cc620e6b
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin-darwin
+  - checksum: 63eace00615d6d58c2d403932a50aa28a3d3ff18
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin.exe
-  - checksum: c46f8139ad64d290792bc9c3752e9f38d2ca1f16
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin.exe
+  - checksum: 3334712f0073f185d8ef26a37cb14cab28c9cd85
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.6/top-plugin-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin-linux
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: An interactive interface that shows top statistics similar in concept
-    as the UNIX top command.  NEW - Realtime container status updates on App Detail View
+    as the UNIX top command.  NEW - Realtime container status updates on App Detail View.
+    Bug fix for loading metadata on apps that had staging errors.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2017-08-01T20:03:13Z
-  version: 0.8.6
+  updated: 2017-08-02T07:33:57Z
+  version: 0.8.7
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
