@@ -1108,3 +1108,30 @@ plugins:
   name: network-policy
   updated: 2017-07-11T00:47:13Z
   version: 1.2.0
+- name: cf-aklogin
+  description: CF Login tool to switch between CF environments with a single command
+  version: 1.2.7
+  created: 2017-07-13T09:38:24Z
+  updated: 2017-08-03T15:47:00Z
+  company: Armakuni
+  authors:
+  - name: Adrian Fedoreanu
+    homepage: https://github.com/armakuni
+    contact: adrian.fedoreanu@armakuni.com
+  homepage: https://github.com/armakuni/cf-aklogin
+  binaries:
+  - platform: linux64
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.linux64
+    checksum: 6c831763b680cfc0ea7b1aae460ca5bdb65c9275
+  - platform: linux32
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.linux32
+    checksum: 75ddb011019a6d8c6ab396f1077bd4b4a85e44f1
+  - platform: win64
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.win64.exe
+    checksum: 7a614268b91ebdc6dac239c915685a2316d9fde2
+  - platform: win32
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.win32.exe
+    checksum: 9ee97f3fb893acb7697772f0729a1b791b3dd5a8
+  - platform: osx
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.darwin
+    checksum: 54128b99ca15e1495296778a5ff5b085a7d6b19d
