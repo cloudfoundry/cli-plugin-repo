@@ -1110,9 +1110,9 @@ plugins:
   version: 1.2.0
 - name: cf-aklogin
   description: CF Login tool to switch between CF environments with a single command
-  version: 1.2.7
+  version: 1.2.8
   created: 2017-07-13T09:38:24Z
-  updated: 2017-08-03T15:47:00Z
+  updated: 2017-08-07T15:04:58Z
   company: Armakuni
   authors:
   - name: Adrian Fedoreanu
@@ -1121,17 +1121,17 @@ plugins:
   homepage: https://github.com/armakuni/cf-aklogin
   binaries:
   - platform: linux64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.linux64
-    checksum: 6c831763b680cfc0ea7b1aae460ca5bdb65c9275
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.8/cf-aklogin.linux64
+    checksum: 5bd8adbef7811417b486719486756a3569427244
   - platform: linux32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.linux32
-    checksum: 75ddb011019a6d8c6ab396f1077bd4b4a85e44f1
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.8/cf-aklogin.linux32
+    checksum: 86ffcec19dcd04ef6d22af50255d289962a433e2
   - platform: win64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.win64.exe
-    checksum: 7a614268b91ebdc6dac239c915685a2316d9fde2
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.8/cf-aklogin.win64
+    checksum: 4ab2d6ea8ad0388869360ce004c2417e8714b805
   - platform: win32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.win32.exe
-    checksum: 9ee97f3fb893acb7697772f0729a1b791b3dd5a8
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.8/cf-aklogin.win32
+    checksum: 22254ecb13155992c3886eded99cb4037e4cfb62
   - platform: osx
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.7/cf-aklogin.darwin
-    checksum: 54128b99ca15e1495296778a5ff5b085a7d6b19d
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.8/cf-aklogin.osx
+    checksum: 253f818a282ac7ab32b792bb23527c766c89eb86
