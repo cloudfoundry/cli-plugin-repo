@@ -767,33 +767,34 @@ plugins:
   name: manifest-generator
   updated: 2015-11-11T00:00:00Z
   version: 1.0.0
-- name: mysql-plugin
-  description: Runs mysql and mysqldump clients against your CF database services. Use it to inspect, dump and restore your DB.
-  version: 1.4.0
-  created: 2017-02-02T09:30:00Z
-  updated: 2017-07-12T16:29:36Z
-  company:
-  authors:
-  - name: Andreas Fleig
+- authors:
+  - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
-    contact: afleig@pivotal.io
-  homepage: https://github.com/andreasf/cf-mysql-plugin
+    name: Andreas Fleig
   binaries:
-  - platform: osx
+  - checksum: ea2c68076b9ab991861d7fa32d4c78ef80f27c7c
+    platform: osx
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-darwin-amd64
-    checksum: ea2c68076b9ab991861d7fa32d4c78ef80f27c7c
-  - platform: win64
+  - checksum: 0b1c06e49ac5abfd78952899a4f046df05b3b231
+    platform: win64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-amd64.exe
-    checksum: 0b1c06e49ac5abfd78952899a4f046df05b3b231
-  - platform: win32
+  - checksum: 8a729e98d03a770d3a85fbe449edf2e18f27371c
+    platform: win32
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-386.exe
-    checksum: 8a729e98d03a770d3a85fbe449edf2e18f27371c
-  - platform: linux32
+  - checksum: 47ad1acd9bd8b68a96399b5032ec433b4526f37f
+    platform: linux32
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-linux-386
-    checksum: 47ad1acd9bd8b68a96399b5032ec433b4526f37f
-  - platform: linux64
+  - checksum: 972022cacb54eb5616ec71ed02f3b747d3a7760d
+    platform: linux64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-linux-amd64
-    checksum: 972022cacb54eb5616ec71ed02f3b747d3a7760d
+  company: null
+  created: 2017-02-02T09:30:00Z
+  description: Runs mysql and mysqldump clients against your CF database services.
+    Use it to inspect, dump and restore your DB.
+  homepage: https://github.com/andreasf/cf-mysql-plugin
+  name: mysql-plugin
+  updated: 2017-07-12T16:29:36Z
+  version: 1.4.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
@@ -988,8 +989,8 @@ plugins:
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: An interactive interface that shows top statistics similar in concept
-    as the UNIX top command.  NEW - Realtime container status updates on App Detail View.
-    Bug fix for loading metadata on apps that had staging errors.
+    as the UNIX top command.  NEW - Realtime container status updates on App Detail
+    View. Bug fix for loading metadata on apps that had staging errors.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
   updated: 2017-08-02T07:33:57Z
@@ -1092,46 +1093,46 @@ plugins:
 - authors:
   - name: CF Networking Team
   binaries:
-  - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
+  - checksum: e4bb78c83d565c8d71b6d91804ebefdd0563af04
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-darwin64
-  - checksum: cf1135050fb907d6e6274b4487a0b728493db31a
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.3.4/network-policy-plugin-darwin64
+  - checksum: 2eb26178be125d76e955d1e50e1f6dcd72371c47
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-windows64.exe
-  - checksum: b997525534c2b1795a195fad21b0870d41baaed9
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.3.4/network-policy-plugin-windows64.exe
+  - checksum: e89b515323556e76343f8139f6e4e5666b7ac2e2
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-linux64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.3.4/network-policy-plugin-linux64
   company: Pivotal
   created: 2017-07-10T00:00:00Z
   description: Allow the user to manage application network policies
   homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
   name: network-policy
-  updated: 2017-07-11T00:47:13Z
-  version: 1.2.0
-- name: cf-aklogin
-  description: CF Login tool to switch between CF environments with a single command
-  version: 1.2.9
-  created: 2017-07-13T09:38:24Z
-  updated: 2017-08-08T15:02:09Z
-  company: Armakuni
-  authors:
-  - name: Adrian Fedoreanu
+  updated: 2017-08-08T21:15:34Z
+  version: 1.3.4
+- authors:
+  - contact: adrian.fedoreanu@armakuni.com
     homepage: https://github.com/armakuni
-    contact: adrian.fedoreanu@armakuni.com
-  homepage: https://github.com/armakuni/cf-aklogin
+    name: Adrian Fedoreanu
   binaries:
-  - platform: linux64
+  - checksum: b0ecc4d96b43158c335c7e1f5361c4d33d7ce477
+    platform: linux64
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux64
-    checksum: b0ecc4d96b43158c335c7e1f5361c4d33d7ce477
-  - platform: linux32
+  - checksum: 1585e66c134e49cc15eef621a759a950959d623c
+    platform: linux32
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux32
-    checksum: 1585e66c134e49cc15eef621a759a950959d623c
-  - platform: win64
+  - checksum: aefcd3b33f7dcb4db1cf9d7f76afa2a48e5fdbd4
+    platform: win64
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win64
-    checksum: aefcd3b33f7dcb4db1cf9d7f76afa2a48e5fdbd4
-  - platform: win32
+  - checksum: a317ea128c741847ff52b26ed9c8203fed7a28cc
+    platform: win32
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win32
-    checksum: a317ea128c741847ff52b26ed9c8203fed7a28cc
-  - platform: osx
+  - checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
+    platform: osx
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.osx
-    checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
+  company: Armakuni
+  created: 2017-07-13T09:38:24Z
+  description: CF Login tool to switch between CF environments with a single command
+  homepage: https://github.com/armakuni/cf-aklogin
+  name: cf-aklogin
+  updated: 2017-08-08T15:02:09Z
+  version: 1.2.9
