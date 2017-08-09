@@ -976,24 +976,32 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 8d263b628ee5b24773b84b2b0b46f3f4c7398109
+  - checksum: 900a980a0cd430ef24977de05ed522ebb8f33c4a
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin-darwin
-  - checksum: 63eace00615d6d58c2d403932a50aa28a3d3ff18
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin-darwin
+  - checksum: ff98832d99fa92561cabdd1156926c5e830d92cb
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin.exe
-  - checksum: 3334712f0073f185d8ef26a37cb14cab28c9cd85
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin.exe
+  - checksum: d8949d89d9ac4de00c58759890c0ad62b41d26a2
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.7/top-plugin-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin-linux
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: An interactive interface that shows top statistics similar in concept
-    as the UNIX top command.  NEW - Realtime container status updates on App Detail View.
-    Bug fix for loading metadata on apps that had staging errors.
+    as the UNIX top command.  
+    * Fixed: AppDetailView is now refreshed in background while the App Info view is displayed.
+    * Fixed: When viewing appListDetail view the header toggle (shift-h) would also collapse Http and Crash data boxes. This has been fixed to only collapse verbose header output.
+    * Fixed: Use LogMessage timestamp instead of Event timestamp for tracking last container messages. 
+    * Fixed: Highlight scrolling and display list issue fixed when the list of data becomes smaller then the current scrolling offset.
+    * Fixed: Issue with terminal window with zero dimention causing panic because helpTextTipsView layout error:invalid dimensions.
+    * Enhancement: Save column filter for each view type allowing easier usage when returning back to a view that has customized column filters.
+    * Enhancement: Save column sort order for each view type allowing easier usage when returning back to a view that has customized column sorts.
+    * Enhancement: Monitor staging events to reload metadata when staging is complete.
+    * Enhancement: Added Clipboard menu option to appDetailView.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2017-08-02T07:33:57Z
-  version: 0.8.7
+  updated: 2017-08-09T21:51:44Z
+  version: 0.8.8
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
