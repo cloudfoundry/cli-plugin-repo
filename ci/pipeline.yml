@@ -4,6 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/cloudfoundry-incubator/cli-plugin-repo
+    branch: master
 
 - name: cli-plugin-repo-pws
   type: cf
