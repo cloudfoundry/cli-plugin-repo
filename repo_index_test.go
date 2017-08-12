@@ -104,6 +104,10 @@ var _ = Describe("Database", func() {
 					Expect(err).NotTo(HaveOccurred())
 
 					s := sha1.Sum(b)
+					if hex.EncodeToString(s[:]) != binary.Checksum {
+						fmt.Printf("response code: #%d\n", resp.StatusCode)
+						fmt.Printf("response body: #%s\n", string(b))
+					}
 					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum), fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'", plugin.Name, binary.Platform))
 				}
 			}
