@@ -987,11 +987,11 @@ plugins:
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin-linux
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
-  description: An interactive interface that shows top statistics similar in concept
-    as the UNIX top command.  
+  description: |
+    An interactive interface that shows top statistics similar in concept as the UNIX top command.
     Fixed - AppDetailView is now refreshed in background while the App Info view is displayed.
     Fixed - When viewing appListDetail view the header toggle (shift-h) would also collapse Http and Crash data boxes. This has been fixed to only collapse verbose header output.
-    Fixed - Use LogMessage timestamp instead of Event timestamp for tracking last container messages. 
+    Fixed - Use LogMessage timestamp instead of Event timestamp for tracking last container messages.
     Fixed - Highlight scrolling and display list issue fixed when the list of data becomes smaller then the current scrolling offset.
     Fixed - Issue with terminal window with zero dimention causing panic because helpTextTipsView layout error:invalid dimensions.
     Enhancement - Save column filter for each view type allowing easier usage when returning back to a view that has customized column filters.

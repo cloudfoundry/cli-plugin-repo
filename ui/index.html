@@ -51,7 +51,7 @@
             <h3 class="name" style="display: inline-block">{{plugin.name}}</h3>
             <span class="version type-sm" ng-if="plugin.version != ''"> &ndash; v.{{plugin.version}}</span>
             <p class="date pull-right mvl type-sm type-neutral-4" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></p>
-            <p class="description mtl">
+            <p class="description mtl" style="white-space: pre-line">
               {{plugin.description}}
             </p>
             <div class="table">
