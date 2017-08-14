@@ -96,19 +96,27 @@ var _ = Describe("Database", func() {
 
 			for _, plugin := range plugins.Plugins {
 				for _, binary := range plugin.Binaries {
+					var err error
 					resp, err := http.Get(binary.Url)
 					Expect(err).NotTo(HaveOccurred())
+
+					// If there's a network error, retry exactly once for this plugin binary.
+					switch resp.StatusCode {
+					case http.StatusInternalServerError,
+						http.StatusBadGateway,
+						http.StatusServiceUnavailable,
+						http.StatusGatewayTimeout:
+						resp.Body.Close()
+						resp, err = http.Get(binary.Url)
+						Expect(err).NotTo(HaveOccurred())
+					}
 
 					defer resp.Body.Close()
 					b, err := ioutil.ReadAll(resp.Body)
 					Expect(err).NotTo(HaveOccurred())
 
 					s := sha1.Sum(b)
-					if hex.EncodeToString(s[:]) != binary.Checksum {
-						fmt.Printf("response code: #%d\n", resp.StatusCode)
-						fmt.Printf("response body: #%s\n", string(b))
-					}
-					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum), fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'", plugin.Name, binary.Platform))
+					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum), fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'\nResponse Status Code: %d\nResponse Body: %s", plugin.Name, binary.Platform, resp.StatusCode, string(b)))
 				}
 			}
 		})
