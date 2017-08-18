@@ -8,7 +8,7 @@ as well as how to create your own implementation if desired.
 Running CLIPR
 =============
 
-#####Running as a Cloud Foundry App
+## Running as a Cloud Foundry App
 
 1. `git clone` or `go get` this repo
   - To Git clone, you need to have [git](http://git-scm.com/downloads) installed
@@ -16,13 +16,13 @@ Running CLIPR
   
 1. Push CLIPR to your instance of Cloud Foundry by doing `cf push` at the root of CLIPR
 
-#####Running as a stand alone binary
+## Running as a stand alone binary
 
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
 1. Use `go build` to build the binary, here is an example in OSX/Linux which produces an executable called `clipr`
 ```shell
-$ go build -o clipr main.go
+$ go build -o clipr ./
 ```
 1. Invoke the binary `./clipr` with the following options
   - `-n`: IP Address for the server to listen on, default is `0.0.0.0`
