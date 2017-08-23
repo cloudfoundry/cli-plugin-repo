@@ -1143,3 +1143,30 @@ plugins:
   - platform: osx
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.osx
     checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
+- name: service-use
+  description: Report on service usage in the platform based on your sign-in privileges
+  version: 1.0.1
+  created: 2017-08-22T10:23:08Z
+  updated: 2017-08-22T10:23:08Z
+  company: Pivotal
+  authors:
+  - name: Chris DeLashmutt
+    homepage: https://github.com/cdelashmutt-pivotal
+    contact: cdelashmutt@pivotal.io
+  homepage: https://github.com/cdelashmutt-pivotal/service-use
+  binaries:
+  - platform: linux64
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux64
+    checksum: 53b996afbd8c1942d956cc8f3a81a71119411388
+  - platform: linux32
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux32
+    checksum: 4cc07a9473bad7dc875f54900dd12219fbbba72f
+  - platform: win64
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win64
+    checksum: abe94cb8eac2fc1424bc92ca05628070b0983f53
+  - platform: win32
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win32
+    checksum: 7cb89f8b0708f7e86d66e8b974e38ae823c44cde
+  - platform: osx
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.osx
+    checksum: bc7f60993202a17d4c0a1408f8d1921a4f431268
