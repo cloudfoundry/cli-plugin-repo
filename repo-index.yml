@@ -1170,3 +1170,23 @@ plugins:
   - platform: osx
     url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.osx
     checksum: bc7f60993202a17d4c0a1408f8d1921a4f431268
+- name: started-apps
+  description: Easily view which apps are started
+  version: 0.1.0
+  created: 2017-08-24T11:33:03Z
+  updated: 2017-08-24T11:33:03Z
+  company: CGI
+  authors:
+  - name: Mark Webb
+    contact: mark.webb@cgi.com
+  homepage: https://github.com/mgwebb/started-apps
+  binaries:
+  - platform: linux64
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-linux64
+    checksum: 5a1cb8deb03320772e5863e3ae3fd4393d1110f6
+  - platform: win64
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-win64.exe
+    checksum: eca052d6cd5671079fb7b0d96f7c0c575260694c
+  - platform: osx
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-darwin64
+    checksum: db53d56f903cbff5a3b002ddfadd3b0c9cd67ca1
