@@ -6,6 +6,7 @@ import (
 	"os"
 	"strings"
 
+	"github.com/cloudfoundry-incubator/cli-plugin-repo/sort/yamlsorter"
 	"github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 
 	"net/url"
@@ -32,13 +33,23 @@ var _ = Describe("Database", func() {
 
 	Describe("validations", func() {
 		var plugins web.PluginsJson
+		var pluginBytes []byte
 
 		BeforeEach(func() {
-			b, err := ioutil.ReadFile("repo-index.yml")
+			var err error
+			pluginBytes, err = ioutil.ReadFile("repo-index.yml")
 			Expect(err).NotTo(HaveOccurred())
 
-			err = yaml.Unmarshal(b, &plugins)
+			err = yaml.Unmarshal(pluginBytes, &plugins)
 			Expect(err).NotTo(HaveOccurred())
+		})
+
+		It("the yaml file is sorted", func() {
+			var yamlSorter yamlsorter.YAMLSorter
+
+			sortedBytes, err := yamlSorter.Sort(pluginBytes)
+			Expect(err).NotTo(HaveOccurred())
+			Expect(sortedBytes).To(Equal(pluginBytes))
 		})
 
 		It("has every binary link over https", func() {

@@ -9,27 +9,27 @@ approval, please submit a pull request according to the guidelines below.
 1. Clone this repo `git clone https://github.com/cloudfoundry-incubator/cli-plugin-repo`
 1. Include your plugin information in `repo-index.yml`, here is an example of a new plugin entry
   ```yaml
-  - name: new_plugin
-    description: new_plugin to be made available for the CF community
-    version: 1.0.0
-    created: 2015-01-31T00:00:00Z
-    updated: 2015-01-31T00:00:00Z
-    company:
-    authors:
-    - name: Sample-Author
+  - authors:
+    - contact: contact@sample-author.io
       homepage: https://github.com/sample-author
-      contact: contact@sample-author.io
-    homepage: https://github.com/sample-author/new_plugin
+      name: Sample-Author
     binaries:
-    - platform: osx
+    - checksum: 2a087d5cddcfb057fbda91e611c33f46
+      platform: osx
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_darwin
-      checksum: 2a087d5cddcfb057fbda91e611c33f46
-    - platform: win64
+    - checksum: b4550d6594a3358563b9dcb81e40fd66
+      platform: win64
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_win64.exe
-      checksum: b4550d6594a3358563b9dcb81e40fd66
-    - platform: linux32
+    - checksum: f6540d6594a9684563b9lfa81e23id93
+      platform: linux32
       url: https://github.com/sample-author/new_plugin/releases/download/v1.0.0/echo_linux32
-      checksum: f6540d6594a9684563b9lfa81e23id93
+    company:
+    created: 2015-01-31T00:00:00Z
+    description: new_plugin to be made available for the CF community
+    homepage: https://github.com/sample-author/new_plugin
+    name: new_plugin
+    updated: 2015-01-31T00:00:00Z
+    version: 1.0.0
   ```
   Please make sure the spacing and colons are correct in the entry. The following descibes each field's usage.
 
@@ -45,6 +45,7 @@ approval, please submit a pull request according to the guidelines below.
   `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins
   `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms<br>`platform`: The os for this binary. Supports `osx`, `linux32`, `linux64`, `win32`, `win64`<br>`url`: HTTPS link to the binary file itself<br>`checksum`: SHA-1 of the binary file for verification<br>Please use a unique URL for each updated release version of your plugin, as each binary will have a unique checksum.
 
+1. run `go run sort/main.go repo-index.yml`. This will sort your additions to the file.
 1. After making the changes, fork the repository
 1. Add your fork as a remote
    ```
