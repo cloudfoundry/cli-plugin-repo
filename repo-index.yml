@@ -211,6 +211,33 @@ plugins:
   updated: 2015-05-08T00:00:00Z
   version: 1.1.0
 - authors:
+  - contact: adrian.fedoreanu@armakuni.com
+    homepage: https://github.com/armakuni
+    name: Adrian Fedoreanu
+  binaries:
+  - checksum: b0ecc4d96b43158c335c7e1f5361c4d33d7ce477
+    platform: linux64
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux64
+  - checksum: 1585e66c134e49cc15eef621a759a950959d623c
+    platform: linux32
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux32
+  - checksum: aefcd3b33f7dcb4db1cf9d7f76afa2a48e5fdbd4
+    platform: win64
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win64
+  - checksum: a317ea128c741847ff52b26ed9c8203fed7a28cc
+    platform: win32
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win32
+  - checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
+    platform: osx
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.osx
+  company: Armakuni
+  created: 2017-07-13T09:38:24Z
+  description: CF Login tool to switch between CF environments with a single command
+  homepage: https://github.com/armakuni/cf-aklogin
+  name: cf-aklogin
+  updated: 2017-08-08T15:02:09Z
+  version: 1.2.9
+- authors:
   - contact: mfclemen@us.ibm.com
     homepage: https://github.com/clement360
     name: Miguel Clement
@@ -289,7 +316,8 @@ plugins:
   updated: 2016-09-21T00:00:00Z
   version: 0.0.1
 - authors:
-  - homepage: https://github.com/gambtho
+  - contact: null
+    homepage: https://github.com/gambtho
     name: Thomas Gamble
   binaries:
   - checksum: 9ba8a64e2ecceac7745545cb646d94eb43477247
@@ -767,33 +795,55 @@ plugins:
   name: manifest-generator
   updated: 2015-11-11T00:00:00Z
   version: 1.0.0
-- name: mysql-plugin
-  description: Runs mysql and mysqldump clients against your CF database services. Use it to inspect, dump and restore your DB.
-  version: 1.4.0
-  created: 2017-02-02T09:30:00Z
-  updated: 2017-07-12T16:29:36Z
-  company:
-  authors:
-  - name: Andreas Fleig
+- authors:
+  - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
-    contact: afleig@pivotal.io
-  homepage: https://github.com/andreasf/cf-mysql-plugin
+    name: Andreas Fleig
   binaries:
-  - platform: osx
+  - checksum: ea2c68076b9ab991861d7fa32d4c78ef80f27c7c
+    platform: osx
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-darwin-amd64
-    checksum: ea2c68076b9ab991861d7fa32d4c78ef80f27c7c
-  - platform: win64
+  - checksum: 0b1c06e49ac5abfd78952899a4f046df05b3b231
+    platform: win64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-amd64.exe
-    checksum: 0b1c06e49ac5abfd78952899a4f046df05b3b231
-  - platform: win32
+  - checksum: 8a729e98d03a770d3a85fbe449edf2e18f27371c
+    platform: win32
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-386.exe
-    checksum: 8a729e98d03a770d3a85fbe449edf2e18f27371c
-  - platform: linux32
+  - checksum: 47ad1acd9bd8b68a96399b5032ec433b4526f37f
+    platform: linux32
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-linux-386
-    checksum: 47ad1acd9bd8b68a96399b5032ec433b4526f37f
-  - platform: linux64
+  - checksum: 972022cacb54eb5616ec71ed02f3b747d3a7760d
+    platform: linux64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v1.4.0/cf-mysql-plugin-linux-amd64
-    checksum: 972022cacb54eb5616ec71ed02f3b747d3a7760d
+  company: null
+  created: 2017-02-02T09:30:00Z
+  description: Runs mysql and mysqldump clients against your CF database services.
+    Use it to inspect, dump and restore your DB.
+  homepage: https://github.com/andreasf/cf-mysql-plugin
+  name: mysql-plugin
+  updated: 2017-07-12T16:29:36Z
+  version: 1.4.0
+- authors:
+  - contact: null
+    homepage: null
+    name: CF Networking Team
+  binaries:
+  - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
+    platform: osx
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-darwin64
+  - checksum: cf1135050fb907d6e6274b4487a0b728493db31a
+    platform: win64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-windows64.exe
+  - checksum: b997525534c2b1795a195fad21b0870d41baaed9
+    platform: linux64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-linux64
+  company: Pivotal
+  created: 2017-07-10T00:00:00Z
+  description: Allow the user to manage application network policies
+  homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
+  name: network-policy
+  updated: 2017-07-11T00:47:13Z
+  version: 1.2.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
@@ -872,6 +922,54 @@ plugins:
   name: Scaleover
   updated: 2016-05-19T00:00:00Z
   version: 1.0.4
+- authors:
+  - contact: cdelashmutt@pivotal.io
+    homepage: https://github.com/cdelashmutt-pivotal
+    name: Chris DeLashmutt
+  binaries:
+  - checksum: 53b996afbd8c1942d956cc8f3a81a71119411388
+    platform: linux64
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux64
+  - checksum: 4cc07a9473bad7dc875f54900dd12219fbbba72f
+    platform: linux32
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux32
+  - checksum: abe94cb8eac2fc1424bc92ca05628070b0983f53
+    platform: win64
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win64
+  - checksum: 7cb89f8b0708f7e86d66e8b974e38ae823c44cde
+    platform: win32
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win32
+  - checksum: bc7f60993202a17d4c0a1408f8d1921a4f431268
+    platform: osx
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.osx
+  company: Pivotal
+  created: 2017-08-22T10:23:08Z
+  description: Report on service usage in the platform based on your sign-in privileges
+  homepage: https://github.com/cdelashmutt-pivotal/service-use
+  name: service-use
+  updated: 2017-08-22T10:23:08Z
+  version: 1.0.1
+- authors:
+  - contact: mark.webb@cgi.com
+    homepage: null
+    name: Mark Webb
+  binaries:
+  - checksum: 5a1cb8deb03320772e5863e3ae3fd4393d1110f6
+    platform: linux64
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-linux64
+  - checksum: eca052d6cd5671079fb7b0d96f7c0c575260694c
+    platform: win64
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-win64.exe
+  - checksum: db53d56f903cbff5a3b002ddfadd3b0c9cd67ca1
+    platform: osx
+    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-darwin64
+  company: CGI
+  created: 2017-08-24T11:33:03Z
+  description: Easily view which apps are started
+  homepage: https://github.com/mgwebb/started-apps
+  name: started-apps
+  updated: 2017-08-24T11:33:03Z
+  version: 0.1.0
 - authors:
   - contact: fabio.berchtold@swisscom.com
     homepage: https://github.com/JamesClonk/
@@ -1031,10 +1129,13 @@ plugins:
     homepage: https://github.com/cdavisafc/
     name: Cornelia Davis
   - contact: bonzofenix@gmail.com
+    homepage: null
     name: Alan Moran
   - contact: anthony.lee@allstate.com
+    homepage: null
     name: Anthony Lee
   - contact: krobn@allstate.com
+    homepage: null
     name: Kieran Robinson
   binaries:
   - checksum: ccf2b36bebc7bd3c6af8fca12e5b078a770af67e
@@ -1049,6 +1150,7 @@ plugins:
   - checksum: 63221ac784f6528b132ee8cf4fb45aae16f3ac87
     platform: linux64
     url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/linux64/usagereport-plugin?raw=true
+  company: null
   created: 2015-07-12T00:00:00Z
   description: Report on memory usage and application instances for orgs and spaces
   homepage: https://github.com/krujos/usagereport-plugin
@@ -1097,96 +1199,3 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
-- authors:
-  - name: CF Networking Team
-  binaries:
-  - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
-    platform: osx
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-darwin64
-  - checksum: cf1135050fb907d6e6274b4487a0b728493db31a
-    platform: win64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-windows64.exe
-  - checksum: b997525534c2b1795a195fad21b0870d41baaed9
-    platform: linux64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-linux64
-  company: Pivotal
-  created: 2017-07-10T00:00:00Z
-  description: Allow the user to manage application network policies
-  homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
-  name: network-policy
-  updated: 2017-07-11T00:47:13Z
-  version: 1.2.0
-- name: cf-aklogin
-  description: CF Login tool to switch between CF environments with a single command
-  version: 1.2.9
-  created: 2017-07-13T09:38:24Z
-  updated: 2017-08-08T15:02:09Z
-  company: Armakuni
-  authors:
-  - name: Adrian Fedoreanu
-    homepage: https://github.com/armakuni
-    contact: adrian.fedoreanu@armakuni.com
-  homepage: https://github.com/armakuni/cf-aklogin
-  binaries:
-  - platform: linux64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux64
-    checksum: b0ecc4d96b43158c335c7e1f5361c4d33d7ce477
-  - platform: linux32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux32
-    checksum: 1585e66c134e49cc15eef621a759a950959d623c
-  - platform: win64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win64
-    checksum: aefcd3b33f7dcb4db1cf9d7f76afa2a48e5fdbd4
-  - platform: win32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win32
-    checksum: a317ea128c741847ff52b26ed9c8203fed7a28cc
-  - platform: osx
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.osx
-    checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
-- name: service-use
-  description: Report on service usage in the platform based on your sign-in privileges
-  version: 1.0.1
-  created: 2017-08-22T10:23:08Z
-  updated: 2017-08-22T10:23:08Z
-  company: Pivotal
-  authors:
-  - name: Chris DeLashmutt
-    homepage: https://github.com/cdelashmutt-pivotal
-    contact: cdelashmutt@pivotal.io
-  homepage: https://github.com/cdelashmutt-pivotal/service-use
-  binaries:
-  - platform: linux64
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux64
-    checksum: 53b996afbd8c1942d956cc8f3a81a71119411388
-  - platform: linux32
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux32
-    checksum: 4cc07a9473bad7dc875f54900dd12219fbbba72f
-  - platform: win64
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win64
-    checksum: abe94cb8eac2fc1424bc92ca05628070b0983f53
-  - platform: win32
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win32
-    checksum: 7cb89f8b0708f7e86d66e8b974e38ae823c44cde
-  - platform: osx
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.osx
-    checksum: bc7f60993202a17d4c0a1408f8d1921a4f431268
-- name: started-apps
-  description: Easily view which apps are started
-  version: 0.1.0
-  created: 2017-08-24T11:33:03Z
-  updated: 2017-08-24T11:33:03Z
-  company: CGI
-  authors:
-  - name: Mark Webb
-    contact: mark.webb@cgi.com
-  homepage: https://github.com/mgwebb/started-apps
-  binaries:
-  - platform: linux64
-    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-linux64
-    checksum: 5a1cb8deb03320772e5863e3ae3fd4393d1110f6
-  - platform: win64
-    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-win64.exe
-    checksum: eca052d6cd5671079fb7b0d96f7c0c575260694c
-  - platform: osx
-    url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-darwin64
-    checksum: db53d56f903cbff5a3b002ddfadd3b0c9cd67ca1
