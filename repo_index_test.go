@@ -49,7 +49,7 @@ var _ = Describe("Database", func() {
 
 			sortedBytes, err := yamlSorter.Sort(pluginBytes)
 			Expect(err).NotTo(HaveOccurred())
-			Expect(sortedBytes).To(Equal(pluginBytes))
+			Expect(sortedBytes).To(Equal(pluginBytes), "file is not sorted; please run 'go run sort/main.go repo-index.yml'.\n")
 		})
 
 		It("has every binary link over https", func() {
@@ -117,7 +117,7 @@ var _ = Describe("Database", func() {
 						http.StatusBadGateway,
 						http.StatusServiceUnavailable,
 						http.StatusGatewayTimeout:
-						resp.Body.Close()
+						Expect(resp.Body.Close()).To(Succeed())
 						resp, err = http.Get(binary.Url)
 						Expect(err).NotTo(HaveOccurred())
 					}

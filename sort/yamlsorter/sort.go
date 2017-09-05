@@ -32,8 +32,8 @@ type PluginsYAML struct {
 }
 
 type Author struct {
-	Contact  *string `yaml:"contact"`
-	Homepage *string `yaml:"homepage"`
+	Contact  *string `yaml:"contact,omitempty"`
+	Homepage *string `yaml:"homepage,omitempty"`
 	Name     *string `yaml:"name"`
 }
 

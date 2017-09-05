@@ -316,8 +316,7 @@ plugins:
   updated: 2016-09-21T00:00:00Z
   version: 0.0.1
 - authors:
-  - contact: null
-    homepage: https://github.com/gambtho
+  - homepage: https://github.com/gambtho
     name: Thomas Gamble
   binaries:
   - checksum: 9ba8a64e2ecceac7745545cb646d94eb43477247
@@ -824,9 +823,7 @@ plugins:
   updated: 2017-07-12T16:29:36Z
   version: 1.4.0
 - authors:
-  - contact: null
-    homepage: null
-    name: CF Networking Team
+  - name: CF Networking Team
   binaries:
   - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
     platform: osx
@@ -951,7 +948,6 @@ plugins:
   version: 1.0.1
 - authors:
   - contact: mark.webb@cgi.com
-    homepage: null
     name: Mark Webb
   binaries:
   - checksum: 5a1cb8deb03320772e5863e3ae3fd4393d1110f6
@@ -1129,13 +1125,10 @@ plugins:
     homepage: https://github.com/cdavisafc/
     name: Cornelia Davis
   - contact: bonzofenix@gmail.com
-    homepage: null
     name: Alan Moran
   - contact: anthony.lee@allstate.com
-    homepage: null
     name: Anthony Lee
   - contact: krobn@allstate.com
-    homepage: null
     name: Kieran Robinson
   binaries:
   - checksum: ccf2b36bebc7bd3c6af8fca12e5b078a770af67e
