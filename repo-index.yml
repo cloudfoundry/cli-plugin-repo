@@ -825,22 +825,22 @@ plugins:
 - authors:
   - name: CF Networking Team
   binaries:
-  - checksum: 5461fc92f7e31ad5d15d65ec70f72783ae5b3b49
+  - checksum: 16d7a444114a1287b45e1e98ba69176017997065
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-darwin64
-  - checksum: cf1135050fb907d6e6274b4487a0b728493db31a
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.0/network-policy-plugin-darwin64
+  - checksum: d52c2200c2d466396f34871673cf0c4b36acfa19
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-windows64.exe
-  - checksum: b997525534c2b1795a195fad21b0870d41baaed9
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.0/network-policy-plugin-windows64.exe
+  - checksum: a1911f794e439057f8feb15b1749206543c5274a
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.2.0/network-policy-plugin-linux64
+    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.0/network-policy-plugin-linux64
   company: Pivotal
   created: 2017-07-10T00:00:00Z
   description: Allow the user to manage application network policies
   homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
   name: network-policy
-  updated: 2017-07-11T00:47:13Z
-  version: 1.2.0
+  updated: 2017-08-31T23:58:12Z
+  version: 1.6.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
