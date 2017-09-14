@@ -84,6 +84,24 @@ GOOS=windows GOARCH=386 go build -o ${PLUGIN_NAME}.win32
 GOOS=darwin GOARCH=amd64 go build -o ${PLUGIN_NAME}.osx
 ```
 
+### Sign Windows binaries
+
+```bash
+CERT_LOCATION=my-cert-location
+CERT_PASSWORD=my-cert-password
+PLUGIN_BINARY_NAME=my-plugin.win32
+
+mkdir signed-binaries
+osslsigncode sign \
+  -pkcs12 $CERT_LOCATION \
+  -pass $CERT_PASSWORD \
+  -t http://timestamp.comodoca.com/authenticode \
+  -h sha256 \
+  -in ${PLUGIN_BINARY_NAME} \
+  -out signed-binaries/${PLUGIN_BINARY_NAME}
+rm -f ${PLUGIN_BINARY_NAME}
+```
+
 ### Checksums
 
 Checksums in the `repo-index.yml` file are used to verify the integrity of the binaries, to prevent corrupted downloads from being installed. We use the [`sha-1`](https://en.wikipedia.org/wiki/SHA-1) checksum algorithm, you can compute it with: `shasum -a 1 <myfile>`
