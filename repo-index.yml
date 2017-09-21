@@ -630,22 +630,22 @@ plugins:
     homepage: https://github.com/xiwenc
     name: Xiwen Cheng
   binaries:
-  - checksum: 504a7198f754085cf45a5be90acaa5647deb2d19
+  - checksum: 436f8cf29511f6787e63f842a4415dbea37e501f
     platform: osx
-    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_darwin_amd64
-  - checksum: 885c9c26ae5463e2819cfd8ba5a7ab85b48f38e3
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.1.0/cf-fastpush-plugin_darwin_amd64
+  - checksum: f2aa75bf457d38c64b2f9442a0444e45ee49934c
     platform: win64
-    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_windows_amd64.exe
-  - checksum: 689f21bb554372032096d122d04ce80a0defed3b
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.1.0/cf-fastpush-plugin_windows_amd64.exe
+  - checksum: 961e3ea0fe06f993e7ad823cb43b4fe943b056ec
     platform: linux64
-    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.0.0/cf-fastpush-plugin_linux_amd64
+    url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.1.0/cf-fastpush-plugin_linux_amd64
   company: Mendix
   created: 2016-02-21T00:00:00Z
   description: Fast, non-persistent, smart and incrementally updating of your application
   homepage: https://github.com/xiwenc/cf-fastpush-plugin
   name: fastpush
-  updated: 2016-02-21T00:00:00Z
-  version: 1.0.0
+  updated: 2017-09-21T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: jtuchschererg@gmail.com
     homepage: https://github.com/jtuchscherer
