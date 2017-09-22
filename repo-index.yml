@@ -865,7 +865,7 @@ plugins:
   created: 2015-02-27T00:00:00Z
   description: Open App URLs + Service dashboards in browser
   homepage: https://github.com/cloudfoundry-community/cf-plugin-open
-  name: Open
+  name: open
   updated: 2017-09-22T00:00:00Z
   version: 1.2.0
 - authors:
