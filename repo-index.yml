@@ -852,22 +852,22 @@ plugins:
     homepage: https://github.com/soutenniza
     name: Van Nguyen
   binaries:
-  - checksum: 7d81750f3bff1f6cc477f61db3ccb92e87bbc6f3
+  - checksum: fefcfc0ecf7602e035ac7eca5402ad240761612b
     platform: win64
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.0/cf-plugin-open-windows-amd64.exe
-  - checksum: c716cc24db3ef4685b569135605a11e0617d59ac
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.1/cf-plugin-open-windows-amd64.exe
+  - checksum: ab16592ccd07bb200b2a8ad65f6c9c0832770c36
     platform: linux64
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.0/cf-plugin-open-linux-amd64
-  - checksum: b082eeafa0b8f69a5bc2c74422790cd954e68b56
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.1/cf-plugin-open-linux-amd64
+  - checksum: f5e214e0612f13e49b5c198d03f6d0b2f38054a0
     platform: osx
-    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.0/cf-plugin-open-darwin-amd64
+    url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.1/cf-plugin-open-darwin-amd64
   company: Stark and Wayne
   created: 2015-02-27T00:00:00Z
   description: Open App URLs + Service dashboards in browser
   homepage: https://github.com/cloudfoundry-community/cf-plugin-open
   name: open
   updated: 2017-09-22T00:00:00Z
-  version: 1.2.0
+  version: 1.2.1
 - authors:
   - contact: aidan.feldman@gsa.gov
     homepage: https://github.com/afeld
@@ -1192,3 +1192,4 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
+
