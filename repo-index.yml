@@ -1034,7 +1034,7 @@ plugins:
   description: Easily manage multiple CF targets
   homepage: https://github.com/guidowb/cf-targets-plugin
   name: Targets
-  updated: 2015-08-14T00:00:00Z
+  updated: 2017-10-03T00:00:00Z
   version: 1.2.0
 - authors:
   - contact: ben@laplanche.co.uk
