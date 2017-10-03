@@ -1020,22 +1020,22 @@ plugins:
     homepage: https://github.com/guidowb
     name: Guido Westenberg
   binaries:
-  - checksum: 42a77ed2430c09c6de70c09b839af1ae48a82b39
+  - checksum: c96f3a9bc53378723f20bfbcbab8994b1d3e8183
     platform: osx
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/osx/cf-targets-plugin
-  - checksum: c360ee333631cda7f0de426494abecfd8c356aea
+    url: https://github.com/guidowb/cf-targets-plugin/raw/1.2.0/bin/osx/cf-targets-plugin
+  - checksum: 25b390f5835e6e392261149b0431390e8aa294db
     platform: win64
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/win64/cf-targets-plugin.exe
-  - checksum: 45f0626f789871141d5194cbacdfac41bd08d1f2
+    url: https://github.com/guidowb/cf-targets-plugin/raw/1.2.0/bin/win64/cf-targets-plugin.exe
+  - checksum: b5ac9e8ffffddfd953f65c01dbb598e0314cc57e
     platform: linux64
-    url: https://github.com/guidowb/cf-targets-plugin/raw/v1.1.0/bin/linux64/cf-targets-plugin
+    url: https://github.com/guidowb/cf-targets-plugin/raw/1.2.0/bin/linux64/cf-targets-plugin
   company: null
   created: 2015-04-17T00:00:00Z
   description: Easily manage multiple CF targets
   homepage: https://github.com/guidowb/cf-targets-plugin
   name: Targets
   updated: 2015-08-14T00:00:00Z
-  version: 1.1.0
+  version: 1.2.0
 - authors:
   - contact: ben@laplanche.co.uk
     homepage: http://ben.laplanche.co.uk
