@@ -340,23 +340,23 @@ plugins:
     homepage: https://github.com/sclevine
     name: Stephen Levine
   binaries:
-  - checksum: 95a822dee2d154d659d15ce5934032629cac1817
+  - checksum: 5401c97e9eae6269884606a52895262affa59b11
     platform: osx
-    url: https://github.com/sclevine/cflocal/releases/download/v0.15.0/cflocal-0.15.0-macos
-  - checksum: 31a1d5d683017951e5b34cc2ce70a6338cf76d52
+    url: https://github.com/sclevine/cflocal/releases/download/v0.17.0/cflocal-0.17.0-macos
+  - checksum: 96fc84ebe19c092fa77a55359493dbb67d27c8eb
     platform: win64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.15.0/cflocal-0.15.0-windows.exe
-  - checksum: 7f015a3add45090d5cafb21ab13697287dc4272f
+    url: https://github.com/sclevine/cflocal/releases/download/v0.17.0/cflocal-0.17.0-windows.exe
+  - checksum: dcabc201de1548ad8701da85f5069e61a3e5cad0
     platform: linux64
-    url: https://github.com/sclevine/cflocal/releases/download/v0.15.0/cflocal-0.15.0-linux
+    url: https://github.com/sclevine/cflocal/releases/download/v0.17.0/cflocal-0.17.0-linux
   company: null
   created: 2017-03-23T00:00:00Z
   description: Stage and launch CF apps, push and pull droplets, and connect to real
     CF services -- in Docker
   homepage: https://github.com/sclevine/cflocal
   name: cflocal
-  updated: 2017-09-27T00:00:00Z
-  version: 0.15.0
+  updated: 2017-10-04T00:00:00Z
+  version: 0.17.0
 - authors:
   - contact: contact@simonleung.info
     homepage: https://github.com/simonleung8
