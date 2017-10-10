@@ -451,9 +451,6 @@ plugins:
     homepage: https://github.com/jthomas
     name: James Thomas
   binaries:
-  - checksum: f4be69bbeff73e5c213ea9ea2e6d4e9d2c94e75c
-    platform: osx
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
   - checksum: ea67ef333e08cd42b76f1b6194cf2b56b5cbd37b
     platform: linux32
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
