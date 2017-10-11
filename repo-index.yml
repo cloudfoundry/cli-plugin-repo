@@ -944,6 +944,34 @@ plugins:
   updated: 2017-08-22T10:23:08Z
   version: 1.0.1
 - authors:
+  - contact: cf-spring-cloud-services@pivotal.io
+    homepage: https://docs.pivotal.io/spring-cloud-services
+    name: Spring Cloud Services
+  binaries:
+  - checksum: 0875a99494ae66e22ed5ac10b27929e55dbfb4bc
+    platform: win64
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_windows_amd64.exe
+  - checksum: 46e4078e892c9b6040ffd2efc866fc992767e9b8
+    platform: win32
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_windows_386.exe
+  - checksum: a8382f737730c7167c4746705c0f16d249f93bda
+    platform: linux64
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_linux_amd64
+  - checksum: 360bfc90b14b6e41870c5e99874699df115aa562
+    platform: linux32
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_linux_386
+  - checksum: 419a585d4e7fbdc3931e9334eee3820cc52f43c8
+    platform: osx
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_darwin_amd64
+  company: Pivotal
+  created: 2017-10-10T08:43:23Z
+  description: Manage Pivotal Spring Cloud Services service instances and service
+    registries. Encrypt a string using a configuration service.
+  homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
+  name: Spring Cloud Services
+  updated: 2017-10-10T08:43:23Z
+  version: 1.0.0
+- authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
   binaries:
