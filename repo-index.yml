@@ -917,6 +917,34 @@ plugins:
   updated: 2016-05-19T00:00:00Z
   version: 1.0.4
 - authors:
+  - contact: cf-spring-cloud-services@pivotal.io
+    homepage: https://docs.pivotal.io/scdf
+    name: Service Instance Logging
+  binaries:
+  - checksum: c083f434a1626823aa0f4d91f60b11454e84bdec
+    platform: win64
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-windows-amd64.exe
+  - checksum: f692694a5ae921535de1bfbcff3889b88b1c4c0b
+    platform: win32
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-windows-386.exe
+  - checksum: 59cb569edbbb05894c2c5a2c78b1a3d7b2d15b2a
+    platform: linux64
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-linux-amd64
+  - checksum: 0d87aa6023b4215468405849938d9f1800ce6887
+    platform: linux32
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-linux-386
+  - checksum: 5d96848b02e345958742aa98e6b112d48508f7a0
+    platform: osx
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-darwin-amd64
+  company: Pivotal
+  created: 2017-10-12T10:29:23Z
+  description: For service brokers that implement a logging endpoint, this plugin
+    will allow recent dump and streaming of logs from that endpoint.
+  homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
+  name: Service Instance Logging
+  updated: 2017-10-12T10:29:23Z
+  version: 1.0.0
+- authors:
   - contact: cdelashmutt@pivotal.io
     homepage: https://github.com/cdelashmutt-pivotal
     name: Chris DeLashmutt
