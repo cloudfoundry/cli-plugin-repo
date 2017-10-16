@@ -919,7 +919,7 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/scdf
-    name: Service Instance Logging
+    name: service-instance-logging
   binaries:
   - checksum: c083f434a1626823aa0f4d91f60b11454e84bdec
     platform: win64
@@ -941,7 +941,7 @@ plugins:
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
-  name: Service Instance Logging
+  name: service-instance-logging
   updated: 2017-10-12T10:29:23Z
   version: 1.0.0
 - authors:
@@ -974,7 +974,7 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
-    name: Spring Cloud Services
+    name: spring-cloud-services
   binaries:
   - checksum: 0875a99494ae66e22ed5ac10b27929e55dbfb4bc
     platform: win64
@@ -996,7 +996,7 @@ plugins:
   description: Manage Pivotal Spring Cloud Services service instances and service
     registries. Encrypt a string using a configuration service.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
-  name: Spring Cloud Services
+  name: spring-cloud-services
   updated: 2017-10-10T08:43:23Z
   version: 1.0.0
 - authors:
