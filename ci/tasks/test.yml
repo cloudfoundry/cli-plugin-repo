@@ -8,7 +8,7 @@ image_resource:
 
 inputs:
 - name: cli-plugin-repo
-  path: gopath/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+  path: gopath/src/github.com/cloudfoundry/cli-plugin-repo
 
 run:
   path: bash
@@ -22,6 +22,6 @@ run:
 
     go get github.com/onsi/ginkgo/ginkgo
 
-    cd $GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+    cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
 
     BINARY_VALIDATION=true bin/test

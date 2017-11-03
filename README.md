@@ -1,4 +1,4 @@
-# Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry-incubator/cli-plugin-repo)
+# Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry/cli-plugin-repo)
 
 This is a public repository for community created CF CLI plugins. To submit your plugin
 approval, please submit a pull request according to the guidelines below.
@@ -6,7 +6,7 @@ approval, please submit a pull request according to the guidelines below.
 ## Submitting Plugins
 
 1. You need to have [git](https://git-scm.com/downloads) installed
-1. Clone this repo `git clone https://github.com/cloudfoundry-incubator/cli-plugin-repo`
+1. Clone this repo `git clone https://github.com/cloudfoundry/cli-plugin-repo`
 1. Include your plugin information in `repo-index.yml`, here is an example of a new plugin entry
   ```yaml
   - authors:
@@ -49,7 +49,7 @@ approval, please submit a pull request according to the guidelines below.
 1. After making the changes, fork the repository
 1. Add your fork as a remote
    ```
-   cd $GOPATH/src/github.com/cloudfoundry-incubator/cli-plugin-repo
+   cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
    git remote add your_name https://github.com/your_name/cli-plugin-repo
    ```
 
@@ -137,4 +137,4 @@ This process can get a little tedious if you do it manually every time, that's w
 
 ## Running your own Plugin Repo Server
 
-Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/docs/CLIPR.md)
+Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry/cli-plugin-repo/blob/master/docs/CLIPR.md)
