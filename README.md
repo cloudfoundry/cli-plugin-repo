@@ -88,8 +88,9 @@ GOOS=darwin GOARCH=amd64 go build -o ${PLUGIN_NAME}.osx
 By signing the plugin binary, you can assure recipients that it did indeed come from you.  
 Although an optional step, unsigned binaries can often not be used in locked-down machines common in organizations with stricter security policies. Signing the binary allows system admins to whitelist the plugin by signature or publisher.
 
-The cf CLI binary is signed using a Cloud Foundry Foundation certificate. This certificate cannot be used to sign third-party plugins; plugin authors need to procure their own code signing certificate from a Microsoft authorized certificate authority.  
-*A standard code signing certificate is sufficient - extended validation (EV) is not required.*
+The cf CLI binary is signed using a Cloud Foundry Foundation certificate. This certificate cannot be used to sign third-party plugins; plugin authors need to procure their own code-signing certificate. 
+
+You’ll need a code-signing certificate compatible with Microsoft Authenticode issued by a Microsoft-authorized certificate authority such as Thawte, Comodo, Symantec, or Digicert. *A standard code signing certificate is sufficient - extended validation (EV) is not required.* Buying direct from these CAs can be expensive. There are many resellers of certificates that pass on savings they get from volume discounts; you can shop around for a good price or support but fundamentally they’re all selling the same thing. You should expect an average price of between USD 80 and USD 150 for a one-year cert.
 
 Once the certificate is obtained, refer to the following steps sign your plugin binary.
 
