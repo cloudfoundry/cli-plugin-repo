@@ -92,7 +92,7 @@ The cf CLI binary is signed using a Cloud Foundry Foundation certificate. This c
 
 You’ll need a code-signing certificate compatible with Microsoft Authenticode issued by a Microsoft-authorized certificate authority such as Thawte, Comodo, Symantec, or Digicert. *A standard code signing certificate is sufficient - extended validation (EV) is not required.* Buying direct from these CAs can be expensive. There are many resellers of certificates that pass on savings they get from volume discounts; you can shop around for a good price or support but fundamentally they’re all selling the same thing. You should expect an average price of between USD 80 and USD 150 for a one-year cert.
 
-Once the certificate is obtained, refer to the following steps sign your plugin binary.
+Once the certificate is obtained, refer to the following steps to sign your plugin binary.
 
 ```bash
 CERT_LOCATION=my-cert-location
