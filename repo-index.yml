@@ -679,22 +679,22 @@ plugins:
     homepage: https://github.com/wfernandes
     name: Warren Fernandes
   binaries:
-  - checksum: 64365de9fd00e18fc4bbcb02dfc172e0a1a2cff8
+  - checksum: cfa49937835443f1a4d752389d75deb10037cac5
     platform: osx
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-darwin
-  - checksum: 74f0c6aaeace310565ceb8e76ca0d16cb1ef7bbc
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.13.0/nozzle-plugin-darwin
+  - checksum: cec9e01966b40045bf2411e277a6dbe5a698d23e
     platform: win64
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin.exe
-  - checksum: 31d07b66bee543ec082a9c6e17073eddaab10afa
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.13.0/nozzle-plugin.exe
+  - checksum: 6640803af0dc097d0bebc14cca67d48c2540cc3c
     platform: linux64
-    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.12.0/nozzle-plugin-linux
+    url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.13.0/nozzle-plugin-linux
   company: null
   created: 2015-09-09T00:00:00Z
-  description: This plugin allows you to connect to the firehose (CF admins only)
+  description: This plugin allows you to connect to the firehose
   homepage: http://github.com/cloudfoundry-community/firehose-plugin
   name: Firehose Plugin
-  updated: 2017-03-24T02:11:56Z
-  version: 0.12.0
+  updated: 2017-11-18T21:17:15Z
+  version: 0.13.0
 - authors:
   - contact: akoranne@ecsteam.com
     homepage: https://github.com/akoranne
