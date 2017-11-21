@@ -86,7 +86,7 @@ GOOS=darwin GOARCH=amd64 go build -o ${PLUGIN_NAME}.osx
 
 ### Sign Windows binaries
 By signing the plugin binary, you can assure recipients that it did indeed come from you.  
-Although an optional step, unsigned binaries can often not be used in locked-down machines common in organizations with stricter security policies. Signing the binary allows system admins to whitelist the plugin by signature or publisher.
+Although an optional step, unsigned binaries often cannot be used in locked-down machines common in organizations with stricter security policies. Signing the binary allows system admins to whitelist the plugin by signature or publisher.
 
 The cf CLI binary is signed using a Cloud Foundry Foundation certificate. This certificate cannot be used to sign third-party plugins; plugin authors need to procure their own code-signing certificate. 
 
