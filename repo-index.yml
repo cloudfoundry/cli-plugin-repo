@@ -1273,3 +1273,24 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
+- name: AppsMetrics Plugin
+  description: This plugin allows you to hit a metrics endpoint across all your app instances
+  version: 1.0.0
+  created: 2017-11-24T00:00:00Z
+  updated: 2017-11-25T23:13:38Z
+  company:
+  authors:
+  - name: Warren Fernandes
+    homepage: https://github.com/wfernandes
+    contact: warren.f.fernandes@gmail.com
+  homepage: http://github.com/wfernandes/app-metrics-plugin
+  binaries:
+  - platform: osx
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin-darwin
+    checksum: (stdin)= 65765c2de9d24727267f89d8831b8f1a0a7264b2
+  - platform: win64
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin.exe
+    checksum: (stdin)= d60f16e2f7dd4ce00aa174f9f0ee3aeb3b5277b0
+  - platform: linux64
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin-linux
+    checksum: (stdin)= c860ecaac99be6d5e81e1bb360a3b936c46c250a
