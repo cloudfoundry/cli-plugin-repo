@@ -15,7 +15,7 @@ func TestMain(t *testing.T) {
 
 var buildPath string
 var _ = SynchronizedBeforeSuite(func() []byte {
-	path, buildErr := gexec.Build("github.com/cloudfoundry/cli-plugin-repo")
+	path, buildErr := gexec.Build("code.cloudfoundry.org/cli-plugin-repo")
 	Expect(buildErr).NotTo(HaveOccurred())
 	return []byte(path)
 }, func(data []byte) {

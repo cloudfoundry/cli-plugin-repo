@@ -7,7 +7,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/cloudfoundry/cli-plugin-repo/web"
+	"code.cloudfoundry.org/cli-plugin-repo/web"
 	"github.com/tedsuo/rata"
 	"github.com/unrolled/secure"
 	"gopkg.in/yaml.v2"

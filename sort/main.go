@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudfoundry/cli-plugin-repo/sort/yamlsorter"
+	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
 )
 
 func main() {

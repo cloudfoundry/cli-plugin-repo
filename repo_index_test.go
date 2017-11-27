@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cloudfoundry/cli-plugin-repo/sort/yamlsorter"
-	"github.com/cloudfoundry/cli-plugin-repo/web"
+	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
+	"code.cloudfoundry.org/cli-plugin-repo/web"
 
 	"net/url"
 
