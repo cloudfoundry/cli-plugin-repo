@@ -1,6 +1,7 @@
 language: go
 go:
   - 1.9
+go_import_path: code.cloudfoundry.org/cli-plugin-repo
 install:
   - go get -v github.com/onsi/ginkgo/ginkgo
 script: BINARY_VALIDATION=true bin/test --compilers=2
