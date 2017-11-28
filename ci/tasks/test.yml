@@ -8,7 +8,7 @@ image_resource:
 
 inputs:
 - name: cli-plugin-repo
-  path: gopath/src/github.com/cloudfoundry/cli-plugin-repo
+  path: gopath/src/code.cloudfoundry.org/cli-plugin-repo
 
 run:
   path: bash
