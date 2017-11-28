@@ -26,23 +26,23 @@ plugins:
     homepage: https://github.com/wfernandes
     name: Warren Fernandes
   binaries:
-  - checksum: 65765c2de9d24727267f89d8831b8f1a0a7264b2
+  - checksum: 6e99256969d1088475b5b39eb09c33844995434b
     platform: osx
-    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin-darwin
-  - checksum: d60f16e2f7dd4ce00aa174f9f0ee3aeb3b5277b0
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.1/app-metrics-plugin-darwin
+  - checksum: a8ab0e015829f826e0acdfd0967e48cc4a63faf0
     platform: win64
-    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin.exe
-  - checksum: c860ecaac99be6d5e81e1bb360a3b936c46c250a
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.1/app-metrics-plugin.exe
+  - checksum: 934c74282bc71b8c633ec6be253c3e86b710694c
     platform: linux64
-    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.0/app-metrics-plugin-linux
+    url: https://github.com/wfernandes/app-metrics-plugin/releases/download/1.0.1/app-metrics-plugin-linux
   company: null
   created: 2017-11-24T00:00:00Z
   description: This plugin allows you to hit a metrics endpoint across all your app
     instances
   homepage: http://github.com/wfernandes/app-metrics-plugin
   name: AppsMetrics Plugin
-  updated: 2017-11-26T00:11:20Z
-  version: 1.0.0
+  updated: 2017-11-28T04:39:17Z
+  version: 1.0.1
 - authors:
   - contact: xoebus@xoeb.us
     homepage: https://github.com/xoebus
