@@ -22,6 +22,6 @@ run:
 
     go get github.com/onsi/ginkgo/ginkgo
 
-    cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
+    cd $GOPATH/src/code.cloudfoundry.org/cli-plugin-repo
 
     BINARY_VALIDATION=true bin/test
