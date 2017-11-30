@@ -22,6 +22,28 @@ plugins:
   updated: 2016-05-20T00:00:00Z
   version: 0.3.0
 - authors:
+  - contact: apigee-pivotal-cloud-foundry-external@google.com
+    homepage: https://github.com/apigee/cloud-foundry-apigee
+    name: Apigee Cloud Foundry Team
+  binaries:
+  - checksum: 8cd4ce2e452805233d98da3b51fe321567582f49
+    platform: osx
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.osx
+  - checksum: 582bdd5fe54b0a79c8017e3aebe8eb5b57395288
+    platform: win64
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.win64
+  - checksum: 4b1b6ceb4218a1653646fc28a741df9f15828585
+    platform: linux64
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.linux64
+  company: Google
+  created: 2017-11-30T00:00:00Z
+  description: Allows users to interact with the Apigee Service Broker in an easier
+    and more streamlined way
+  homepage: https://github.com/apigee/cloud-foundry-apigee/tree/v3.0.0-Beta/cli_plugin
+  name: apigee-broker-plugin
+  updated: 2017-11-30T00:00:00Z
+  version: 0.1.1
+- authors:
   - contact: warren.f.fernandes@gmail.com
     homepage: https://github.com/wfernandes
     name: Warren Fernandes
@@ -119,28 +141,6 @@ plugins:
   name: blue-green-deploy
   updated: 2017-02-21T15:50:13Z
   version: 1.2.0
-- authors:
-  - contact: apigee-pivotal-cloud-foundry-external@google.com
-    homepage: https://github.com/apigee/cloud-foundry-apigee
-    name: Apigee Cloud Foundry Team
-  binaries:
-  - checksum: 8bf209dd1daa670cc7d94785a98660a537e79a8c
-    platform: osx
-    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/broker_plugin.osx
-  - checksum: 22e87d237e328ecf4cd3de553b966d7a8cbc4686
-    platform: win64
-    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/broker_plugin.win64
-  - checksum: ae1c782fa5fe91d65e1dcd460d58bc897273d268
-    platform: linux64
-    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/broker_plugin.linux64
-  company: Google
-  created: 2017-11-30T00:00:00Z
-  description: Allows users to interact with the Apigee Service Broker in an easier
-    and more streamlined way
-  homepage: https://github.com/apigee/cloud-foundry-apigee/tree/v3.0.0-Beta/cli_plugin
-  name: broker_plugin
-  updated: 2017-11-30T00:00:00Z
-  version: 0.1.1
 - authors:
   - contact: robert.moss@cloudsoftcorp.com
     homepage: https://github.com/robertgmoss
