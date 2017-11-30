@@ -22,6 +22,28 @@ plugins:
   updated: 2016-05-20T00:00:00Z
   version: 0.3.0
 - authors:
+  - contact: apigee-pivotal-cloud-foundry-external@google.com
+    homepage: https://github.com/apigee/cloud-foundry-apigee
+    name: Apigee Cloud Foundry Team
+  binaries:
+  - checksum: 8cd4ce2e452805233d98da3b51fe321567582f49
+    platform: osx
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.osx
+  - checksum: 582bdd5fe54b0a79c8017e3aebe8eb5b57395288
+    platform: win64
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.win64
+  - checksum: 4b1b6ceb4218a1653646fc28a741df9f15828585
+    platform: linux64
+    url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.linux64
+  company: Google
+  created: 2017-11-30T00:00:00Z
+  description: Allows users to interact with the Apigee Service Broker in an easier
+    and more streamlined way
+  homepage: https://github.com/apigee/cloud-foundry-apigee/tree/v3.0.0-Beta/cli_plugin
+  name: apigee-broker-plugin
+  updated: 2017-11-30T00:00:00Z
+  version: 0.1.1
+- authors:
   - contact: warren.f.fernandes@gmail.com
     homepage: https://github.com/wfernandes
     name: Warren Fernandes
