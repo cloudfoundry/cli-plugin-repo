@@ -451,6 +451,31 @@ plugins:
   updated: 2015-09-21T00:00:00Z
   version: 1.0.1
 - authors:
+  - name: Government Digital Service
+  binaries:
+  - checksum: ed72e0752ba7d9c46867f652150cd82c82926cda
+    platform: osx
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.darwin.amd64
+  - checksum: 1bbc1c60e75f58146bd4fa33afd2c6741ba2f51e
+    platform: win32
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.windows.386
+  - checksum: e84704dec067f3dc94c0ae708b8877d05c34ee7c
+    platform: win64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.windows.amd64
+  - checksum: 8755e63926954ffbdf5b9ec3dfdfa50daf501446
+    platform: linux32
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.linux.386
+  - checksum: cb0f9d81023d73398e3f7d62338860ca3bc3e957
+    platform: linux64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.linux.amd64
+  company: null
+  created: 2017-12-12T00:00:00Z
+  description: Makes it easy to directly connect to your remote service instances
+  homepage: https://github.com/alphagov/paas-cf-conduit
+  name: conduit
+  updated: 2017-12-12T00:00:00Z
+  version: 0.0.3
+- authors:
   - contact: dhigham@pivotal.io
     homepage: https://github.com/danhigham
     name: Dan Higham
