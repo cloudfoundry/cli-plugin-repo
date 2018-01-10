@@ -715,7 +715,7 @@ plugins:
   description: This plugin allows you to configure PCF Event Alerts
   homepage: https://network.pivotal.io
   name: Event Alerts Plugin
-  updated: 2018-01-10T20:36:50Z
+  updated: 2018-01-10T20:39:57Z
   version: 0.0.1
 - authors:
   - contact: x@cinaq.com
