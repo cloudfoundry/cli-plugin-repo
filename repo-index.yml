@@ -691,6 +691,33 @@ plugins:
   updated: 2016-02-08T00:00:00Z
   version: 1.0.1
 - authors:
+  - contact: pcf-event-alerts@pivotal.io
+    homepage: https://network.pivotal.io
+    name: Pivotal
+  binaries:
+  - checksum: 0ba006aa1b198c3ace9b33b13590fb7106dbcf24
+    platform: linux32
+    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/linux32-0.0.1
+  - checksum: 34fe911487777fa4fb87e99c83aae4dbb98ad74f
+    platform: linux64
+    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/linux64-0.0.1
+  - checksum: a25c6ad0231bd7a0e7b70d875792922ff5d4d790
+    platform: win32
+    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/windows32-0.0.1
+  - checksum: 1c1623e175eae789cf9504e03ba5c77d0deeb92e
+    platform: win64
+    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/windows64-0.0.1
+  - checksum: 4bba89425885d564daf15ced0f597acf99485146
+    platform: osx
+    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/macosx64-0.0.1
+  company: Pivotal
+  created: 2018-1-10T00:00:00Z
+  description: This plugin allows you to configure PCF Event Alerts
+  homepage: https://network.pivotal.io
+  name: Event Alerts Plugin
+  updated: 2018-01-10T21:04:43Z
+  version: 0.0.1
+- authors:
   - contact: x@cinaq.com
     homepage: https://github.com/xiwenc
     name: Xiwen Cheng
