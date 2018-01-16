@@ -712,9 +712,9 @@ plugins:
     url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/macosx64-0.0.1
   company: Pivotal
   created: 2018-01-10T00:00:00Z
-  description: This plugin allows you to configure Event Alerts
-  homepage: https://network.pivotal.io
-  name: Event Alerts Plugin
+  description: This plugin allows you to configure PCF Event Alerts
+  homepage: https://eva-docs.cfapps.io/event-alerts-for-pcf/index.html
+  name: PCF Event Alerts (Beta)
   updated: 2018-01-10T22:01:07Z
   version: 0.0.1
 - authors:
