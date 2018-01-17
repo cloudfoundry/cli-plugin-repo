@@ -978,10 +978,10 @@ plugins:
   binaries:
   - checksum: 936df64f36a78d065d087e2fa81e19bf98720ece
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin.win64
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win64.exe
   - checksum: 9623d2b120b8c3552ef45a132d062c028db0e62e
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin.win32
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win32.exe
   - checksum: 117930c17125bf7e542a717c4b65a6f1dce678a7
     platform: linux64
     url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin.linux64
