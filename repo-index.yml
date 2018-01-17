@@ -997,7 +997,7 @@ plugins:
     registries. Encrypt a string using a configuration service.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2018-01-18T09:50:00Z
+  updated: 2018-01-17T09:50:00Z
   version: 1.0.1
 - authors:
   - contact: mark.webb@cgi.com
