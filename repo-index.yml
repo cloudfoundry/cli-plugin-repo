@@ -976,12 +976,12 @@ plugins:
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-services
   binaries:
-  - checksum: 936df64f36a78d065d087e2fa81e19bf98720ece
+  - checksum: 1c59c54e4084266818ca7824654830fa44170f2a
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win64.exe
-  - checksum: 9623d2b120b8c3552ef45a132d062c028db0e62e
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win64
+  - checksum: 0f4ab675d3710081f275dd061940aa34ecf7781e
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win32.exe
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin_win32
   - checksum: 117930c17125bf7e542a717c4b65a6f1dce678a7
     platform: linux64
     url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin.linux64
