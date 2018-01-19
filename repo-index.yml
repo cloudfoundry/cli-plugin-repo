@@ -1016,7 +1016,7 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/scdf
-    name: Service Instance Logging
+    name: service-instance-logging
   binaries:
   - checksum: c083f434a1626823aa0f4d91f60b11454e84bdec
     platform: win64
@@ -1037,7 +1037,7 @@ plugins:
   created: 2017-10-12T10:29:23Z
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
-  homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
+  homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
   name: Service Instance Logging
   updated: 2017-10-12T10:29:23Z
   version: 1.0.0
@@ -1071,31 +1071,31 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
-    name: Spring Cloud Services
+    name: spring-cloud-services
   binaries:
-  - checksum: 0875a99494ae66e22ed5ac10b27929e55dbfb4bc
+  - checksum: 866fd19725d396bcd93d4cbce12f5874db59f3d4
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_windows_amd64.exe
-  - checksum: 46e4078e892c9b6040ffd2efc866fc992767e9b8
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-windows-amd64-1.0.1.exe
+  - checksum: bb684bf3ebf80428bb6976480f67877fe2769d65
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_windows_386.exe
-  - checksum: a8382f737730c7167c4746705c0f16d249f93bda
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-windows-386-1.0.1.exe
+  - checksum: 397f3459f089c1e58eae38d323da31d8a3a45ca6
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_linux_amd64
-  - checksum: 360bfc90b14b6e41870c5e99874699df115aa562
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-linux-amd64-1.0.1
+  - checksum: 1c8b34f39362a7b037e6dad081c9bde0bc4ba8dc
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_linux_386
-  - checksum: 419a585d4e7fbdc3931e9334eee3820cc52f43c8
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-linux-386-1.0.1
+  - checksum: 992bd018e88530c60c2ecc9ce3d32ceef53aa0b3
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.0/spring-cloud-services-cli-plugin_darwin_amd64
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-darwin-amd64-1.0.1
   company: Pivotal
   created: 2017-10-10T08:43:23Z
   description: Manage Pivotal Spring Cloud Services service instances and service
     registries. Encrypt a string using a configuration service.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
-  name: Spring Cloud Services
-  updated: 2017-10-10T08:43:23Z
-  version: 1.0.0
+  name: spring-cloud-services
+  updated: 2018-01-17T09:50:00Z
+  version: 1.0.1
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
