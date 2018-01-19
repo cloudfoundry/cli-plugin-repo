@@ -941,7 +941,7 @@ plugins:
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
-  name: service-instance-logging
+  name: Service Instance Logging
   updated: 2017-10-12T10:29:23Z
   version: 1.0.0
 - authors:
