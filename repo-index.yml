@@ -1259,10 +1259,10 @@ plugins:
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin64.exe
   - checksum: 8027ad5e270e3216a97968532548d0b90637d32b
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin32-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin-linux32
   - checksum: 886eb6c376f2afab42bec3a7fa2ca72fe6c8086b
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin64-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
