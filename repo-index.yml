@@ -119,7 +119,7 @@ plugins:
   binaries:
   - checksum: 213446434075daee09a859434edb55bb7b0c3eea
     platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx   
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx
   - checksum: 78eb05302d6f0b55e07600a018587bb4aaec9e36
     platform: linux32
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux32
