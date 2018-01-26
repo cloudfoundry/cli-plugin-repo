@@ -117,21 +117,21 @@ plugins:
     homepage: http://garage.mybluemix.net/
     name: Bluemix Garage London
   binaries:
-  - platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx
-    checksum: 213446434075daee09a859434edb55bb7b0c3eea
-  - platform: linux32
+  - checksum: 213446434075daee09a859434edb55bb7b0c3eea
+    platform: osx
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx   
+  - checksum: 78eb05302d6f0b55e07600a018587bb4aaec9e36
+    platform: linux32
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux32
-    checksum: 78eb05302d6f0b55e07600a018587bb4aaec9e36
-  - platform: linux64
+  - checksum: 45fec0bf75152f4cd7c2d9dc2cf2d50636a93b0d
+    platform: linux64
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux64
-    checksum: 45fec0bf75152f4cd7c2d9dc2cf2d50636a93b0d
-  - platform: win32
+  - checksum: 41e5379b8be48c1aa69d173dd59bd418b2a2aa35
+    platform: win32
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win32
-    checksum: 41e5379b8be48c1aa69d173dd59bd418b2a2aa35
-  - platform: win64
+  - checksum: ce0217d63f220ea2472d21d8b56e5ff4251cb717
+    platform: win64
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win64
-    checksum: ce0217d63f220ea2472d21d8b56e5ff4251cb717binaries:
   company: IBM
   created: 2015-03-24T00:00:00Z
   description: Zero downtime deploys with smoke test support
