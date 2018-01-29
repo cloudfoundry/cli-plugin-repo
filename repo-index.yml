@@ -1248,21 +1248,21 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: c3eec5c69e40c4a19cee60aa3f6e80f073b3f3c7
+  - checksum: 39c8253e1a230ff89b0250bb96eb99e4e6cd9dbe
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin-darwin
-  - checksum: d5ca73a77acee1299487987c84fe52eabcd1b42e
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-darwin
+  - checksum: 1b6bd3ec9ade73164d6042024b2688c73a2744fa
     platform: win32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin32.exe
-  - checksum: 6d8665cfef627ff890a0f83033fec116f23f2460
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin32.exe
+  - checksum: b432e1d2802cf87b99bb5263a599602e772c967f
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin64.exe
-  - checksum: 8027ad5e270e3216a97968532548d0b90637d32b
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin64.exe
+  - checksum: 30a5a5bc3faf905c4a5224f786e024209d6d974c
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin-linux32
-  - checksum: 886eb6c376f2afab42bec3a7fa2ca72fe6c8086b
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-linux32
+  - checksum: bc71d03c12c7d45996fe110203c9905b654f82f9
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.0/top-plugin-linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
@@ -1274,10 +1274,11 @@ plugins:
     Enhancement - An newly deleted app will show name with parentheses for about 10 seconds before its removed from display.
     Enhancement - An renamed org / space / app will properly show the new name on all views.
     Enhancement - A newly created org / space will be shown on the appropriate view without the need to reload metadata.
+    Enhancement - Delay warn of application not in desired state until containers have a chance to report to firehose
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2018-01-24T03:38:57Z
-  version: 0.9.0
+  updated: 2018-01-29T17:59:31Z
+  version: 0.9.1
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
