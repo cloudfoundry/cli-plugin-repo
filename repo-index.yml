@@ -117,28 +117,28 @@ plugins:
     homepage: http://garage.mybluemix.net/
     name: Bluemix Garage London
   binaries:
-  - checksum: 47c758a1b74a23303533e1868ee284c7b593fe26
+  - checksum: 213446434075daee09a859434edb55bb7b0c3eea
     platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.osx
-  - checksum: ad2504534cdb324efed813ed076befa865aee21a
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx
+  - checksum: 78eb05302d6f0b55e07600a018587bb4aaec9e36
     platform: linux32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux32
-  - checksum: dfbf816750ce6b3343d87c0e001df6cf5cb5d8ff
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux32
+  - checksum: 45fec0bf75152f4cd7c2d9dc2cf2d50636a93b0d
     platform: linux64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.linux64
-  - checksum: 90886fa46c9153d252d73b93fde6df2ff43f7f13
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux64
+  - checksum: 41e5379b8be48c1aa69d173dd59bd418b2a2aa35
     platform: win32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win32
-  - checksum: a6d0b654de5ae40bf94eb16dc0d79e16fa1e5eea
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win32
+  - checksum: ce0217d63f220ea2472d21d8b56e5ff4251cb717
     platform: win64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.2.0/blue-green-deploy.win64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win64
   company: IBM
   created: 2015-03-24T00:00:00Z
   description: Zero downtime deploys with smoke test support
   homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
   name: blue-green-deploy
-  updated: 2017-02-21T15:50:13Z
-  version: 1.2.0
+  updated: 2018-01-25T16:30:53Z
+  version: 1.3.0
 - authors:
   - contact: robert.moss@cloudsoftcorp.com
     homepage: https://github.com/robertgmoss
