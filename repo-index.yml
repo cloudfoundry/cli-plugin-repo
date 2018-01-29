@@ -1244,36 +1244,41 @@ plugins:
   updated: 2015-03-30T00:00:00Z
   version: 0.0.1
 - authors:
-  - contact: kkellner@ecsteam.com
+  - contact: kurt.kellner@cgi.com
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 900a980a0cd430ef24977de05ed522ebb8f33c4a
+  - checksum: 39c8253e1a230ff89b0250bb96eb99e4e6cd9dbe
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin-darwin
-  - checksum: ff98832d99fa92561cabdd1156926c5e830d92cb
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-darwin
+  - checksum: 1b6bd3ec9ade73164d6042024b2688c73a2744fa
+    platform: win32
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin32.exe
+  - checksum: b432e1d2802cf87b99bb5263a599602e772c967f
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin.exe
-  - checksum: d8949d89d9ac4de00c58759890c0ad62b41d26a2
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin64.exe
+  - checksum: 30a5a5bc3faf905c4a5224f786e024209d6d974c
+    platform: linux32
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-linux32
+  - checksum: bc71d03c12c7d45996fe110203c9905b654f82f9
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.8.8/top-plugin-linux
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.1/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
-    Fixed - AppDetailView is now refreshed in background while the App Info view is displayed.
-    Fixed - When viewing appListDetail view the header toggle (shift-h) would also collapse Http and Crash data boxes. This has been fixed to only collapse verbose header output.
-    Fixed - Use LogMessage timestamp instead of Event timestamp for tracking last container messages.
-    Fixed - Highlight scrolling and display list issue fixed when the list of data becomes smaller then the current scrolling offset.
-    Fixed - Issue with terminal window with zero dimention causing panic because helpTextTipsView layout error:invalid dimensions.
-    Enhancement - Save column filter for each view type allowing easier usage when returning back to a view that has customized column filters.
-    Enhancement - Save column sort order for each view type allowing easier usage when returning back to a view that has customized column sorts.
-    Enhancement - Monitor staging events to reload metadata when staging is complete.
-    Enhancement - Added Clipboard menu option to appDetailView.
+    Added support for PCF 2.0 - fixed issue with max CPU percent not calculated on PCF 2.0
+    Fixed - Only colorize CPU percent as alert if the cpu capacity is known.
+    Enhancement - Rewrite of metadata loading / caching to support below enhancement.
+    Enhancement - An app under deployment (e.g., no yet staged) will show name with brackets.
+    Enhancement - An newly deleted app will show name with parentheses for about 10 seconds before its removed from display.
+    Enhancement - An renamed org / space / app will properly show the new name on all views.
+    Enhancement - A newly created org / space will be shown on the appropriate view without the need to reload metadata.
+    Enhancement - Delay warn of application not in desired state until containers have a chance to report to firehose
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2017-08-09T21:51:44Z
-  version: 0.8.8
+  updated: 2018-01-29T17:59:31Z
+  version: 0.9.1
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
