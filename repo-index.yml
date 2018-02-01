@@ -68,22 +68,22 @@ plugins:
 - authors:
   - name: Christopher Brown
   binaries:
-  - checksum: c654368443c8b5cdc930c97a4bee9e62e39a04c4
+  - checksum: b64fbfe882b4938a054bdde7cf24de5312aefef0
     platform: osx
-    url: https://github.com/contraband/autopilot/releases/download/0.0.4/autopilot-darwin
-  - checksum: 4edc2b6a32b6d7ef8d87414c35de43392061ff6c
+    url: https://github.com/contraband/autopilot/releases/download/0.0.5/autopilot-darwin
+  - checksum: c706ef72f5d390f0e38e066af7d375676e3fb07a
     platform: win64
-    url: https://github.com/contraband/autopilot/releases/download/0.0.4/autopilot.exe
-  - checksum: dd930114f5b317d72004fa480fc79c817ff2276d
+    url: https://github.com/contraband/autopilot/releases/download/0.0.5/autopilot.exe
+  - checksum: 34a48fade9b893f67dcdf3e55cb3abd07a7ef2c0
     platform: linux64
-    url: https://github.com/contraband/autopilot/releases/download/0.0.4/autopilot-linux
+    url: https://github.com/contraband/autopilot/releases/download/0.0.5/autopilot-linux
   company: Concourse
-  created: 2017-12-14T00:00:00Z
+  created: 2015-03-01T00:00:00Z
   description: zero downtime deploy plugin for cf applications
   homepage: https://github.com/contraband/autopilot
   name: autopilot
-  updated: 2017-12-14T00:00:00Z
-  version: 0.0.4
+  updated: 2018-02-01T00:00:00Z
+  version: 0.0.5
 - authors:
   - contact: arthur.halet@orange.com
     homepage: https://github.com/ArthurHlt
