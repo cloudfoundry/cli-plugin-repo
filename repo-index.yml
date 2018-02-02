@@ -1034,7 +1034,7 @@ plugins:
     platform: osx
     url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-darwin-amd64-1.0.1
   company: Pivotal
-  created: 2017-10-12T10:29:23Z
+  created: 2018-02-02T09:13:00Z
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
@@ -1071,6 +1071,34 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
+    name: spring-cloud-dataflow-for-pcf
+  binaries:
+  - checksum: 72d7e7247546d173023098e5f0965c200dd0665f
+    platform: win64
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.0.exe
+  - checksum: 8075c139c29d5508f56537e9e5d3df115e05e8e7
+    platform: win32
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.0.exe
+  - checksum: 93d7152b829ba85b79d142321f35efbc5cb5d5f2
+    platform: linux64
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.0
+  - checksum: ae53f2792d1cb89c855f5d4c1f9668619b59098c
+    platform: linux32
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.0
+  - checksum: 1afb7f624071d15c01c90193860429fc4912a5c8
+    platform: osx
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.0
+  company: Pivotal
+  created: 2018-02-02T09:10:00Z
+  description: Manage data pipelines on Spring Cloud Data Flow for PCF via Data Flow
+    shell.
+  homepage: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin
+  name: spring-cloud-dataflow-for-pcf
+  updated: 2018-02-02T09:12:00Z
+  version: 1.0.0
+- authors:
+  - contact: cf-spring-cloud-services@pivotal.io
+    homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-services
   binaries:
   - checksum: 1aefaab1cc9c8628bcc68ba9ea31d362667ab4fe
@@ -1094,7 +1122,7 @@ plugins:
     registries. Encrypt a string using a configuration service.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2018-01-17T09:50:00Z
+  updated: 2018-02-02T09:13:00Z
   version: 1.0.2
 - authors:
   - contact: mark.webb@cgi.com
