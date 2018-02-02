@@ -1018,29 +1018,29 @@ plugins:
     homepage: https://docs.pivotal.io/scdf
     name: service-instance-logging
   binaries:
-  - checksum: c083f434a1626823aa0f4d91f60b11454e84bdec
+  - checksum: 9e5fc533dec05e4d59687c72e6f0d272ddf4a2a6
     platform: win64
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-windows-amd64.exe
-  - checksum: f692694a5ae921535de1bfbcff3889b88b1c4c0b
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-windows-amd64-1.0.1.exe
+  - checksum: 3842a1b9292f3957da10e55efadcd979bdd2536c
     platform: win32
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-windows-386.exe
-  - checksum: 59cb569edbbb05894c2c5a2c78b1a3d7b2d15b2a
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-windows-386-1.0.1.exe
+  - checksum: 1299ba2a91dc89abd1bb990aa832bdea31e98db1
     platform: linux64
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-linux-amd64
-  - checksum: 0d87aa6023b4215468405849938d9f1800ce6887
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-linux-amd64-1.0.1
+  - checksum: 0db06d0790038ebcdb98c0da21d8b2639bb20c87
     platform: linux32
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-linux-386
-  - checksum: 5d96848b02e345958742aa98e6b112d48508f7a0
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-linux-386-1.0.1
+  - checksum: 81c3ed2867fe06f3cf60f62b1916e287b761b677
     platform: osx
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/1.0.0/service-instance-logs-cli-plugin-darwin-amd64
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-darwin-amd64-1.0.1
   company: Pivotal
   created: 2017-10-12T10:29:23Z
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
   name: Service Instance Logging
-  updated: 2017-10-12T10:29:23Z
-  version: 1.0.0
+  updated: 2018-02-02T09:13:00Z
+  version: 1.0.1
 - authors:
   - contact: cdelashmutt@pivotal.io
     homepage: https://github.com/cdelashmutt-pivotal
@@ -1071,31 +1071,59 @@ plugins:
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
+    name: spring-cloud-dataflow-for-pcf
+  binaries:
+  - checksum: 72d7e7247546d173023098e5f0965c200dd0665f
+    platform: win64
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.0.exe
+  - checksum: 8075c139c29d5508f56537e9e5d3df115e05e8e7
+    platform: win32
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.0.exe
+  - checksum: 93d7152b829ba85b79d142321f35efbc5cb5d5f2
+    platform: linux64
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.0
+  - checksum: ae53f2792d1cb89c855f5d4c1f9668619b59098c
+    platform: linux32
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.0
+  - checksum: 1afb7f624071d15c01c90193860429fc4912a5c8
+    platform: osx
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.0
+  company: Pivotal
+  created: 2018-02-02T09:10:00Z
+  description: Manage data pipelines on Spring Cloud Data Flow for PCF via Data Flow
+    shell.
+  homepage: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin
+  name: spring-cloud-dataflow-for-pcf
+  updated: 2018-02-02T09:12:00Z
+  version: 1.0.0
+- authors:
+  - contact: cf-spring-cloud-services@pivotal.io
+    homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-services
   binaries:
-  - checksum: 866fd19725d396bcd93d4cbce12f5874db59f3d4
+  - checksum: 1aefaab1cc9c8628bcc68ba9ea31d362667ab4fe
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-windows-amd64-1.0.1.exe
-  - checksum: bb684bf3ebf80428bb6976480f67877fe2769d65
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.2/spring-cloud-services-cli-plugin-windows-amd64-1.0.2.exe
+  - checksum: 9eeb135a0e5166a30548a62824a5f85ec625aa2f
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-windows-386-1.0.1.exe
-  - checksum: 397f3459f089c1e58eae38d323da31d8a3a45ca6
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.2/spring-cloud-services-cli-plugin-windows-386-1.0.2.exe
+  - checksum: caa866d680e98f68bd930a350d8828f10fbe3056
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-linux-amd64-1.0.1
-  - checksum: 1c8b34f39362a7b037e6dad081c9bde0bc4ba8dc
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.2/spring-cloud-services-cli-plugin-linux-amd64-1.0.2
+  - checksum: ea55984b574c4310d34fc9191eae4b78957c9fe1
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-linux-386-1.0.1
-  - checksum: 992bd018e88530c60c2ecc9ce3d32ceef53aa0b3
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.2/spring-cloud-services-cli-plugin-linux-386-1.0.2
+  - checksum: 9ddace7ffcb852f1efdfd4044312392c94da8a04
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.1/spring-cloud-services-cli-plugin-darwin-amd64-1.0.1
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.2/spring-cloud-services-cli-plugin-darwin-amd64-1.0.2
   company: Pivotal
   created: 2017-10-10T08:43:23Z
   description: Manage Pivotal Spring Cloud Services service instances and service
     registries. Encrypt a string using a configuration service.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2018-01-17T09:50:00Z
-  version: 1.0.1
+  updated: 2018-02-02T09:13:00Z
+  version: 1.0.2
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
