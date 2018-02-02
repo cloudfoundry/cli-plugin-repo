@@ -1034,12 +1034,12 @@ plugins:
     platform: osx
     url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.1/service-instance-logs-cli-plugin-darwin-amd64-1.0.1
   company: Pivotal
-  created: 2018-02-02T09:13:00Z
+  created: 2017-10-12T10:29:23Z
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
   name: Service Instance Logging
-  updated: 2017-10-12T10:29:23Z
+  updated: 2018-02-02T09:13:00Z
   version: 1.0.1
 - authors:
   - contact: cdelashmutt@pivotal.io
