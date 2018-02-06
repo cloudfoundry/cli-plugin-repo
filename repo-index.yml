@@ -1276,40 +1276,35 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 14c96895e1290f52837c741f31f8e0c5c3bc4c80
+  - checksum: 16463dd33c45a8e84850fbb264354389b8abf951
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.2/top-plugin-darwin
-  - checksum: e94e806cecd6e8472ea493dcba2cf751df6ff7a2
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-darwin
+  - checksum: aa03a691c021995f6c9b1707601a6ebdaff21502
     platform: win32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.2/top-plugin32.exe
-  - checksum: bad91384b55f9446b6a7bc0072665c35ae197d9e
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin32.exe
+  - checksum: 84f5e304a6b6572ca90ccbf300350a2101f96fd2
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.2/top-plugin64.exe
-  - checksum: ab8d738dc9546fbfdd403556961cb78653f3fcf8
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin64.exe
+  - checksum: 86358a3b5d7fe2d6e9fe7c9b896f7b41d4b81300
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.2/top-plugin-linux32
-  - checksum: 2cb7bad694e48e72f612e04567efcae26ddd865a
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux32
+  - checksum: 1748ce934804271950a6f3ac0e53c85bbe48f37f
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.2/top-plugin-linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
-    Fixed - double loading of some metadata
-    Enhancement - Added status message to bottom of windows to show metadata load progress
-    Changes since 0.9.0+ below
-    Added support for PCF 2.0 - fixed issue with max CPU percent not calculated on PCF 2.0
-    Fixed - Only colorize CPU percent as alert if the cpu capacity is known.
-    Enhancement - Rewrite of metadata loading / caching to support below enhancement.
-    Enhancement - An app under deployment (e.g., no yet staged) will show name with brackets.
-    Enhancement - An newly deleted app will show name with parentheses for about 10 seconds before its removed from display.
-    Enhancement - An renamed org / space / app will properly show the new name on all views.
-    Enhancement - A newly created org / space will be shown on the appropriate view without the need to reload metadata.
-    Enhancement - Delay warn of application not in desired state until containers have a chance to report to firehose
+    .
+    Fixed - Multithreaded updated of metadata cache caused crash.
+    Fixed - Crash on resize of AboutView.
+    Fixed - High refresh rate of UI causes crash.
+    Fixed - Org/Space view was wrongly adding memory of stopped apps to totals.
+    Enhancement - Incrementally use metadata as its loaded which improves usability with platforms that have large number of apps.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2018-01-31T14:20:25Z
-  version: 0.9.2
+  updated: 2018-02-05T05:57:22Z
+  version: 0.9.3
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
