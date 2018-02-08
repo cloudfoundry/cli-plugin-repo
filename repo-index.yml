@@ -691,35 +691,6 @@ plugins:
   updated: 2016-02-08T00:00:00Z
   version: 1.0.1
 - authors:
-  - contact: pcf-event-alerts@pivotal.io
-    homepage: https://network.pivotal.io
-    name: Pivotal Event Alerts
-  binaries:
-  - checksum: fd0bc8ae145373d4f58da11df082b403d5bf9740
-    platform: linux32
-    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/linux32-1.0.0
-  - checksum: 6e9a02b4e978ac1329fe91a3d0714885633c61d5
-    platform: linux64
-    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/linux64-1.0.0
-  - checksum: 33b40956f29fd7d6b1cf74d49703165bdaf207bf
-    platform: win32
-    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/windows32-1.0.0.exe
-  - checksum: 04e9608c532507e92648636b6a33e6c1167a807f
-    platform: win64
-    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/windows64-1.0.0.exe
-  - checksum: 23d01f842a648df8c1cdae37537df77aa2b58c8f
-    platform: osx
-    url: https://pcf-event-alerts-plugin-releases.s3.amazonaws.com/macosx64-1.0.0
-  company: Pivotal
-  created: 2018-01-10T00:00:00Z
-  description: The Pivotal Cloud Foundry Event Alerts plugin allows you to configure
-    and manage your alerting preferences for Pivotal Cloud Foundry foundations with
-    the Event Alerts (beta) tile installed.
-  homepage: https://eva-docs.cfapps.io/event-alerts-for-pcf/index.html
-  name: event-alerts
-  updated: 2018-01-31T21:16:37Z
-  version: 1.0.0
-- authors:
   - contact: x@cinaq.com
     homepage: https://github.com/xiwenc
     name: Xiwen Cheng
