@@ -1017,28 +1017,28 @@ plugins:
     homepage: https://github.com/cdelashmutt-pivotal
     name: Chris DeLashmutt
   binaries:
-  - checksum: 53b996afbd8c1942d956cc8f3a81a71119411388
+  - checksum: 58a801ed303a66e0ceeb2de9f65c57eadec9eac5
     platform: linux64
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux64
-  - checksum: 4cc07a9473bad7dc875f54900dd12219fbbba72f
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.linux64
+  - checksum: 460bef30d54e7aa9e9df148126bfa81a0fe6cc85 
     platform: linux32
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.linux32
-  - checksum: abe94cb8eac2fc1424bc92ca05628070b0983f53
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.linux32
+  - checksum: 6ead7066dfea68801a5bdf7895e954b03323eaa3
     platform: win64
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win64
-  - checksum: 7cb89f8b0708f7e86d66e8b974e38ae823c44cde
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.win64
+  - checksum: 9f528e6c54942b5c41646e52f44cf56b40cfe835
     platform: win32
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.win32
-  - checksum: bc7f60993202a17d4c0a1408f8d1921a4f431268
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.win32
+  - checksum: d315051614a323a7c06ae00b7204856fa2852ee5
     platform: osx
-    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.0.1/service-use-1.0.1.osx
+    url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.osx
   company: Pivotal
   created: 2017-08-22T10:23:08Z
   description: Report on service usage in the platform based on your sign-in privileges
   homepage: https://github.com/cdelashmutt-pivotal/service-use
   name: service-use
-  updated: 2017-08-22T10:23:08Z
-  version: 1.0.1
+  updated: 2018-02-08T22:14:08Z
+  version: 1.2.0
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
