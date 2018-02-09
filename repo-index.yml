@@ -1020,7 +1020,7 @@ plugins:
   - checksum: 58a801ed303a66e0ceeb2de9f65c57eadec9eac5
     platform: linux64
     url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.linux64
-  - checksum: 460bef30d54e7aa9e9df148126bfa81a0fe6cc85 
+  - checksum: 460bef30d54e7aa9e9df148126bfa81a0fe6cc85
     platform: linux32
     url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.0/service-use-1.2.0.linux32
   - checksum: 6ead7066dfea68801a5bdf7895e954b03323eaa3
