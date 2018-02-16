@@ -1038,7 +1038,7 @@ plugins:
   homepage: https://github.com/cdelashmutt-pivotal/service-use
   name: service-use
   updated: 2018-02-12T21:03:00Z
-  version: 1.2.1
+  version: 1.2.2
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
