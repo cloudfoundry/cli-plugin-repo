@@ -556,7 +556,7 @@ plugins:
     url: https://github.com/cengage/cf-copy-autoscaler/releases/download/0.0.1/copy-autoscaler-linux64
   company: Cengage Learning
   created: 2018-03-13T00:00:00Z
-  description: CF CLI Plugin to import/export App Autoscaler Settings
+  description: CF CLI Plugin to import/export Pivotal App Autoscaler Settings
   homepage: https://github.com/cengage/cf-copy-autoscaler
   name: Copy Autoscaler
   updated: 2018-03-13T00:00:00Z
