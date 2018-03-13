@@ -538,6 +538,30 @@ plugins:
   updated: 2016-09-09T00:00:00Z
   version: 1.1.1
 - authors:
+  - contact: aaron.maturen@cengage.com
+    homepage: https://github.com/aaronmaturen
+    name: Aaron Maturen
+  - contact: duane.may@cengage.com
+    homepage: https://github.com/duanemay
+    name: Duane May
+  binaries:
+  - checksum: 8ac16c576ed063694a682c4f7a9d3b7bba110b14
+    platform: osx
+    url: https://github.com/cengage/cf-copy-autoscaler/releases/download/0.0.1/copy-autoscaler-darwin64
+  - checksum: d00f1e213bb163c23654c4697c7e1942a446472a
+    platform: win64
+    url: https://github.com/cengage/cf-copy-autoscaler/releases/download/0.0.1/copy-autoscaler-win64.exe
+  - checksum: d1e65188723da39e07cc78d114e76512b7166afc
+    platform: linux64
+    url: https://github.com/cengage/cf-copy-autoscaler/releases/download/0.0.1/copy-autoscaler-linux64
+  company: Cengage Learning
+  created: 2018-03-13T00:00:00Z
+  description: CF CLI Plugin to import/export App Autoscaler Settings
+  homepage: https://github.com/cengage/cf-copy-autoscaler
+  name: Copy Autoscaler
+  updated: 2018-03-13T00:00:00Z
+  version: 0.0.1
+- authors:
   - contact: dawu+github@pivotal.io
     homepage: https://github.com/dawu415
     name: David Wu
