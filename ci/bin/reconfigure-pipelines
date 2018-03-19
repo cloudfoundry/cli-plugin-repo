@@ -19,7 +19,7 @@ configure_pipeline() {
   fly -t ci set-pipeline \
     -p $name \
     -c $pipeline \
-    -l <(lpass show "Concourse Credentials" --notes)
+    -l <(lpass show "CLIPER Concourse Credentials" --notes)
 }
 
 check_installed lpass

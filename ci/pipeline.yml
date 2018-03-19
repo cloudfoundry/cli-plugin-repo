@@ -10,17 +10,17 @@ resources:
   type: cf
   source:
     api: https://api.run.pivotal.io
-    username: {{cli-pws-username}}
-    password: {{cli-pws-password}}
-    organization: {{cli-pws-oss-org}}
-    space: {{cli-pws-oss-space}}
+    username: ((cli-pws-username))
+    password: ((cli-pws-password))
+    organization: ((cli-pws-organization))
+    space: ((cli-pws-space))
     skip_cert_check: false
 
 - name: cf-cli-tracker
   type: tracker
   source:
-    token: {{cf-cli-public-tracker-token}}
-    project_id: {{cf-cli-public-tracker-project-id}}
+    token: ((cf-cli-public-tracker-token))
+    project_id: ((cf-cli-public-tracker-project-id))
     tracker_url: https://www.pivotaltracker.com
 
 jobs:
