@@ -785,29 +785,29 @@ plugins:
     homepage: https://github.com/michele-mancioppi
     name: Michele Mancioppi
   binaries:
-  - checksum: 674a422bba4ef030819c01689db6f8d80f271446
+  - checksum: 66890ce4ec8473003f28930fc1479751f614ccef
     platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.1.0/cf-cli-java-plugin-osx
-  - checksum: 449e43e29862294e525d02e1820d14b0b3e3cc33
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-osx
+  - checksum: 4755b2107b30b1c7e882cf5b72441e95626f8345
     platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.1.0/cf-cli-java-plugin-win64.exe
-  - checksum: 6962dbe9faf782cea16120462ee6221cdfbd7134
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-win64.exe
+  - checksum: 29f1d055c2ad1294aa7538951b0dfa3e59620909
     platform: win32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.1.0/cf-cli-java-plugin-win32.exe
-  - checksum: 737ab44e93bbe716201bdf551070bd2b9c621857
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-win32.exe
+  - checksum: bfb25871061a9b9238fb995ce514b23dfee5efca
     platform: linux32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.1.0/cf-cli-java-plugin-linux32
-  - checksum: 31413ae0db7bfb44f3b25689d2c7f93feb88c2e6
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-linux32
+  - checksum: 9da36484d01e1ad08741d4f717c785e7ae3ff621
     platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/1.1.0/cf-cli-java-plugin-linux64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-linux64
   company: null
   created: 2017-03-14T09:00:00Z
   description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled
     Java application.
   homepage: https://github.com/SAP/cf-cli-java-plugin
-  name: java-plugin
-  updated: 2017-08-10T22:00:00Z
-  version: 1.1.0
+  name: java
+  updated: 2018-03-21T09:00:00Z
+  version: 2.0.0
 - authors:
   - contact: drnic@starkandwayne.com
     homepage: http://drnicwilliams.com
