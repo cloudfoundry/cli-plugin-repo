@@ -542,19 +542,19 @@ plugins:
     homepage: https://github.com/dawu415
     name: David Wu
   binaries:
-  - checksum: 821af3102bc9205ec3cd60495a009ce98a99791e
+  - checksum: 8e279ccde8d27fd1e996f3db4edf4eed26b0cfbf
     platform: osx
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.0.1/CreateServicePushPlugin.osx
-  - checksum: 184de98c1bbc542ec3fe05c17181f204d16bc430
+  - checksum: cbf5076240733ecce334fe361d6c800b7da3ea17
     platform: win32
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.0.1/CreateServicePushPlugin.unsigned.win32
-  - checksum: 330a3f1fc0d49b79ad39cebd02687432ac9bd214
+  - checksum: 4b6e9b76ac909f3b416acd4b11dfddda55bafc73
     platform: win64
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.0.1/CreateServicePushPlugin.unsigned.win64
-  - checksum: e0a788ce25d96ad5738f96ee850cb8c186ec65b6
+  - checksum: 0234bbaca3924c1a2a7422c1e536355b22077d84
     platform: linux32
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.0.1/CreateServicePushPlugin.linux32
-  - checksum: b3367726ebe2d1cdc854af281db997bbb5a5599a
+  - checksum: 01c7ce273b53fd70c07392c96460f9734065e125
     platform: linux64
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.0.1/CreateServicePushPlugin.linux64
   company: null
@@ -563,7 +563,7 @@ plugins:
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
   name: Create-Service-Push
-  updated: 2018-02-19T00:00:00Z
+  updated: 2018-03-21T00:00:00Z
   version: 1.0.1
 - authors:
   - contact: jhunt@starkandwayne.com
