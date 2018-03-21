@@ -562,7 +562,7 @@ plugins:
   description: A CF CLI plugin to create services specified from a services manifest
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
-  name: CreateServicePush
+  name: Create-Service-Push
   updated: 2018-02-19T00:00:00Z
   version: 1.0.1
 - authors:
