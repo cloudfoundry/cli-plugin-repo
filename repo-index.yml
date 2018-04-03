@@ -358,6 +358,27 @@ plugins:
   updated: 2016-09-21T00:00:00Z
   version: 0.0.1
 - authors:
+  - contact: https://twitter.com/superbeeny
+    homepage: https://github.com/superbeeny
+    name: Nick Beenham
+  binaries:
+  - checksum: 05e2783236f3881c8d2d7761ce625b5c3fd89fb6
+    platform: osx
+    url: https://github.com/Comcast/cf-recycle-plugin/releases/download/v1.1.0/cf-recycle-plugin-osx
+  - checksum: 840e9eaab53500ea3ede1896e90831d45c2f0203
+    platform: win64
+    url: https://github.com/Comcast/cf-recycle-plugin/releases/download/v1.1.0/cf-recycle-plugin-win64.exe
+  - checksum: 0297cf8f3d0677602d569d1c469a96d4ba27adf3
+    platform: linux64
+    url: https://github.com/Comcast/cf-recycle-plugin/releases/download/v1.1.0/cf-recycle-plugin-linux
+  company: Comcast
+  created: 2018-04-03T00:00:00Z
+  description: Sequentially recycle application instances
+  homepage: https://github.com/comcast/cf-recycle-plugin
+  name: cf-recycle-plugin
+  updated: 2018-04-03T00:00:00Z
+  version: 1.1.0
+- authors:
   - homepage: https://github.com/gambtho
     name: Thomas Gamble
   binaries:
