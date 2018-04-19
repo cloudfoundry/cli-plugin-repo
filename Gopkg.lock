@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/blang/semver"
+  packages = ["."]
+  revision = "2ee87856327ba09384cabd113bc6b5d174e9ec0f"
+  version = "v3.5.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/bmizerany/pat"
   packages = ["."]
@@ -120,6 +126,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6b68e52e896ce05678508d7887efbf47566b6c77a7d89f3bf5747cf4817ce310"
+  inputs-digest = "d2414838076e62e06156ecd11ca6ecc0b7422b0dd07d3ab2147317df2efbe354"
   solver-name = "gps-cdcl"
   solver-version = 1

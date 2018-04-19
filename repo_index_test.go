@@ -15,6 +15,7 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/blang/semver"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"gopkg.in/yaml.v2"
@@ -65,7 +66,9 @@ var _ = Describe("Database", func() {
 
 		It("has every version parseable by semver", func() {
 			for _, plugin := range plugins.Plugins {
-				Expect(plugin.Version).To(MatchRegexp(`^\d+\.\d+\.\d+$`), fmt.Sprintf("Plugin '%s' has a non-semver version", plugin.Name))
+				version, err := semver.Make(plugin.Version)
+				Expect(err).ToNot(HaveOccurred(), fmt.Sprintf("Plugin '%s' has a non-semver version", plugin.Name))
+				Expect(version.Validate()).ToNot(HaveOccurred(), fmt.Sprintf("Plugin '%s' has a non-semver version", plugin.Name))
 			}
 		})
 
