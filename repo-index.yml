@@ -44,6 +44,34 @@ plugins:
   updated: 2017-11-30T00:00:00Z
   version: 0.1.1
 - authors:
+  - contact: cdlliuy@cn.ibm.com
+    homepage: https://github.com/cdlliuy
+    name: Ying Liu
+  binaries:
+  - checksum: d32a0b920a98bbb4be2d7132671b773a43e7c60b
+    platform: osx
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0/ascli.osx
+  - checksum: c0bf3471f1fa1503fc9e6727f140b13f4d517776
+    platform: linux32
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0/ascli.linux32
+  - checksum: d3f1a88286432f2763ecbfd0ebe8c293ea96bf0b
+    platform: linux64
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0/ascli.linux64
+  - checksum: 9483cd950d8dc3f787091b826937cd7cc32e95ce
+    platform: win32
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0/ascli.win32.exe
+  - checksum: 58b294236047a1da79f8dee497aeeba4f8999bf4
+    platform: win64
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0/ascli.win64.exe
+  company: IBM
+  created: 2018-04-17T00:00:00Z
+  description: App-AutoScaler plug-in provides the command line interface to manage
+    App AutoScaler service policies, retrieve metrics and scaling history.
+  homepage: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin
+  name: app-autoscaler-plugin
+  updated: 2018-04-17T00:00:00Z
+  version: 1.0.0
+- authors:
   - contact: warren.f.fernandes@gmail.com
     homepage: https://github.com/wfernandes
     name: Warren Fernandes
