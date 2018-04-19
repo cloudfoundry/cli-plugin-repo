@@ -959,10 +959,10 @@ plugins:
     url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5/noisy-neighbor-cli-plugin-darwin
   - checksum: 6609346819056b3e25a4bbd9f1132e08e529591d
     platform: win64
-    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5/noisy-neighbor-cli-plugin-linux
+    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5/noisy-neighbor-cli-plugin-windows
   - checksum: d13f2ce90a28f44f511fcd8172955f7ed221dd7d
     platform: linux64
-    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5/noisy-neighbor-cli-plugin-windows
+    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5/noisy-neighbor-cli-plugin-linux
   company: Pivotal
   created: 2018-04-20T00:00:00Z
   description: A nozzle and CLI tool for identify high volume log producing applications
