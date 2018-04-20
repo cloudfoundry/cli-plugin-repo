@@ -969,7 +969,7 @@ plugins:
   homepage: https://github.com/cloudfoundry/noisy-neighbor-nozzle
   name: noisy-neighbor-nozzle
   updated: 2018-04-20T00:00:00Z
-  version: "1.5"
+  version: 1.5.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
