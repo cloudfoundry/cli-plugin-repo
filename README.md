@@ -41,7 +41,7 @@ approval, please submit a pull request according to the guidelines below.
   `created` | date of first submission of the plugin, in [iso 8601 combined date and time with timezone format](https://en.wikipedia.org/wiki/iso_8601#combined_date_and_time_representations)
   `description` | describe your plugin in a line or two. this description will show up when your plugin is listed on the command line
   `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins
-  `name` | name of your plugin, must not conflict with other existing plugins in the repo.
+  `name` | name of your plugin, must not conflict with other existing plugins in the repo. **It must also match the name your plugin returns.**
   `updated` | Date of last update of the plugin, in [ISO 8601 Combined Date and Time with Timezone Format](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations)
   `version` | version number of your plugin, in [major].[minor].[build] form
 
