@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 	"strings"
+	"time"
 
 	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
 	"code.cloudfoundry.org/cli-plugin-repo/web"
@@ -110,6 +111,7 @@ var _ = Describe("Database", func() {
 
 			for _, plugin := range plugins.Plugins {
 				for _, binary := range plugin.Binaries {
+					fmt.Printf("%s checking %s %s\n", time.Now().Format(time.RFC3339), plugin.Name, binary.Platform)
 					var err error
 					resp, err := http.Get(binary.Url)
 					Expect(err).NotTo(HaveOccurred())
@@ -129,8 +131,12 @@ var _ = Describe("Database", func() {
 					b, err := ioutil.ReadAll(resp.Body)
 					Expect(err).NotTo(HaveOccurred())
 
+					Expect(resp.StatusCode).To(And(BeNumerically(">=", 200), BeNumerically("<", 400)),
+						"Failed to retrieve '%s', can't compute SHA from URL %s", plugin.Name, binary.Url)
+
 					s := sha1.Sum(b)
-					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum), fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'\nResponse Status Code: %d\nResponse Body: %s", plugin.Name, binary.Platform, resp.StatusCode, string(b)))
+					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum),
+						fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'", plugin.Name, binary.Platform))
 				}
 			}
 		})
