@@ -324,7 +324,7 @@ plugins:
   homepage: https://github.com/cloudfoundry/cf-drain-cli
   name: cf-drain-cli
   updated: 2018-04-20T00:00:00Z
-  version: "0.6"
+  version: 0.6.0
 - authors:
   - contact: markwill@us.ibm.com
     homepage: https://github.com/willmark
