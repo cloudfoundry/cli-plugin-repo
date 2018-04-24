@@ -925,6 +925,25 @@ plugins:
   updated: 2015-02-20T00:00:00Z
   version: 1.0.0
 - authors:
+  - name: CF Loggregator Team
+  binaries:
+  - checksum: 822e2f2051c28024b1b9e0ffb08b376a643e6975
+    platform: osx
+    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5.1/noisy-neighbor-cli-plugin-darwin
+  - checksum: 153819097c0e0038903dd40cb22bbb0043637b2e
+    platform: win64
+    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5.1/noisy-neighbor-cli-plugin-windows
+  - checksum: 7bf2f6be4aa25ae9f1c15b52d5fe14023082ad1a
+    platform: linux64
+    url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5.1/noisy-neighbor-cli-plugin-linux
+  company: Pivotal
+  created: 2018-04-20T00:00:00Z
+  description: A nozzle and CLI tool for identify high volume log producing applications
+  homepage: https://github.com/cloudfoundry/noisy-neighbor-nozzle
+  name: log-noise
+  updated: 2018-04-23T00:00:00Z
+  version: 1.5.1
+- authors:
   - contact: arthurh.halet@gmail.com
     homepage: https://github.com/ArthurHlt
     name: Arthur Halet
