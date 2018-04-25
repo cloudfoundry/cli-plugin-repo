@@ -1,26 +1,94 @@
 package main_test
 
 import (
+	"bytes"
 	"encoding/hex"
 	"io/ioutil"
+	"net/url"
 	"os"
+	"os/exec"
 	"strings"
 	"time"
-
-	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
-	"code.cloudfoundry.org/cli-plugin-repo/web"
-
-	"net/url"
 
 	"crypto/sha1"
 	"fmt"
 	"net/http"
 
+	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
+	"code.cloudfoundry.org/cli-plugin-repo/web"
+
 	"github.com/blang/semver"
+	"gopkg.in/yaml.v2"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"gopkg.in/yaml.v2"
+	. "github.com/onsi/gomega/gexec"
 )
+
+// NamesToSkip provides a list of plugins that were created prior to the naming
+// rules being established. No new plugins should be added to this list.
+var NamesToSkip = []string{
+	"apigee-broker-plugin",
+	"app-autoscaler-plugin",
+	"Brooklyn",
+	"Buildpack Management",
+	"Buildpack Usage",
+	"CF App Stack Changer",
+	"cf-aklogin",
+	"cf-icd-plugin",
+	"cf-predix-analytics-plugin",
+	"Cloud Deployment Plugin",
+	"Copy Autoscaler",
+	"Copy Env",
+	"doctor",
+	"Download Droplet",
+	"fastpush",
+	"Firehose Plugin",
+	"mysql-plugin",
+	"Scaleover",
+	"Service Instance Logging",
+	"spring-cloud-dataflow-for-pcf",
+	"Targets",
+	"Test User",
+	"Usage Report",
+	"whoami-plugin",
+	"wildcard_plugin",
+}
+
+func ShouldValidatePluginName(pluginName string) bool {
+	for _, pluginToSkip := range NamesToSkip {
+		if pluginName == pluginToSkip {
+			return false
+		}
+	}
+	return true
+}
+
+func GetNameFromBinary(pluginrunner string, b []byte) string {
+	// Write bytes to disk and make it runnable
+	tmpfile, err := ioutil.TempFile("", "plugin-meta")
+	Expect(err).ToNot(HaveOccurred())
+	Expect(tmpfile.Close()).ToNot(HaveOccurred())
+	pathToPlugin := tmpfile.Name()
+	// defer os.Remove(pathToPlugin)
+	err = ioutil.WriteFile(pathToPlugin, b, 0777)
+	Expect(err).ToNot(HaveOccurred())
+
+	// Required to chmod the tempfile
+	err = os.Chmod(pathToPlugin, 0777)
+	Expect(err).ToNot(HaveOccurred())
+
+	cmd := exec.Command(pluginrunner, pathToPlugin)
+	outBuff := new(bytes.Buffer)
+	session, err := Start(cmd, outBuff, GinkgoWriter)
+	Expect(err).ToNot(HaveOccurred())
+	Eventually(session).Should(Exit(0))
+
+	nameBuffer, err := ioutil.ReadAll(outBuff)
+	Expect(err).ToNot(HaveOccurred())
+
+	return strings.TrimSpace(string(nameBuffer))
+}
 
 var _ = Describe("Database", func() {
 	It("correctly parses the current repo-index.yml", func() {
@@ -107,6 +175,10 @@ var _ = Describe("Database", func() {
 				Skip("Skipping SHA1 binary checking. To enable, set the BINARY_VALIDATION env variable to 'true'")
 			}
 
+			// Binary will be cleaned up in AfterSuite
+			runnerPath, err := Build("code.cloudfoundry.org/cli-plugin-repo/pluginrunner")
+			Expect(err).ToNot(HaveOccurred())
+
 			fmt.Println("\nRunning Binary Validations, this could take 10+ minutes")
 
 			for _, plugin := range plugins.Plugins {
@@ -137,6 +209,12 @@ var _ = Describe("Database", func() {
 					s := sha1.Sum(b)
 					Expect(hex.EncodeToString(s[:])).To(Equal(binary.Checksum),
 						fmt.Sprintf("Plugin '%s' has an invalid checksum for platform '%s'", plugin.Name, binary.Platform))
+
+					if binary.Platform == "linux64" && ShouldValidatePluginName(plugin.Name) {
+						binaryName := GetNameFromBinary(runnerPath, b)
+						Expect(binaryName).To(Equal(plugin.Name),
+							fmt.Sprintf("The plugin name provided by in the 'repo-index.yml' must match the plugin name returned from the plugin binary when 'SendMetadata' is called.\nBinary Name: %s\nYAML Name: %s\n", binaryName, plugin.Name))
+					}
 				}
 			}
 		})
