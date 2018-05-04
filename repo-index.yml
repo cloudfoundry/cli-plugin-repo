@@ -500,28 +500,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: ed72e0752ba7d9c46867f652150cd82c82926cda
+  - checksum: f9e63f527b7be3a30b7b77a8eaae3a29bdd3d3db
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.darwin.amd64
-  - checksum: 1bbc1c60e75f58146bd4fa33afd2c6741ba2f51e
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.4/cf-conduit.darwin.amd64
+  - checksum: 3f1c4610c130a1c5563f85765d4c7a8e786ceb96
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.windows.386
-  - checksum: e84704dec067f3dc94c0ae708b8877d05c34ee7c
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.4/cf-conduit.windows.386
+  - checksum: b375f96966c5e94c565bdc43002f28176e8d9fcf
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.windows.amd64
-  - checksum: 8755e63926954ffbdf5b9ec3dfdfa50daf501446
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.4/cf-conduit.windows.amd64
+  - checksum: d1aacbcb1c4d493f87728bea62a7deee499348bd
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.linux.386
-  - checksum: cb0f9d81023d73398e3f7d62338860ca3bc3e957
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.4/cf-conduit.linux.386
+  - checksum: 696cb2f3d9ee5b33317a272e74f2c45f6aaccd70
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.3/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.4/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2017-12-12T00:00:00Z
-  version: 0.0.3
+  updated: 2018-05-02T00:00:00Z
+  version: 0.0.4
 - authors:
   - contact: dhigham@pivotal.io
     homepage: https://github.com/danhigham
