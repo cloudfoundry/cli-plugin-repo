@@ -636,7 +636,7 @@ plugins:
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
   name: Create-Service-Push
-  updated: 2018-05-6T00:00:00Z
+  updated: 2018-05-06T00:00:00Z
   version: 1.1.1
 - authors:
   - contact: jhunt@starkandwayne.com
