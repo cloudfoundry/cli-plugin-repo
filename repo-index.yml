@@ -1021,7 +1021,7 @@ plugins:
   description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
     v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
-  name: mysql-tools
+  name: MysqlTools
   updated: 2018-05-12T00:00:00Z
   version: 0.2.0
 - authors:
