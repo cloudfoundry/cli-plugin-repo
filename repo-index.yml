@@ -925,7 +925,7 @@ plugins:
   updated: 2015-02-20T00:00:00Z
   version: 1.0.0
 - authors:
-    - name: CF Loggregator Team
+  - name: CF Loggregator Team
   binaries:
   - checksum: 069d5c998ac318a81e87003b137a8e2481f50d2d
     platform: osx
