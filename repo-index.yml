@@ -925,6 +925,25 @@ plugins:
   updated: 2015-02-20T00:00:00Z
   version: 1.0.0
 - authors:
+    name: CF Loggregator Team
+  binaries:
+  - checksum: 069d5c998ac318a81e87003b137a8e2481f50d2d
+    platform: osx
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-darwin
+  - checksum: 308c1ae1c4f4e28f65eb42530a3a2b111e0c007b
+    platform: linux64
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-linux
+  - checksum: 8f83bb869551e3cbdf0e2d73f669ecb8dd4013c8
+    platform: win64
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-windows
+  company: null
+  created: 2018-05-18T00:00:00Z
+  description: Allows users to query Log Cache.
+  homepage: http://github.com/cloudfoundry/log-cache-cli
+  name: log-cache
+  updated: 2018-05-18T00:00:00Z
+  version: 1.1.0
+- authors:
   - name: CF Loggregator Team
   binaries:
   - checksum: 822e2f2051c28024b1b9e0ffb08b376a643e6975
