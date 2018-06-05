@@ -611,30 +611,6 @@ plugins:
   updated: 2018-03-13T00:00:00Z
   version: 0.0.1
 - authors:
-  - contact: james@jamesthom.as
-    homepage: https://github.com/jthomas
-    name: James Thomas
-  binaries:
-  - checksum: ea67ef333e08cd42b76f1b6194cf2b56b5cbd37b
-    platform: linux32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
-  - checksum: d422ef04e4ce530696d4254a907ed1264f97f6cc
-    platform: linux64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
-  - checksum: 1524af809f1e41c4f0e8dfcf0070ec5912e17992
-    platform: win32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
-  - checksum: 3138f13efdb4213c3ced0e716a132d3c74b21089
-    platform: win64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
-  company: IBM
-  created: 2015-04-15T00:00:00Z
-  description: Expose remote VCAP_SERVICES on the client environment
-  homepage: https://github.com/jthomas/copyenv
-  name: Copy Env
-  updated: 2016-09-09T00:00:00Z
-  version: 1.1.1
-- authors:
   - contact: dawu+github@pivotal.io
     homepage: https://github.com/dawu415
     name: David Wu
