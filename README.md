@@ -35,9 +35,9 @@ approval, please submit a pull request according to the guidelines below.
 
   Field | Description
   ------ | ---------
-  `authors` | Fields to detail the authors of the plugin<br>`name`: name of author<br>`homepage`: <b>Optional</b> link to the homepage of the author<br>`contact`: <b>Optional</b> ways to contact author, email, twitter, phone etc ...
-  `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms<br>`platform`: The os for this binary. Supports `osx`, `linux32`, `linux64`, `win32`, `win64`<br>`url`: HTTPS link to the binary file itself<br>`checksum`: SHA-1 of the binary file for verification<br>Please use a unique URL for each updated release version of your plugin, as each binary will have a unique checksum.
-  `company` | <b>Optional</b> field detailing company or organization that created the plugin
+  `authors` | Fields to detail the authors of the plugin<br>`name`: name of author<br>`homepage`: **Optional** link to the homepage of the author<br>`contact`: **Optional** ways to contact author, email, twitter, phone etc ...
+  `binaries` | This section has fields detailing the various binary versions of your plugin. To reach as large an audience as possible, we encourage contributors to cross-compile their plugins on as many platforms as possible. Go provides everything you need to cross-compile for different platforms<br>`platform`: The os for this binary. Supports `osx`, `linux32`, `linux64`, `win32`, `win64`<br>`url`: A versioned HTTPS link to the binary file itself<br>`checksum`: SHA-1 of the binary file for verification<br>**Use a unique URL that includes the release version** for each release of your plugin, as each binary will have a unique checksum.
+  `company` | **Optional** field detailing company or organization that created the plugin
   `created` | date of first submission of the plugin, in [iso 8601 combined date and time with timezone format](https://en.wikipedia.org/wiki/iso_8601#combined_date_and_time_representations)
   `description` | describe your plugin in a line or two. this description will show up when your plugin is listed on the command line
   `homepage` | Link to the homepage where the source code is hosted. Currently we only support open source plugins

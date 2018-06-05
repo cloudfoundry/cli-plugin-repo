@@ -2,21 +2,19 @@ package main_test
 
 import (
 	"bytes"
+	"crypto/sha1"
 	"encoding/hex"
+	"fmt"
 	"io/ioutil"
+	"net/http"
 	"net/url"
 	"os"
 	"os/exec"
 	"strings"
 	"time"
 
-	"crypto/sha1"
-	"fmt"
-	"net/http"
-
 	"code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
 	"code.cloudfoundry.org/cli-plugin-repo/web"
-
 	"github.com/blang/semver"
 	"gopkg.in/yaml.v2"
 
@@ -55,8 +53,27 @@ var NamesToSkip = []string{
 	"wildcard_plugin",
 }
 
+var URLsToSkip = []string{
+	"Brooklyn",
+	"CF App Stack Changer",
+	"Console",
+	"drains",
+	"Live Stats",
+	"Test User",
+	"Usage Report",
+}
+
 func ShouldValidatePluginName(pluginName string) bool {
 	for _, pluginToSkip := range NamesToSkip {
+		if pluginName == pluginToSkip {
+			return false
+		}
+	}
+	return true
+}
+
+func ShouldValidateURLVersioned(pluginName string) bool {
+	for _, pluginToSkip := range URLsToSkip {
 		if pluginName == pluginToSkip {
 			return false
 		}
@@ -184,6 +201,10 @@ var _ = Describe("Database", func() {
 			for _, plugin := range plugins.Plugins {
 				for _, binary := range plugin.Binaries {
 					fmt.Printf("%s checking %s %s\n", time.Now().Format(time.RFC3339), plugin.Name, binary.Platform)
+					if ShouldValidateURLVersioned(plugin.Name) {
+						Expect(binary.Url).To(ContainSubstring(plugin.Version), fmt.Sprintf("%s's URL must be versioned - %s is missing version number", plugin.Name, binary.Url))
+					}
+
 					var err error
 					resp, err := http.Get(binary.Url)
 					Expect(err).NotTo(HaveOccurred())
