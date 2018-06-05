@@ -440,16 +440,16 @@ plugins:
   - contact: avoellmer@pivotal.io
     name: Andy Voellmer
   binaries:
-  - checksum: f1466cad5342e0acd1f7cbe680639458b5794e07
+  - checksum: 32729efc442c1554211939505acc12a1b51b6e89
     platform: osx
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.5-darwin
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.6-darwin
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2018-05-23T00:00:00Z
-  version: 0.0.5
+  updated: 2018-06-05T00:00:00Z
+  version: 0.0.6
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
