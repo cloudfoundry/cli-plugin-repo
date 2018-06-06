@@ -615,19 +615,19 @@ plugins:
     homepage: https://github.com/jthomas
     name: James Thomas
   binaries:
-  - checksum: 3913500f4a47c3f59b42436ddc5d9ec8acc1bbaf
+  - checksum: 31697e969eeb1487f2abcee2ede735e4ea0a3735
     platform: osx
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
-  - checksum: 42a7c2a4891d80b54e22ad8e13f1b2253f00cf64
+  - checksum: 668821dcfa3461c79a98ca9838f62d6ba004af9c
     platform: linux32
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
-  - checksum: 25ffba26567f1d13d94dd315ce2248b53137a609
+  - checksum: 30141bf7d843efdc29854069c64d377aff304c6b
     platform: linux64
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
-  - checksum: adc56cea6890c777aa1dc7e839cb523d56323000
+  - checksum: 57e7c5c7fb09e514006b9bfffe34e021c75870ef
     platform: win32
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
-  - checksum: f68df24bc1a20f6a331eaaa6de1ee81c032ec6eb
+  - checksum: de116eba4d4f14377a4435bbfc7e10bad0708a34
     platform: win64
     url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
   company: IBM
