@@ -174,10 +174,10 @@ plugins:
   binaries:
   - checksum: ed982e8cbf16503f493c6f064c39a0e84bcd2836
     platform: osx
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/blob/v1.2.4/bin/osx/brooklyn-plugin
   - checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
     platform: linux64
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
+    url: https://github.com/cloudfoundry-community/brooklyn-plugin/blob/v1.2.4/bin/linux64/brooklyn-plugin
   company: Cloudsoft
   created: 2015-03-13T00:00:00Z
   description: Interact with Service Broker for Apache Brooklyn
@@ -265,13 +265,13 @@ plugins:
   binaries:
   - checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
     platform: osx
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
+    url: https://github.com/simonleung8/cli-stack-changer/blob/v1.2.4/bin/osx/cli-stack-changer_darwin_amd64
   - checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
     platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
+    url: https://github.com/simonleung8/cli-stack-changer/blob/v1.2.4/bin/win64/cli-stack-changer_windows_amd64.exe
   - checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
     platform: linux64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
+    url: https://github.com/simonleung8/cli-stack-changer/blob/v1.2.4/bin/linux64/cli-stack-changer_linux_amd64
   company: Cloud Foundry CLI Team
   created: 2015-04-07T00:00:00Z
   description: Allows admins to list and update applications with outdated lucid64
@@ -617,19 +617,19 @@ plugins:
   binaries:
   - checksum: 31697e969eeb1487f2abcee2ede735e4ea0a3735
     platform: osx
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.osx
+    url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.osx
   - checksum: 668821dcfa3461c79a98ca9838f62d6ba004af9c
     platform: linux32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux32
+    url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.linux32
   - checksum: 30141bf7d843efdc29854069c64d377aff304c6b
     platform: linux64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.linux64
+    url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.linux64
   - checksum: 57e7c5c7fb09e514006b9bfffe34e021c75870ef
     platform: win32
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win32
+    url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.win32
   - checksum: de116eba4d4f14377a4435bbfc7e10bad0708a34
     platform: win64
-    url: https://github.com/jthomas/copyenv/raw/master/bin/copyenv.win64
+    url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.win64
   company: IBM
   created: 2015-04-15T00:00:00Z
   description: Expose remote VCAP_SERVICES and VCAP_APPLICATION on the client environment
@@ -1403,19 +1403,19 @@ plugins:
   binaries:
   - checksum: c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21
     platform: win64
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_amd64.exe
+    url: https://github.com/benlaplanche/cf-testuser-plugin/blob/v1.2.4/bin/cf-testuser-plugin_windows_amd64.exe
   - checksum: 628a02c769c3c79b4ba80705c86d5bcf01fdaed9
     platform: win32
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_386.exe
+    url: https://github.com/benlaplanche/cf-testuser-plugin/blob/v1.2.4/bin/cf-testuser-plugin_windows_386.exe
   - checksum: 0c9152c81afd7899c8ef938ce1fb66e307d1a0f7
     platform: linux64
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_amd64
+    url: https://github.com/benlaplanche/cf-testuser-plugin/blob/v1.2.4/bin/cf-testuser-plugin_linux_amd64
   - checksum: 5d9a2fdb7cca17b4244ab59bd50053257bfc5520
     platform: linux32
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_386
+    url: https://github.com/benlaplanche/cf-testuser-plugin/blob/v1.2.4/bin/cf-testuser-plugin_linux_386
   - checksum: e1a408e9be7dca29100a507193d646620c038736
     platform: osx
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64
+    url: https://github.com/benlaplanche/cf-testuser-plugin/blob/v1.2.4/bin/cf-testuser-plugin_darwin_amd64
   company: Ben Laplanche
   created: 2015-03-30T00:00:00Z
   description: Create a user and assign all possible permissions, organisation and
