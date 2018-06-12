@@ -1047,29 +1047,29 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: 81fb388398fdef760b8ce9d6e5eb47508742a748
+  - checksum: 93d7b6106e13310cbad5be253d7b814bc5aa3d8d
     platform: osx
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.2.0/mysql-plugin-darwin-amd64
-  - checksum: 78c06e6fdc33ac2a1471d3a5e506fef7375cbfff
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.3.0/mysql-plugin-darwin-amd64
+  - checksum: a930455411de735ee48901df660797a1072bcc7c
     platform: linux32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.2.0/mysql-plugin-linux-386
-  - checksum: 8734da717c7591682a9bd47c7411172dbd7287e6
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.3.0/mysql-plugin-linux-386
+  - checksum: 6cb4b873aeec4d4d1500b66ff39616971b9d8c11
     platform: linux64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.2.0/mysql-plugin-linux-amd64
-  - checksum: f5f44c2f2258022c44b6d8114d0b9fe4d40e523a
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.3.0/mysql-plugin-linux-amd64
+  - checksum: bbcb8a4139d3e06bce18118fac99376dde3e5866
     platform: win32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.2.0/mysql-plugin-windows-386.exe
-  - checksum: ed93c89215fd6978ae42ed38e4cc3bc838191730
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.3.0/mysql-plugin-windows-386.exe
+  - checksum: 5540618739b3c4d8dea10503507f3c4be14691ad
     platform: win64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.2.0/mysql-plugin-windows-amd64.exe
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.3.0/mysql-plugin-windows-amd64.exe
   company: Pivotal
   created: 2018-05-12T00:00:00Z
   description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
     v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
   name: MysqlTools
-  updated: 2018-05-12T00:00:00Z
-  version: 0.2.0
+  updated: 2018-06-12T00:00:00Z
+  version: 0.3.0
 - authors:
   - name: CF Networking Team
   binaries:
