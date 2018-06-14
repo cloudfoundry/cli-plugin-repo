@@ -1117,6 +1117,62 @@ plugins:
   updated: 2017-09-22T00:00:00Z
   version: 1.2.1
 - authors:
+  - contact: adam.eijdenberg@digital.gov.au
+    homepage: https://cloud.gov.au
+    name: Adam Eijdenberg
+  binaries:
+  - checksum: 5b9b3a6094923dea532975cae3af916d3270efd0
+    platform: linux32
+    url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.linux32
+  - checksum: 1c06522e101f6b6b9c2bf6b9a09e42b08151febd
+    platform: linux64
+    url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.linux64
+  - checksum: fc149df12f8356f1f01c72e9d56ee7cd30aa66b3
+    platform: osx
+    url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.osx
+  - checksum: c3ef915d681fceecc887a686111377f7c71a2f6f
+    platform: win32
+    url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.win32
+  - checksum: 6f768355fbf1f60168aa0da8ea429f01b27af979
+    platform: win64
+    url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.win64
+  company: Digital Transformation Agency (Commonwealth of Australia)
+  created: 2018-06-14T01:08:13.578Z
+  description: This plugin used to report applications that use out-of-date buildpacks.
+  homepage: https://github.com/govau/cf-report-buildpacks
+  name: report-buildpacks
+  updated: 2018-06-14T01:08:13.578Z
+  version: 0.1.0
+- authors:
+  - contact: adam.eijdenberg@digital.gov.au
+    homepage: https://cloud.gov.au
+    name: Adam Eijdenberg
+  binaries:
+  - checksum: d226ce843e7f486d35f442d6efe84e7f95611641
+    platform: linux32
+    url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.linux32
+  - checksum: 43a548eb30f3e2ef88764ad37693bad3c8b9d514
+    platform: linux64
+    url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.linux64
+  - checksum: 130a099c0a1ef726cbd4c2eb90ea83d09e044f32
+    platform: osx
+    url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.osx
+  - checksum: f40cf354bae020d094be12b14d9c172003d15f94
+    platform: win32
+    url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.win32
+  - checksum: f9632157724c9f328715b663755452bbc6f1e245
+    platform: win64
+    url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.win64
+  company: Digital Transformation Agency (Commonwealth of Australia)
+  created: 2018-06-13T23:08:13.578Z
+  description: |
+    This plugin used to report all users in your installation with their
+    roles.
+  homepage: https://github.com/govau/cf-report-users
+  name: report-users
+  updated: 2018-06-14T01:08:13.578Z
+  version: 0.6.0
+- authors:
   - contact: aidan.feldman@gsa.gov
     homepage: https://github.com/afeld
     name: Aidan Feldman
