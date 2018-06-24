@@ -1017,6 +1017,34 @@ plugins:
   updated: 2015-11-11T00:00:00Z
   version: 1.0.0
 - authors:
+  - contact: https://twitter.com/fitzoh
+    homepage: https://github.com/fitzoh
+    name: Andrew Fitzgerald
+  binaries:
+  - checksum: 21d506585ef321c82c89b6a7c8e29a3ae0cfd4c2
+    platform: osx
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.osx
+  - checksum: 903017fb20bd9361b876ab0984c2a6c4c4031777
+    platform: linux32
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.linux32
+  - checksum: be7b67cf40f636a2117ff49edcda91cbd3ea7833
+    platform: linux64
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.linux64
+  - checksum: e04a38835224a2f39e9b5e295258d41b20f1f8b8
+    platform: win32
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.win32
+  - checksum: 9f2f9f3f05ef96bb77d7e0f424a3176731c1a95f
+    platform: win64
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.win64
+  company: Cardinal Health
+  created: 2018-06-24T00:00:00Z
+  description: Drop in replacement for `cf push` that downloads the artifact based
+    on maven coordinates from the manifest, then pushes it.
+  homepage: https://github.com/fitzoh/maven-push-plugin
+  name: maven-push
+  updated: 2018-06-24T00:00:00Z
+  version: 0.3.0
+- authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
     name: Andreas Fleig
