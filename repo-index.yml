@@ -1149,19 +1149,19 @@ plugins:
     homepage: https://github.com/jaecktec
     name: Constantin Jaeck
   binaries:
-  - checksum: 4be8024fdc65b6b4306be69256f4663eee435598
+  - checksum: b735a9515fb39d32837fa0570cbff0654faa81f1
     platform: osx
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-darwin-amd64
-  - checksum: a1d1f3c3ae0f538cb574e3fd451301cf91f4e0d8
+  - checksum: 49d464002c2847bed29daaef7dc37af91c60bda9
     platform: win64
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-amd64.exe
-  - checksum: a94b273684b520e4fe6885329f1aa59eaddf7256
+  - checksum: bc005a3132d4192d33a9746a8f8c2ff238451661
     platform: win32
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-386.exe
-  - checksum: bfea8e7c1422b6afede6ab99f430fe97df61055a
+  - checksum: 15baa73cbeac35b703cb84334097ed3c98159946
     platform: linux32
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-linux-386
-  - checksum: 50b7ee57d9142c7e76a0d0a1fbef1d7f03f9f14a
+  - checksum: 0c77ff160a1de144b2b7468ff119ffa2fd6f1224
     platform: linux64
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-linux-amd64
   company: null
