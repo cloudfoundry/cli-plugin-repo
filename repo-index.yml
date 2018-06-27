@@ -1170,7 +1170,7 @@ plugins:
     dump and restore your DB.
   homepage: https://github.com/jaecktec/cf-psql-plugin
   name: psql-plugin
-  updated: 2018-06-26T15:35:09+0000
+  updated: 2018-06-26T15:35:09Z
   version: 1.0.0
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
