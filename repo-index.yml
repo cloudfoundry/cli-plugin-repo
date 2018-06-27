@@ -1145,7 +1145,7 @@ plugins:
   updated: 2017-09-22T00:00:00Z
   version: 1.2.1
 - authors:
-  - contact: constantin@vw-dilab.com
+  - contact: constantin.jaeck@gmail.com
     homepage: https://github.com/jaecktec
     name: Constantin Jaeck
   binaries:
