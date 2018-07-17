@@ -1485,7 +1485,7 @@ plugins:
   homepage: https://github.com/krujos/usagereport-plugin
   name: Usage Report
   updated: 2016-12-12T00:00:00Z
-  version: 1.4.1
+  version: 1.4.0
 - authors:
   - contact: jtuchschererg@gmail.com
     homepage: https://github.com/jtuchscherer
