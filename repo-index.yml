@@ -168,24 +168,6 @@ plugins:
   updated: 2018-01-25T16:30:53Z
   version: 1.3.0
 - authors:
-  - contact: robert.moss@cloudsoftcorp.com
-    homepage: https://github.com/robertgmoss
-    name: Robert Moss
-  binaries:
-  - checksum: ed982e8cbf16503f493c6f064c39a0e84bcd2836
-    platform: osx
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/osx/brooklyn-plugin
-  - checksum: 8249669bd8ad5078ae942d426ffd5f86aeee4f08
-    platform: linux64
-    url: https://github.com/cloudfoundry-community/brooklyn-plugin/raw/master/bin/linux64/brooklyn-plugin
-  company: Cloudsoft
-  created: 2015-03-13T00:00:00Z
-  description: Interact with Service Broker for Apache Brooklyn
-  homepage: https://github.com/cloudfoundry-community/brooklyn-plugin
-  name: Brooklyn
-  updated: 2015-03-16T00:00:00Z
-  version: 0.1.1
-- authors:
   - contact: david.ehringer@gmail.com
     homepage: https://github.com/davidehringer
     name: David Ehringer
@@ -255,31 +237,6 @@ plugins:
   name: buildpack-usage
   updated: 2017-02-15T12:42:00Z
   version: 1.0.4
-- authors:
-  - contact: contact@simonleung.info
-    homepage: https://github.com/simonleung8
-    name: Simon Leung
-  - contact: jonathan.berkhahn@gmail.com
-    homepage: https://github.com/jberkhahn
-    name: Jonathan Berkhahn
-  binaries:
-  - checksum: 7d06d10646eb4eee1d4012f69017f8195e26861d
-    platform: osx
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/osx/cli-stack-changer_darwin_amd64
-  - checksum: 7af5ba99faae3963d329607d4182d29e19ca0091
-    platform: win64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/win64/cli-stack-changer_windows_amd64.exe
-  - checksum: 7c2fcba84704badf71c3c0ff231a59f0d64a97ee
-    platform: linux64
-    url: https://github.com/simonleung8/cli-stack-changer/raw/master/bin/linux64/cli-stack-changer_linux_amd64
-  company: Cloud Foundry CLI Team
-  created: 2015-04-07T00:00:00Z
-  description: Allows admins to list and update applications with outdated lucid64
-    stacks.
-  homepage: https://github.com/simonleung8/cli-stack-changer
-  name: CF App Stack Changer
-  updated: 2015-05-08T00:00:00Z
-  version: 1.1.0
 - authors:
   - contact: adrian.fedoreanu@armakuni.com
     homepage: https://github.com/armakuni
@@ -546,24 +503,6 @@ plugins:
   name: conduit
   updated: 2018-05-09T00:00:00Z
   version: 0.0.5
-- authors:
-  - contact: dhigham@pivotal.io
-    homepage: https://github.com/danhigham
-    name: Dan Higham
-  binaries:
-  - checksum: cf367e4b8dd59ac4477ec779906cb2a9317b26f9
-    platform: osx
-    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/osx/cf-plugin-console
-  - checksum: f1fe066cd95451422748779c56301829bca1e602
-    platform: linux64
-    url: https://raw.githubusercontent.com/danhigham/cf-console/master/bin/linux64/cf-plugin-console
-  company: null
-  created: 2015-02-20T00:00:00Z
-  description: Start a tmate session on an application container
-  homepage: https://github.com/danhigham/cf-console
-  name: Console
-  updated: 2015-02-20T00:00:00Z
-  version: 1.0.0
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
@@ -930,27 +869,6 @@ plugins:
   name: kibana-me-logs
   updated: 2015-10-15T00:00:00Z
   version: 0.4.3
-- authors:
-  - contact: dhigham@pivotal.io
-    homepage: https://github.com/danhigham
-    name: Dan Higham
-  binaries:
-  - checksum: 826053a55fc65f8b42a7426ac6feacb55a424f1b
-    platform: osx
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/osx/cf-plugin-stats
-  - checksum: 9d40d0cfeb1f3863b3e35536653997168dfa2b44
-    platform: win64
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/win64/cf-plugin-stats.exe
-  - checksum: 7ed57c121d183a2b2a11984d00a042312e2871c0
-    platform: linux64
-    url: https://raw.githubusercontent.com/danhigham/cf-live-stats/master/bin/linux64/cf-plugin-stats
-  company: null
-  created: 2015-02-20T00:00:00Z
-  description: Monitor CPU and Memory usage on an app via the browser.
-  homepage: https://github.com/danhigham/cf-live-stats
-  name: Live Stats
-  updated: 2015-02-20T00:00:00Z
-  version: 1.0.0
 - authors:
   - name: CF Loggregator Team
   binaries:
@@ -1480,35 +1398,6 @@ plugins:
   name: Targets
   updated: 2017-10-03T00:00:00Z
   version: 1.2.0
-- authors:
-  - contact: ben@laplanche.co.uk
-    homepage: http://ben.laplanche.co.uk
-    name: Ben Laplanche
-  binaries:
-  - checksum: c5a0ae7c372c13d4b4d26c2eb45c3b60354efb21
-    platform: win64
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_amd64.exe
-  - checksum: 628a02c769c3c79b4ba80705c86d5bcf01fdaed9
-    platform: win32
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_windows_386.exe
-  - checksum: 0c9152c81afd7899c8ef938ce1fb66e307d1a0f7
-    platform: linux64
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_amd64
-  - checksum: 5d9a2fdb7cca17b4244ab59bd50053257bfc5520
-    platform: linux32
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_linux_386
-  - checksum: e1a408e9be7dca29100a507193d646620c038736
-    platform: osx
-    url: https://github.com/benlaplanche/cf-testuser-plugin/raw/master/bin/cf-testuser-plugin_darwin_amd64
-  company: Ben Laplanche
-  created: 2015-03-30T00:00:00Z
-  description: Create a user and assign all possible permissions, organisation and
-    space are created if they do not already exist as well. If no organisation or
-    space name are specified then the default value of 'development' is used
-  homepage: https://github.com/benlaplanche/cf-testuser-plugin
-  name: Test User
-  updated: 2015-03-30T00:00:00Z
-  version: 0.0.1
 - authors:
   - contact: kurt.kellner@cgi.com
     homepage: https://github.com/kkellner

@@ -28,10 +28,8 @@ import (
 var NamesToSkip = []string{
 	"apigee-broker-plugin",
 	"app-autoscaler-plugin",
-	"Brooklyn",
 	"Buildpack Management",
 	"Buildpack Usage",
-	"CF App Stack Changer",
 	"cf-aklogin",
 	"cf-icd-plugin",
 	"cf-predix-analytics-plugin",
@@ -47,33 +45,13 @@ var NamesToSkip = []string{
 	"Service Instance Logging",
 	"spring-cloud-dataflow-for-pcf",
 	"Targets",
-	"Test User",
 	"Usage Report",
 	"whoami-plugin",
 	"wildcard_plugin",
 }
 
-var URLsToSkip = []string{
-	"Brooklyn",
-	"CF App Stack Changer",
-	"Console",
-	"drains",
-	"Live Stats",
-	"Test User",
-	"Usage Report",
-}
-
 func ShouldValidatePluginName(pluginName string) bool {
 	for _, pluginToSkip := range NamesToSkip {
-		if pluginName == pluginToSkip {
-			return false
-		}
-	}
-	return true
-}
-
-func ShouldValidateURLVersioned(pluginName string) bool {
-	for _, pluginToSkip := range URLsToSkip {
 		if pluginName == pluginToSkip {
 			return false
 		}
@@ -201,9 +179,7 @@ var _ = Describe("Database", func() {
 			for _, plugin := range plugins.Plugins {
 				for _, binary := range plugin.Binaries {
 					fmt.Printf("%s checking %s %s\n", time.Now().Format(time.RFC3339), plugin.Name, binary.Platform)
-					if ShouldValidateURLVersioned(plugin.Name) {
-						Expect(binary.Url).To(ContainSubstring(plugin.Version), fmt.Sprintf("%s's URL must be versioned - %s is missing version number", plugin.Name, binary.Url))
-					}
+					Expect(binary.Url).To(ContainSubstring(plugin.Version), fmt.Sprintf("%s's URL must be versioned - %s is missing version number", plugin.Name, binary.Url))
 
 					var err error
 					resp, err := http.Get(binary.Url)
