@@ -1,4 +1,11 @@
 ---
+resource_types:
+- name: slack-notification
+  type: docker-image
+  source:
+    repository: cfcommunity/slack-notification-resource
+    tag: latest
+
 resources:
 - name: cli-plugin-repo
   type: git
@@ -23,6 +30,11 @@ resources:
     project_id: ((cf-cli-public-tracker-project-id))
     tracker_url: https://www.pivotaltracker.com
 
+- name: slack-alert
+  type: slack-notification
+  source:
+    url: ((slack-webhook-url))
+
 jobs:
 - name: test
   plan:
@@ -41,6 +53,11 @@ jobs:
       manifest: cli-plugin-repo/manifest.yml
       path: cli-plugin-repo
       current_app_name: plugins
+    on_failure:
+       put: slack-alert
+       params:
+         channel: '#cli-eng'
+         text: "@cli-team - ALERT: deploying cli-plugin-repo failed :("
   - put: cf-cli-tracker
     params:
       repos:
