@@ -939,29 +939,29 @@ plugins:
     homepage: https://github.com/fitzoh
     name: Andrew Fitzgerald
   binaries:
-  - checksum: 21d506585ef321c82c89b6a7c8e29a3ae0cfd4c2
+  - checksum: b9e0e7f19bfc218dde981efe378ea3c0b51b79b8
     platform: osx
-    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.osx
-  - checksum: 903017fb20bd9361b876ab0984c2a6c4c4031777
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.osx
+  - checksum: eb334ce5c6aae526c008cf6b15f326385faaa3b4
     platform: linux32
-    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.linux32
-  - checksum: be7b67cf40f636a2117ff49edcda91cbd3ea7833
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.linux32
+  - checksum: 785d1150b3419fb5f79f49ca36b2c20954b003cc
     platform: linux64
-    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.linux64
-  - checksum: e04a38835224a2f39e9b5e295258d41b20f1f8b8
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.linux64
+  - checksum: 769d98ca7c9c6a7ef1db86bfa21404464559d408
     platform: win32
-    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.win32
-  - checksum: 9f2f9f3f05ef96bb77d7e0f424a3176731c1a95f
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.win32
+  - checksum: 0073f51283cfddd5920dc7e257087c5981c3b49b
     platform: win64
-    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.3.0/maven-push.win64
+    url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.win64
   company: Cardinal Health
   created: 2018-06-24T00:00:00Z
   description: Drop in replacement for `cf push` that downloads the artifact based
     on maven coordinates from the manifest, then pushes it.
   homepage: https://github.com/fitzoh/maven-push-plugin
   name: maven-push
-  updated: 2018-06-24T00:00:00Z
-  version: 0.3.0
+  updated: 2018-07-20T00:00:00Z
+  version: 0.4.0
 - authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
