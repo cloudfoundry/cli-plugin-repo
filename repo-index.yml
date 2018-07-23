@@ -1063,6 +1063,34 @@ plugins:
   updated: 2017-09-22T00:00:00Z
   version: 1.2.1
 - authors:
+  - contact: constantin.jaeck@gmail.com
+    homepage: https://github.com/jaecktec
+    name: Constantin Jaeck
+  binaries:
+  - checksum: b735a9515fb39d32837fa0570cbff0654faa81f1
+    platform: osx
+    url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-darwin-amd64
+  - checksum: 49d464002c2847bed29daaef7dc37af91c60bda9
+    platform: win64
+    url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-amd64.exe
+  - checksum: bc005a3132d4192d33a9746a8f8c2ff238451661
+    platform: win32
+    url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-386.exe
+  - checksum: 15baa73cbeac35b703cb84334097ed3c98159946
+    platform: linux32
+    url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-linux-386
+  - checksum: 0c77ff160a1de144b2b7468ff119ffa2fd6f1224
+    platform: linux64
+    url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-linux-amd64
+  company: null
+  created: 2017-02-02T09:30:00Z
+  description: Runs psql clients against your CF database services. Use it to inspect,
+    dump and restore your DB.
+  homepage: https://github.com/jaecktec/cf-psql-plugin
+  name: psql-plugin
+  updated: 2018-06-26T15:35:09Z
+  version: 1.0.0
+- authors:
   - contact: adam.eijdenberg@digital.gov.au
     homepage: https://cloud.gov.au
     name: Adam Eijdenberg
