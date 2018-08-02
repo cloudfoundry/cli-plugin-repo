@@ -400,9 +400,9 @@ plugins:
   - checksum: fb8809ae222a3fab0fca94fdf7ee1663e1ed7edc
     platform: osx
     url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.7-darwin
-    - checksum: fdc0ef16d632dec6f3c928982dce9e74b7f69c84
-      platform: win64
-      url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.7-windows.exe
+  - checksum: fdc0ef16d632dec6f3c928982dce9e74b7f69c84
+    platform: win64
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.7-windows.exe
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
