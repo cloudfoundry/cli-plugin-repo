@@ -397,19 +397,19 @@ plugins:
   - contact: avoellmer@pivotal.io
     name: Andy Voellmer
   binaries:
-  - checksum: 2100c34ee277a6a2110edcfb1ec69c49624ef6c6
+  - checksum: 209edea1c573ad62d3f38979a2c6db2165a1b3a3
     platform: osx
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.8-darwin
-  - checksum: 5c66c1d6ffc88e53d775eed17411b32bb387f17f
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.9-darwin
+  - checksum: 66a3603ce69f966af73e74da9aa299c4310c591a
     platform: win64
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.8-windows.exe
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.9-windows.exe
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2018-08-03T00:00:00Z
-  version: 0.0.8
+  updated: 2018-08-21T00:00:00Z
+  version: 0.0.9
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
