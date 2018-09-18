@@ -145,28 +145,28 @@ plugins:
     homepage: http://garage.mybluemix.net/
     name: Bluemix Garage London
   binaries:
-  - checksum: 213446434075daee09a859434edb55bb7b0c3eea
+  - checksum: 8f22d1a4473776498b6aa0e4a17b53ac8bda5ff5
     platform: osx
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.osx
-  - checksum: 78eb05302d6f0b55e07600a018587bb4aaec9e36
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.osx
+  - checksum: f15d7c0eb7758f969e4db5fcadc2b2d2693eed6f
     platform: linux32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux32
-  - checksum: 45fec0bf75152f4cd7c2d9dc2cf2d50636a93b0d
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.linux32
+  - checksum: 408229ec75e05dbfc3fac1939a0ea483cd5dbab0
     platform: linux64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.linux64
-  - checksum: 41e5379b8be48c1aa69d173dd59bd418b2a2aa35
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.linux64
+  - checksum: 16762b993006dc59e545020d84da68fde7dc9347
     platform: win32
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win32
-  - checksum: ce0217d63f220ea2472d21d8b56e5ff4251cb717
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.win32
+  - checksum: 6caa1b92a975bf1eb15160775db1d032626f3688
     platform: win64
-    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.3.0/blue-green-deploy.win64
+    url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.win64
   company: IBM
   created: 2015-03-24T00:00:00Z
   description: Zero downtime deploys with smoke test support
   homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
   name: blue-green-deploy
-  updated: 2018-01-25T16:30:53Z
-  version: 1.3.0
+  updated: 2018-09-02T20:34:44Z
+  version: 1.4.0
 - authors:
   - contact: david.ehringer@gmail.com
     homepage: https://github.com/davidehringer
@@ -873,24 +873,24 @@ plugins:
   updated: 2015-10-15T00:00:00Z
   version: 0.4.3
 - authors:
-  - name: CF Loggregator Team
+  - name: CF Log Cache Team
   binaries:
-  - checksum: 069d5c998ac318a81e87003b137a8e2481f50d2d
+  - checksum: 71fd8250aae5533a8b04d9a8d82e90c4a2da5681
     platform: osx
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-darwin
-  - checksum: 308c1ae1c4f4e28f65eb42530a3a2b111e0c007b
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.3.0/log-cache-cf-plugin-darwin
+  - checksum: df9afdbfd0bd85a72477e759fb351ae0f107a26c
     platform: linux64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-linux
-  - checksum: 8f83bb869551e3cbdf0e2d73f669ecb8dd4013c8
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.3.0/log-cache-cf-plugin-linux
+  - checksum: e6ec1c17a97206e40c37fb86e6db8b0440dcc7be
     platform: win64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.1.0/log-cache-cf-plugin-windows
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v1.3.0/log-cache-cf-plugin-windows
   company: null
   created: 2018-05-18T00:00:00Z
   description: Allows users to query Log Cache.
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
-  updated: 2018-05-18T00:00:00Z
-  version: 1.1.0
+  updated: 2018-08-23T00:00:00Z
+  version: 1.3.0
 - authors:
   - name: CF Loggregator Team
   binaries:
@@ -1019,25 +1019,6 @@ plugins:
   name: MysqlTools
   updated: 2018-06-12T00:00:00Z
   version: 0.3.0
-- authors:
-  - name: CF Networking Team
-  binaries:
-  - checksum: 56b9854a55265c9a693fd2ab77cbbdfdada1ee53
-    platform: osx
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.1/network-policy-plugin-darwin64
-  - checksum: 6aa26fc0be0c446b87dd436591ac234b3bad697d
-    platform: win64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.1/network-policy-plugin-windows64.exe
-  - checksum: 2dd83782f0c4ff11ed95104da48197e53dd362c4
-    platform: linux64
-    url: https://github.com/cloudfoundry-incubator/cf-networking-release/releases/download/v1.6.1/network-policy-plugin-linux64
-  company: Pivotal
-  created: 2017-07-10T00:00:00Z
-  description: Allow the user to manage application network policies
-  homepage: https://github.com/cloudfoundry-incubator/cf-networking-release
-  name: network-policy
-  updated: 2017-11-03T18:54:18Z
-  version: 1.6.1
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
