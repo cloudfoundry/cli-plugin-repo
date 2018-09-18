@@ -409,7 +409,7 @@ plugins:
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
   updated: 2018-08-21T00:00:00Z
-  version: 0.0.9
+  version: 0.0.10
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
