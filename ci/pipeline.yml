@@ -17,8 +17,8 @@ resources:
   type: cf
   source:
     api: https://api.run.pivotal.io
-    username: ((cli-pws-username))
-    password: ((cli-pws-password))
+    client_id: ((cli-pws-client-id))
+    client_secret: ((cli-pws-client-secret))
     organization: ((cli-pws-organization))
     space: ((cli-pws-space))
     skip_cert_check: false
