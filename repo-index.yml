@@ -437,9 +437,6 @@ plugins:
     homepage: https://github.com/simonleung8
     name: Simon Leung
   binaries:
-  - checksum: 6b87ba654fe63406c7f3887351d7305c5a95a82d
-    platform: osx
-    url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_darwin_amd64
   - checksum: 9296495cbec778e6bf01bbadb4c996bee11a1121
     platform: win64
     url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_windows_amd64.exe
