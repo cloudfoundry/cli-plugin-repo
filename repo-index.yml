@@ -971,7 +971,7 @@ plugins:
   - checksum: 7567980a2e3d03cc490b1af5024b455a3bd5b557
     platform: osx
     url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.0.0/metric-registrar-cli-darwin-amd64-1.0.0
-  - checksum: cd435b9b9068b12c1179ff6af12adb626943dc03
+  - checksum: 09249917565544d9495bd579a0557388c28f5ffe
     platform: win64
     url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.0.0/metric-registrar-cli-windows-amd64-1.0.0
   - checksum: 408cb3f409a20c38dc0ab32e0eef4a2b8369048b
