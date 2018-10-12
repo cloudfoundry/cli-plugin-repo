@@ -386,30 +386,24 @@ plugins:
 - authors:
   - contact: ssisil@pivotal.io
     name: Scott Sisil
-  - contact: slevine@pivotal.io
-    name: Stephen Levine
-  - contact: ecasey@pivotal.io
-    name: Emily Casey
   - contact: shiehn@pivotal.io
     name: Stephen Hiehn
-  - contact: dgoddard@pivotal.io
-    name: David Goddard
   - contact: avoellmer@pivotal.io
     name: Andy Voellmer
   binaries:
-  - checksum: 14b9f4fca486e1de01e9fc84e1c9c3801effffdc
+  - checksum: 965f0c4ec27eca25933339547e591f12dbc3b850
     platform: osx
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.10-darwin
-  - checksum: e18645d38e51d8a7b0fddac4e667e0ddf1e6fcd5
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.11-darwin
+  - checksum: 66c8f189d9d3fb65c1d5594fd33f42fedd16d11e
     platform: win64
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.10-windows.exe
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.11-windows.exe
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2018-08-21T00:00:00Z
-  version: 0.0.10
+  updated: 2018-10-11T00:00:00Z
+  version: 0.0.11
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
