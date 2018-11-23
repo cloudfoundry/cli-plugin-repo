@@ -117,29 +117,29 @@ plugins:
     homepage: https://github.com/ArthurHlt
     name: Arthur Halet
   binaries:
-  - checksum: de883d2dda017f22c67d1fd392956b86e2b23112
+  - checksum: 18dde30f72db92e89489ef13a28e1f38ab2f327c
     platform: osx
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_darwin_amd64
-  - checksum: 4a32be2f4acedc7f9231fdf55e4df09ad04c50e7
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_darwin_amd64
+  - checksum: cd11decb520770d7d2cda36fab6e19334b3eed29
     platform: win64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_amd64.exe
-  - checksum: 8e2384b76d179495baa0137b91d8eb7467ceba33
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_windows_amd64.exe
+  - checksum: 67c0a53cf39e1c9f117eea5043f19c6368dda229
     platform: win32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_windows_386.exe
-  - checksum: 65c8d6db1c4a2a81395b0ded376430b177e9bd1c
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_windows_386.exe
+  - checksum: 69e56337ff208f94287af7e2394fcd1878b26408
     platform: linux64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_amd64
-  - checksum: e88cd85b4002f9e1fc4801733f0d7a8458c87469
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_linux_amd64
+  - checksum: c8659b38bf74b755e5281fc36b77d0e26e39469e
     platform: linux32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.0.0/cf-plugin-bg-restage_linux_386
+    url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_linux_386
   company: Orange
   created: 2017-05-28T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
     old one (highly inspired by autopilot)
   homepage: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage
   name: bg-restage
-  updated: 2017-05-28T00:00:00Z
-  version: 1.0.0
+  updated: 2018-11-23T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: garage@uk.ibm.com
     homepage: http://garage.mybluemix.net/
