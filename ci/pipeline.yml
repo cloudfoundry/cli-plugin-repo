@@ -44,6 +44,7 @@ jobs:
     file: cli-plugin-repo/ci/tasks/test.yml
 
 - name: deploy
+  serial: true
   plan:
   - get: cli-plugin-repo
     passed: [test]
