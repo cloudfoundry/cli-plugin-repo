@@ -1381,29 +1381,29 @@ plugins:
     homepage: https://github.com/ArthurHlt
     name: Arthur Halet
   binaries:
-  - checksum: 9c5a470dfe482057e4b03e7a4b0686747558df7d
+  - checksum: ffbd06788a91fddccf25f39ba51cf304d776e456
     platform: osx
-    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_darwin_amd64
-  - checksum: 959dd939437f5640c26da319f697d1b07f1b5c8d
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_darwin_amd64
+  - checksum: 48de0e828a09e910e48bdff47569506671e93b14
     platform: win64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_amd64.exe
-  - checksum: c6706581c93e4884f3ae14cb94417fbc6ef327fb
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_windows_amd64.exe
+  - checksum: 9dcaa1e4eb5e1f1bb2df2a44cb35a811ccce9f8b
     platform: win32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_windows_386.exe
-  - checksum: 1f8482d26d108ed6091a75de611ed0928e7d4e3c
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_windows_386.exe
+  - checksum: 5a789efa08fcdf6339bb31dd1a6e94606a97aedf
     platform: linux64
-    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_amd64
-  - checksum: 42e090c392aa76c66a56bc7bd7a26087fc05cea9
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_linux_amd64
+  - checksum: db02e91225f9b6f1dfbaf683f673bb021b567e52
     platform: linux32
-    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.0/cf-plugin-sync_linux_386
+    url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_linux_386
   company: Orange
   created: 2017-04-04T00:00:00Z
   description: Synchronize a local folder to a remote folder inside a Cloud Foundry
     app to make changes on the fly
   homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
   name: sync
-  updated: 2017-04-14T00:00:00Z
-  version: 1.2.0
+  updated: 2018-11-23T00:00:00Z
+  version: 1.2.1
 - authors:
   - contact: gwestenberg@pivotal.io
     homepage: https://github.com/guidowb
