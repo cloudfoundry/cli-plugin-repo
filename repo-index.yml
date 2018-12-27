@@ -1011,29 +1011,29 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: 95b4efb982b0eb8716f5001305b79d9977866203
+  - checksum: 40ab88e730b8876c28a00a7bcc10a4503991508d
     platform: osx
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.6.0/mysql-plugin-darwin-amd64
-  - checksum: b8658592d7c5a6ac585290ca501a1c67bf3cfbbe
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.7.0/mysql-plugin-darwin-amd64
+  - checksum: 6ec5aea8baf1031abc0a4a05d47b15587b8d14a7
     platform: linux32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.6.0/mysql-plugin-linux-386
-  - checksum: 5562bd79b7aab6cfdf71f551ea0e52065893f370
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.7.0/mysql-plugin-linux-386
+  - checksum: b029cdf97ebe7550e7a41273ceff5dbd709b6120
     platform: linux64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.6.0/mysql-plugin-linux-amd64
-  - checksum: 365ab1876b1f229e6bcafb79c4647865494c73f1
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.7.0/mysql-plugin-linux-amd64
+  - checksum: 25b8bc7a918a008108f83ecae764ec1b0dc94694
     platform: win32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.6.0/mysql-plugin-windows-386.exe
-  - checksum: d402db5fb86ce5c86c8fcccb778c9da65d7c83d6
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.7.0/mysql-plugin-windows-386.exe
+  - checksum: 68db3f29675415779fc3a99185a3db379bb0183c
     platform: win64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.6.0/mysql-plugin-windows-amd64.exe
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.7.0/mysql-plugin-windows-amd64.exe
   company: Pivotal
   created: 2018-05-12T00:00:00Z
   description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
     v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
   name: MysqlTools
-  updated: 2018-10-18T22:33:29Z
-  version: 0.6.0
+  updated: 2018-12-27T22:24:49Z
+  version: 0.7.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
