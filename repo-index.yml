@@ -384,6 +384,23 @@ plugins:
   updated: 2016-04-11T00:00:00Z
   version: 1.1.0
 - authors:
+  - contact: sdawson@pivotal.io
+    name: Samuel Dawson
+  binaries:
+  - checksum: 05021d44a70f063b61c99bdc627ee0e1382a829e
+    platform: osx
+    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-darwin
+  - checksum: 0ebe0d505f5fda4913ba22e3212a285df0cbe094
+    platform: win64
+    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-windows.exe
+  company: Pivotal
+  created: 2019-01-02T00:00:00Z
+  description: Run Cloud Foundry in your local environment. Performance improvements
+  homepage: https://github.com/cloudfoundry-incubator/cfdev
+  name: cfdev
+  updated: 2019-01-02T00:00:00Z
+  version: 0.0.13
+- authors:
   - contact: ssisil@pivotal.io
     name: Scott Sisil
   binaries:
