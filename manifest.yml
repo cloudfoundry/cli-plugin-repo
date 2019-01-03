@@ -6,6 +6,7 @@ applications:
   instances: 2
   buildpack: go_buildpack
   memory: 128M
+  stack: cflinuxfs3
   routes:
   - route: plugins.cloudfoundry.org
   - route: plugins.cfapps.io
