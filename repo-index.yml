@@ -394,29 +394,12 @@ plugins:
     platform: win64
     url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-windows.exe
   company: Pivotal
-  created: 2019-01-02T00:00:00Z
-  description: Run Cloud Foundry in your local environment. Performance improvements
-  homepage: https://github.com/cloudfoundry-incubator/cfdev
-  name: cfdev
-  updated: 2019-01-02T00:00:00Z
-  version: 0.0.13
-- authors:
-  - contact: ssisil@pivotal.io
-    name: Scott Sisil
-  binaries:
-  - checksum: 9a498b109b5eea2add1601793929d618e218b8cd
-    platform: osx
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.12-darwin
-  - checksum: 9e981450cae8a5be931dba7badecab5ab3b2613c
-    platform: win64
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.12-windows.exe
-  company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2018-10-11T00:00:00Z
-  version: 0.0.12
+  updated: 2019-01-02T00:00:00Z
+  version: 0.0.13
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
