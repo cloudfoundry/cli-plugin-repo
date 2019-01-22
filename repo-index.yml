@@ -48,21 +48,21 @@ plugins:
     homepage: https://github.com/cdlliuy
     name: Ying Liu
   binaries:
-  - checksum: d10f4c730ba28b5d97be9ee68f945001993c5ea9
+  - checksum: 44ad8f0708fd686b039ca43495f0e78d1c35320d
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0.3/ascli.osx
-  - checksum: ce7d01aabfdd122cf7f911c380f66ce1b1344bf0
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.1.0/ascli.osx
+  - checksum: fcb56fa52dc1ca80acd068d837f363c618243f0a
     platform: linux32
-    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0.3/ascli.linux32
-  - checksum: b3f7a7330f3987dd7e7f67312080848848c9cd21
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.1.0/ascli.linux32
+  - checksum: 2dd8b1c1da3e85eed4801e22988e753eaa502067
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0.3/ascli.linux64
-  - checksum: 54906cb16a23ec2c20efd4fa2e444bb036141f30
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.1.0/ascli.linux64
+  - checksum: e174477325db74082246d256cc46a411f8592247
     platform: win32
-    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0.3/ascli.win32.exe
-  - checksum: 2b9a416d9c3c49014ffd10fd65e29fef6721359b
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.1.0/ascli.win32.exe
+  - checksum: 2cb8d8d6b14dbf9189b325de25e3570453435c59
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.0.0.3/ascli.win64.exe
+    url: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin/releases/download/v1.1.0/ascli.win64.exe
   company: IBM
   created: 2018-04-17T00:00:00Z
   description: App-AutoScaler plug-in provides the command line interface to manage
@@ -70,7 +70,7 @@ plugins:
   homepage: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin
   name: app-autoscaler-plugin
   updated: 2019-01-19T00:00:00Z
-  version: 1.0.3
+  version: 1.1.0
 - authors:
   - contact: warren.f.fernandes@gmail.com
     homepage: https://github.com/wfernandes
