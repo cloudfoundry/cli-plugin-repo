@@ -1121,6 +1121,62 @@ plugins:
     homepage: https://cloud.gov.au
     name: Adam Eijdenberg
   binaries:
+  - checksum: 03f41ad0a963e854c5d3badc544c87159559874b
+    platform: linux32
+    url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.linux32
+  - checksum: 5ebdf25770a881565ac517fd21a4d0e9cae2ca34
+    platform: linux64
+    url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.linux64
+  - checksum: f6f2e89f0e047534a04363ac4cd96a584a842cce
+    platform: osx
+    url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.osx
+  - checksum: e85c7cd321c281f48bbce0bc4b9f3e537d092833
+    platform: win32
+    url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.win32
+  - checksum: 73f5617728d3223867b12ce9c83cc81ff82d3db5
+    platform: win64
+    url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.win64
+  company: Digital Transformation Agency (Commonwealth of Australia)
+  created: 2019-01-30T01:08:13.578Z
+  description: This plugin used to report disk usage vs quota across all orgs / spaces
+    / apps the user has access to.
+  homepage: https://github.com/govau/cf-report-disk-usage
+  name: report-disk-usage
+  updated: 2019-01-30T01:08:13.578Z
+  version: 0.1.0
+- authors:
+  - contact: adam.eijdenberg@digital.gov.au
+    homepage: https://cloud.gov.au
+    name: Adam Eijdenberg
+  binaries:
+  - checksum: dc6b8c0e589a785a5be9128940606e7d568503aa
+    platform: linux32
+    url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.linux32
+  - checksum: ee20e4b9342b3c01b974bd72ff001842f6da3281
+    platform: linux64
+    url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.linux64
+  - checksum: 7ad08ce0f483f75c53ad2e8487a906a88a780f97
+    platform: osx
+    url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.osx
+  - checksum: d1318e97e22d2178cfea0b61a79b05f0eac73716
+    platform: win32
+    url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.win32
+  - checksum: c58a3a7e45a84b2e59411c8eb105e2d98f1eabb7
+    platform: win64
+    url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.win64
+  company: Digital Transformation Agency (Commonwealth of Australia)
+  created: 2019-01-30T01:09:13.578Z
+  description: This plugin used to report memory usage vs quota across all orgs /
+    spaces / apps the user has access to.
+  homepage: https://github.com/govau/cf-report-memory-usage
+  name: report-memory-usage
+  updated: 2019-01-30T01:09:13.578Z
+  version: 0.1.0
+- authors:
+  - contact: adam.eijdenberg@digital.gov.au
+    homepage: https://cloud.gov.au
+    name: Adam Eijdenberg
+  binaries:
   - checksum: d226ce843e7f486d35f442d6efe84e7f95611641
     platform: linux32
     url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.linux32
