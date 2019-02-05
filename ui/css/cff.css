@@ -43,7 +43,7 @@ ul.list-of-links li {
   padding: 2px 8px;
 }
 
-a.permalink {
+.permalink {
   display: none;
 }
 
