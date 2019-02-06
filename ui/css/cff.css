@@ -42,3 +42,11 @@ ul.list-of-links li {
   border: none !important;
   padding: 2px 8px;
 }
+
+.permalink {
+  display: none;
+}
+
+.permalinkHoverable:hover .permalink {
+  display: inline;
+}

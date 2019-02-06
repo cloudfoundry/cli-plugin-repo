@@ -48,8 +48,11 @@
         <div class="col-xs-18 col-sm-18 col-md-18 col-lg-18 bg-neutral-11 phxxxl">
           <div ng-repeat="plugin in list.plugins">
             <div class="mtxxl"></div>
-            <h3 class="name" style="display: inline-block">{{plugin.name}}</h3>
-            <span class="version type-sm" ng-if="plugin.version != ''"> &ndash; v.{{plugin.version}}</span>
+            <a href="#{{plugin.name}}" class="permalinkHoverable">
+              <h3 class="name" style="display: inline-block" id="{{plugin.name}}">{{plugin.name}}</h3>
+              <span class="version type-sm" ng-if="plugin.version != ''"> &ndash; v.{{plugin.version}}</span>
+              <span class="permalink"><h3 class="name" style="display: inline-block">&para;</h3></span>
+            </a>
             <p class="date pull-right mvl type-sm type-neutral-4" ng-bind="plugin.updated | date:'MM/dd/yyyy'"></p>
             <p class="description mtl" style="white-space: pre-line">
               {{plugin.description}}
