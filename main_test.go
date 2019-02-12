@@ -1,6 +1,8 @@
 package main_test
 
 import (
+	"strings"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
@@ -47,14 +49,15 @@ var _ = Describe("Integration", func() {
 				Expect(err).NotTo(HaveOccurred())
 				Expect(response).To(BeSuccessful())
 
-				b, err := ioutil.ReadFile("ui/index.html")
-				Expect(err).NotTo(HaveOccurred())
-
 				defer response.Body.Close()
 				contents, err := ioutil.ReadAll(response.Body)
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(string(contents)).To(Equal(string(b)))
+				// sanity test that at least one thing is present
+				Expect(strings.Index(string(contents), "doctor scans your deployed applications") >= 0).To(BeTrue())
+
+				// and that the template finishes rendering without aborting due to an error
+				Expect(strings.Index(string(contents), "</html>") >= 0).To(BeTrue())
 			})
 		})
 
