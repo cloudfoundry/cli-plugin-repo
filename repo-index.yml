@@ -943,6 +943,25 @@ plugins:
   updated: 2018-04-23T00:00:00Z
   version: 1.5.1
 - authors:
+  - name: CF Loggregator Team
+  binaries:
+  - checksum: 6a12188954bf950b2d40b31993d89e5e10ecb942
+    platform: osx
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-darwin
+  - checksum: 434a654b9db7585a67040fde2f401bbc576923a9
+    platform: linux64
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-linux
+  - checksum: fcf8337bff21810738c1ebbae2489fe846c5fdb8
+    platform: win64
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-windows
+  company: Pivotal
+  created: 2019-02-13T00:00:00Z
+  description: A plugin to stream logs
+  homepage: https://github.com/cloudfoundry/log-stream-cli
+  name: log-stream
+  updated: 2019-02-13T00:00:00Z
+  version: 0.3.0
+- authors:
   - contact: arthurh.halet@gmail.com
     homepage: https://github.com/ArthurHlt
     name: Arthur Halet
