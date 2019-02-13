@@ -94,9 +94,8 @@ plugins:
   updated: 2018-03-16T19:18:15Z
   version: 2.0.0
 - authors:
-  - name: Tobias Schug
-    homepage: https://github.com/HappyTobi/autopilot
-    contact:  happytobi@tscoding.de
+  - contact: happytobi@tscoding.de
+    name: Tobias Schug
   binaries:
   - checksum: 3897d7177076b07677c82aa3e823828184db87ee
     platform: osx
@@ -107,13 +106,14 @@ plugins:
   - checksum: c6e9da901d674e5c59c010e61e587590fdedcb32
     platform: linux64
     url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot-linux
+  company: null
   created: 2019-01-17T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
     old one (autopilot fork)
+  homepage: https://github.com/HappyTobi/autopilot
   name: autopilot
   updated: 2019-01-17T00:00:00Z
   version: 0.0.9
-  company: null
 - authors:
   - name: Christopher Brown
   binaries:
