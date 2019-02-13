@@ -86,6 +86,26 @@ plugins:
     platform: linux64
     url: https://github.com/wfernandes/app-metrics-plugin/releases/download/2.0.0/app-metrics-plugin-linux
   company: null
+  created: 2019-01-17T00:00:00Z
+  description: Perform a zero-downtime restage of an application over the top of an
+    old one (autopilot fork)
+  homepage: https://github.com/HappyTobi/autopilot
+  name: zero-downtime-push
+  updated: 2019-01-17T00:00:00Z
+  version: 0.0.9
+- authors:
+  - name: Tobias Schug
+  binaries:
+  - checksum: 3897d7177076b07677c82aa3e823828184db87ee
+    platform: osx
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot-darwin
+  - checksum: 292f902178173dd90608711b7d4b140fefa37185
+    platform: win64
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot.exe
+  - checksum: c6e9da901d674e5c59c010e61e587590fdedcb32
+    platform: linux64
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot-linux
+  company: null
   created: 2017-11-24T00:00:00Z
   description: This plugin allows you to hit a metrics endpoint across all your app
     instances
