@@ -54,7 +54,7 @@ var _ = Describe("Integration", func() {
 				Expect(err).NotTo(HaveOccurred())
 
 				// sanity test that at least one thing is present
-				Expect(strings.Index(string(contents), "doctor scans your deployed applications") >= 0).To(BeTrue())
+				Expect(contents).To(ContainSubstring("doctor scans your deployed applications"))
 
 				// and that the template finishes rendering without aborting due to an error
 				Expect(strings.Index(string(contents), "</html>") >= 0).To(BeTrue())
