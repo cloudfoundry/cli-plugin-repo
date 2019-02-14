@@ -38,11 +38,11 @@ Forking the repository for development
 
 1. Install [Go](https://golang.org)
 1. [Ensure your $GOPATH is set correctly](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable)
-1. Get the CLIPR source code: `go get github.com/cloudfoundry/cli-plugin-repo`
+1. Get the CLIPR source code: `go get code.cloudfoundry.org/cli-plugin-repo`
 1. Fork the repository
 1. Add your fork as a remote: 
 ```shell
-cd $GOPATH/src/github.com/cloudfoundry/cli-plugin-repo
+cd $GOPATH/src/code.cloudfoundry.org/cli-plugin-repo
 git remote add your_name https://github.com/your_name/cli-plugin-repo
 ```
   
