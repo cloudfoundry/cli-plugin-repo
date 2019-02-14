@@ -19,13 +19,13 @@ import (
 var _ = Describe("Integration", func() {
 	var (
 		session *gexec.Session
-		err     error
 		port    string
 	)
 
 	Context("--force-ssl not set", func() {
 		BeforeEach(func() {
 			port = strconv.Itoa(8080 + GinkgoParallelNode())
+			var err error
 			session, err = gexec.Start(
 				exec.Command(buildPath, "-p", port, "-f", "fixtures/repo-index.yml"),
 				GinkgoWriter,
@@ -91,6 +91,7 @@ var _ = Describe("Integration", func() {
 	Context("--force-ssl is set", func() {
 		BeforeEach(func() {
 			port = strconv.Itoa(8080 + GinkgoParallelNode())
+			var err error
 			session, err = gexec.Start(
 				exec.Command(buildPath, "-p", port, "-f", "fixtures/repo-index.yml", "--force-ssl"),
 				GinkgoWriter,
