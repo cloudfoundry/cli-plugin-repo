@@ -57,7 +57,7 @@ var _ = Describe("Integration", func() {
 				Expect(contents).To(ContainSubstring("doctor scans your deployed applications"))
 
 				// and that the template finishes rendering without aborting due to an error
-				Expect(strings.Index(string(contents), "</html>") >= 0).To(BeTrue())
+				Expect(contents).To(ContainSubstring("</html>"))
 			})
 		})
 
