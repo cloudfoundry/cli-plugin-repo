@@ -97,23 +97,23 @@ plugins:
   - contact: happytobi@tscoding.de
     name: Tobias Schug
   binaries:
-  - checksum: 3897d7177076b07677c82aa3e823828184db87ee
+  - checksum: 2e3890f92a6e6a3d563298a42d1e16376dca7f5f
     platform: osx
-    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot-darwin
-  - checksum: 292f902178173dd90608711b7d4b140fefa37185
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.10/autopilot-darwin
+  - checksum: 8e21d2fe0331e58ebe880ffd0a30a68347845827
     platform: win64
-    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot.exe
-  - checksum: c6e9da901d674e5c59c010e61e587590fdedcb32
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.10/autopilot.exe
+  - checksum: fcdc4a094cd01845a5a2a1e3a2e33c69d9f96091
     platform: linux64
-    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.9/autopilot-linux
+    url: https://github.com/HappyTobi/autopilot/releases/download/0.0.10/autopilot-linux
   company: null
   created: 2019-01-17T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
     old one (autopilot fork)
   homepage: https://github.com/HappyTobi/autopilot
   name: autopilot
-  updated: 2019-01-17T00:00:00Z
-  version: 0.0.9
+  updated: 2019-02-14T00:00:00Z
+  version: 0.0.10
 - authors:
   - name: Christopher Brown
   binaries:
