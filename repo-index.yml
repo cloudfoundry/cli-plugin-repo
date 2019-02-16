@@ -111,7 +111,7 @@ plugins:
   description: Perform a zero-downtime restage of an application over the top of an
     old one (autopilot fork)
   homepage: https://github.com/HappyTobi/autopilot
-  name: autopilot
+  name: tobi-autopilot
   updated: 2019-02-14T00:00:00Z
   version: 0.0.10
 - authors:
