@@ -343,6 +343,28 @@ plugins:
   updated: 2016-09-21T00:00:00Z
   version: 0.0.1
 - authors:
+  - contact: happytobi@tscoding.de
+    homepage: https://github.com/HappyTobi
+    name: Tobias Schug
+  binaries:
+  - checksum: 2ee5a20b3c546b196e80af7614b44dc55681f2ae
+    platform: osx
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer-darwin
+  - checksum: b228b5c329cef1494bb5531b0365d7936d96c78c
+    platform: win64
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer.exe
+  - checksum: d5e48cbcf7289eb79078b1fd8edd883f5532103e
+    platform: linux64
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer-linux
+  company: null
+  created: 2019-01-17T00:00:00Z
+  description: Perform a zero-downtime restage of an application over the top of an
+    old one (autopilot fork)
+  homepage: https://github.com/HappyTobi/cf-puppeteer
+  name: cf-puppeteer
+  updated: 2019-02-17T00:00:00Z
+  version: 0.0.11
+- authors:
   - contact: https://twitter.com/superbeeny
     homepage: https://github.com/superbeeny
     name: Nick Beenham
