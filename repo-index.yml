@@ -411,7 +411,7 @@ plugins:
   binaries:
   - checksum: 0fcb8413bd9cfb372d106f32bd657c03cd53c800
     platform: osx
-    url: https:/d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.14-rc.33-darwin
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.14-rc.33-darwin
   - checksum: b90d6f47043f903e810bc853cab927ea5b64b5bf
     platform: win64
     url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.14-rc.33-windows.exe
