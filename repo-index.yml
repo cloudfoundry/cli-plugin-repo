@@ -409,19 +409,19 @@ plugins:
   - contact: sdawson@pivotal.io
     name: Samuel Dawson
   binaries:
-  - checksum: 05021d44a70f063b61c99bdc627ee0e1382a829e
+  - checksum: 0fcb8413bd9cfb372d106f32bd657c03cd53c800
     platform: osx
-    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-darwin
-  - checksum: 0ebe0d505f5fda4913ba22e3212a285df0cbe094
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.14-rc.33-darwin
+  - checksum: b90d6f47043f903e810bc853cab927ea5b64b5bf
     platform: win64
-    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-windows.exe
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.14-rc.33-windows.exe
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2019-01-02T00:00:00Z
-  version: 0.0.13
+  updated: 2019-02-28T00:00:00Z
+  version: 0.0.14
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
