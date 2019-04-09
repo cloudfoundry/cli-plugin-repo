@@ -1694,7 +1694,7 @@ plugins:
     platform: linux64
     url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux64
   - checksum: a99177f99e549afcd26b638ca7a6a822de153e7e
-    platform: linux64
+    platform: linux32
     url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux32
   company: null
   created: 2019-04-10T00:00:00Z
