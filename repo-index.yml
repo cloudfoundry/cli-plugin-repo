@@ -1155,6 +1155,33 @@ plugins:
   updated: 2018-06-26T15:35:09Z
   version: 1.0.0
 - authors:
+  - contact: cappyzawa
+    homepage: https://github.com/cappyzawa
+    name: Shu Kutsuzawa
+  binaries:
+  - checksum: 7f48c5a5bf17e6d51d33106decfd1d4a749bb83c
+    platform: osx
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.osx
+  - checksum: f429806302dfcb450b7ef95688cb498d6353bf0f
+    platform: win64
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win64
+  - checksum: 3b9ee21859fb29c78ec88693b97a61e5cc90ff4e
+    platform: win32
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win32
+  - checksum: ae784693525ba246ae12f789a92438276929b3a4
+    platform: linux64
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux64
+  - checksum: a99177f99e549afcd26b638ca7a6a822de153e7e
+    platform: linux32
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux32
+  company: null
+  created: 2019-04-10T00:00:00Z
+  description: cf plugin to push cf app with vault
+  homepage: https://github.com/cappyzawa/cf-push-with-vault
+  name: push-with-vault
+  updated: 2019-04-10T00:00:00Z
+  version: 0.0.4
+- authors:
   - contact: adam.eijdenberg@digital.gov.au
     homepage: https://cloud.gov.au
     name: Adam Eijdenberg
@@ -1676,30 +1703,3 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
-- authors:
-  - contact: cappyzawa
-    homepage: https://github.com/cappyzawa
-    name: Shu Kutsuzawa
-  binaries:
-  - checksum: 7f48c5a5bf17e6d51d33106decfd1d4a749bb83c
-    platform: osx
-    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.osx
-  - checksum: f429806302dfcb450b7ef95688cb498d6353bf0f
-    platform: win64
-    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win64
-  - checksum: 3b9ee21859fb29c78ec88693b97a61e5cc90ff4e
-    platform: win32
-    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win32
-  - checksum: ae784693525ba246ae12f789a92438276929b3a4
-    platform: linux64
-    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux64
-  - checksum: a99177f99e549afcd26b638ca7a6a822de153e7e
-    platform: linux32
-    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux32
-  company: null
-  created: 2019-04-10T00:00:00Z
-  description: cf plugin to push cf app with vault
-  homepage: https://github.com/cappyzawa/cf-push-with-vault
-  name: push-with-vault
-  updated: 2019-04-10T00:00:00Z
-  version: 0.0.4
