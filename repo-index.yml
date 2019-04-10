@@ -1397,7 +1397,7 @@ plugins:
   description: A plugin for interacting with the mesh networking weighted routing
     feature.
   homepage: https://github.com/tstannard/set-weights-plugin
-  name: set-weights-plugin
+  name: UpdateRouteWeightPlugin
   updated: 2019-04-10T00:00:00Z
   version: 0.0.1
 - authors:
