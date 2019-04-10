@@ -1373,6 +1373,34 @@ plugins:
   updated: 2018-02-12T21:03:00Z
   version: 1.2.2
 - authors:
+  - contact: tstannard@pivotal.io
+    homepage: https://tealstannard.com
+    name: Teal Stannard
+  binaries:
+  - checksum: 06ceb5c28be4bb2e8d672505f15877db9de017e6
+    platform: linux64
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.linux64
+  - checksum: e2627299b6b143cbb8811b2a91ed6d16657dd293
+    platform: linux32
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.linux32
+  - checksum: 566733f89defd6ffaa5846d5897e09c3bb4c7f1e
+    platform: win64
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.win64
+  - checksum: ae35a55c7f4a0b91e6df54d34852a803f015d30b
+    platform: win32
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.win32
+  - checksum: 427bfe9428a090319c2b5eef6782913cc4fb4237
+    platform: osx
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.osx
+  company: Pivotal
+  created: 2019-04-10T00:00:00Z
+  description: A plugin for interacting with the mesh networking weighted routing
+    feature.
+  homepage: https://github.com/tstannard/set-weights-plugin
+  name: set-weights-plugin
+  updated: 2019-04-10T00:00:00Z
+  version: 0.0.1
+- authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-dataflow-for-pcf
