@@ -1662,29 +1662,29 @@ plugins:
     homepage: https://tealstannard.com
     name: Teal Stannard
   binaries:
-  - checksum: 06ceb5c28be4bb2e8d672505f15877db9de017e6
+  - checksum: 7f1e05cd5a21b8a1b491d1a22b186c098c8d7ef0
     platform: linux64
-    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.linux64
-  - checksum: e2627299b6b143cbb8811b2a91ed6d16657dd293
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.linux64
+  - checksum: 4c4af0bca8113a53248529401b29cbedd81efe79
     platform: linux32
-    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.linux32
-  - checksum: 566733f89defd6ffaa5846d5897e09c3bb4c7f1e
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.linux32
+  - checksum: b484919c3b10af5be24b94310327c169d8cb5f1a
     platform: win64
-    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.win64
-  - checksum: ae35a55c7f4a0b91e6df54d34852a803f015d30b
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.win64
+  - checksum: c52aecd3cbaec5774ac14e27904a13e997ffac28
     platform: win32
-    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.win32
-  - checksum: 427bfe9428a090319c2b5eef6782913cc4fb4237
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.win32
+  - checksum: 777a09518eef85435f8a1470a1e4c0297b3a9760
     platform: osx
-    url: https://github.com/tstannard/set-weights-plugin/releases/download/0.0.1/set-weights-plugin.osx
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.osx
   company: Pivotal
   created: 2019-04-10T00:00:00Z
   description: A plugin for interacting with the mesh networking weighted routing
     feature.
   homepage: https://github.com/tstannard/set-weights-plugin
   name: UpdateRouteWeightPlugin
-  updated: 2019-04-10T00:00:00Z
-  version: 0.0.1
+  updated: 2019-04-29T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: jkruck@pivotal.io
     homepage: https://github.com/krujos/
