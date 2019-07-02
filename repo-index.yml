@@ -347,13 +347,13 @@ plugins:
     homepage: https://github.com/HappyTobi
     name: Tobias Schug
   binaries:
-  - checksum: a995c373a033583f6d2b3ee7ae4fa3a9f71b8d6f
+  - checksum: b395ea490c6697ab90eded4223c33b12e0c3f46e
     platform: osx
     url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer-darwin
-  - checksum: a995c373a033583f6d2b3ee7ae4fa3a9f71b8d6f
+  - checksum: b0772e06a7234afe223ddce649d16beb7cebe308
     platform: win64
     url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer.exe
-  - checksum: a995c373a033583f6d2b3ee7ae4fa3a9f71b8d6f
+  - checksum: 8dfb40ae871adea737039bd4b8ce25890dca63a4
     platform: linux64
     url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer-linux
   company: null
