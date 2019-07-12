@@ -414,6 +414,27 @@ plugins:
   updated: 2019-05-23T17:38:00Z
   version: 1.1.1
 - authors:
+  - contact: arthur.halet@orange.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
+  binaries:
+  - checksum: 5be0c98b067b86d6d3a2f8d6ea26f1798d328b48
+    platform: osx
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_darwin_amd64
+  - checksum: 3e4bd7c729b677f2faf6a6af7e7a258d6034df33
+    platform: win64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_windows_amd64.exe
+  - checksum: 0bc504e0667b186da8c807a618c9d0b352521804
+    platform: linux64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_linux_amd64
+  company: Orange
+  created: 2019-07-12T00:00:00Z
+  description: Plugin to help usage of cf-security-entitlement
+  homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
+  name: cf-security-entitlement
+  updated: 2019-07-12T00:00:00Z
+  version: 0.1.0
+- authors:
   - homepage: https://github.com/gambtho
     name: Thomas Gamble
   binaries:
@@ -475,27 +496,6 @@ plugins:
   name: cflocal
   updated: 2018-03-19T00:00:00Z
   version: 0.19.0
-- authors:
-  - contact: arthur.halet@orange.com
-    homepage: https://github.com/ArthurHlt
-    name: Arthur Halet
-  binaries:
-  - checksum: 27b0cf8097b2c925a57370561758eaaff955599c
-    platform: osx
-    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_darwin_amd64
-  - checksum: 51ee3fd80eb9890b24769a0ed02220f7530ad5d4
-    platform: win64
-    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_windows_amd64.exe
-  - checksum: 92639d0beaf368607b99115b4feb46dee3f6dfcf
-    platform: linux64
-    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_linux_amd64
-  company: Orange
-  created: 2019-07-12T00:00:00Z
-  description: Plugin to help usage of cf-security-entitlement
-  homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
-  name: cfsecurity
-  updated: 2019-07-12T00:00:00Z
-  version: 0.1.0
 - authors:
   - contact: contact@simonleung.info
     homepage: https://github.com/simonleung8
