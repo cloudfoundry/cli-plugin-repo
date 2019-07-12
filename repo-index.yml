@@ -476,6 +476,27 @@ plugins:
   updated: 2018-03-19T00:00:00Z
   version: 0.19.0
 - authors:
+  - contact: arthur.halet@orange.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
+  binaries:
+  - checksum: 27b0cf8097b2c925a57370561758eaaff955599c
+    platform: osx
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-server_darwin_amd64
+  - checksum: 51ee3fd80eb9890b24769a0ed02220f7530ad5d4
+    platform: win64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_windows_amd64.exe
+  - checksum: 92639d0beaf368607b99115b4feb46dee3f6dfcf
+    platform: linux64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_linux_amd64
+  company: Orange
+  created: 2019-07-12T00:00:00Z
+  description: Plugin to help usage of cf-security-entitlement
+  homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
+  name: cfsecurity
+  updated: 2019-07-12T00:00:00Z
+  version: 0.1.0
+- authors:
   - contact: contact@simonleung.info
     homepage: https://github.com/simonleung8
     name: Simon Leung
