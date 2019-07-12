@@ -433,7 +433,7 @@ plugins:
   homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
   name: cf-security-entitlement
   updated: 2019-07-12T00:00:00Z
-  version: 0.1.0
+  version: 0.1.1
 - authors:
   - homepage: https://github.com/gambtho
     name: Thomas Gamble
