@@ -482,7 +482,7 @@ plugins:
   binaries:
   - checksum: 27b0cf8097b2c925a57370561758eaaff955599c
     platform: osx
-    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-server_darwin_amd64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_darwin_amd64
   - checksum: 51ee3fd80eb9890b24769a0ed02220f7530ad5d4
     platform: win64
     url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.0/cfsecurity-plugin_windows_amd64.exe
