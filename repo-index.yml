@@ -1633,7 +1633,7 @@ plugins:
   - contact: kurt.kellner@cgi.com
     homepage: https://github.com/kkellner
     name: Kurt Kellner
- binaries:
+  binaries:
   - checksum: 1ceb4b7bc35434aceb1cc2f8e348a312d2e8d9a0
     platform: osx
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-darwin
