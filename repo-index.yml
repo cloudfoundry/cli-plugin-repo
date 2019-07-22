@@ -1655,35 +1655,35 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 16463dd33c45a8e84850fbb264354389b8abf951
+  - checksum: 1ceb4b7bc35434aceb1cc2f8e348a312d2e8d9a0
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-darwin
-  - checksum: aa03a691c021995f6c9b1707601a6ebdaff21502
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-darwin
+  - checksum: 5b2e358fffd07394ed491fd8b600367c90b14162
     platform: win32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin32.exe
-  - checksum: 84f5e304a6b6572ca90ccbf300350a2101f96fd2
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin32.exe
+  - checksum: 2da311a3fac739a224c865c952ad4a80e116bddb
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin64.exe
-  - checksum: 86358a3b5d7fe2d6e9fe7c9b896f7b41d4b81300
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin64.exe
+  - checksum: 8a25eae1df6f71c726799f6a7257556e3399f435
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux32
-  - checksum: 1748ce934804271950a6f3ac0e53c85bbe48f37f
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux32
+  - checksum: f8cdecc413129d39f3e1bd7f2a1937a4f2b0dc25
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
     .
-    Fixed - Multithreaded updated of metadata cache caused crash.
-    Fixed - Crash on resize of AboutView.
-    Fixed - High refresh rate of UI causes crash.
-    Fixed - Org/Space view was wrongly adding memory of stopped apps to totals.
-    Enhancement - Incrementally use metadata as its loaded which improves usability with platforms that have large number of apps.
+    Fixed - Group stacks cflinuxfs2 and cflinuxfs3 for header stats.
+    Fixed - App staging complete not triggering reload of metadata
+    Fixed - Issue with showing incorrect isolation segment info for app/space
+    Fixed - Had to remove MaxCPU info for Cells because CF no longer emits numCPUS metric.
+    Enhancement - Added app instance traffic stats to App Details view.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2018-02-05T05:57:22Z
-  version: 0.9.3
+  updated: 2019-07-20T00:57:20Z
+  version: 0.9.4
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
