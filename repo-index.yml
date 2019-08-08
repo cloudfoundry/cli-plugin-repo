@@ -347,23 +347,23 @@ plugins:
     homepage: https://github.com/HappyTobi
     name: Tobias Schug
   binaries:
-  - checksum: 2ee5a20b3c546b196e80af7614b44dc55681f2ae
+  - checksum: b395ea490c6697ab90eded4223c33b12e0c3f46e
     platform: osx
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer-darwin
-  - checksum: b228b5c329cef1494bb5531b0365d7936d96c78c
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer-darwin
+  - checksum: b0772e06a7234afe223ddce649d16beb7cebe308
     platform: win64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer.exe
-  - checksum: d5e48cbcf7289eb79078b1fd8edd883f5532103e
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer.exe
+  - checksum: 8dfb40ae871adea737039bd4b8ce25890dca63a4
     platform: linux64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/0.0.11/cf-puppeteer-linux
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.1/cf-puppeteer-linux
   company: null
   created: 2019-01-17T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
-    old one (autopilot fork)
-  homepage: https://github.com/HappyTobi/cf-puppeteer
+    old one
+  homepage: https://cf-puppeteer.happytobi.com
   name: cf-puppeteer
-  updated: 2019-02-17T00:00:00Z
-  version: 0.0.11
+  updated: 2019-06-30T00:00:00Z
+  version: 1.1.1
 - authors:
   - contact: https://twitter.com/superbeeny
     homepage: https://github.com/superbeeny
@@ -385,6 +385,55 @@ plugins:
   name: cf-recycle-plugin
   updated: 2018-10-24T16:54:34Z
   version: 1.1.1
+- authors:
+  - contact: Winston_R_Milling@homedepot.com
+    homepage: https://github.com/wrmilling
+    name: Winston R. Milling
+  binaries:
+  - checksum: f39092cbe359cc778d9783f082c134cb46a01c0b
+    platform: osx
+    url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-darwin-amd64
+  - checksum: 693e0a06a5bc4741fb58c20ddd52c5b60a1edb78
+    platform: win32
+    url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-windows-386.exe
+  - checksum: 72352aeab0948153cce850af0e5b87aca6e6eb16
+    platform: win64
+    url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-windows-amd64.exe
+  - checksum: 7fd7b8e1ebdef565178b5d47e475c026a9345cf5
+    platform: linux32
+    url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-linux-386
+  - checksum: 9f0dfca6b9832c0b25eba09cbd16d49aaf81e918
+    platform: linux64
+    url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-linux-amd64
+  company: The Home Depot
+  created: 2017-12-26T00:00:00Z
+  description: cf-rolling-restart performs a zero-downtime restart of PCF application
+    instances
+  homepage: https://github.com/homedepot/cf-rolling-restart
+  name: cf-rolling-restart
+  updated: 2019-05-23T17:38:00Z
+  version: 1.1.1
+- authors:
+  - contact: arthur.halet@orange.com
+    homepage: https://github.com/ArthurHlt
+    name: Arthur Halet
+  binaries:
+  - checksum: 5be0c98b067b86d6d3a2f8d6ea26f1798d328b48
+    platform: osx
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_darwin_amd64
+  - checksum: 3e4bd7c729b677f2faf6a6af7e7a258d6034df33
+    platform: win64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_windows_amd64.exe
+  - checksum: 0bc504e0667b186da8c807a618c9d0b352521804
+    platform: linux64
+    url: https://github.com/orange-cloudfoundry/cf-security-entitlement/releases/download/v0.1.1/cfsecurity-plugin_linux_amd64
+  company: Orange
+  created: 2019-07-12T00:00:00Z
+  description: Plugin to help usage of cf-security-entitlement
+  homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
+  name: cf-security-entitlement
+  updated: 2019-07-12T00:00:00Z
+  version: 0.1.1
 - authors:
   - homepage: https://github.com/gambtho
     name: Thomas Gamble
@@ -409,19 +458,22 @@ plugins:
   - contact: sdawson@pivotal.io
     name: Samuel Dawson
   binaries:
-  - checksum: 05021d44a70f063b61c99bdc627ee0e1382a829e
+  - checksum: 2fedbb5259ff42b58241d0d05758080450b95e9b
     platform: osx
-    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-darwin
-  - checksum: 0ebe0d505f5fda4913ba22e3212a285df0cbe094
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.16-rc.5-darwin
+  - checksum: 1e4f69e167b74ecfd4db777c24f34a4e51853b8c
     platform: win64
-    url: https://s3.amazonaws.com/cfdev-prod/cfdev/cfdev-v0.0.13-rc.160-windows.exe
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.16-rc.5-windows.exe
+  - checksum: 2c7cd22e44768400922fddbf5250cfb1286eefd0
+    platform: linux64
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.16-rc.5-linux
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2019-01-02T00:00:00Z
-  version: 0.0.13
+  updated: 2019-05-22T00:00:00Z
+  version: 0.0.16
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
@@ -496,28 +548,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: 0138e0638312189acbc5b5a5d369205cf54ca4d0
+  - checksum: 54d8c1de6442fdabae8a3b3783351d12fd2c5e3b
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.6/cf-conduit.darwin.amd64
-  - checksum: dfd84168aa5f35b61fc35fa617ac785082064844
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.darwin.amd64
+  - checksum: f1be4b1ace744fd4ae52ee0cc18a238f8d6cd544
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.6/cf-conduit.windows.386
-  - checksum: cae174aab67b057c41c8355cc07fc612f58c0344
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.windows.386
+  - checksum: 2673ffff3c82d9879f51f8186bb3bd6170bfb512
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.6/cf-conduit.windows.amd64
-  - checksum: be230121a5eaeb40589fbb93b39e52142d914cda
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.windows.amd64
+  - checksum: 32c05a9ff9506c85d4af69ffe19d58f58cbe7acb
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.6/cf-conduit.linux.386
-  - checksum: b006bc7d5f4de1268abdc1521ad8b1cf96e3371f
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.linux.386
+  - checksum: 053d1afc24f841d505cb8abb21f07eefd26002dd
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.6/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2018-11-16T00:00:00Z
-  version: 0.0.6
+  updated: 2019-03-14T00:00:00Z
+  version: 0.0.7
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
@@ -596,29 +648,29 @@ plugins:
     homepage: https://github.com/dawu415
     name: David Wu
   binaries:
-  - checksum: 6bc0a15eb8831e2416a2c98d5b2c6caece6e514d
+  - checksum: b2f8388293339db6cca3c06104728db61143eef6
     platform: osx
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.0/CreateServicePushPlugin.osx
-  - checksum: 5b15e37c38c298e94ce30be02ec252442e6c7c2a
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.osx
+  - checksum: 42cc3a99ceeb02271d8c9be9740b0fc3e779d522
     platform: win32
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.0/CreateServicePushPlugin.unsigned.win32
-  - checksum: d22d5d45c0897335d6501ad74869aae86f79a12d
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.unsigned.win32
+  - checksum: 5fb0940b1f6db7b840c0f521c611612664cf5eef
     platform: win64
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.0/CreateServicePushPlugin.unsigned.win64
-  - checksum: cc446f311d73da03ae19369080e0ea3613a6c515
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.unsigned.win64
+  - checksum: 7a31c6a4d62ba10c991899f4cef69be8cc3eac17
     platform: linux32
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.0/CreateServicePushPlugin.linux32
-  - checksum: 410f8cbc45c4af850f5589fc5d6b6e540adc10b1
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.linux32
+  - checksum: b3cfe7b6c53ed3b1987b132b721e70fb904fcaff
     platform: linux64
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.0/CreateServicePushPlugin.linux64
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.linux64
   company: null
   created: 2017-11-14T00:00:00Z
   description: A CF CLI plugin to create services specified from a services manifest
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
   name: Create-Service-Push
-  updated: 2018-09-27T00:00:00Z
-  version: 1.3.0
+  updated: 2019-03-10T00:00:00Z
+  version: 1.3.1
 - authors:
   - contact: jhunt@starkandwayne.com
     homepage: https://github.com/jhunt
@@ -946,22 +998,22 @@ plugins:
 - authors:
   - name: CF Loggregator Team
   binaries:
-  - checksum: 6a12188954bf950b2d40b31993d89e5e10ecb942
+  - checksum: d2c7aeec71355629a1467cb6f53e5437dd4f5057
     platform: osx
-    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-darwin
-  - checksum: 434a654b9db7585a67040fde2f401bbc576923a9
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.4.0/log-stream-cli-darwin
+  - checksum: 55ebb0774a968caf4dbc7104cb3c673348315306
     platform: linux64
-    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-linux
-  - checksum: fcf8337bff21810738c1ebbae2489fe846c5fdb8
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.4.0/log-stream-cli-linux
+  - checksum: 867f65a040cd3927601c405b8a37e051fafa76f0
     platform: win64
-    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.3.0/log-stream-cli-windows
+    url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.4.0/log-stream-cli-windows
   company: Pivotal
   created: 2019-02-13T00:00:00Z
   description: A plugin to stream logs
   homepage: https://github.com/cloudfoundry/log-stream-cli
   name: log-stream
   updated: 2019-02-13T00:00:00Z
-  version: 0.3.0
+  version: 0.4.0
 - authors:
   - contact: arthurh.halet@gmail.com
     homepage: https://github.com/ArthurHlt
@@ -1042,6 +1094,35 @@ plugins:
   name: metric-registrar
   updated: 2018-10-29T18:23:00Z
   version: 1.1.0
+- authors:
+  - contact: dimitar.donchev@sap.com
+    name: Dimitar Donchev
+  - contact: https://cloudfoundry.slack.com/messages/multiapps-dev
+    name: MultiApps dev slack channel
+  binaries:
+  - checksum: 16b111dbabb9d7b1db7eaeb8a05dece5adb1e9ee
+    platform: osx
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.1.1/multiapps-plugin.osx
+  - checksum: d8fb9608133183655e3572be5e41e94c2bb0ee63
+    platform: win32
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.1.1/multiapps-plugin.win32
+  - checksum: 1ed9e5b3d374d8923a61d4edd065652df093fce3
+    platform: win64
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.1.1/multiapps-plugin.win64
+  - checksum: 7dfa5b2a4b556e0a5ab10f32b10b99101cfc12a0
+    platform: linux32
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.1.1/multiapps-plugin.linux32
+  - checksum: 2f4694c042eb6a85edf6765674f039e8a6dc3701
+    platform: linux64
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.1.1/multiapps-plugin.linux64
+  company: SAP
+  created: 2017-10-06T11:41:00Z
+  description: MultiApps cli plugin performing multitarget application(MTA) operations
+    in Cloud Foundry, such as deploying, removing, viewing etc.
+  homepage: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin
+  name: multiapps
+  updated: 2019-05-20T12:05:00Z
+  version: 2.1.1
 - authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
@@ -1151,6 +1232,33 @@ plugins:
   name: psql-plugin
   updated: 2018-06-26T15:35:09Z
   version: 1.0.0
+- authors:
+  - contact: cappyzawa
+    homepage: https://github.com/cappyzawa
+    name: Shu Kutsuzawa
+  binaries:
+  - checksum: 7f48c5a5bf17e6d51d33106decfd1d4a749bb83c
+    platform: osx
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.osx
+  - checksum: f429806302dfcb450b7ef95688cb498d6353bf0f
+    platform: win64
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win64
+  - checksum: 3b9ee21859fb29c78ec88693b97a61e5cc90ff4e
+    platform: win32
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.win32
+  - checksum: ae784693525ba246ae12f789a92438276929b3a4
+    platform: linux64
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux64
+  - checksum: a99177f99e549afcd26b638ca7a6a822de153e7e
+    platform: linux32
+    url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux32
+  company: null
+  created: 2019-04-10T00:00:00Z
+  description: cf plugin to push cf app with vault
+  homepage: https://github.com/cappyzawa/cf-push-with-vault
+  name: push-with-vault
+  updated: 2019-04-10T00:00:00Z
+  version: 0.0.4
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
     homepage: https://cloud.gov.au
@@ -1402,29 +1510,28 @@ plugins:
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-services
   binaries:
-  - checksum: c80f23add4fa07bfcc6851987639e372ba1b3475
+  - checksum: 5668d718f5e2ae090a26b4ac73c86f8decfc12de
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.3/spring-cloud-services-cli-plugin-windows-amd64-1.0.3.exe
-  - checksum: a59606938d8eebcdb234928eb1b3eae438f1f8cd
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.13/spring-cloud-services-cli-plugin-windows-amd64-1.0.13.exe
+  - checksum: c98679986198e5ecc2013aa7e67c8fab82795a3e
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.3/spring-cloud-services-cli-plugin-windows-386-1.0.3.exe
-  - checksum: 315b1c608892dd41533a274b053f7f33d5c23073
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.13/spring-cloud-services-cli-plugin-windows-386-1.0.13.exe
+  - checksum: cd0ccb9edebfee05f3b38cbdc98b4f767a30d8dc
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.3/spring-cloud-services-cli-plugin-linux-amd64-1.0.3
-  - checksum: fb0a391d74dd0bc2dfa2e963511b5c358b1c7b5f
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.13/spring-cloud-services-cli-plugin-linux-amd64-1.0.13
+  - checksum: 6fabfa26e1f3bb4a06734e929093a8df14ed368b
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.3/spring-cloud-services-cli-plugin-linux-386-1.0.3
-  - checksum: d0fb9b9061354e7dce5119e96e7c6aa4e4da64be
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.13/spring-cloud-services-cli-plugin-linux-386-1.0.13
+  - checksum: 75ba7cdd3a4e23ab9f5685e5dfa1f17c96377a90
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.3/spring-cloud-services-cli-plugin-darwin-amd64-1.0.3
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.13/spring-cloud-services-cli-plugin-darwin-amd64-1.0.13
   company: Pivotal
-  created: 2017-10-10T08:43:23Z
-  description: Manage Pivotal Spring Cloud Services service instances and service
-    registries. Encrypt a string using a configuration service.
+  created: 2019-10-10T08:43:23Z
+  description: Manage SCS service instance state.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2018-10-24T13:21:00Z
-  version: 1.0.3
+  updated: 2019-05-06T13:21:00Z
+  version: 1.0.13
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
@@ -1548,35 +1655,35 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 16463dd33c45a8e84850fbb264354389b8abf951
+  - checksum: 1ceb4b7bc35434aceb1cc2f8e348a312d2e8d9a0
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-darwin
-  - checksum: aa03a691c021995f6c9b1707601a6ebdaff21502
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-darwin
+  - checksum: 5b2e358fffd07394ed491fd8b600367c90b14162
     platform: win32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin32.exe
-  - checksum: 84f5e304a6b6572ca90ccbf300350a2101f96fd2
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin32.exe
+  - checksum: 2da311a3fac739a224c865c952ad4a80e116bddb
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin64.exe
-  - checksum: 86358a3b5d7fe2d6e9fe7c9b896f7b41d4b81300
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin64.exe
+  - checksum: 8a25eae1df6f71c726799f6a7257556e3399f435
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux32
-  - checksum: 1748ce934804271950a6f3ac0e53c85bbe48f37f
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux32
+  - checksum: f8cdecc413129d39f3e1bd7f2a1937a4f2b0dc25
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.3/top-plugin-linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
     .
-    Fixed - Multithreaded updated of metadata cache caused crash.
-    Fixed - Crash on resize of AboutView.
-    Fixed - High refresh rate of UI causes crash.
-    Fixed - Org/Space view was wrongly adding memory of stopped apps to totals.
-    Enhancement - Incrementally use metadata as its loaded which improves usability with platforms that have large number of apps.
+    Fixed - Group stacks cflinuxfs2 and cflinuxfs3 for header stats.
+    Fixed - App staging complete not triggering reload of metadata
+    Fixed - Issue with showing incorrect isolation segment info for app/space
+    Fixed - Had to remove MaxCPU info for Cells because CF no longer emits numCPUS metric.
+    Enhancement - Added app instance traffic stats to App Details view.
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2018-02-05T05:57:22Z
-  version: 0.9.3
+  updated: 2019-07-20T00:57:20Z
+  version: 0.9.4
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
@@ -1598,6 +1705,34 @@ plugins:
   name: update-cli
   updated: 2016-10-21T00:00:00Z
   version: 0.1.1
+- authors:
+  - contact: tstannard@pivotal.io
+    homepage: https://tealstannard.com
+    name: Teal Stannard
+  binaries:
+  - checksum: 7f1e05cd5a21b8a1b491d1a22b186c098c8d7ef0
+    platform: linux64
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.linux64
+  - checksum: 4c4af0bca8113a53248529401b29cbedd81efe79
+    platform: linux32
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.linux32
+  - checksum: b484919c3b10af5be24b94310327c169d8cb5f1a
+    platform: win64
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.win64
+  - checksum: c52aecd3cbaec5774ac14e27904a13e997ffac28
+    platform: win32
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.win32
+  - checksum: 777a09518eef85435f8a1470a1e4c0297b3a9760
+    platform: osx
+    url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.osx
+  company: Pivotal
+  created: 2019-04-10T00:00:00Z
+  description: A plugin for interacting with the mesh networking weighted routing
+    feature.
+  homepage: https://github.com/tstannard/set-weights-plugin
+  name: UpdateRouteWeightPlugin
+  updated: 2019-04-29T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: jkruck@pivotal.io
     homepage: https://github.com/krujos/
