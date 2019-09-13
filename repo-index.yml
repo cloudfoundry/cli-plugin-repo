@@ -548,28 +548,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: 54d8c1de6442fdabae8a3b3783351d12fd2c5e3b
+  - checksum: 48b9776eeb450f6d4de850485fc2da0ed2dc2e7b
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.darwin.amd64
-  - checksum: f1be4b1ace744fd4ae52ee0cc18a238f8d6cd544
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.darwin.amd64
+  - checksum: 572238afd601406370dc6841730059c37df41180
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.windows.386
-  - checksum: 2673ffff3c82d9879f51f8186bb3bd6170bfb512
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.windows.386
+  - checksum: 79ef36259ffe73beee89e8f83c4c45fea2247c32
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.windows.amd64
-  - checksum: 32c05a9ff9506c85d4af69ffe19d58f58cbe7acb
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.windows.amd64
+  - checksum: 89e1ecdbb4e3b4d87b8571532143d190d2a017ee
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.linux.386
-  - checksum: 053d1afc24f841d505cb8abb21f07eefd26002dd
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.linux.386
+  - checksum: 716d64a442f1b9ee7fe12497c58a67cc72ff742f
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.7/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2019-03-14T00:00:00Z
-  version: 0.0.7
+  updated: 2019-09-13T00:00:00Z
+  version: 0.0.8
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
