@@ -24,4 +24,4 @@ run:
 
     cd $GOPATH/src/code.cloudfoundry.org/cli-plugin-repo
 
-    BINARY_VALIDATION=true bin/test
+    BINARY_VALIDATION=false bin/test
