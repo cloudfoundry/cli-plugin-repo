@@ -241,29 +241,32 @@ plugins:
   - contact: adrian.fedoreanu@armakuni.com
     homepage: https://github.com/armakuni
     name: Adrian Fedoreanu
+  - contact: sam.bryant@armakuni.com
+    homepage: https://github.com/armakuni
+    name: Sam Bryant
   binaries:
-  - checksum: b0ecc4d96b43158c335c7e1f5361c4d33d7ce477
+  - checksum: d69c9b226b8a684dc1c82ddfdd4f21ace78bef5d
     platform: linux64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux64
-  - checksum: 1585e66c134e49cc15eef621a759a950959d623c
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.linux64
+  - checksum: 5fd24385040266024dfb78251864ad07439e2db5
     platform: linux32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.linux32
-  - checksum: aefcd3b33f7dcb4db1cf9d7f76afa2a48e5fdbd4
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.linux32
+  - checksum: 86a801b3292b431c933b0945ecbd24f082c3b579
     platform: win64
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win64
-  - checksum: a317ea128c741847ff52b26ed9c8203fed7a28cc
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.win64
+  - checksum: 9a1c2e7498026b6124322410dc1f4f7c6b42724a
     platform: win32
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.win32
-  - checksum: 2f23d0d0942b85821de3e23b4ae317f6417007ac
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.win32
+  - checksum: f4b96b720e920816d358ff992661150eb8cbf3d7
     platform: osx
-    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.2.9/cf-aklogin.osx
+    url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.osx
   company: Armakuni
   created: 2017-07-13T09:38:24Z
   description: CF Login tool to switch between CF environments with a single command
   homepage: https://github.com/armakuni/cf-aklogin
   name: cf-aklogin
   updated: 2017-08-08T15:02:09Z
-  version: 1.2.9
+  version: 1.3.0
 - authors:
   - contact: mfclemen@us.ibm.com
     homepage: https://github.com/clement360
