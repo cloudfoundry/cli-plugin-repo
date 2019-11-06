@@ -802,22 +802,22 @@ plugins:
 - authors:
   - name: CF Loggregator Team
   binaries:
-  - checksum: 5460f570a314efeaf05a2b0a314054a6e2b1ca6a
+  - checksum: 2f4dbf99b4cc31e960599eca298eb982e4195a55
     platform: osx
-    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v1.2.0/cf-drain-cli-darwin
-  - checksum: e0c5ddd9ff51e64c133169dcadefa7dc64f6b804
+    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v2.0.0/cf-drain-cli-darwin
+  - checksum: 9aa82d816269411cd0e5e6bd65cd610fcd6e2062
     platform: linux64
-    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v1.2.0/cf-drain-cli-linux
-  - checksum: 6345c25f065a03b8c791bdbb47556bebb7c59494
+    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v2.0.0/cf-drain-cli-linux
+  - checksum: af088c152cba2f7b6636ce9138342d1882ddd7ad
     platform: win64
-    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v1.2.0/cf-drain-cli-windows
+    url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v2.0.0/cf-drain-cli-windows
   company: Pivotal
   created: 2018-04-20T00:00:00Z
   description: A plugin to simplify interactions with user provided syslog drains.
   homepage: https://github.com/cloudfoundry/cf-drain-cli
   name: drains
-  updated: 2018-10-01T13:41:11Z
-  version: 1.2.0
+  updated: 2019-11-06T00:00:00Z
+  version: 2.0.0
 - authors:
   - contact: x@cinaq.com
     homepage: https://github.com/xiwenc
