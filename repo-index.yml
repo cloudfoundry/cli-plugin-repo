@@ -1658,19 +1658,19 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: (stdin)= 6bfba34d8919a34301ef1078423b4161447fe97e
+  - checksum: 6bfba34d8919a34301ef1078423b4161447fe97e
     platform: osx
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-darwin
-  - checksum: (stdin)= 2bf89558c165e70b135bf67c23110a62239a1753
+  - checksum: 2bf89558c165e70b135bf67c23110a62239a1753
     platform: win32
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin32.exe
-  - checksum: (stdin)= ca65963fe44dd7929ece774ba9b1bd3ef2756817
+  - checksum: ca65963fe44dd7929ece774ba9b1bd3ef2756817
     platform: win64
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin64.exe
-  - checksum: (stdin)= 4a7420a96aa2ebc9240d7eccf211773e4f4e6853
+  - checksum: 4a7420a96aa2ebc9240d7eccf211773e4f4e6853
     platform: linux32
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-linux32
-  - checksum: (stdin)= 688736b2d18333306af41c8468a172d9d73b477f
+  - checksum: 688736b2d18333306af41c8468a172d9d73b477f
     platform: linux64
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-linux64
   company: ECS Team (now part of CGI)
