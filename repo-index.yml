@@ -1677,8 +1677,8 @@ plugins:
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
-    .
-    Enhancement - Now supports read-only admin mode via cloud_controller.admin_read_only 
+
+    Enhancement - Now supports read-only admin mode via cloud_controller.admin_read_only
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
   updated: 2019-11-16T03:05:15Z
