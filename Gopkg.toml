@@ -1,0 +1,28 @@
+[prune]
+  non-go = true
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jessevdk/go-flags"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/onsi/ginkgo"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/onsi/gomega"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/unrolled/secure"
+
+[[constraint]]
+  branch = "v2"
+  name = "gopkg.in/yaml.v2"
+
+[[constraint]]
+  name = "github.com/blang/semver"
+  version = "3.5.1"
