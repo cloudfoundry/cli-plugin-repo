@@ -389,6 +389,33 @@ plugins:
   updated: 2018-10-24T16:54:34Z
   version: 1.1.1
 - authors:
+  - contact: aegershman+github@gmail.com
+    homepage: https://github.com/aegershman
+    name: Aaron Gershman
+  binaries:
+  - checksum: 0ec5a4b3e555dcc0a7fb069bee22a2cd1675b019
+    platform: linux32
+    url: https://github.com/aegershman/cf-report-usage-plugin/releases/download/2.12.0/cf-report-usage-plugin-linux-386
+  - checksum: cfd705845edba0922d633e76d685dbfa48e63e2e
+    platform: linux64
+    url: https://github.com/aegershman/cf-report-usage-plugin/releases/download/2.12.0/cf-report-usage-plugin-linux-amd64
+  - checksum: 7003a567c05e9527654617ab25ffd07919cbe71f
+    platform: win32
+    url: https://github.com/aegershman/cf-report-usage-plugin/releases/download/2.12.0/cf-report-usage-plugin-windows-386.exe
+  - checksum: 6dd22324519a9f704c4d005812d5f57c79a880ee
+    platform: win64
+    url: https://github.com/aegershman/cf-report-usage-plugin/releases/download/2.12.0/cf-report-usage-plugin-windows-amd64.exe
+  - checksum: 83d95653465894f2b7fdafa8e612228311758c50
+    platform: osx
+    url: https://github.com/aegershman/cf-report-usage-plugin/releases/download/2.12.0/cf-report-usage-plugin-darwin
+  company: null
+  created: 2019-12-03T00:00:00Z
+  description: cf-cli plugin for creating reports of AI/SI usage
+  homepage: https://github.com/aegershman/cf-report-usage-plugin
+  name: cf-report-usage-plugin
+  updated: 2019-12-06T00:00:00Z
+  version: 2.12.0
+- authors:
   - contact: Winston_R_Milling@homedepot.com
     homepage: https://github.com/wrmilling
     name: Winston R. Milling
