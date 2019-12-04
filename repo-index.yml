@@ -389,6 +389,33 @@ plugins:
   updated: 2018-10-24T16:54:34Z
   version: 1.1.1
 - authors:
+  - contact: aegershman+github@gmail.com
+    homepage: https://github.com/aegershman
+    name: Aaron Gershman
+  binaries:
+  - checksum: 8058c37349c8d312b2b1bf8659d033d0b426f043
+    platform: linux32
+    url: https://github.com/aegershman/cf-reverse-service-lookup-plugin/releases/download/0.2.0/cf-reverse-service-lookup-plugin-linux-386
+  - checksum: f7ef035c5e4dc9dcbdbc69885f8b7afe11615fb0
+    platform: linux64
+    url: https://github.com/aegershman/cf-reverse-service-lookup-plugin/releases/download/0.2.0/cf-reverse-service-lookup-plugin-linux-amd64
+  - checksum: 7248d4af01505e58910ee2c85dad71a190610662
+    platform: win32
+    url: https://github.com/aegershman/cf-reverse-service-lookup-plugin/releases/download/0.2.0/cf-reverse-service-lookup-plugin-windows-386.exe
+  - checksum: 7edceacba35b7d5768b8659c5c4dad9436630b84
+    platform: win64
+    url: https://github.com/aegershman/cf-reverse-service-lookup-plugin/releases/download/0.2.0/cf-reverse-service-lookup-plugin-windows-amd64.exe
+  - checksum: 4742a3e0c6ac9e4002c60ec82f4aa3dd6b8bfe83
+    platform: osx
+    url: https://github.com/aegershman/cf-reverse-service-lookup-plugin/releases/download/0.2.0/cf-reverse-service-lookup-plugin-darwin
+  company: null
+  created: 2019-12-04T00:00:00Z
+  description: cf-cli plugin to perform reverse lookups against service instance GUIDs
+  homepage: https://github.com/aegershman/cf-reverse-service-lookup-plugin
+  name: cf-reverse-service-lookup-plugin
+  updated: 2019-12-04T00:00:00Z
+  version: 0.2.0
+- authors:
   - contact: Winston_R_Milling@homedepot.com
     homepage: https://github.com/wrmilling
     name: Winston R. Milling
