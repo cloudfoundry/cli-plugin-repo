@@ -1658,35 +1658,31 @@ plugins:
     homepage: https://github.com/kkellner
     name: Kurt Kellner
   binaries:
-  - checksum: 1ceb4b7bc35434aceb1cc2f8e348a312d2e8d9a0
+  - checksum: 6bfba34d8919a34301ef1078423b4161447fe97e
     platform: osx
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-darwin
-  - checksum: 5b2e358fffd07394ed491fd8b600367c90b14162
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-darwin
+  - checksum: 2bf89558c165e70b135bf67c23110a62239a1753
     platform: win32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin32.exe
-  - checksum: 2da311a3fac739a224c865c952ad4a80e116bddb
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin32.exe
+  - checksum: ca65963fe44dd7929ece774ba9b1bd3ef2756817
     platform: win64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin64.exe
-  - checksum: 8a25eae1df6f71c726799f6a7257556e3399f435
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin64.exe
+  - checksum: 4a7420a96aa2ebc9240d7eccf211773e4f4e6853
     platform: linux32
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux32
-  - checksum: f8cdecc413129d39f3e1bd7f2a1937a4f2b0dc25
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-linux32
+  - checksum: 688736b2d18333306af41c8468a172d9d73b477f
     platform: linux64
-    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.4/top-plugin-linux64
+    url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-linux64
   company: ECS Team (now part of CGI)
   created: 2016-11-07T00:00:00Z
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
-    .
-    Fixed - Group stacks cflinuxfs2 and cflinuxfs3 for header stats.
-    Fixed - App staging complete not triggering reload of metadata
-    Fixed - Issue with showing incorrect isolation segment info for app/space
-    Fixed - Had to remove MaxCPU info for Cells because CF no longer emits numCPUS metric.
-    Enhancement - Added app instance traffic stats to App Details view.
+
+    Enhancement - Now supports read-only admin mode via cloud_controller.admin_read_only
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2019-07-20T00:57:20Z
-  version: 0.9.4
+  updated: 2019-11-16T03:05:15Z
+  version: 0.9.5
 - authors:
   - contact: taichi.nakashima@rakuten.com
     homepage: https://github.com/tcnksm
