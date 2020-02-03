@@ -482,23 +482,23 @@ plugins:
     homepage: https://github.com/sclevine
     name: Stephen Levine
   binaries:
-  - checksum: 57d2bac82d38c2eaad4143945670cf20035a6ebb
+  - checksum: 15559518a2f1acfab9622b7f544f061b
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.19.0/cflocal-0.19.0-macos
-  - checksum: ae9ad884b2c2099fda382c4cfb56d2ff1a59fc21
+    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-macos
+  - checksum: 74ddd597e9222d4df4de761316f6c8da
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.19.0/cflocal-0.19.0-windows.exe
-  - checksum: b9fa5a543997ac4cd2307f2cc6c786ac09c92474
+    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-windows.exe
+  - checksum: 7f3b7ee50e9d01506be7efe0f473362d
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.19.0/cflocal-0.19.0-linux
+    url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-linux
   company: null
   created: 2017-03-23T00:00:00Z
   description: Stage and launch CF apps, push and pull droplets, and connect to real
     CF services -- in Docker
   homepage: https://github.com/sclevine/cflocal
   name: cflocal
-  updated: 2018-03-19T00:00:00Z
-  version: 0.19.0
+  updated: 2020-02-03T00:00:00Z
+  version: 0.20.0
 - authors:
   - contact: contact@simonleung.info
     homepage: https://github.com/simonleung8
