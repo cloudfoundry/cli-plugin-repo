@@ -961,6 +961,33 @@ plugins:
   updated: 2015-10-15T00:00:00Z
   version: 0.4.3
 - authors:
+  - contact: pavellom@gmail.com
+    homepage: https://github.com/pavellom/list-services-plugin
+    name: Pavel Lomonosov
+  binaries:
+  - checksum: 925abadc4a6495882ac035e24aff9b181aca9762
+    platform: osx
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-darwin
+  - checksum: fbb1488bbf5d2c3d390a7316cf7c0d786220d163
+    platform: win64
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win64.exe
+  - checksum: 93d7219e1876c84e1cf5b8789e39e2c7a2acf078
+    platform: win32
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win32.exe
+  - checksum: 8a78b81c0c0fc7ffb6d912ad2fa1c4f3298799f9
+    platform: linux64
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux64
+  - checksum: 4afefb1a4bb7ef25a2754927196715fff795b96d
+    platform: linux32
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux32
+  company: null
+  created: 2020-02-15T00:00:00Z
+  description: List services which are bound to the application
+  homepage: https://github.com/pavellom/list-services-plugin
+  name: ListServices
+  updated: 2020-02-15T00:00:00Z
+  version: 1.0.0
+- authors:
   - name: CF Log Cache Team
   binaries:
   - checksum: 64f000980fd7ff309aa9d5690a405795733c6640
