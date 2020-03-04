@@ -1512,29 +1512,29 @@ plugins:
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-dataflow-for-pcf
   binaries:
-  - checksum: 72d7e7247546d173023098e5f0965c200dd0665f
+  - checksum: 934199b4f954ea3f7fd5c513dc519e4820232b1e
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.0.exe
-  - checksum: 8075c139c29d5508f56537e9e5d3df115e05e8e7
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.2.exe
+  - checksum: 88f6fce611f5efdcd1f4a56e1704a049d21f8358
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.0.exe
-  - checksum: 93d7152b829ba85b79d142321f35efbc5cb5d5f2
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.2.exe
+  - checksum: 97eeb84d78a83953d54b8db65b197c75814fd357
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.0
-  - checksum: ae53f2792d1cb89c855f5d4c1f9668619b59098c
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.2
+  - checksum: fedcd5fcec83f9cd4e8b3b96b3021ad796723481
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.0
-  - checksum: 1afb7f624071d15c01c90193860429fc4912a5c8
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.2
+  - checksum: 853f2e81b894c9433233128f67f2bbcf5f9611d7
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.0
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.2
   company: Pivotal
   created: 2018-02-02T09:10:00Z
   description: Manage data pipelines on Spring Cloud Data Flow for PCF via Data Flow
     shell.
   homepage: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin
   name: spring-cloud-dataflow-for-pcf
-  updated: 2018-02-02T09:12:00Z
-  version: 1.0.0
+  updated: 2020-03-04T09:47:00Z
+  version: 1.0.2
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
