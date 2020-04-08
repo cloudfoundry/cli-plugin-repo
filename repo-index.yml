@@ -350,23 +350,23 @@ plugins:
     homepage: https://github.com/HappyTobi
     name: Tobias Schug
   binaries:
-  - checksum: c6adf394aeffcc12a5ae0aa2d63d8533edf01b3c
+  - checksum: 0f73d1046a3f7461ad78a0e9612744c612536b10
     platform: osx
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.3/cf-puppeteer-darwin
-  - checksum: 2ad9138128590ba5b84b3e0f0a1864dc61155310
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer-darwin
+  - checksum: 3507e354dbb10381fe6eba1cef6730f9c56c112b
     platform: win64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.3/cf-puppeteer.exe
-  - checksum: 26e07d59a734ec8a1abdff4266c5329988233b0f
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer.exe
+  - checksum: c18d09ca3a2427cab66cdc7d455b9f303e4c1199
     platform: linux64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.1.3/cf-puppeteer-linux
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer-linux
   company: null
   created: 2019-01-17T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
     old one
   homepage: https://cf-puppeteer.happytobi.com
   name: cf-puppeteer
-  updated: 2019-11-26T00:00:00Z
-  version: 1.1.3
+  updated: 2020-02-24T00:00:00Z
+  version: 1.2.0
 - authors:
   - contact: https://twitter.com/superbeeny
     homepage: https://github.com/superbeeny
@@ -482,13 +482,13 @@ plugins:
     homepage: https://github.com/sclevine
     name: Stephen Levine
   binaries:
-  - checksum: 15559518a2f1acfab9622b7f544f061b
+  - checksum: cd65b7d17fa839307f3bc629733d58e870730f77
     platform: osx
     url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-macos
-  - checksum: 74ddd597e9222d4df4de761316f6c8da
+  - checksum: 7b37089ff700587cb79d816af55b80f0560e254e
     platform: win64
     url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-windows.exe
-  - checksum: 7f3b7ee50e9d01506be7efe0f473362d
+  - checksum: e6ea34fa03e223731e763d46bb10459f86a93957
     platform: linux64
     url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-linux
   company: null
@@ -551,28 +551,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: 48b9776eeb450f6d4de850485fc2da0ed2dc2e7b
+  - checksum: 6be00615f022a3aa76edcf2535a2632c7486a7ed
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.darwin.amd64
-  - checksum: 572238afd601406370dc6841730059c37df41180
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.9/cf-conduit.darwin.amd64
+  - checksum: eb596219999fa8be395d826ae371754f325f8d4e
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.windows.386
-  - checksum: 79ef36259ffe73beee89e8f83c4c45fea2247c32
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.9/cf-conduit.windows.386
+  - checksum: 7606885b4527963b1fc23a5e86c28b208f9e893a
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.windows.amd64
-  - checksum: 89e1ecdbb4e3b4d87b8571532143d190d2a017ee
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.9/cf-conduit.windows.amd64
+  - checksum: 7e413c4120ef40e32529808972552d2991d82e6b
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.linux.386
-  - checksum: 716d64a442f1b9ee7fe12497c58a67cc72ff742f
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.9/cf-conduit.linux.386
+  - checksum: ede257052ff38035b1bdccc1ded01bfdc218665b
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.8/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.9/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2019-09-13T00:00:00Z
-  version: 0.0.8
+  updated: 2020-03-30T00:00:00Z
+  version: 0.0.9
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
@@ -961,6 +961,33 @@ plugins:
   updated: 2015-10-15T00:00:00Z
   version: 0.4.3
 - authors:
+  - contact: pavellom@gmail.com
+    homepage: https://github.com/pavellom/list-services-plugin
+    name: Pavel Lomonosov
+  binaries:
+  - checksum: 925abadc4a6495882ac035e24aff9b181aca9762
+    platform: osx
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-darwin
+  - checksum: fbb1488bbf5d2c3d390a7316cf7c0d786220d163
+    platform: win64
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win64.exe
+  - checksum: 93d7219e1876c84e1cf5b8789e39e2c7a2acf078
+    platform: win32
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win32.exe
+  - checksum: 8a78b81c0c0fc7ffb6d912ad2fa1c4f3298799f9
+    platform: linux64
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux64
+  - checksum: 4afefb1a4bb7ef25a2754927196715fff795b96d
+    platform: linux32
+    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux32
+  company: null
+  created: 2020-02-15T00:00:00Z
+  description: List services which are bound to the application
+  homepage: https://github.com/pavellom/list-services-plugin
+  name: ListServices
+  updated: 2020-02-15T00:00:00Z
+  version: 1.0.0
+- authors:
   - name: CF Log Cache Team
   binaries:
   - checksum: 64f000980fd7ff309aa9d5690a405795733c6640
@@ -1103,29 +1130,29 @@ plugins:
   - contact: https://cloudfoundry.slack.com/messages/multiapps-dev
     name: MultiApps dev slack channel
   binaries:
-  - checksum: 67e560ac9231d2d7b3025a2b093b06c4caea8eeb
+  - checksum: 60515e87228ddbc7c95f0724640ab9ccfcee5e59
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.2.1/multiapps-plugin.osx
-  - checksum: 40986f95f3fe0fc2315ad9a1f989460d1af4d3a0
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.3.1/multiapps-plugin.osx
+  - checksum: 8171b837052b0fef5a5cdd7c44bf30f604f3933d
     platform: win32
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.2.1/multiapps-plugin.win32
-  - checksum: 7ffd381e6ef5fd1591df3b2a1ffc165186e6cdd0
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.3.1/multiapps-plugin.win32
+  - checksum: 59f036f1d4cd0b02d412343c5ae323340b239a63
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.2.1/multiapps-plugin.win64
-  - checksum: ebd6961843ef58c6974432d644d31b1f9b557688
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.3.1/multiapps-plugin.win64
+  - checksum: 9829441ebac10d300f43b067a77e0d1e4408751f
     platform: linux32
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.2.1/multiapps-plugin.linux32
-  - checksum: 24341f304be0e48f5daa764be54e5a78d88ce64a
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.3.1/multiapps-plugin.linux32
+  - checksum: 0482cdd4c167506702e5647a262cdd8894a50d36
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.2.1/multiapps-plugin.linux64
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.3.1/multiapps-plugin.linux64
   company: SAP
   created: 2017-10-06T11:41:00Z
   description: MultiApps cli plugin performing multitarget application(MTA) operations
     in Cloud Foundry, such as deploying, removing, viewing etc.
   homepage: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin
   name: multiapps
-  updated: 2019-12-18T12:05:00Z
-  version: 2.2.1
+  updated: 2020-02-28T12:05:00Z
+  version: 2.3.1
 - authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
@@ -1485,29 +1512,29 @@ plugins:
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-dataflow-for-pcf
   binaries:
-  - checksum: 72d7e7247546d173023098e5f0965c200dd0665f
+  - checksum: 934199b4f954ea3f7fd5c513dc519e4820232b1e
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.0.exe
-  - checksum: 8075c139c29d5508f56537e9e5d3df115e05e8e7
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-windows-amd64-1.0.2.exe
+  - checksum: 88f6fce611f5efdcd1f4a56e1704a049d21f8358
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.0.exe
-  - checksum: 93d7152b829ba85b79d142321f35efbc5cb5d5f2
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-windows-386-1.0.2.exe
+  - checksum: 97eeb84d78a83953d54b8db65b197c75814fd357
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.0
-  - checksum: ae53f2792d1cb89c855f5d4c1f9668619b59098c
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-linux-amd64-1.0.2
+  - checksum: fedcd5fcec83f9cd4e8b3b96b3021ad796723481
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.0
-  - checksum: 1afb7f624071d15c01c90193860429fc4912a5c8
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-linux-386-1.0.2
+  - checksum: 853f2e81b894c9433233128f67f2bbcf5f9611d7
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.0/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.0
+    url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.2
   company: Pivotal
   created: 2018-02-02T09:10:00Z
   description: Manage data pipelines on Spring Cloud Data Flow for PCF via Data Flow
     shell.
   homepage: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin
   name: spring-cloud-dataflow-for-pcf
-  updated: 2018-02-02T09:12:00Z
-  version: 1.0.0
+  updated: 2020-03-04T09:47:00Z
+  version: 1.0.2
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
