@@ -865,8 +865,8 @@ plugins:
   version: 0.13.0
 - authors:
   - contact: abaker@pivotal.io
-   homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
-   name: Pivotal
+    homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
+    name: Pivotal
   binaries:
    - checksum: 89b8088f0dc4c5cd66b269ce59238e806ae0eef5
      platform: osx
