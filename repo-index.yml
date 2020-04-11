@@ -522,7 +522,7 @@ plugins:
   company: ecastella.com
   created: 2020-04-11T00:00:00Z
   description: This plugin check the binding of services in Yalm and services in org/space.
-    Also it check if the plan and service plan exist in your org/space.
+    Also it check if the plan and service plan exist in your org/space
   homepage: https://github.com/sample-author/new_plugin
   name: check-before-deploy
   updated: 2020-04-11T00:00:00Z
