@@ -910,19 +910,19 @@ plugins:
     homepage: https://github.com/enric11/cf-cli-check-before-deploy
     name: Enric Castella
   binaries:
-  - checksum: 1697682241FDA79383CF423BF98EF98560770D83
+  - checksum: 1697682241fda79383cf423bf98ef98560770d83
     platform: osx
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-mac
-  - checksum: B009288C58D4A79767877AF02E4C35653E621B56
+  - checksum: b009288c58d4a79767877af02e4c35653e621b56
     platform: win64
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-win64.exe
-  - checksum: E720C1B37605F697C955B3B1E60D45E83BAF1F03
+  - checksum: e720c1b37605f697c955b3b1e60d45e83baf1f03
     platform: linux64
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-linux64
-  - checksum: 7B0FFE9496B958FC2728A127B49FAC4253D150D9
+  - checksum: 7b0ffe9496b958fc2728a127b49fac4253d150d9
     platform: win32
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-win32.exe
-  - checksum: A29A41A2CB80D59513A32E98B964A72B41D60762
+  - checksum: a29a41a2cb80d59513a32e98b964a72b41d60762
     platform: linux32
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-linux32
   company: ecastella.com
