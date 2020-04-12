@@ -519,7 +519,7 @@ plugins:
   - checksum: a29a41a2cb80d59513a32e98b964a72b41d60762
     platform: linux32
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-linux32
-  company: ecastella.com
+  company: null
   created: 2020-04-11T00:00:00Z
   description: This plugin check the binding of services in Yalm and services in org/space.
     Also it check if the plan and service plan exist in your org/space
