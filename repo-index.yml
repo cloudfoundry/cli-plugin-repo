@@ -500,6 +500,34 @@ plugins:
   updated: 2020-02-03T00:00:00Z
   version: 0.20.0
 - authors:
+  - contact: e_castella@hotmail.com
+    homepage: https://github.com/enric11/cf-cli-check-before-deploy
+    name: Enric Castella
+  binaries:
+  - checksum: 1697682241fda79383cf423bf98ef98560770d83
+    platform: osx
+    url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-mac
+  - checksum: b009288c58d4a79767877af02e4c35653e621b56
+    platform: win64
+    url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-win64.exe
+  - checksum: e720c1b37605f697c955b3b1e60d45e83baf1f03
+    platform: linux64
+    url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-linux64
+  - checksum: 7b0ffe9496b958fc2728a127b49fac4253d150d9
+    platform: win32
+    url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-win32.exe
+  - checksum: a29a41a2cb80d59513a32e98b964a72b41d60762
+    platform: linux32
+    url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.0.0/check-before-deploy-linux32
+  company: null
+  created: 2020-04-11T00:00:00Z
+  description: This plugin check the binding of services in YAML and services in org/space.
+    Also it check if the plan and service plan exist in your org/space
+  homepage: https://github.com/enric11/cf-cli-check-before-deploy
+  name: check-before-deploy
+  updated: 2020-04-11T00:00:00Z
+  version: 1.0.0
+- authors:
   - contact: contact@simonleung.info
     homepage: https://github.com/simonleung8
     name: Simon Leung
