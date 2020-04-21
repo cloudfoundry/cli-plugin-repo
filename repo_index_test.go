@@ -40,7 +40,6 @@ var NamesToSkip = []string{
 	"Download Droplet",
 	"fastpush",
 	"Firehose Plugin",
-	"gemfire",
 	"mysql-plugin",
 	"Scaleover",
 	"Service Instance Logging",
