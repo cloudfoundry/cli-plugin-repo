@@ -896,22 +896,22 @@ plugins:
     homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
     name: Pivotal
   binaries:
-  - checksum: 55cf0b3268d4621dbf1c23a83ff514560fc7cc11
+  - checksum: fe83d2c190e4a14874592e12769e5a7e3ddc4d59
     platform: osx
-    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.5/gemfire-osx
-  - checksum: 5355f4944c7ba004616a19a5d4bcf14175050980
+    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.6/gemfire-osx
+  - checksum: 0f263f0b71b0594aa49b28adeacd59cc3c60b91e
     platform: win64
-    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.5/gemfire-win64.exe
-  - checksum: 873cd427cf4156b49a0e0631518c0a818df6891c
+    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.6/gemfire-win64.exe
+  - checksum: 9d0dacd2e89426b60aeaf035625ac55156b20de4
     platform: linux64
-    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.5/gemfire-linux64
+    url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.6/gemfire-linux64
   company: Pivotal
   created: 2020-03-31T00:00:00Z
   description: Allows user to manage VMWare Tanzu Gemfire Cluster
   homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
   name: gemfire
   updated: 2020-04-15T00:00:00Z
-  version: 1.0.5
+  version: 1.0.6
 - authors:
   - contact: akoranne@ecsteam.com
     homepage: https://github.com/akoranne
