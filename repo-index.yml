@@ -907,7 +907,7 @@ plugins:
     url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.6/gemfire-linux64
   company: Pivotal
   created: 2020-03-31T00:00:00Z
-  description: Allows user to manage VMWare Tanzu Gemfire Cluster
+  description: Allows a user to manage a VMware Tanzu GemFire cluster
   homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
   name: gemfire
   updated: 2020-04-15T00:00:00Z
