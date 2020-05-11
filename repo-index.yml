@@ -350,23 +350,23 @@ plugins:
     homepage: https://github.com/HappyTobi
     name: Tobias Schug
   binaries:
-  - checksum: 0f73d1046a3f7461ad78a0e9612744c612536b10
+  - checksum: fd431d263733e3dfa558c835544cec65200819b6
     platform: osx
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer-darwin
-  - checksum: 3507e354dbb10381fe6eba1cef6730f9c56c112b
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.1/cf-puppeteer-darwin
+  - checksum: 135f15ad5facb614f267c862af8e439d04e221db
     platform: win64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer.exe
-  - checksum: c18d09ca3a2427cab66cdc7d455b9f303e4c1199
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.1/cf-puppeteer.exe
+  - checksum: aa67d15bace0532fefdadb471cab85c53df45012
     platform: linux64
-    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.0/cf-puppeteer-linux
+    url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.1/cf-puppeteer-linux
   company: null
   created: 2019-01-17T00:00:00Z
   description: Perform a zero-downtime restage of an application over the top of an
     old one
   homepage: https://cf-puppeteer.happytobi.com
   name: cf-puppeteer
-  updated: 2020-02-24T00:00:00Z
-  version: 1.2.0
+  updated: 2020-04-30T00:00:00Z
+  version: 1.2.1
 - authors:
   - contact: https://twitter.com/superbeeny
     homepage: https://github.com/superbeeny
