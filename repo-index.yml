@@ -599,7 +599,7 @@ plugins:
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2020-05-12:00:00Z
+  updated: 2020-05-12T12:00:00Z
   version: 0.0.10
 - authors:
   - contact: mevansam@gmail.com
