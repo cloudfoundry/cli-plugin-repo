@@ -579,28 +579,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: 7f17b7a41632d4205a83965343f8c5d11329f4f1
+  - checksum: 66b8c39a08a7c027df1cced87d940c8c58f2d779
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.10/cf-conduit.darwin.amd64
-  - checksum: 98850bd00b2dd3a1bd38748bb3de8b69e1bb51b6
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.darwin.amd64
+  - checksum: 2c939e01aa58e4647c41dc612330c535bdd456a2
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.10/cf-conduit.windows.386
-  - checksum: 0af45adb0821a98a1a040968581a16ed293e6121
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.windows.386
+  - checksum: 916323445efb761a48c0ccb6642921e9cfea9e7e
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.10/cf-conduit.windows.amd64
-  - checksum: 28b0ee11e8a63bdbc27ef711f93e924292024be6
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.windows.amd64
+  - checksum: c7aff66b9d7e4a634b8413f7c7f11ea3c7cbed74
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.10/cf-conduit.linux.386
-  - checksum: 085fc01b428c41c283ea05d29f84f72de2f5f8ee
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.linux.386
+  - checksum: 5a1e0ca64380b2f546b53762276055bc367d9d8a
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.10/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
   updated: 2020-05-12T12:00:00Z
-  version: 0.0.10
+  version: 0.0.11
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
