@@ -461,22 +461,22 @@ plugins:
   - contact: sdawson@pivotal.io
     name: Samuel Dawson
   binaries:
-  - checksum: e5b3c6cf9ae797a40e282a76389bd700321a0c11
+  - checksum: a6a8c591d145b654ca1a7ec232b826de4033d3d7
     platform: osx
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.17-rc.14-darwin
-  - checksum: 59c3fc7380d4ab6cee7afaecd61b933f4fea8b52
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.18-rc.36-darwin
+  - checksum: c4e5ec582539ffa19d20e6d5b1cb409edc2908d3
     platform: win64
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.17-rc.14-windows.exe
-  - checksum: b8c84fe550cb27f6422010dc8d2805d11cebe263
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.18-rc.36-windows.exe
+  - checksum: fe8bead5895288dfc25d468f3dd0c3ca0a1f2e4a
     platform: linux64
-    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.17-rc.14-linux
+    url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.18-rc.36-linux
   company: Pivotal
   created: 2018-05-23T00:00:00Z
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2019-09-04T00:00:00Z
-  version: 0.0.17
+  updated: 2020-07-01T00:00:00Z
+  version: 0.0.18
 - authors:
   - contact: stephen.levine@gmail.com
     homepage: https://github.com/sclevine
