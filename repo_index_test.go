@@ -114,7 +114,7 @@ var _ = Describe("Database", func() {
 
 			sortedBytes, err := yamlSorter.Sort(pluginBytes)
 			Expect(err).NotTo(HaveOccurred())
-			Expect(sortedBytes).To(Equal(pluginBytes), "file is not sorted; please run 'go run sort/main.go repo-index.yml'.\n")
+			Expect(string(sortedBytes)).To(Equal(string(pluginBytes)), "file is not sorted; please run 'go run sort/main.go repo-index.yml'.\n")
 		})
 
 		It("has every binary link over https", func() {
