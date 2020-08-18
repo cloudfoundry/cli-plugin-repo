@@ -94,6 +94,31 @@ plugins:
   updated: 2018-03-16T19:18:15Z
   version: 2.0.0
 - authors:
+  - name: CF Dedicated MySQL
+  binaries:
+  - checksum: 7cf54c0fe2bf032e96a7b7dce883f1ecc671517f
+    platform: osx
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-darwin-amd64
+  - checksum: 490146fe360a66604676b4f716876b3493a51cad
+    platform: linux32
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-linux-386
+  - checksum: b0bb278b30cd21ee68a852cda56f5f94cc1760a7
+    platform: linux64
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-linux-amd64
+  - checksum: db2870cebb4931e2099d3b8277c01d216320d2dd
+    platform: win32
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-windows-386.exe
+  - checksum: bba99a9095740779dc4501d92545295084c8bb13
+    platform: win64
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-windows-amd64.exe
+  company: VMware
+  created: 2020-08-11T00:00:00Z
+  description: Tool to backup/restore Tanzu MySQL service instances
+  homepage: https://docs.pivotal.io//p-mysql/backup-restore.html
+  name: ApplicationDataBackupRestore
+  updated: 2020-08-13T17:25:41Z
+  version: 0.2.0
+- authors:
   - name: Christopher Brown
   binaries:
   - checksum: 3add658dae22d0dd07f186e45a502883d03e7d03
@@ -1883,28 +1908,3 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
-- authors:
-  - name: CF Dedicated MySQL
-  binaries:
-  - checksum: 7cf54c0fe2bf032e96a7b7dce883f1ecc671517f
-    platform: osx
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-darwin-amd64
-  - checksum: 490146fe360a66604676b4f716876b3493a51cad
-    platform: linux32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-linux-386
-  - checksum: b0bb278b30cd21ee68a852cda56f5f94cc1760a7
-    platform: linux64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-linux-amd64
-  - checksum: db2870cebb4931e2099d3b8277c01d216320d2dd
-    platform: win32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-windows-386.exe
-  - checksum: bba99a9095740779dc4501d92545295084c8bb13
-    platform: win64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.2.0/adbr-plugin-windows-amd64.exe
-  company: VMware
-  created: 2020-08-11T00:00:00Z
-  description: Tool to backup/restore Tanzu MySQL service instances
-  homepage: https://docs.pivotal.io//p-mysql/backup-restore.html
-  name: ApplicationDataBackupRestore
-  updated: 2020-08-13T17:25:41Z
-  version: 0.2.0
