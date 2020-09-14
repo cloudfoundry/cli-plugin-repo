@@ -604,28 +604,28 @@ plugins:
 - authors:
   - name: Government Digital Service
   binaries:
-  - checksum: 66b8c39a08a7c027df1cced87d940c8c58f2d779
+  - checksum: d3d965d2cb16564f2606119748c7eff26f70b1f9
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.darwin.amd64
-  - checksum: 2c939e01aa58e4647c41dc612330c535bdd456a2
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.12/cf-conduit.darwin.amd64
+  - checksum: 30d6a43f9ebdbafa14ff6ba7018ca6c4d05e08dc
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.windows.386
-  - checksum: 916323445efb761a48c0ccb6642921e9cfea9e7e
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.12/cf-conduit.windows.386
+  - checksum: 920113aee743a12127e4bccff49fe8f44c1fb34b
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.windows.amd64
-  - checksum: c7aff66b9d7e4a634b8413f7c7f11ea3c7cbed74
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.12/cf-conduit.windows.amd64
+  - checksum: 470ce46d94cd98f8a936d2cf38302e1dd3a2650f
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.linux.386
-  - checksum: 5a1e0ca64380b2f546b53762276055bc367d9d8a
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.12/cf-conduit.linux.386
+  - checksum: 0f4fcf512ca6bca72ddc9e090e60e29b8d9fb9e4
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.11/cf-conduit.linux.amd64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.12/cf-conduit.linux.amd64
   company: null
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2020-05-12T12:00:00Z
-  version: 0.0.11
+  updated: 2020-09-14T12:00:00Z
+  version: 0.0.12
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
@@ -1041,19 +1041,19 @@ plugins:
   binaries:
   - checksum: 925abadc4a6495882ac035e24aff9b181aca9762
     platform: osx
-    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-darwin
+    url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-darwin
   - checksum: fbb1488bbf5d2c3d390a7316cf7c0d786220d163
     platform: win64
-    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win64.exe
+    url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-win64.exe
   - checksum: 93d7219e1876c84e1cf5b8789e39e2c7a2acf078
     platform: win32
-    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-win32.exe
+    url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-win32.exe
   - checksum: 8a78b81c0c0fc7ffb6d912ad2fa1c4f3298799f9
     platform: linux64
-    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux64
+    url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-linux64
   - checksum: 4afefb1a4bb7ef25a2754927196715fff795b96d
     platform: linux32
-    url: https://github.com/pavellom/list-services-plugin/releases/download/1.0.0/listservices-linux32
+    url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-linux32
   company: null
   created: 2020-02-15T00:00:00Z
   description: List services which are bound to the application
