@@ -1079,7 +1079,7 @@ plugins:
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
   updated: 2019-01-28T00:00:00Z
-  version: 2.1.0
+  version: 3.1.0
 - authors:
   - name: CF Loggregator Team
   binaries:
