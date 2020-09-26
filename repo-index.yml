@@ -1582,6 +1582,34 @@ plugins:
   updated: 2018-02-12T21:03:00Z
   version: 1.2.2
 - authors:
+  - contact: andrew.lunde@sap.com
+    homepage: https://github.com/andrewlunde
+    name: Andrew Lunde
+  binaries:
+  - checksum: 55cfc7add2664c77ae0c04b56b7f0dbfccde7c05
+    platform: linux64
+    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.linux64
+  - checksum: 65a256838384788b7948f8010f80da46aeda3b90
+    platform: linux32
+    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.linux32
+  - checksum: 7fb52cddf87c03be83456f3366fd44bbc4e7f210
+    platform: osx
+    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.osx
+  - checksum: 15cc5bea9be0337d9ea028529a1c157996ec8ff7
+    platform: win32
+    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.win32
+  - checksum: 67e7957e194ecf9a4e659a1c7997e6621a639006
+    platform: win64
+    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.win64
+  company: SAP
+  created: 2020-09-25T00:00:00Z
+  description: Plugin that makes it easier to use the Service Management service in
+    Cloud Foundry.
+  homepage: https://github.com/andrewlunde/ServiceManagement
+  name: ServiceManagement
+  updated: 2020-09-25T00:00:00Z
+  version: 1.0.12
+- authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-dataflow-for-pcf
