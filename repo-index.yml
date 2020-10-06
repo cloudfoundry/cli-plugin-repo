@@ -1586,29 +1586,28 @@ plugins:
     homepage: https://github.com/andrewlunde
     name: Andrew Lunde
   binaries:
-  - checksum: 55cfc7add2664c77ae0c04b56b7f0dbfccde7c05
+  - checksum: c2da5ffebf7143178e7f073573ab1bd08e1c6337
     platform: linux64
-    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.linux64
-  - checksum: 65a256838384788b7948f8010f80da46aeda3b90
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.linux64
+  - checksum: 92bd6b54974352965ea3a9b022ccb909c701aebd
     platform: linux32
-    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.linux32
-  - checksum: 7fb52cddf87c03be83456f3366fd44bbc4e7f210
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.linux32
+  - checksum: f5ecd53a659211f9aaa2000a0515c5cf96329d8b
     platform: osx
-    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.osx
-  - checksum: 15cc5bea9be0337d9ea028529a1c157996ec8ff7
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.osx
+  - checksum: 36dec8944f6f728e6b4a9f2982fdaa5ab8cb999b
     platform: win32
-    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.win32
-  - checksum: 67e7957e194ecf9a4e659a1c7997e6621a639006
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.win32
+  - checksum: 2e0074029c06085bd6f00186076ad8ad19cfd04e
     platform: win64
-    url: https://github.com/andrewlunde/ServiceManagement/releases/download/v1.0.12/ServiceManagement.win64
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.win64
   company: SAP
-  created: 2020-09-25T00:00:00Z
-  description: Plugin that makes it easier to use the Service Management service in
-    Cloud Foundry.
-  homepage: https://github.com/andrewlunde/ServiceManagement
+  created: 2020-10-06T00:00:00Z
+  description: Plugin that makes it easier to use the Service Management service in Cloud Foundry.
+  homepage: https://github.com/SAP/cf-cli-smsi-plugin
   name: ServiceManagement
-  updated: 2020-09-25T00:00:00Z
-  version: 1.0.12
+  updated: 2020-10-06T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
