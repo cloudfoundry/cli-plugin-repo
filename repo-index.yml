@@ -1605,13 +1605,13 @@ plugins:
   created: 2020-10-06T00:00:00Z
   description: Plugin that makes it easier to use the Service Management service in Cloud Foundry.
   homepage: https://github.com/SAP/cf-cli-smsi-plugin
-  name: ServiceManagement
+  name: service-management
   updated: 2020-10-06T00:00:00Z
   version: 1.1.0
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
     homepage: https://docs.pivotal.io/spring-cloud-services
-    name: spring-cloud-dataflow-for-pcf
+    mame: spring-cloud-dataflow-for-pcf
   binaries:
   - checksum: 934199b4f954ea3f7fd5c513dc519e4820232b1e
     platform: win64
