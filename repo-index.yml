@@ -1559,29 +1559,29 @@ plugins:
     homepage: https://github.com/andrewlunde
     name: Andrew Lunde
   binaries:
-  - checksum: c2da5ffebf7143178e7f073573ab1bd08e1c6337
+  - checksum: 393c60998a99074cf850eeb072e81740ecdce7cb
     platform: linux64
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.linux64
-  - checksum: 92bd6b54974352965ea3a9b022ccb909c701aebd
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.linux64
+  - checksum: df1ab9f8a9bdb7171cb9b091beba3b7bc2b72c77
     platform: linux32
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.linux32
-  - checksum: f5ecd53a659211f9aaa2000a0515c5cf96329d8b
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.linux32
+  - checksum: 6ee91c6d0c8c46a2c7fdd1987a96ff9ddb45be51
     platform: osx
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.osx
-  - checksum: 36dec8944f6f728e6b4a9f2982fdaa5ab8cb999b
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.osx
+  - checksum: 4741e839c1ca8a27e946f407955ca592dbdcf227
     platform: win32
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.win32
-  - checksum: 2e0074029c06085bd6f00186076ad8ad19cfd04e
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.win32
+  - checksum: 7bfb6213699be68b0f73ad26deb7948d8015a21e
     platform: win64
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.0/ServiceManagement.win64
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.win64
   company: SAP
-  created: 2020-10-06T00:00:00Z
+  created: 2020-10-07T00:00:00Z
   description: Plugin that makes it easier to use the Service Management service in
     Cloud Foundry.
   homepage: https://github.com/SAP/cf-cli-smsi-plugin
   name: service-management
-  updated: 2020-10-06T00:00:00Z
-  version: 1.1.0
+  updated: 2020-10-07T00:00:00Z
+  version: 1.1.1
 - authors:
   - contact: cdelashmutt@pivotal.io
     homepage: https://github.com/cdelashmutt-pivotal
