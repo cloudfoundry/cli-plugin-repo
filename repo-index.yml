@@ -967,10 +967,10 @@ plugins:
     platform: osx
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-darwin-amd64
   - checksum: cc80a26962c974669acd14623371987698200b3c
-    platform: linux
+    platform: linux64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-linux-amd64
   - checksum: 32ff976be577e094f67b11a66be63ff821314204
-    platform: windows
+    platform: win64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
   company: SAP
   created: 2019-02-05T12:00:00Z
