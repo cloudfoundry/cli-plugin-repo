@@ -963,22 +963,22 @@ plugins:
     homepage: https://github.com/micellius
     name: micellius
   binaries:
-  - checksum: ebc97884bbf1825c9ec989b818e9fcf36d3fb9d5
+  - checksum: 73b450dfa94c85f4c7b0358d2189d8b9b1162821
     platform: osx
-    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.1/cf-html5-apps-repo-cli-plugin-darwin-amd64
-  - checksum: 92bf04ccb28c3ca93ca0193d0e70a08319ecb066
-    platform: win64
-    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.1/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
-  - checksum: 748420f12ba51d57a4188378a805db15f11f1fc3
-    platform: linux64
-    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.1/cf-html5-apps-repo-cli-plugin-linux-amd64
+    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-darwin-amd64
+  - checksum: 297a49c979da6820a1a4d1986dbe62faf11b66c0
+    platform: linux
+    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-linux-amd64
+  - checksum: 08eb2c8b94899b8516ded05e0ace6ec83ac7ce9a
+    platform: windows
+    url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.4/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
   company: SAP
   created: 2019-02-05T12:00:00Z
   description: CLI client for SAP Cloud Platform HTML5 Applications Repository service
-  homepage: https://sap.github.io/cf-html5-apps-repo-cli-plugin/
+  homepage: https://sap.github.io/cf-html5-apps-repo-cli-plugin
   name: html5-plugin
-  updated: 2020-04-21T11:02:00Z
-  version: 1.4.1
+  updated: 2020-10-19T07:51:18Z
+  version: 1.4.4
 - authors:
   - contact: michele.mancioppi@sap.com
     homepage: https://github.com/michele-mancioppi
