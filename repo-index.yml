@@ -460,7 +460,7 @@ plugins:
   description: Plugin to help usage of cf-security-entitlement
   homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
   name: cf-security-entitlement
-  updated: 2020-16-12T00:00:00Z
+  updated: 2020-12-16T00:00:00Z
   version: 1.0.1
 - authors:
   - homepage: https://github.com/gambtho
