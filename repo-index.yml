@@ -461,7 +461,7 @@ plugins:
   homepage: https://github.com/orange-cloudfoundry/cf-security-entitlement
   name: cf-security-entitlement
   updated: 2020-12-16T00:00:00Z
-  version: 1.0.1
+  version: 0.1.12
 - authors:
   - homepage: https://github.com/gambtho
     name: Thomas Gamble
