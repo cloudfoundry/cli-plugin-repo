@@ -414,6 +414,34 @@ plugins:
   updated: 2018-10-24T16:54:34Z
   version: 1.1.1
 - authors:
+  - contact: justin.klein@gm.com
+    homepage: https://github.com/generalmotors/cf-restage-all
+    name: Justin Klein
+  binaries:
+  - checksum: 936c75ba8b059b326104294704d289a8b0db1141
+    platform: osx
+    url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-amd64-darwin
+  - checksum: a8f555d182b1178c76c114e04fd445dad9596b56
+    platform: win32
+    url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-386-windows.exe
+  - checksum: b372a27efbd5ac9f1e424d9ada01ef640f5e0f7c
+    platform: win64
+    url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-amd64-windows.exe
+  - checksum: c2eec81a51a4ba67f492c4a194efc63613abfe17
+    platform: linux32
+    url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-386-linux
+  - checksum: 899793cca9d3446bab07652a5fb620737322703a
+    platform: linux64
+    url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-amd64-linux
+  company: General Motors
+  created: 2020-11-24T18:41:19Z
+  description: CF plugin for restaging all applications within an pcf space with minimal
+    downtime.
+  homepage: https://github.com/generalmotors/cf-restage-all
+  name: cf-restage-all
+  updated: 2020-11-24T18:41:19Z
+  version: 1.0.0
+- authors:
   - contact: Winston_R_Milling@homedepot.com
     homepage: https://github.com/wrmilling
     name: Winston R. Milling
@@ -1064,22 +1092,22 @@ plugins:
 - authors:
   - name: CF Log Cache Team
   binaries:
-  - checksum: ff7aee06c3fd03589a74f763e772e68c87adcf44
+  - checksum: 82f43bb68b3d51b0fef008f912c87a0aff40c140
     platform: osx
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.0/log-cache-cf-plugin-darwin
-  - checksum: 5925df4032848ef127f6bc0fd9caf36d2e88fab9
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.2/log-cache-cf-plugin-darwin
+  - checksum: d9a90ae1535420fc3b1537dd63a322e56ac1518e
     platform: linux64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.0/log-cache-cf-plugin-linux
-  - checksum: 76684a377e62041d674b6d87e9d780284a448425
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.2/log-cache-cf-plugin-linux
+  - checksum: 2d3dac28efcda323410b4de9765d3448e32d31f9
     platform: win64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.0/log-cache-cf-plugin-windows
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.2/log-cache-cf-plugin-windows
   company: null
   created: 2018-05-18T00:00:00Z
   description: Allows users to query Log Cache.
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
-  updated: 2019-01-28T00:00:00Z
-  version: 4.0.0
+  updated: 2020-12-01T00:00:00Z
+  version: 4.0.2
 - authors:
   - name: CF Loggregator Team
   binaries:
@@ -1174,30 +1202,30 @@ plugins:
   updated: 2018-07-20T00:00:00Z
   version: 0.4.0
 - authors:
-  - name: CF EATs team
+  - name: CF Metric Registrar Team
   binaries:
-  - checksum: 5a2c3c01891c41e6a81dc8dee07d36525474d8ed
+  - checksum: 052cee36922814740b199e309c20c68e616ada4e
     platform: osx
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.0/metric-registrar-cli-darwin-amd64-1.3.0
-  - checksum: a86f4120e15ef715407d11c8cea36efe37967ec8
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.1/metric-registrar-cli-darwin-amd64-1.3.1
+  - checksum: 74f8fb94a7da51a170fb985b279309c49a9171e3
     platform: win64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.0/metric-registrar-cli-windows-amd64-1.3.0
-  - checksum: 0fb26b56d864bff3c875720dc1d78ed9d74883a4
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.1/metric-registrar-cli-windows-amd64-1.3.1
+  - checksum: 9a2190bc1de2e13edeb93ae205e08b74139d071c
     platform: win32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.0/metric-registrar-cli-windows-386-1.3.0
-  - checksum: 043fb72ae9014b16c3b844c59237432ad1c0d3c6
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.1/metric-registrar-cli-windows-386-1.3.1
+  - checksum: 341cd87902cdc0abb39c85b42aa4fe52446b5cb7
     platform: linux64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.0/metric-registrar-cli-linux-amd64-1.3.0
-  - checksum: badebb05b7f617234ff8541648ee749bf55ee98c
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.1/metric-registrar-cli-linux-amd64-1.3.1
+  - checksum: 87de0637480d32e391b5f167dc92bb526135db47
     platform: linux32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.0/metric-registrar-cli-linux-386-1.3.0
-  company: Pivotal
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.1/metric-registrar-cli-linux-386-1.3.1
+  company: VMware
   created: 2018-10-04T18:21:00Z
   description: Allow users to register metric sources.
   homepage: https://github.com/pivotal-cf/metric-registrar-cli
   name: metric-registrar
-  updated: 2019-11-25T00:00:00Z
-  version: 1.3.0
+  updated: 2020-12-01T00:00:00Z
+  version: 1.3.1
 - authors:
   - contact: dimitar.donchev@sap.com
     name: Dimitar Donchev
