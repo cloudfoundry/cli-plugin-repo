@@ -991,13 +991,13 @@ plugins:
     homepage: https://github.com/micellius
     name: micellius
   binaries:
-  - checksum: 336237da4c78f863343cc7456fd218cfe59de667
+  - checksum: 6a78d6b44720b21c9ac103d18abdec84bd4a1cd1
     platform: osx
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.6/cf-html5-apps-repo-cli-plugin-darwin-amd64
-  - checksum: 18be2672dfe281eedb6e08c72f0c3b093c3dabda
+  - checksum: 32210813f17aa1cc9c4c2a5fab9fee64ef33eb83
     platform: linux64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.6/cf-html5-apps-repo-cli-plugin-linux-amd64
-  - checksum: a483abddd328ec79a8b9f3e82f14a9d9d6184235
+  - checksum: 4420299058fee1c7e62fe8032803f9538b3a31d3
     platform: win64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.6/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
   company: SAP
