@@ -1260,29 +1260,29 @@ plugins:
     homepage: https://github.com/elliott-neal
     name: Elliott Neal
   binaries:
-  - checksum: b0b315232e969b26e7f38250216fde9173ab1679
+  - checksum: f92d55dc7c23047e312b724fa6e68d47e7110504
     platform: osx
-    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.0/cf-mysql-darwin-amd64
-  - checksum: 402b643bd78cb1415ac47cd1839f2a47438f6393
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-darwin-amd64
+  - checksum: a46ed6bb6bd75fb7c2f7525e39151dd82307f14d
     platform: win64
-    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.0/cf-mysql-amd64.exe
-  - checksum: da0c396a74a2f79e23b8a6e93c00789f499e821d
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-amd64.exe
+  - checksum: e1a7fa744b2c3e4273ed4b794fd92fbeebd4d8f0
     platform: win32
-    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.0/cf-mysql-386.exe
-  - checksum: 5a987b9f69f28fbd0580732e5e0153607a015822
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-386.exe
+  - checksum: 729cae90296cda370dcce2a1621314ca29d23f7d
     platform: linux32
-    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.0/cf-mysql-linux-386
-  - checksum: 7fad7405e24bf9ece55895f5f57da83d54e1d838
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-linux-386
+  - checksum: 04ff6a7dbed7a7b74d1321777dcb59be9621efaf
     platform: linux64
-    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.0/cf-mysql-linux-amd64
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-linux-amd64
   company: Sealed Air Corp.
   created: 2020-03-18 12:24:00 +00:00
   description: Runs mysql and mysqldump clients against your CF database services.
     Use it to inspect, dump and restore your DB.
   homepage: https://github.com/elliott-neal/cf-mysql-plugin
   name: mysql-plugin
-  updated: 2021-03-18 16:53:16 +00:00
-  version: 3.0.0
+  updated: 2021-03-18 17:50:37 +00:00
+  version: 3.0.1
 - authors:
   - name: CF Dedicated MySQL
   binaries:
