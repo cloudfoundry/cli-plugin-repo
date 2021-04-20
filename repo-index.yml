@@ -1253,7 +1253,7 @@ plugins:
     in Cloud Foundry, such as deploying, removing, viewing etc.
   homepage: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin
   name: multiapps
-  updated: 2020-15-04T11:03:00Z
+  updated: 2021-04-15T11:03:00Z
   version: 2.6.2
 - authors:
   - contact: afleig@pivotal.io
