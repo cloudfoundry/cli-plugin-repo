@@ -1587,29 +1587,29 @@ plugins:
     homepage: https://github.com/andrewlunde
     name: Andrew Lunde
   binaries:
-  - checksum: 393c60998a99074cf850eeb072e81740ecdce7cb
+  - checksum: 436433204d70570802033364bfdb926567ef72b9
     platform: linux64
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.linux64
-  - checksum: df1ab9f8a9bdb7171cb9b091beba3b7bc2b72c77
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.linux64
+  - checksum: 6ba3cb8477334254971cdcc857aae617f0eb73f3
     platform: linux32
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.linux32
-  - checksum: 6ee91c6d0c8c46a2c7fdd1987a96ff9ddb45be51
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.linux32
+  - checksum: fae0adf14b5f574eb51521672e389215ba6b33ed
     platform: osx
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.osx
-  - checksum: 4741e839c1ca8a27e946f407955ca592dbdcf227
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.osx
+  - checksum: 4e74c2a58193fb301e3179cc8a27ac6fe6f2321f
     platform: win32
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.win32
-  - checksum: 7bfb6213699be68b0f73ad26deb7948d8015a21e
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.win32
+  - checksum: 2b71e062e6460a9f6052d36616f4fa9d6f48f695
     platform: win64
-    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.1.1/ServiceManagement.win64
+    url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.win64
   company: SAP
   created: 2020-10-07T00:00:00Z
   description: Plugin that makes it easier to use the Service Management service in
     Cloud Foundry.
   homepage: https://github.com/SAP/cf-cli-smsi-plugin
   name: service-management
-  updated: 2020-10-07T00:00:00Z
-  version: 1.1.1
+  updated: 2021-04-13T00:00:00Z
+  version: 1.2.4
 - authors:
   - contact: cdelashmutt@pivotal.io
     homepage: https://github.com/cdelashmutt-pivotal
