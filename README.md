@@ -1,5 +1,9 @@
 # Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry/cli-plugin-repo)
 
+Plugin Downloads Server Uptime
+
+[![](https://uptime.com/devices/services/widget/689899/a14fde9ba2e0bc1e/service?light)](https://uptime.com/devices/services/689899/d60870b3d706d1c9)
+
 This is a public repository for community created CF CLI plugins. To submit your plugin
 approval, please submit a pull request according to the guidelines below.
 
