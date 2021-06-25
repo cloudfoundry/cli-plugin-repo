@@ -728,7 +728,7 @@ plugins:
   updated: 2018-06-06T00:00:00Z
   version: 1.2.4
 - authors:
-  - contact: dawu+github@pivotal.io
+  - contact: dawu@vmware.com
     homepage: https://github.com/dawu415
     name: David Wu
   binaries:
