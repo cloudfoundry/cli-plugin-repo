@@ -728,33 +728,33 @@ plugins:
   updated: 2018-06-06T00:00:00Z
   version: 1.2.4
 - authors:
-  - contact: dawu+github@pivotal.io
+  - contact: dawu@vmware.com
     homepage: https://github.com/dawu415
     name: David Wu
   binaries:
-  - checksum: b2f8388293339db6cca3c06104728db61143eef6
+  - checksum: 30839b103e74bbff07f094f7e59de7aea650985f
     platform: osx
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.osx
-  - checksum: 42cc3a99ceeb02271d8c9be9740b0fc3e779d522
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.osx
+  - checksum: c5074d595962ff3383218c454da45a4ae969dde3
     platform: win32
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.unsigned.win32
-  - checksum: 5fb0940b1f6db7b840c0f521c611612664cf5eef
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.unsigned.win32
+  - checksum: f45ef1753fee7f2c0d81353438e38866d2197a42
     platform: win64
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.unsigned.win64
-  - checksum: 7a31c6a4d62ba10c991899f4cef69be8cc3eac17
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.unsigned.win64
+  - checksum: 400106aa8b7b4302d03dd668d0b67b1c1f1ca28c
     platform: linux32
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.linux32
-  - checksum: b3cfe7b6c53ed3b1987b132b721e70fb904fcaff
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.linux32
+  - checksum: 61b1e9b1a8f5b0fcbbc82e69fb0fd1659c9f5d86
     platform: linux64
-    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.1/CreateServicePushPlugin.linux64
+    url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.linux64
   company: null
   created: 2017-11-14T00:00:00Z
   description: A CF CLI plugin to create services specified from a services manifest
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
   name: Create-Service-Push
-  updated: 2019-03-10T00:00:00Z
-  version: 1.3.1
+  updated: 2021-03-05T00:00:00Z
+  version: 1.3.2
 - authors:
   - contact: jhunt@starkandwayne.com
     homepage: https://github.com/jhunt
