@@ -1256,33 +1256,33 @@ plugins:
   updated: 2021-04-15T11:03:00Z
   version: 2.6.2
 - authors:
-  - contact: afleig@pivotal.io
-    homepage: https://github.com/andreasf
-    name: Andreas Fleig
+  - contact: elliott.neal@sealedair.com
+    homepage: https://github.com/elliott-neal
+    name: Elliott Neal
   binaries:
-  - checksum: e9c72007ab43c4f94367c620e397c43738c3a009
+  - checksum: f92d55dc7c23047e312b724fa6e68d47e7110504
     platform: osx
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-darwin-amd64
-  - checksum: 3b29522840762fdb168f81f6aac33b92242e3365
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-darwin-amd64
+  - checksum: a46ed6bb6bd75fb7c2f7525e39151dd82307f14d
     platform: win64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-amd64.exe
-  - checksum: a8b48dfea90de409ac2ca523908f076a72db31ad
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-amd64.exe
+  - checksum: e1a7fa744b2c3e4273ed4b794fd92fbeebd4d8f0
     platform: win32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-386.exe
-  - checksum: f5a4b6bf895c6d52bb178709a96783741ea34e61
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-386.exe
+  - checksum: 729cae90296cda370dcce2a1621314ca29d23f7d
     platform: linux32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-linux-386
-  - checksum: 0880d46c6b98243d33004f4732af712e9e353e9b
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-linux-386
+  - checksum: 04ff6a7dbed7a7b74d1321777dcb59be9621efaf
     platform: linux64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-linux-amd64
-  company: null
-  created: 2017-02-02T09:30:00Z
+    url: https://github.com/elliott-neal/cf-mysql-plugin/releases/download/v3.0.1/cf-mysql-linux-amd64
+  company: Sealed Air Corp.
+  created: 2020-03-18 12:24:00 +00:00
   description: Runs mysql and mysqldump clients against your CF database services.
     Use it to inspect, dump and restore your DB.
-  homepage: https://github.com/andreasf/cf-mysql-plugin
+  homepage: https://github.com/elliott-neal/cf-mysql-plugin
   name: mysql-plugin
-  updated: 2018-05-15T14:53:53Z
-  version: 2.0.0
+  updated: 2021-03-18 17:50:37 +00:00
+  version: 3.0.1
 - authors:
   - name: CF Dedicated MySQL
   binaries:
