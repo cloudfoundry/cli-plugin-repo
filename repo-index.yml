@@ -1008,33 +1008,32 @@ plugins:
   updated: 2021-02-16T14:38:27Z
   version: 1.4.6
 - authors:
-  - contact: michele.mancioppi@sap.com
-    homepage: https://github.com/michele-mancioppi
-    name: Michele Mancioppi
+  - contact: tim.gerlach@sap.com
+    homepage: https://github.com/SAP
+    name: Tim Gerlach
   binaries:
-  - checksum: 66890ce4ec8473003f28930fc1479751f614ccef
+  - checksum: 71a30527a07dae8f74e624ac73f6df69817d8d1f
     platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-osx
-  - checksum: 4755b2107b30b1c7e882cf5b72441e95626f8345
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-osx
+  - checksum: 089f623ec65370f266a90b9390b6b1e3683e0a8a
     platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-win64.exe
-  - checksum: 29f1d055c2ad1294aa7538951b0dfa3e59620909
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-win64.exe
+  - checksum: eeb679e09f4efed44d5aef06a7bc3ac1f2a54e23
     platform: win32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-win32.exe
-  - checksum: bfb25871061a9b9238fb995ce514b23dfee5efca
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-win32.exe
+  - checksum: f10941afbfe4759bae7d9dc43e9d50383c4f2328
     platform: linux32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-linux32
-  - checksum: 9da36484d01e1ad08741d4f717c785e7ae3ff621
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux32
+  - checksum: 2faefdb6d350708973f4d65180f565658b037054
     platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/2.0.0/cf-cli-java-plugin-linux64
-  company: null
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux64
+  company: SAP
   created: 2017-03-14T09:00:00Z
-  description: Obtain a heap-dump or thread-dump from a running, Diego-enabled, SSH-enabled
-    Java application.
+  description: Obtain a heap dump or thread dump from a running, SSH-enabled Java application.
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: 2018-03-21T09:00:00Z
-  version: 2.0.0
+  updated: 2021-10-01T00:00:00Z
+  version: 3.0.1
 - authors:
   - contact: drnic@starkandwayne.com
     homepage: http://drnicwilliams.com
