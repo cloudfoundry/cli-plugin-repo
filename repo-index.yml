@@ -1029,7 +1029,8 @@ plugins:
     url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux64
   company: SAP
   created: 2017-03-14T09:00:00Z
-  description: Obtain a heap dump or thread dump from a running, SSH-enabled Java application.
+  description: Obtain a heap dump or thread dump from a running, SSH-enabled Java
+    application.
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
   updated: 2021-10-01T00:00:00Z
