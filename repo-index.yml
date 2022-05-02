@@ -1119,22 +1119,22 @@ plugins:
 - authors:
   - name: CF Log Cache Team
   binaries:
-  - checksum: c463f83d5b3f66a92ed53508418e4439930a99fa
+  - checksum: e7dd6148e972226d39df1031d64b718d9a7cc16e
     platform: osx
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.4/log-cache-cf-plugin-darwin
-  - checksum: dee1f4c0d1874ebe665c703f1ac2d48541173ffa
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.6/log-cache-cf-plugin-darwin
+  - checksum: 202dc7e4f1db10423661a8c7e69ac630995cde98
     platform: linux64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.4/log-cache-cf-plugin-linux
-  - checksum: 1b1d62f047a6a74940f774a3812750ff65e3a028
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.6/log-cache-cf-plugin-linux
+  - checksum: 2e1f0749f001d636977cf388b91348a230a2637b
     platform: win64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.4/log-cache-cf-plugin-windows
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v4.0.6/log-cache-cf-plugin-windows
   company: null
   created: 2018-05-18T00:00:00Z
   description: Allows users to query Log Cache.
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
-  updated: 2022-03-01T00:00:00Z
-  version: 4.0.4
+  updated: 2022-04-18T00:00:00Z
+  version: 4.0.6
 - authors:
   - name: CF Loggregator Team
   binaries:
@@ -1231,28 +1231,28 @@ plugins:
 - authors:
   - name: CF Metric Registrar Team
   binaries:
-  - checksum: bd43572e2c232190d256025c9e90b1db835d6bcd
+  - checksum: 9691347aba2b3ba85158d1565ffbd03f473e2da2
     platform: osx
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.4/metric-registrar-cli-darwin-amd64-1.3.4
-  - checksum: dc28615af8b44610ceaffc4cb67de0f2d7229691
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.5/metric-registrar-cli-darwin-amd64-1.3.5
+  - checksum: 0b82cada3d74dfc2d516c1a8fcc79b432ea4132f
     platform: win64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.4/metric-registrar-cli-windows-amd64-1.3.4
-  - checksum: 80601805281049911fe4525233445ca9181821dd
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.5/metric-registrar-cli-windows-amd64-1.3.5
+  - checksum: e069a9e1977eacd8f6ca9520ab1fa8651b81e057
     platform: win32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.4/metric-registrar-cli-windows-386-1.3.4
-  - checksum: 728258574ae23e16a2a2c98c3b9f1580288354b3
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.5/metric-registrar-cli-windows-386-1.3.5
+  - checksum: 61fe02fcdccc1a031abd67990bedc0a1c1062800
     platform: linux64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.4/metric-registrar-cli-linux-amd64-1.3.4
-  - checksum: 85606cf946612ce24200847a0c93f2d3c5ecb438
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.5/metric-registrar-cli-linux-amd64-1.3.5
+  - checksum: 2837ae0bb2c6bd803b5ff1dc17ab00bcc8a23774
     platform: linux32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.4/metric-registrar-cli-linux-386-1.3.4
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.5/metric-registrar-cli-linux-386-1.3.5
   company: VMware
   created: 2018-10-04T18:21:00Z
   description: Allow users to register metric sources.
   homepage: https://github.com/pivotal-cf/metric-registrar-cli
   name: metric-registrar
-  updated: 2021-12-20T00:00:00Z
-  version: 1.3.4
+  updated: 2022-04-18T21:13:07Z
+  version: 1.3.5
 - authors:
   - contact: dimitar.donchev@sap.com
     name: Dimitar Donchev
