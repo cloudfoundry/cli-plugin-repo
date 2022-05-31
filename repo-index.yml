@@ -96,28 +96,28 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: df9ab34a8173a3f3b51c2afb9e5624ebb399847a
+  - checksum: ede787427180271564b48966a1f09591006a24ee
     platform: osx
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.3.0/adbr-plugin-darwin-amd64
-  - checksum: 28ab9e9349c11a9cad2483d9b07c6f550e98de2f
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-darwin-amd64
+  - checksum: 7fa5c548f2143174fe622b46887c31b2a45a47d2
     platform: linux32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.3.0/adbr-plugin-linux-386
-  - checksum: 7d1fd08e006bbbd82cb72dca2baeefc092d70a15
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-linux-386
+  - checksum: 166781a31b40ace463e6d40dc4093928496e1397
     platform: linux64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.3.0/adbr-plugin-linux-amd64
-  - checksum: 217d0648ffef0a7ce628f6a7d591b7b7652d8ac5
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-linux-amd64
+  - checksum: 50dabf89204af90d96f0a2baa393d54625224acf
     platform: win32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.3.0/adbr-plugin-windows-386.exe
-  - checksum: db8dafc05b8aa2e74186502bd704dab078baa54a
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-windows-386.exe
+  - checksum: a9010b04e10a1b79f7fc8f86bbe003b470fe0b98
     platform: win64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.3.0/adbr-plugin-windows-amd64.exe
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-windows-amd64.exe
   company: VMware
   created: 2020-08-11T00:00:00Z
   description: Tool to backup/restore Tanzu MySQL service instances
   homepage: https://docs.pivotal.io//p-mysql/backup-restore.html
   name: ApplicationDataBackupRestore
-  updated: 2021-05-26T17:28:44Z
-  version: 0.3.0
+  updated: 2022-04-01T00:49:12Z
+  version: 0.4.0
 - authors:
   - name: Christopher Brown
   binaries:
