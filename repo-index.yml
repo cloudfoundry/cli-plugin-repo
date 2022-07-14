@@ -630,9 +630,9 @@ plugins:
   updated: 2015-09-21T00:00:00Z
   version: 1.0.1
 - authors:
-  - name: Government Digital Service
-    contact: the-paas-team@digital.cabinet-office.gov.uk
+  - contact: the-paas-team@digital.cabinet-office.gov.uk
     homepage: https://www.cloud.service.gov.uk/
+    name: Government Digital Service
   binaries:
   - checksum: 5179dd6ce87fa54cb1f01d632be6fe6dcd399471
     platform: osx
@@ -1927,6 +1927,24 @@ plugins:
   updated: 2019-04-29T00:00:00Z
   version: 1.1.0
 - authors:
+  - name: James Norman
+  - name: Felisia Martini
+  - name: George Blue
+  binaries:
+  - checksum: f6e48431f0063e66875b8df876a15660c2de5173
+    platform: osx
+    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_darwin_amd64
+  - checksum: 51c85b0b9de17bc8d9fe2a7ce33b95896efd496c
+    platform: linux64
+    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_linux_amd64
+  company: null
+  created: 2022-07-07T00:00:00Z
+  description: Allows a user to upgrade all the service instances for a service broker
+  homepage: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin
+  name: UpgradeAllServices
+  updated: 2022-07-07T00:00:00Z
+  version: 1.0.1
+- authors:
   - contact: jkruck@pivotal.io
     homepage: https://github.com/krujos/
     name: Josh Kruck
@@ -2001,20 +2019,3 @@ plugins:
   name: wildcard_plugin
   updated: 2015-07-02T00:00:00Z
   version: 1.0.0
-- authors:
-  - name: James Norman
-  - name: Felisia Martini
-  - name: George Blue
-  binaries:
-  - checksum: f6e48431f0063e66875b8df876a15660c2de5173
-    platform: osx
-    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_darwin_amd64
-  - checksum: 51c85b0b9de17bc8d9fe2a7ce33b95896efd496c
-    platform: linux64
-    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_linux_amd64
-  created: 2022-07-07T00:00:00Z
-  description: Allows a user to upgrade all the service instances for a service broker
-  homepage: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin
-  name: UpgradeAllServices
-  updated: 2022-07-07T00:00:00Z
-  version: 1.0.1
