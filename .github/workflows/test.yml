@@ -1,0 +1,24 @@
+name: "Unit Tests"
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  test:
+    name: Running Unit Tests
+    runs-on: ubuntu-latest
+    container: cfcli/cli-base:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run Tests
+        run: |
+          set -ex
+
+          go install github.com/onsi/ginkgo/ginkgo@latest
+
+          BINARY_VALIDATION=false bin/test
