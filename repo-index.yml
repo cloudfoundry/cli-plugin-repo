@@ -1249,29 +1249,29 @@ plugins:
   - contact: https://cloudfoundry.slack.com/messages/multiapps-dev
     name: MultiApps dev slack channel
   binaries:
-  - checksum: a6f0580105c5efb3ff7c6421d2e7d0bfa7e7e384
+  - checksum: 2534f6381a88afdea9df9712450b2454a272d3a7
     platform: osx
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.7.0/multiapps-plugin.osx
-  - checksum: 7f390f979f931af98bc2fb51837ab1fd0e38c4fa
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.osx
+  - checksum: 41509a10286c9c2367e15ec0b9b6b5c6ba3eb478
     platform: win32
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.7.0/multiapps-plugin.win32.exe
-  - checksum: 3ef92a161241a23796a17de3349cfa56647edda0
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.win32.exe
+  - checksum: 1663b53db304fcd23055ebc318dcb4bd054ecc4a
     platform: win64
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.7.0/multiapps-plugin.win64.exe
-  - checksum: ecfce5845bd5c90af117a3363e30d9ab008a5d8c
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.win64.exe
+  - checksum: fb093e473485b9ab305a9d1b99cc299434850cde
     platform: linux32
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.7.0/multiapps-plugin.linux32
-  - checksum: e2f80d747c3dc8326d30504d5f544bef39cc7131
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.linux32
+  - checksum: 090edc5c7c4e0eedad11634b109dfc93e6abb101
     platform: linux64
-    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v2.7.0/multiapps-plugin.linux64
+    url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.linux64
   company: SAP
   created: 2017-10-06T11:41:00Z
   description: MultiApps cli plugin performing multitarget application(MTA) operations
     in Cloud Foundry, such as deploying, removing, viewing etc.
   homepage: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin
   name: multiapps
-  updated: 2021-11-29T11:00:00Z
-  version: 2.7.0
+  updated: 2022-09-30T06:53:00Z
+  version: 3.0.1
 - authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
