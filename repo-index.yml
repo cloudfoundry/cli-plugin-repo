@@ -1249,19 +1249,19 @@ plugins:
   - contact: https://cloudfoundry.slack.com/messages/multiapps-dev
     name: MultiApps dev slack channel
   binaries:
-  - checksum: 2534f6381a88afdea9df9712450b2454a272d3a7
+  - checksum: 9b7546fb92bbba1456f1cf3cf0c480758b8561df
     platform: osx
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.osx
-  - checksum: 41509a10286c9c2367e15ec0b9b6b5c6ba3eb478
+  - checksum: 5df093bf664b3129befbe774be255d5a61489835
     platform: win32
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.win32.exe
-  - checksum: 1663b53db304fcd23055ebc318dcb4bd054ecc4a
+  - checksum: 78e725e1e4590134980b479d92db0259dda79c6c
     platform: win64
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.win64.exe
-  - checksum: fb093e473485b9ab305a9d1b99cc299434850cde
+  - checksum: 7f05d514f4e636ad467e1ae7509f4c97b6545425
     platform: linux32
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.linux32
-  - checksum: 090edc5c7c4e0eedad11634b109dfc93e6abb101
+  - checksum: 54b4c185d2d609f38275155fd0f7ce6e98154a87
     platform: linux64
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.1/multiapps-plugin.linux64
   company: SAP
