@@ -7,4 +7,4 @@ install:
 script: BINARY_VALIDATION=true bin/test --compilers=2
 branches:
   only:
-  - master
+  - main

@@ -1,4 +1,4 @@
-# Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry/cli-plugin-repo.svg?branch=master)](https://travis-ci.org/cloudfoundry/cli-plugin-repo)
+# Cloud Foundry CLI Plugin Repository (CLIPR)[![Build Status](https://travis-ci.org/cloudfoundry/cli-plugin-repo.svg?branch=main)](https://travis-ci.org/cloudfoundry/cli-plugin-repo)
 
 Plugin Downloads Server Uptime
 
@@ -143,4 +143,4 @@ This process can get a little tedious if you do it manually every time, that's w
 
 ## Running your own Plugin Repo Server
 
-Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry/cli-plugin-repo/blob/master/docs/CLIPR.md)
+Included as part of this repository is the CLI Plugin Repo (CLIPR), a reference implementation of a repo server. For information on how to run CLIPR or how to write your own, [please see the CLIPR documentation here.](https://github.com/cloudfoundry/cli-plugin-repo/blob/main/docs/CLIPR.md)
