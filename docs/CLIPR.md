@@ -64,12 +64,12 @@ Alternatively, you can create your own plugin repo implementation. The server mu
     "binaries": [
       {
         "platform":"osx",
-        "url":"https://github.com/johndoe/plugin-repo/raw/master/bin/osx/echo",
+        "url":"https://github.com/johndoe/plugin-repo/raw/main/bin/osx/echo",
         "checksum":"2a087d5cddcfb057fbda91e611c33f46"
       },
       {
         "platform":"win64",
-        "url":"https://github.com/johndoe/plugin-repo/raw/master/bin/windows64/echo.exe",
+        "url":"https://github.com/johndoe/plugin-repo/raw/main/bin/windows64/echo.exe",
         "checksum":"b4550d6594a3358563b9dcb81e40fd66"
       }
     ]
