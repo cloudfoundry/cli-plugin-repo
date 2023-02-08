@@ -613,37 +613,37 @@ plugins:
     homepage: https://www.cloud.service.gov.uk/
     name: Government Digital Service
   binaries:
-  - checksum: 5179dd6ce87fa54cb1f01d632be6fe6dcd399471
+  - checksum: 6a2e08ae2b8b3a465290eb618710c15431b13584
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.darwin.amd64
-  - checksum: 8a3a79f71b418a369cff8dc323bc9321e9b79b75
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.darwin.amd64
+  - checksum: 93c4be4a242ee580e5e81187330dfde969ae5c7f
     platform: osx
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.darwin.arm64
-  - checksum: 62343a3b38e57fee9c7491aea4a01f981c4c7115
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.darwin.arm64
+  - checksum: 78b4876e42e7bf43786b589158668176ddc1d6dc
     platform: win32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.windows.386
-  - checksum: 746e980c444e7143da44e00e07230661d2af57d4
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.windows.386
+  - checksum: 4b296bf483fa6d6c47dc679e85c8d343d501f8ef
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.windows.amd64
-  - checksum: 6bf95a69ac05dd8a3454c12170d451761d77cb97
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.windows.amd64
+  - checksum: e668a87e8eae5c41d61fbfc1175a58031ab66607
     platform: win64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.windows.arm64
-  - checksum: 5556b1838c22defc7f61c0f3dfcdd9fbdfd7bfbb
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.windows.arm64
+  - checksum: d9bd75880d3d11fbcf87f68fd4b9a21f18489833
     platform: linux32
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.linux.386
-  - checksum: a6ce8469446d6ede9733c0bccd14820a9f980532
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.linux.386
+  - checksum: 3fe890e90f3738e3d2afb69b62ea47e50b5a2a09
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.linux.amd64
-  - checksum: d4cd13496e0c4c31ccb0837aa4acd779a8ae2f86
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.linux.amd64
+  - checksum: f165628fb914a3415c854bbd6d3a6fbc603fb0bf
     platform: linux64
-    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.0.14/cf-conduit.linux.arm64
+    url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.linux.arm64
   company: Government Digital Service
   created: 2017-12-12T00:00:00Z
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2022-06-17T10:00:00Z
-  version: 0.0.14
+  updated: 2023-02-08T13:00:00Z
+  version: 0.1.0
 - authors:
   - contact: mevansam@gmail.com
     homepage: http://github.com/mevansam/
