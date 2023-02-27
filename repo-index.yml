@@ -750,28 +750,28 @@ plugins:
     homepage: https://github.com/saphanaacademy
     name: Philip Mugglestone
   binaries:
-  - checksum: 83e2e131e49b230510127a552feff662f9a52002
+  - checksum: d5812b93d6b033e167447c4a543d686af9e3610e
     platform: linux64
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.linux64
-  - checksum: 9d3840df1dcafb56b42597dbcfbdafd0abfc8006
+    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.linux64
+  - checksum: f843194ae6cddaf2d615275007d4f3f7bc577fa0
     platform: linux32
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.linux32
-  - checksum: 65dc00e802a8fa781cdacd899545fd2e26ce2313
+    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.linux32
+  - checksum: 03533645fd1261b9d17a863c6a12bcf090cabe58
     platform: osx
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.osx
-  - checksum: 9c2b25040d9775570ae01e77897a6e2bb62a4e6f
+    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.osx
+  - checksum: 8f6f1c5e77802f03d0ec5d45e8193faed02c5f88
     platform: win32
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.win32
-  - checksum: 08f287c53d01f80ef97b0a2c6526a2b3a25c8b6d
+    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.win32
+  - checksum: 332aafecf3c4fa8513402df56cf20ddf440f62d2
     platform: win64
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.win64
+    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.win64
   company: SAP
   created: 2021-10-12T00:00:00Z
   description: Create default-env.json file with environment variables of an app.
   homepage: https://github.com/saphanaacademy/DefaultEnv
   name: DefaultEnv
-  updated: 2021-10-12T00:00:00Z
-  version: 1.0.0
+  updated: 2022-02-27T00:00:00Z
+  version: 1.0.1
 - authors:
   - contact: jhunt@starkandwayne.com
     homepage: https://github.com/jhunt
