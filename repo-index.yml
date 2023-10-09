@@ -14,12 +14,12 @@ plugins:
     platform: linux64
     url: https://github.com/odlp/antifreeze/releases/download/v0.3.0/antifreeze-linux
   company: null
-  created: 2016-04-23T00:00:00Z
+  created: "2016-04-23T00:00:00Z"
   description: Detect if an app has unexpected ENV vars or services bound which are
     missing from the manifest
   homepage: https://github.com/odlp/antifreeze
   name: antifreeze
-  updated: 2016-05-20T00:00:00Z
+  updated: "2016-05-20T00:00:00Z"
   version: 0.3.0
 - authors:
   - contact: apigee-pivotal-cloud-foundry-external@google.com
@@ -36,12 +36,12 @@ plugins:
     platform: linux64
     url: https://github.com/apigee/cloud-foundry-apigee/raw/v3.0.0-Beta/cli_plugin/releases/download/v0.1.1/apigee-broker-plugin.linux64
   company: Google
-  created: 2017-11-30T00:00:00Z
+  created: "2017-11-30T00:00:00Z"
   description: Allows users to interact with the Apigee Service Broker in an easier
     and more streamlined way
   homepage: https://github.com/apigee/cloud-foundry-apigee/tree/v3.0.0-Beta/cli_plugin
   name: apigee-broker-plugin
-  updated: 2017-11-30T00:00:00Z
+  updated: "2017-11-30T00:00:00Z"
   version: 0.1.1
 - authors:
   - contact: cdlliuy@cn.ibm.com
@@ -64,12 +64,12 @@ plugins:
     platform: win64
     url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v3.0.0/ascli.win64.exe
   company: IBM
-  created: 2018-04-17T00:00:00Z
+  created: "2018-04-17T00:00:00Z"
   description: App-AutoScaler plug-in provides the command line interface to manage
     App AutoScaler service policies, retrieve metrics and scaling history.
   homepage: https://github.com/cloudfoundry-incubator/app-autoscaler-cli-plugin
   name: app-autoscaler-plugin
-  updated: 2019-11-08T00:00:00Z
+  updated: "2019-11-08T00:00:00Z"
   version: 3.0.0
 - authors:
   - contact: warren.f.fernandes@gmail.com
@@ -86,12 +86,12 @@ plugins:
     platform: linux64
     url: https://github.com/wfernandes/app-metrics-plugin/releases/download/2.0.0/app-metrics-plugin-linux
   company: null
-  created: 2017-11-24T00:00:00Z
+  created: "2017-11-24T00:00:00Z"
   description: This plugin allows you to hit a metrics endpoint across all your app
     instances
   homepage: http://github.com/wfernandes/app-metrics-plugin
   name: app-metrics
-  updated: 2018-03-16T19:18:15Z
+  updated: "2018-03-16T19:18:15Z"
   version: 2.0.0
 - authors:
   - name: CF Dedicated MySQL
@@ -112,11 +112,11 @@ plugins:
     platform: win64
     url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-windows-amd64.exe
   company: VMware
-  created: 2020-08-11T00:00:00Z
+  created: "2020-08-11T00:00:00Z"
   description: Tool to backup/restore Tanzu MySQL service instances
   homepage: https://docs.pivotal.io//p-mysql/backup-restore.html
   name: ApplicationDataBackupRestore
-  updated: 2022-04-01T00:49:12Z
+  updated: "2022-04-01T00:49:12Z"
   version: 0.4.0
 - authors:
   - name: Christopher Brown
@@ -131,11 +131,11 @@ plugins:
     platform: linux64
     url: https://github.com/contraband/autopilot/releases/download/0.0.6/autopilot-linux
   company: Concourse
-  created: 2015-03-01T00:00:00Z
+  created: "2015-03-01T00:00:00Z"
   description: zero downtime deploy plugin for cf applications
   homepage: https://github.com/contraband/autopilot
   name: autopilot
-  updated: 2018-02-02T00:00:00Z
+  updated: "2018-02-02T00:00:00Z"
   version: 0.0.6
 - authors:
   - contact: arthur.halet@orange.com
@@ -158,12 +158,12 @@ plugins:
     platform: linux32
     url: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage/releases/download/v1.1.0/cf-plugin-bg-restage_linux_386
   company: Orange
-  created: 2017-05-28T00:00:00Z
+  created: "2017-05-28T00:00:00Z"
   description: Perform a zero-downtime restage of an application over the top of an
     old one (highly inspired by autopilot)
   homepage: https://github.com/orange-cloudfoundry/cf-plugin-bg-restage
   name: bg-restage
-  updated: 2018-11-23T00:00:00Z
+  updated: "2018-11-23T00:00:00Z"
   version: 1.1.0
 - authors:
   - contact: garage@uk.ibm.com
@@ -186,11 +186,11 @@ plugins:
     platform: win64
     url: https://github.com/bluemixgaragelondon/cf-blue-green-deploy/releases/download/v1.4.0/blue-green-deploy.win64
   company: IBM
-  created: 2015-03-24T00:00:00Z
+  created: "2015-03-24T00:00:00Z"
   description: Zero downtime deploys with smoke test support
   homepage: https://github.com/bluemixgaragelondon/cf-blue-green-deploy
   name: blue-green-deploy
-  updated: 2018-09-02T20:34:44Z
+  updated: "2018-09-02T20:34:44Z"
   version: 1.4.0
 - authors:
   - contact: david.ehringer@gmail.com
@@ -213,12 +213,12 @@ plugins:
     platform: linux32
     url: https://github.com/davidehringer/cf-buildpack-management-plugin/releases/download/v1.0.0/cf-buildpack-management-plugin_linux_386
   company: null
-  created: 2015-09-03T00:00:00Z
+  created: "2015-09-03T00:00:00Z"
   description: Provides a declarative way to configure system buildpacks in a Cloud
     Foundry installation
   homepage: https://github.com/davidehringer/cf-buildpack-management-plugin
   name: Buildpack Management
-  updated: 2015-09-03T00:00:00Z
+  updated: "2015-09-03T00:00:00Z"
   version: 1.0.0
 - authors:
   - contact: chris.sterling@ctl.io
@@ -235,11 +235,11 @@ plugins:
     platform: linux64
     url: https://github.com/csterwa/cf_buildpacks_usage_cmd/releases/download/v1.0.0/cf_buildpacks_usage_cmd.linux64
   company: CenturyLink Cloud
-  created: 2015-04-02T00:00:00Z
+  created: "2015-04-02T00:00:00Z"
   description: View all buildpacks used in the current CLI target context.
   homepage: https://github.com/csterwa/cf_buildpacks_usage_cmd
   name: Buildpack Usage
-  updated: 2015-04-02T00:00:00Z
+  updated: "2015-04-02T00:00:00Z"
   version: 1.0.0
 - authors:
   - contact: jghiloni@ecsteam.com
@@ -256,11 +256,11 @@ plugins:
     platform: linux64
     url: https://github.com/ECSTeam/buildpack-usage/releases/download/1.0.4/buildpack-usage-linux
   company: ECS Team
-  created: 2016-10-19T12:00:00Z
+  created: "2016-10-19T12:00:00Z"
   description: Show which apps are using an installed buildpack
   homepage: https://github.com/ECSTeam/buildpack-usage
   name: buildpack-usage
-  updated: 2017-02-15T12:42:00Z
+  updated: "2017-02-15T12:42:00Z"
   version: 1.0.4
 - authors:
   - contact: adrian.fedoreanu@armakuni.com
@@ -286,11 +286,11 @@ plugins:
     platform: osx
     url: https://github.com/armakuni/cf-aklogin/releases/download/v1.3.0/cf-aklogin.osx
   company: Armakuni
-  created: 2017-07-13T09:38:24Z
+  created: "2017-07-13T09:38:24Z"
   description: CF Login tool to switch between CF environments with a single command
   homepage: https://github.com/armakuni/cf-aklogin
   name: cf-aklogin
-  updated: 2017-08-08T15:02:09Z
+  updated: "2017-08-08T15:02:09Z"
   version: 1.3.0
 - authors:
   - contact: mfclemen@us.ibm.com
@@ -313,11 +313,11 @@ plugins:
     platform: linux64
     url: https://github.com/ibmjstart/cf-download/releases/download/v1.2.0/cf-download-linux
   company: IBM jStart
-  created: 2015-04-21T00:00:00Z
+  created: "2015-04-21T00:00:00Z"
   description: Plugin for downloading your application contents after staging.
   homepage: https://github.com/ibmjstart/cf-download
   name: cf-download
-  updated: 2016-11-01T00:00:00Z
+  updated: "2016-11-01T00:00:00Z"
   version: 1.2.0
 - authors:
   - contact: markwill@us.ibm.com
@@ -337,11 +337,11 @@ plugins:
     platform: linux64
     url: https://github.com/IBM/cf-icd-plugin/releases/download/0.0.11/icd_linux64
   company: IBM
-  created: 2017-03-16T00:00:00Z
+  created: "2017-03-16T00:00:00Z"
   description: Helper plugin for traceability function in IBM Cloud Devops
   homepage: https://github.com/IBM/cf-icd-plugin
   name: cf-icd-plugin
-  updated: 2017-04-04T00:00:00Z
+  updated: "2017-04-04T00:00:00Z"
   version: 0.0.11
 - authors:
   - contact: stanislav.turlo@altoros.com
@@ -364,11 +364,11 @@ plugins:
     platform: win64
     url: https://github.com/Altoros/cf-predix-analytics-plugin/releases/download/0.0.1/cf-predix-analytics-plugin.win64
   company: Altoros
-  created: 2016-09-21T00:00:00Z
+  created: "2016-09-21T00:00:00Z"
   description: Provides CLI based access to Predix Analytics Catalog features
   homepage: https://github.com/Altoros/cf-predix-analytics-plugin
   name: cf-predix-analytics-plugin
-  updated: 2016-09-21T00:00:00Z
+  updated: "2016-09-21T00:00:00Z"
   version: 0.0.1
 - authors:
   - contact: happytobi@tscoding.de
@@ -385,12 +385,12 @@ plugins:
     platform: linux64
     url: https://github.com/HappyTobi/cf-puppeteer/releases/download/1.2.2/cf-puppeteer-linux
   company: null
-  created: 2019-01-17T00:00:00Z
+  created: "2019-01-17T00:00:00Z"
   description: Perform a zero-downtime restage of an application over the top of an
     old one
   homepage: https://cf-puppeteer.happytobi.com
   name: cf-puppeteer
-  updated: 2020-05-31T00:00:00Z
+  updated: "2020-05-31T00:00:00Z"
   version: 1.2.2
 - authors:
   - contact: https://twitter.com/superbeeny
@@ -407,11 +407,11 @@ plugins:
     platform: linux64
     url: https://github.com/Comcast/cf-recycle-plugin/releases/download/v1.1.1/cf-recycle-plugin-linux
   company: Comcast
-  created: 2018-10-24T16:54:34Z
+  created: "2018-10-24T16:54:34Z"
   description: Sequentially recycle application instances
   homepage: https://github.com/comcast/cf-recycle-plugin
   name: cf-recycle-plugin
-  updated: 2018-10-24T16:54:34Z
+  updated: "2018-10-24T16:54:34Z"
   version: 1.1.1
 - authors:
   - contact: justin.klein@gm.com
@@ -434,12 +434,12 @@ plugins:
     platform: linux64
     url: https://github.com/generalmotors/cf-restage-all/releases/download/1.0.0/cf-restage-all-amd64-linux
   company: General Motors
-  created: 2020-11-24T18:41:19Z
+  created: "2020-11-24T18:41:19Z"
   description: CF plugin for restaging all applications within an pcf space with minimal
     downtime.
   homepage: https://github.com/generalmotors/cf-restage-all
   name: cf-restage-all
-  updated: 2020-11-24T18:41:19Z
+  updated: "2020-11-24T18:41:19Z"
   version: 1.0.0
 - authors:
   - contact: Winston_R_Milling@homedepot.com
@@ -462,12 +462,12 @@ plugins:
     platform: linux64
     url: https://github.com/homedepot/cf-rolling-restart/releases/download/v1.1.1/cf-rolling-restart-linux-amd64
   company: The Home Depot
-  created: 2017-12-26T00:00:00Z
+  created: "2017-12-26T00:00:00Z"
   description: cf-rolling-restart performs a zero-downtime restart of PCF application
     instances
   homepage: https://github.com/homedepot/cf-rolling-restart
   name: cf-rolling-restart
-  updated: 2019-05-23T17:38:00Z
+  updated: "2019-05-23T17:38:00Z"
   version: 1.1.1
 - authors:
   - homepage: https://github.com/gambtho
@@ -483,11 +483,11 @@ plugins:
     platform: linux64
     url: https://github.com/gambtho/cf_will_it_connect_plugin/releases/download/v1.1.0/cf_will_it_connect_plugin_linux_amd64
   company: null
-  created: 2016-04-09T00:00:00Z
+  created: "2016-04-09T00:00:00Z"
   description: Can CF connect to a thing?
   homepage: https://github.com/gambtho/cf_will_it_connect_plugin
   name: cf-willitconnect
-  updated: 2016-04-11T00:00:00Z
+  updated: "2016-04-11T00:00:00Z"
   version: 1.1.0
 - authors:
   - contact: sdawson@pivotal.io
@@ -503,11 +503,11 @@ plugins:
     platform: linux64
     url: https://d3p1cc0zb2wjno.cloudfront.net/cfdev/cfdev-v0.0.18-rc.36-linux
   company: Pivotal
-  created: 2018-05-23T00:00:00Z
+  created: "2018-05-23T00:00:00Z"
   description: Run Cloud Foundry in your local environment
   homepage: https://github.com/cloudfoundry-incubator/cfdev
   name: cfdev
-  updated: 2020-07-01T00:00:00Z
+  updated: "2020-07-01T00:00:00Z"
   version: 0.0.18
 - authors:
   - contact: stephen.levine@gmail.com
@@ -524,12 +524,12 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry-incubator/cflocal/releases/download/v0.20.0/cflocal-0.20.0-linux
   company: null
-  created: 2017-03-23T00:00:00Z
+  created: "2017-03-23T00:00:00Z"
   description: Stage and launch CF apps, push and pull droplets, and connect to real
     CF services -- in Docker
   homepage: https://github.com/sclevine/cflocal
   name: cflocal
-  updated: 2020-02-03T00:00:00Z
+  updated: "2020-02-03T00:00:00Z"
   version: 0.20.0
 - authors:
   - contact: https://ecastella.com
@@ -552,12 +552,12 @@ plugins:
     platform: linux32
     url: https://github.com/enric11/cf-cli-check-before-deploy/releases/download/1.2.0/check-before-deploy-linux32
   company: null
-  created: 2020-04-11T00:00:00Z
+  created: "2020-04-11T00:00:00Z"
   description: This plugin check the binding of services in YAML/MTA and services
     in org/space. Also it check if the plan and service plan exist in your org/space
   homepage: https://github.com/enric11/cf-cli-check-before-deploy
   name: check-before-deploy
-  updated: 2021-10-12T00:00:00Z
+  updated: "2021-10-12T00:00:00Z"
   version: 1.2.0
 - authors:
   - contact: contact@simonleung.info
@@ -580,11 +580,11 @@ plugins:
     platform: linux32
     url: https://github.com/simonleung8/cli-plugin-recorder/releases/download/v1.0.2/cli-plugin-recorder_linux_386
   company: null
-  created: 2015-02-12T00:00:00Z
+  created: "2015-02-12T00:00:00Z"
   description: Records and playbacks CLI commands.
   homepage: https://github.com/simonleung8/cli-plugin-recorder
   name: CLI-Recorder
-  updated: 2015-09-03T00:00:00Z
+  updated: "2015-09-03T00:00:00Z"
   version: 1.0.2
 - authors:
   - contact: xchapter7x@gmail.com
@@ -601,12 +601,12 @@ plugins:
     platform: linux64
     url: https://github.com/xchapter7x/deploycloud/releases/download/v1.0.1/deploycloud_linux_amd64
   company: null
-  created: 2015-09-21T00:00:00Z
+  created: "2015-09-21T00:00:00Z"
   description: This plugin allows you to manage application deployment details and
     manifests in a github repo (like spring cloud config server for deployments)
   homepage: https://github.com/xchapter7x/deploycloud
   name: Cloud Deployment Plugin
-  updated: 2015-09-21T00:00:00Z
+  updated: "2015-09-21T00:00:00Z"
   version: 1.0.1
 - authors:
   - contact: the-paas-team@digital.cabinet-office.gov.uk
@@ -638,11 +638,11 @@ plugins:
     platform: linux64
     url: https://github.com/alphagov/paas-cf-conduit/releases/download/v0.1.0/cf-conduit.linux.arm64
   company: Government Digital Service
-  created: 2017-12-12T00:00:00Z
+  created: "2017-12-12T00:00:00Z"
   description: Makes it easy to directly connect to your remote service instances
   homepage: https://github.com/alphagov/paas-cf-conduit
   name: conduit
-  updated: 2023-02-08T13:00:00Z
+  updated: "2023-02-08T13:00:00Z"
   version: 0.1.0
 - authors:
   - contact: mevansam@gmail.com
@@ -659,12 +659,12 @@ plugins:
     platform: linux64
     url: https://github.com/mevansam/cf-copy-plugin/releases/download/0.9.4/cf-copy-plugin_linux64
   company: null
-  created: 2016-10-01T00:00:00Z
+  created: "2016-10-01T00:00:00Z"
   description: Copies applications and services in current space to another space
     or Cloud Foundry target.
   homepage: http://github.com/mevansam/cf-copy-plugin
   name: copy
-  updated: 2017-05-22T11:44:18Z
+  updated: "2017-05-22T11:44:18Z"
   version: 0.9.4
 - authors:
   - contact: aaron.maturen@cengage.com
@@ -684,11 +684,11 @@ plugins:
     platform: linux64
     url: https://github.com/cengage/cf-copy-autoscaler/releases/download/0.0.1/copy-autoscaler-linux64
   company: Cengage Learning
-  created: 2018-03-13T00:00:00Z
+  created: "2018-03-13T00:00:00Z"
   description: CF CLI Plugin to import/export Pivotal App Autoscaler Settings
   homepage: https://github.com/cengage/cf-copy-autoscaler
   name: Copy Autoscaler
-  updated: 2018-03-13T00:00:00Z
+  updated: "2018-03-13T00:00:00Z"
   version: 0.0.1
 - authors:
   - contact: james@jamesthom.as
@@ -711,11 +711,11 @@ plugins:
     platform: win64
     url: https://github.com/jthomas/copyenv/raw/v1.2.4/bin/copyenv.win64
   company: IBM
-  created: 2015-04-15T00:00:00Z
+  created: "2015-04-15T00:00:00Z"
   description: Expose remote VCAP_SERVICES and VCAP_APPLICATION on the client environment
   homepage: https://github.com/jthomas/copyenv
   name: copyenv
-  updated: 2018-06-06T00:00:00Z
+  updated: "2018-06-06T00:00:00Z"
   version: 1.2.4
 - authors:
   - contact: dawu@vmware.com
@@ -738,12 +738,12 @@ plugins:
     platform: linux64
     url: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin/releases/download/1.3.2/CreateServicePushPlugin.linux64
   company: null
-  created: 2017-11-14T00:00:00Z
+  created: "2017-11-14T00:00:00Z"
   description: A CF CLI plugin to create services specified from a services manifest
     yml file and then push an application to Cloud Foundry
   homepage: https://github.com/dawu415/CF-CLI-Create-Service-Push-Plugin
   name: Create-Service-Push
-  updated: 2021-03-05T00:00:00Z
+  updated: "2021-03-05T00:00:00Z"
   version: 1.3.2
 - authors:
   - contact: philip.mugglestone@sap.com
@@ -766,11 +766,11 @@ plugins:
     platform: win64
     url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.0/DefaultEnv.win64
   company: SAP
-  created: 2021-10-12T00:00:00Z
+  created: "2021-10-12T00:00:00Z"
   description: Create default-env.json file with environment variables of an app.
   homepage: https://github.com/saphanaacademy/DefaultEnv
   name: DefaultEnv
-  updated: 2021-10-12T00:00:00Z
+  updated: "2021-10-12T00:00:00Z"
   version: 1.0.0
 - authors:
   - contact: jhunt@starkandwayne.com
@@ -793,12 +793,12 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry-community/cf-plugin-deploy/releases/download/0.3.0/cf-plugin-deploy-linux64
   company: null
-  created: 2016-06-28T00:00:00Z
+  created: "2016-06-28T00:00:00Z"
   description: Create/update initial Cloud Foundry state (orgs, spaces, users, services,
     apps, and more) via a yml file
   homepage: https://github.com/cloudfoundry-community/cf-plugin-deploy
   name: deploy
-  updated: 2017-06-23T00:00:00Z
+  updated: "2017-06-23T00:00:00Z"
   version: 0.3.0
 - authors:
   - contact: jghiloni@ecsteam.com
@@ -821,11 +821,11 @@ plugins:
     platform: linux32
     url: https://github.com/ECSTeam/do-all/releases/download/1.1.2/do-all-linux-386
   company: ECS Team
-  created: 2016-07-07T00:00:00Z
+  created: "2016-07-07T00:00:00Z"
   description: Run the same command on all the apps in a space, org, or globally
   homepage: https://github.com/ECSTeam/do-all
   name: do-all
-  updated: 2017-01-21T00:00:00Z
+  updated: "2017-01-21T00:00:00Z"
   version: 1.1.2
 - authors:
   - contact: jghiloni@ecsteam.com
@@ -842,11 +842,11 @@ plugins:
     platform: linux64
     url: https://github.com/ECSTeam/docker-usage/releases/download/1.0.3/docker-usage-linux
   company: ECS Team
-  created: 2016-11-03T12:00:00Z
+  created: "2016-11-03T12:00:00Z"
   description: Show which apps are using docker images
   homepage: https://github.com/ECSTeam/docker-usage
   name: docker-usage
-  updated: 2016-11-03T12:00:00Z
+  updated: "2016-11-03T12:00:00Z"
   version: 1.0.3
 - authors:
   - contact: emirozer@yandex.com
@@ -869,12 +869,12 @@ plugins:
     platform: linux32
     url: https://github.com/emirozer/cf-doctor-plugin/releases/download/1.0.3/doctor_plugin_linux_386
   company: null
-  created: 2015-12-13T00:00:00Z
+  created: "2015-12-13T00:00:00Z"
   description: doctor scans your deployed applications, routes and services for anomalies
     and reports any issues found. (CLI v6.7.0+)
   homepage: https://github.com/emirozer/cf-doctor-plugin
   name: doctor
-  updated: 2017-01-03T00:00:00Z
+  updated: "2017-01-03T00:00:00Z"
   version: 1.0.3
 - authors:
   - contact: jkruck@pivotal.io
@@ -891,11 +891,11 @@ plugins:
     platform: linux64
     url: https://github.com/krujos/download_droplet_plugin/raw/1.0.1/bin/linux64/download_droplet_plugin
   company: null
-  created: 2016-01-11T00:00:00Z
+  created: "2016-01-11T00:00:00Z"
   description: Download droplets to your local machine
   homepage: https://github.com/krujos/download_droplet_plugin
   name: Download Droplet
-  updated: 2016-02-08T00:00:00Z
+  updated: "2016-02-08T00:00:00Z"
   version: 1.0.1
 - authors:
   - name: CF Loggregator Team
@@ -910,11 +910,11 @@ plugins:
     platform: win64
     url: https://github.com/cloudfoundry/cf-drain-cli/releases/download/v2.0.0/cf-drain-cli-windows
   company: Pivotal
-  created: 2018-04-20T00:00:00Z
+  created: "2018-04-20T00:00:00Z"
   description: A plugin to simplify interactions with user provided syslog drains.
   homepage: https://github.com/cloudfoundry/cf-drain-cli
   name: drains
-  updated: 2019-11-06T00:00:00Z
+  updated: "2019-11-06T00:00:00Z"
   version: 2.0.0
 - authors:
   - contact: x@cinaq.com
@@ -931,11 +931,11 @@ plugins:
     platform: linux64
     url: https://github.com/xiwenc/cf-fastpush-plugin/releases/download/v1.1.0/cf-fastpush-plugin_linux_amd64
   company: Mendix
-  created: 2016-02-21T00:00:00Z
+  created: "2016-02-21T00:00:00Z"
   description: Fast, non-persistent, smart and incrementally updating of your application
   homepage: https://github.com/xiwenc/cf-fastpush-plugin
   name: fastpush
-  updated: 2017-09-21T00:00:00Z
+  updated: "2017-09-21T00:00:00Z"
   version: 1.1.0
 - authors:
   - contact: jtuchschererg@gmail.com
@@ -955,11 +955,11 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry-community/firehose-plugin/releases/download/0.13.0/nozzle-plugin-linux
   company: null
-  created: 2015-09-09T00:00:00Z
+  created: "2015-09-09T00:00:00Z"
   description: This plugin allows you to connect to the firehose
   homepage: http://github.com/cloudfoundry-community/firehose-plugin
   name: Firehose Plugin
-  updated: 2017-11-18T21:17:15Z
+  updated: "2017-11-18T21:17:15Z"
   version: 0.13.0
 - authors:
   - contact: abaker@pivotal.io
@@ -976,11 +976,11 @@ plugins:
     platform: linux64
     url: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin/releases/download/v1.0.6/gemfire-linux64
   company: Pivotal
-  created: 2020-03-31T00:00:00Z
+  created: "2020-03-31T00:00:00Z"
   description: Allows a user to manage a VMware Tanzu GemFire cluster
   homepage: https://github.com/gemfire/tanzu-gemfire-management-cf-plugin
   name: gemfire
-  updated: 2020-04-15T00:00:00Z
+  updated: "2020-04-15T00:00:00Z"
   version: 1.0.6
 - authors:
   - contact: akoranne@ecsteam.com
@@ -997,11 +997,11 @@ plugins:
     platform: linux64
     url: https://github.com/ECSTeam/cf_get_events/releases/download/v0.6.0/get-events-plugin-linux
   company: ECS Team
-  created: 2016-12-28T14:00:00Z
+  created: "2016-12-28T14:00:00Z"
   description: Get microservice events
   homepage: https://github.com/ECSTeam/cf_get_events
   name: get-events
-  updated: 2017-01-11T21:29:06Z
+  updated: "2017-01-11T21:29:06Z"
   version: 0.6.0
 - authors:
   - contact: micellius@gmail.com
@@ -1018,11 +1018,11 @@ plugins:
     platform: win64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.6/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
   company: SAP
-  created: 2019-02-05T12:00:00Z
+  created: "2019-02-05T12:00:00Z"
   description: CLI client for SAP Cloud Platform HTML5 Applications Repository service
   homepage: https://sap.github.io/cf-html5-apps-repo-cli-plugin
   name: html5-plugin
-  updated: 2021-02-16T14:38:27Z
+  updated: "2021-02-16T14:38:27Z"
   version: 1.4.6
 - authors:
   - contact: tim.gerlach@sap.com
@@ -1045,12 +1045,12 @@ plugins:
     platform: linux64
     url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux64
   company: SAP
-  created: 2017-03-14T09:00:00Z
+  created: "2017-03-14T09:00:00Z"
   description: Obtain a heap dump or thread dump from a running, SSH-enabled Java
     application.
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: 2021-10-01T00:00:00Z
+  updated: "2021-10-01T00:00:00Z"
   version: 3.0.1
 - authors:
   - contact: drnic@starkandwayne.com
@@ -1073,11 +1073,11 @@ plugins:
     platform: osx
     url: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs/releases/download/v0.4.3/cf-plugin-kibana-me-logs_darwin_amd64
   company: Stark & Wayne
-  created: 2015-03-18T00:00:00Z
+  created: "2015-03-18T00:00:00Z"
   description: Launches the Kibana UI (from kibana-me-logs) for an application.
   homepage: https://github.com/cloudfoundry-community/cf-plugin-kibana-me-logs
   name: kibana-me-logs
-  updated: 2015-10-15T00:00:00Z
+  updated: "2015-10-15T00:00:00Z"
   version: 0.4.3
 - authors:
   - contact: pavellom@gmail.com
@@ -1100,11 +1100,11 @@ plugins:
     platform: linux32
     url: https://github.com/pavellom/list-services-plugin/releases/download/v1.0.0/listservices-linux32
   company: null
-  created: 2020-02-15T00:00:00Z
+  created: "2020-02-15T00:00:00Z"
   description: List services which are bound to the application
   homepage: https://github.com/pavellom/list-services-plugin
   name: ListServices
-  updated: 2020-02-15T00:00:00Z
+  updated: "2020-02-15T00:00:00Z"
   version: 1.0.0
 - authors:
   - name: CF Log Cache Team
@@ -1119,11 +1119,11 @@ plugins:
     platform: win64
     url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.3/log-cache-cf-plugin-windows
   company: null
-  created: 2018-05-18T00:00:00Z
+  created: "2018-05-18T00:00:00Z"
   description: Allows users to query Log Cache.
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
-  updated: 2023-08-30T00:00:00Z
+  updated: "2023-08-30T00:00:00Z"
   version: 5.0.3
 - authors:
   - name: CF Loggregator Team
@@ -1138,11 +1138,11 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry/noisy-neighbor-nozzle/releases/download/v1.5.1/noisy-neighbor-cli-plugin-linux
   company: Pivotal
-  created: 2018-04-20T00:00:00Z
+  created: "2018-04-20T00:00:00Z"
   description: A nozzle and CLI tool for identify high volume log producing applications
   homepage: https://github.com/cloudfoundry/noisy-neighbor-nozzle
   name: log-noise
-  updated: 2018-04-23T00:00:00Z
+  updated: "2018-04-23T00:00:00Z"
   version: 1.5.1
 - authors:
   - name: CF Loggregator Team
@@ -1157,11 +1157,11 @@ plugins:
     platform: win64
     url: https://github.com/cloudfoundry/log-stream-cli/releases/download/v0.4.0/log-stream-cli-windows
   company: Pivotal
-  created: 2019-02-13T00:00:00Z
+  created: "2019-02-13T00:00:00Z"
   description: A plugin to stream logs
   homepage: https://github.com/cloudfoundry/log-stream-cli
   name: log-stream
-  updated: 2019-02-13T00:00:00Z
+  updated: "2019-02-13T00:00:00Z"
   version: 0.4.0
 - authors:
   - contact: arthurh.halet@gmail.com
@@ -1184,11 +1184,11 @@ plugins:
     platform: linux32
     url: https://github.com/ArthurHlt/plugin-cf-manifest-generator/releases/download/v1.0.0/manifest-generator_linux_386
   company: null
-  created: 2015-11-11T00:00:00Z
+  created: "2015-11-11T00:00:00Z"
   description: Help you to generate a manifest from 0 (CLI v6.7.0+)
   homepage: https://github.com/ArthurHlt/plugin-cf-manifest-generator
   name: manifest-generator
-  updated: 2015-11-11T00:00:00Z
+  updated: "2015-11-11T00:00:00Z"
   version: 1.0.0
 - authors:
   - contact: https://twitter.com/fitzoh
@@ -1211,12 +1211,12 @@ plugins:
     platform: win64
     url: https://github.com/fitzoh/maven-push-plugin/releases/download/v0.4.0/maven-push.win64
   company: Cardinal Health
-  created: 2018-06-24T00:00:00Z
+  created: "2018-06-24T00:00:00Z"
   description: Drop in replacement for `cf push` that downloads the artifact based
     on maven coordinates from the manifest, then pushes it.
   homepage: https://github.com/fitzoh/maven-push-plugin
   name: maven-push
-  updated: 2018-07-20T00:00:00Z
+  updated: "2018-07-20T00:00:00Z"
   version: 0.4.0
 - authors:
   - name: CF Metric Registrar Team
@@ -1237,11 +1237,11 @@ plugins:
     platform: linux32
     url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.3.12/metric-registrar-cli-linux-386-1.3.12
   company: VMware
-  created: 2018-10-04T18:21:00Z
+  created: "2018-10-04T18:21:00Z"
   description: Allow users to register metric sources.
   homepage: https://github.com/pivotal-cf/metric-registrar-cli
   name: metric-registrar
-  updated: 2023-08-23T00:00:00Z
+  updated: "2023-08-23T00:00:00Z"
   version: 1.3.12
 - authors:
   - contact: dimitar.donchev@sap.com
@@ -1265,12 +1265,12 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin/releases/download/v3.0.2/multiapps-plugin.linux64
   company: SAP
-  created: 2017-10-06T11:41:00Z
+  created: "2017-10-06T11:41:00Z"
   description: MultiApps cli plugin performing multitarget application(MTA) operations
     in Cloud Foundry, such as deploying, removing, viewing etc.
   homepage: https://github.com/cloudfoundry-incubator/multiapps-cli-plugin
   name: multiapps
-  updated: 2023-03-10T12:25:00Z
+  updated: "2023-03-10T12:25:00Z"
   version: 3.0.2
 - authors:
   - contact: afleig@pivotal.io
@@ -1293,39 +1293,39 @@ plugins:
     platform: linux64
     url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-linux-amd64
   company: null
-  created: 2017-02-02T09:30:00Z
+  created: "2017-02-02T09:30:00Z"
   description: Runs mysql and mysqldump clients against your CF database services.
     Use it to inspect, dump and restore your DB.
   homepage: https://github.com/andreasf/cf-mysql-plugin
   name: mysql-plugin
-  updated: 2018-05-15T14:53:53Z
+  updated: "2018-05-15T14:53:53Z"
   version: 2.0.0
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: a5c3fe0cfcfb10ac4aef3e729f2e9ab464e99017
+  - checksum: 69fa8d1169f7ff0df632397cec7181704ed1cb84
     platform: osx
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.9.0/mysql-plugin-darwin-amd64
-  - checksum: 046f8e1145fd0d56019c4332e59e2c0e519f0712
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-darwin-amd64
+  - checksum: a8c59bf401b00b298e755242453cc24bc2295a6e
     platform: linux32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.9.0/mysql-plugin-linux-386
-  - checksum: 4e1e23cccc7e957b59b1fc4f481bbf42566cb686
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-linux-386
+  - checksum: fa41f3f0f4d10b16598baa439a7f70ffb6d1f910
     platform: linux64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.9.0/mysql-plugin-linux-amd64
-  - checksum: 87ec90bba7401ff97fbb9a398538e065309ebe16
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-linux-amd64
+  - checksum: c6c7b7f21ef0f2bd7ec9aa04424bd8083318377a
     platform: win32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.9.0/mysql-plugin-windows-386.exe
-  - checksum: f52d2d524877e6c59091185c55e8b8e358cd37df
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-windows-386.exe
+  - checksum: 418f6f2d76406c299b3e53e23ea9d3adb5fb2f6f
     platform: win64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.9.0/mysql-plugin-windows-amd64.exe
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-windows-amd64.exe
   company: Pivotal
-  created: 2018-05-12T00:00:00Z
+  created: "2018-05-12T00:00:00Z"
   description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
     v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
   name: MysqlTools
-  updated: 2021-05-13T21:40:58Z
-  version: 0.9.0
+  updated: "2023-10-09T19:25:59Z"
+  version: 0.10.0
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
@@ -1347,11 +1347,11 @@ plugins:
     platform: osx
     url: https://github.com/cloudfoundry-community/cf-plugin-open/releases/download/v1.2.2/cf-plugin-open-darwin-amd64
   company: Stark & Wayne
-  created: 2015-02-27T00:00:00Z
+  created: "2015-02-27T00:00:00Z"
   description: Open App URLs + Service dashboards in browser
   homepage: https://github.com/cloudfoundry-community/cf-plugin-open
   name: open
-  updated: 2019-08-15T00:00:00Z
+  updated: "2019-08-15T00:00:00Z"
   version: 1.2.2
 - authors:
   - contact: constantin.jaeck@gmail.com
@@ -1374,12 +1374,12 @@ plugins:
     platform: linux64
     url: https://github.com/jaecktec/cf-psql-plugin/releases/download/v1.0.0/cf-psql-plugin-linux-amd64
   company: null
-  created: 2017-02-02T09:30:00Z
+  created: "2017-02-02T09:30:00Z"
   description: Runs psql clients against your CF database services. Use it to inspect,
     dump and restore your DB.
   homepage: https://github.com/jaecktec/cf-psql-plugin
   name: psql-plugin
-  updated: 2018-06-26T15:35:09Z
+  updated: "2018-06-26T15:35:09Z"
   version: 1.0.0
 - authors:
   - contact: cappyzawa
@@ -1402,11 +1402,11 @@ plugins:
     platform: linux32
     url: https://github.com/cappyzawa/cf-push-with-vault/releases/download/v0.0.4/push-with-vault.linux32
   company: null
-  created: 2019-04-10T00:00:00Z
+  created: "2019-04-10T00:00:00Z"
   description: cf plugin to push cf app with vault
   homepage: https://github.com/cappyzawa/cf-push-with-vault
   name: push-with-vault
-  updated: 2019-04-10T00:00:00Z
+  updated: "2019-04-10T00:00:00Z"
   version: 0.0.4
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
@@ -1429,11 +1429,11 @@ plugins:
     platform: win64
     url: https://github.com/govau/cf-report-buildpacks/releases/download/v0.1.0/report-buildpacks.win64
   company: Digital Transformation Agency (Commonwealth of Australia)
-  created: 2018-06-14T01:08:13.578Z
+  created: "2018-06-14T01:08:13.578Z"
   description: This plugin used to report applications that use out-of-date buildpacks.
   homepage: https://github.com/govau/cf-report-buildpacks
   name: report-buildpacks
-  updated: 2018-06-14T01:08:13.578Z
+  updated: "2018-06-14T01:08:13.578Z"
   version: 0.1.0
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
@@ -1456,12 +1456,12 @@ plugins:
     platform: win64
     url: https://github.com/govau/cf-report-disk-usage/releases/download/v0.1.0/cf-report-disk-usage.win64
   company: Digital Transformation Agency (Commonwealth of Australia)
-  created: 2019-01-30T01:08:13.578Z
+  created: "2019-01-30T01:08:13.578Z"
   description: This plugin used to report disk usage vs quota across all orgs / spaces
     / apps the user has access to.
   homepage: https://github.com/govau/cf-report-disk-usage
   name: report-disk-usage
-  updated: 2019-01-30T01:08:13.578Z
+  updated: "2019-01-30T01:08:13.578Z"
   version: 0.1.0
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
@@ -1484,12 +1484,12 @@ plugins:
     platform: win64
     url: https://github.com/govau/cf-report-memory-usage/releases/download/v0.1.0/cf-report-memory-usage.win64
   company: Digital Transformation Agency (Commonwealth of Australia)
-  created: 2019-01-30T01:09:13.578Z
+  created: "2019-01-30T01:09:13.578Z"
   description: This plugin used to report memory usage vs quota across all orgs /
     spaces / apps the user has access to.
   homepage: https://github.com/govau/cf-report-memory-usage
   name: report-memory-usage
-  updated: 2019-01-30T01:09:13.578Z
+  updated: "2019-01-30T01:09:13.578Z"
   version: 0.1.0
 - authors:
   - contact: adam.eijdenberg@digital.gov.au
@@ -1512,13 +1512,13 @@ plugins:
     platform: win64
     url: https://github.com/govau/cf-report-users/releases/download/v0.6.0/report-users.win64
   company: Digital Transformation Agency (Commonwealth of Australia)
-  created: 2018-06-13T23:08:13.578Z
+  created: "2018-06-13T23:08:13.578Z"
   description: |
     This plugin used to report all users in your installation with their
     roles.
   homepage: https://github.com/govau/cf-report-users
   name: report-users
-  updated: 2018-06-14T01:08:13.578Z
+  updated: "2018-06-14T01:08:13.578Z"
   version: 0.6.0
 - authors:
   - contact: aidan.feldman@gsa.gov
@@ -1541,11 +1541,11 @@ plugins:
     platform: linux64
     url: https://github.com/18F/cf-route-lookup/releases/download/v1.1.0/cf-route-lookup.linux64
   company: 18F
-  created: 2017-01-08T00:30:56Z
+  created: "2017-01-08T00:30:56Z"
   description: Find the application(s) associated with a given hostname
   homepage: https://github.com/18F/cf-route-lookup
   name: route-lookup
-  updated: 2017-01-10T17:53:53Z
+  updated: "2017-01-10T17:53:53Z"
   version: 1.1.0
 - authors:
   - contact: gwestenberg@pivotal.io
@@ -1565,11 +1565,11 @@ plugins:
     platform: linux64
     url: https://github.com/krujos/scaleover-plugin/raw/1.0.4/bin/linux64/scaleover-plugin
   company: null
-  created: 2015-05-27T00:00:00Z
+  created: "2015-05-27T00:00:00Z"
   description: Roll traffic from one app to another by scaling over time
   homepage: https://github.com/krujos/scaleover-plugin
   name: Scaleover
-  updated: 2016-05-19T00:00:00Z
+  updated: "2016-05-19T00:00:00Z"
   version: 1.0.4
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
@@ -1592,12 +1592,12 @@ plugins:
     platform: osx
     url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.3/service-instance-logs-cli-plugin-darwin-amd64-1.0.3
   company: Pivotal
-  created: 2017-10-12T10:29:23Z
+  created: "2017-10-12T10:29:23Z"
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
   name: Service Instance Logging
-  updated: 2022-09-22T16:08:00Z
+  updated: "2022-09-22T16:08:00Z"
   version: 1.0.3
 - authors:
   - contact: andrew.lunde@sap.com
@@ -1620,12 +1620,12 @@ plugins:
     platform: win64
     url: https://github.com/SAP/cf-cli-smsi-plugin/releases/download/v1.2.4/ServiceManagement.win64
   company: SAP
-  created: 2020-10-07T00:00:00Z
+  created: "2020-10-07T00:00:00Z"
   description: Plugin that makes it easier to use the Service Management service in
     Cloud Foundry.
   homepage: https://github.com/SAP/cf-cli-smsi-plugin
   name: service-management
-  updated: 2021-04-13T00:00:00Z
+  updated: "2021-04-13T00:00:00Z"
   version: 1.2.4
 - authors:
   - contact: cdelashmutt@pivotal.io
@@ -1648,11 +1648,11 @@ plugins:
     platform: osx
     url: https://github.com/cdelashmutt-pivotal/service-use/releases/download/1.2.2/service-use-1.2.2.osx
   company: Pivotal
-  created: 2017-08-22T10:23:08Z
+  created: "2017-08-22T10:23:08Z"
   description: Report on service usage in the platform based on your sign-in privileges
   homepage: https://github.com/cdelashmutt-pivotal/service-use
   name: service-use
-  updated: 2018-02-12T21:03:00Z
+  updated: "2018-02-12T21:03:00Z"
   version: 1.2.2
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
@@ -1675,12 +1675,12 @@ plugins:
     platform: osx
     url: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin/releases/download/v1.0.2/spring-cloud-dataflow-for-pcf-cli-plugin-darwin-amd64-1.0.2
   company: Pivotal
-  created: 2018-02-02T09:10:00Z
+  created: "2018-02-02T09:10:00Z"
   description: Manage data pipelines on Spring Cloud Data Flow for PCF via Data Flow
     shell.
   homepage: https://github.com/pivotal-cf/spring-cloud-dataflow-for-pcf-cli-plugin
   name: spring-cloud-dataflow-for-pcf
-  updated: 2020-03-04T09:47:00Z
+  updated: "2020-03-04T09:47:00Z"
   version: 1.0.2
 - authors:
   - contact: cf-spring-cloud-services@pivotal.io
@@ -1703,11 +1703,11 @@ plugins:
     platform: osx
     url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.22/spring-cloud-services-cli-plugin-darwin-amd64-1.0.22
   company: Pivotal
-  created: 2017-10-10T08:43:23Z
+  created: "2017-10-10T08:43:23Z"
   description: View and manage SCS service instance state.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2019-09-05T07:47:00Z
+  updated: "2019-09-05T07:47:00Z"
   version: 1.0.22
 - authors:
   - contact: mark.webb@cgi.com
@@ -1723,11 +1723,11 @@ plugins:
     platform: osx
     url: https://github.com/mgwebb/started-apps/releases/download/v0.1.0/started-apps-darwin64
   company: CGI
-  created: 2017-08-24T11:33:03Z
+  created: "2017-08-24T11:33:03Z"
   description: Easily view which apps are started
   homepage: https://github.com/mgwebb/started-apps
   name: started-apps
-  updated: 2017-08-24T11:33:03Z
+  updated: "2017-08-24T11:33:03Z"
   version: 0.1.0
 - authors:
   - contact: fabio.berchtold@swisscom.com
@@ -1744,11 +1744,11 @@ plugins:
     platform: linux64
     url: https://github.com/swisscom/cf-statistics-plugin/releases/download/v1.0.0/cf-statistics-plugin_linux_amd64
   company: Swisscom (Schweiz) AG
-  created: 2015-07-07T00:00:00Z
+  created: "2015-07-07T00:00:00Z"
   description: Display live metrics/statistics about an app
   homepage: https://github.com/swisscom/cf-statistics-plugin
   name: Statistics
-  updated: 2015-07-07T00:00:00Z
+  updated: "2015-07-07T00:00:00Z"
   version: 1.0.0
 - authors:
   - contact: marius.munteanu@swisscom.com
@@ -1770,12 +1770,12 @@ plugins:
     platform: win32
     url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_win32.exe
   company: Swisscom
-  created: 2017-11-28T12:00:00Z
+  created: "2017-11-28T12:00:00Z"
   description: The official Swisscom Application Cloud plugin gives you access to
     all the additional features of the App Cloud
   homepage: https://developer.swisscom.com
   name: Swisscom Application Cloud
-  updated: 2022-01-06T11:00:00Z
+  updated: "2022-01-06T11:00:00Z"
   version: 0.2.2
 - authors:
   - contact: arthur.halet@orange.com
@@ -1798,12 +1798,12 @@ plugins:
     platform: linux32
     url: https://github.com/orange-cloudfoundry/cf-plugin-sync/releases/download/v1.2.1/cf-plugin-sync_linux_386
   company: Orange
-  created: 2017-04-04T00:00:00Z
+  created: "2017-04-04T00:00:00Z"
   description: Synchronize a local folder to a remote folder inside a Cloud Foundry
     app to make changes on the fly
   homepage: https://github.com/orange-cloudfoundry/cf-plugin-sync
   name: sync
-  updated: 2018-11-23T00:00:00Z
+  updated: "2018-11-23T00:00:00Z"
   version: 1.2.1
 - authors:
   - contact: gwestenberg@pivotal.io
@@ -1820,11 +1820,11 @@ plugins:
     platform: linux64
     url: https://github.com/guidowb/cf-targets-plugin/raw/1.2.0/bin/linux64/cf-targets-plugin
   company: null
-  created: 2015-04-17T00:00:00Z
+  created: "2015-04-17T00:00:00Z"
   description: Easily manage multiple CF targets
   homepage: https://github.com/guidowb/cf-targets-plugin
   name: Targets
-  updated: 2017-10-03T00:00:00Z
+  updated: "2017-10-03T00:00:00Z"
   version: 1.2.0
 - authors:
   - contact: kurt.kellner@cgi.com
@@ -1847,14 +1847,14 @@ plugins:
     platform: linux64
     url: https://github.com/ECSTeam/cloudfoundry-top-plugin/releases/download/v0.9.5/top-plugin-linux64
   company: ECS Team (now part of CGI)
-  created: 2016-11-07T00:00:00Z
+  created: "2016-11-07T00:00:00Z"
   description: |
     An interactive interface that shows top statistics similar in concept as the UNIX top command.
 
     Enhancement - Now supports read-only admin mode via cloud_controller.admin_read_only
   homepage: https://github.com/ECSTeam/cloudfoundry-top-plugin
   name: top
-  updated: 2019-11-16T03:05:15Z
+  updated: "2019-11-16T03:05:15Z"
   version: 0.9.5
 - authors:
   - contact: taichi.nakashima@rakuten.com
@@ -1871,11 +1871,11 @@ plugins:
     platform: linux64
     url: https://github.com/tcnksm/cf-plugin-update-cli/releases/download/0.1.1/cf-plugin-update-cli_linux_amd64
   company: Rakuten
-  created: 2016-10-21T00:00:00Z
+  created: "2016-10-21T00:00:00Z"
   description: Update cloudfoundry/cli to the latest version
   homepage: https://github.com/tcnksm/cf-plugin-update-cli
   name: update-cli
-  updated: 2016-10-21T00:00:00Z
+  updated: "2016-10-21T00:00:00Z"
   version: 0.1.1
 - authors:
   - contact: tstannard@pivotal.io
@@ -1898,12 +1898,12 @@ plugins:
     platform: osx
     url: https://github.com/tstannard/set-weights-plugin/releases/download/1.1.0/set-weights-plugin.osx
   company: Pivotal
-  created: 2019-04-10T00:00:00Z
+  created: "2019-04-10T00:00:00Z"
   description: A plugin for interacting with the mesh networking weighted routing
     feature.
   homepage: https://github.com/tstannard/set-weights-plugin
   name: UpdateRouteWeightPlugin
-  updated: 2019-04-29T00:00:00Z
+  updated: "2019-04-29T00:00:00Z"
   version: 1.1.0
 - authors:
   - name: James Norman
@@ -1917,11 +1917,11 @@ plugins:
     platform: linux64
     url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_linux_amd64
   company: null
-  created: 2022-07-07T00:00:00Z
+  created: "2022-07-07T00:00:00Z"
   description: Allows a user to upgrade all the service instances for a service broker
   homepage: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin
   name: UpgradeAllServices
-  updated: 2022-07-07T00:00:00Z
+  updated: "2022-07-07T00:00:00Z"
   version: 1.0.1
 - authors:
   - contact: jkruck@pivotal.io
@@ -1950,11 +1950,11 @@ plugins:
     platform: linux64
     url: https://raw.githubusercontent.com/krujos/usagereport-plugin/1.4.0/bin/linux64/usagereport-plugin?raw=true
   company: null
-  created: 2015-07-12T00:00:00Z
+  created: "2015-07-12T00:00:00Z"
   description: Report on memory usage and application instances for orgs and spaces
   homepage: https://github.com/krujos/usagereport-plugin
   name: Usage Report
-  updated: 2016-12-12T00:00:00Z
+  updated: "2016-12-12T00:00:00Z"
   version: 1.4.0
 - authors:
   - contact: jtuchschererg@gmail.com
@@ -1971,11 +1971,11 @@ plugins:
     platform: linux64
     url: https://github.com/jtuchscherer/whoami-plugin/releases/download/0.2.0/whoami-plugin-linux
   company: null
-  created: 2015-12-22T00:00:00Z
+  created: "2015-12-22T00:00:00Z"
   description: This plugin shows you the name of the currently logged in user
   homepage: https://github.com/jtuchscherer/whoami-plugin
   name: whoami-plugin
-  updated: 2017-05-08T00:00:00Z
+  updated: "2017-05-08T00:00:00Z"
   version: 0.2.0
 - authors:
   - contact: jeaniejung95@gmail.com
@@ -1992,9 +1992,9 @@ plugins:
     platform: linux64
     url: https://github.com/jeaniejung/Wildcard_Plugin/raw/1.0.0/bin/linux64/wildcard_plugin
   company: null
-  created: 2015-07-02T00:00:00Z
+  created: "2015-07-02T00:00:00Z"
   description: Allows user to search and delete apps using wildcard(*)
   homepage: https://github.com/jeaniejung/Wildcard_Plugin
   name: wildcard_plugin
-  updated: 2015-07-02T00:00:00Z
+  updated: "2015-07-02T00:00:00Z"
   version: 1.0.0
