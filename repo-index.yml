@@ -1258,29 +1258,29 @@ plugins:
     homepage: https://github.com/andreasf
     name: Andreas Fleig
   binaries:
-  - checksum: e9c72007ab43c4f94367c620e397c43738c3a009
+  - checksum: 9d00776f2505fc7b6aa9cc6b603678e459c4a19f
     platform: osx
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-darwin-amd64
-  - checksum: 3b29522840762fdb168f81f6aac33b92242e3365
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.1.0/cf-mysql-plugin-darwin-amd64
+  - checksum: cec869849ebcacd29fbf83cb8021185577a07ab7
     platform: win64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-amd64.exe
-  - checksum: a8b48dfea90de409ac2ca523908f076a72db31ad
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.1.0/cf-mysql-plugin-amd64.exe
+  - checksum: c3abe57b74faff94ff55b15b029f16902af9d17f
     platform: win32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-386.exe
-  - checksum: f5a4b6bf895c6d52bb178709a96783741ea34e61
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.1.0/cf-mysql-plugin-386.exe
+  - checksum: bd4cdec1239d22e97ba5ef9f888fa0b4c978c3ad
     platform: linux32
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-linux-386
-  - checksum: 0880d46c6b98243d33004f4732af712e9e353e9b
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.1.0/cf-mysql-plugin-linux-386
+  - checksum: 56db703d657b7372b5f674b592313eb19b270e05
     platform: linux64
-    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.0.0/cf-mysql-plugin-linux-amd64
+    url: https://github.com/andreasf/cf-mysql-plugin/releases/download/v2.1.0/cf-mysql-plugin-linux-amd64
   company: null
   created: 2017-02-02T09:30:00Z
   description: Runs mysql and mysqldump clients against your CF database services.
     Use it to inspect, dump and restore your DB.
   homepage: https://github.com/andreasf/cf-mysql-plugin
   name: mysql-plugin
-  updated: 2018-05-15T14:53:53Z
-  version: 2.0.0
+  updated: 2023-06-22T15:08:21Z
+  version: 2.1.0
 - authors:
   - name: CF Dedicated MySQL
   binaries:
