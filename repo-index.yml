@@ -1090,15 +1090,15 @@ plugins:
 - authors:
   - name: CF Log Cache Team
   binaries:
-  - checksum: eb2b0689f57af0ad9eef56e5e426de8091bc6a8c
+  - checksum: a25eba688b02662a7d7c2fe5e4db5b87f3e9c288
     platform: osx
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.5/log-cache-cf-plugin-darwin
-  - checksum: 1d3552f24936ac95880d1732afe9024d6fb77701
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.6/log-cache-cf-plugin-darwin
+  - checksum: 8ed91e145c1d7dc181eee9897ea3b2e76fcc9099
     platform: linux64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.5/log-cache-cf-plugin-linux
-  - checksum: 04d4266e5a6c5b1dbd5b681e33bffda68adf5db1
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.6/log-cache-cf-plugin-linux
+  - checksum: 03c9ad52b6f0d400a07715accc793975237ff4e9
     platform: win64
-    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.5/log-cache-cf-plugin-windows
+    url: https://github.com/cloudfoundry/log-cache-cli/releases/download/v5.0.6/log-cache-cf-plugin-windows
   company: null
   created: 2018-05-18T00:00:00Z
   description: Allows users to query Log Cache.
