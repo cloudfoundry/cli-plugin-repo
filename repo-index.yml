@@ -1202,21 +1202,21 @@ plugins:
 - authors:
   - name: CF Metric Registrar Team
   binaries:
-  - checksum: 8dee61772a9b99d03563cbea67f5717ea45be96a
+  - checksum: 04036c02bcfadc471282d923896bcc512bb75fb5
     platform: osx
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.3/metric-registrar-cli-darwin-amd64-1.4.3
-  - checksum: 373fb68663220595ecc2cc941c5f51c685ef66d8
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.4/metric-registrar-cli-darwin-amd64-1.4.4
+  - checksum: f8a83a7ccc1380915058ec6d26051bd8bf93828c
     platform: win64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.3/metric-registrar-cli-windows-amd64-1.4.3
-  - checksum: b9778bdab1540d783983917148bd148953b579b1
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.4/metric-registrar-cli-windows-amd64-1.4.4
+  - checksum: 4698e4cd3a01484ccca4f5239ffcc6b8315a2c4f
     platform: win32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.3/metric-registrar-cli-windows-386-1.4.3
-  - checksum: bb1f0e186d37f60f005b8fb4435795f62ad46000
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.4/metric-registrar-cli-windows-386-1.4.4
+  - checksum: 99100f52a0e84a19088129569297b9833f66d339
     platform: linux64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.3/metric-registrar-cli-linux-amd64-1.4.3
-  - checksum: f8546b56286149e479e036c0826bef3bf85dbb71
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.4/metric-registrar-cli-linux-amd64-1.4.4
+  - checksum: b55fa2eb9c98c51e5247fc483df99a32b257b594
     platform: linux32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.3/metric-registrar-cli-linux-386-1.4.3
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.4/metric-registrar-cli-linux-386-1.4.4
   company: VMware
   created: 2018-10-04T18:21:00Z
   description: Allow users to register metric sources.
