@@ -1691,8 +1691,8 @@ plugins:
   description: View and manage SCS service instance state.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2023-09-08T09:19:00Z
-  version: 1.0.23
+  updated: 2023-10-31T09:19:00Z
+  version: 1.0.24
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
