@@ -1104,8 +1104,8 @@ plugins:
   description: Allows users to query Log Cache.
   homepage: http://github.com/cloudfoundry/log-cache-cli
   name: log-cache
-  updated: 2023-11-14T00:00:00Z
-  version: 5.0.5
+  updated: 2023-12-07T00:00:00Z
+  version: 5.0.6
 - authors:
   - name: CF Loggregator Team
   binaries:
@@ -1222,8 +1222,8 @@ plugins:
   description: Allow users to register metric sources.
   homepage: https://github.com/pivotal-cf/metric-registrar-cli
   name: metric-registrar
-  updated: 2023-11-14T00:00:00Z
-  version: 1.4.3
+  updated: 2023-12-07T00:00:00Z
+  version: 1.4.4
 - authors:
   - contact: dimitar.donchev@sap.com
     name: Dimitar Donchev
