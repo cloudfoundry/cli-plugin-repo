@@ -1894,19 +1894,19 @@ plugins:
   - name: Felisia Martini
   - name: George Blue
   binaries:
-  - checksum: f6e48431f0063e66875b8df876a15660c2de5173
+  - checksum: 3dc1f8a667fc9d61a88d8751ddb6bc4936da2a30
     platform: osx
-    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_darwin_amd64
-  - checksum: 51c85b0b9de17bc8d9fe2a7ce33b95896efd496c
+    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.5.0/upgrade-all-services-cli-plugin_darwin_amd64
+  - checksum: 89f94c3a2b1954bafd847794a06dc44c49381032
     platform: linux64
-    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.0.1/upgrade-all-services-cli-plugin_linux_amd64
+    url: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin/releases/download/v1.5.0/upgrade-all-services-cli-plugin_linux_amd64
   company: null
   created: 2022-07-07T00:00:00Z
   description: Allows a user to upgrade all the service instances for a service broker
   homepage: https://github.com/cloudfoundry/upgrade-all-services-cli-plugin
   name: UpgradeAllServices
-  updated: 2022-07-07T00:00:00Z
-  version: 1.0.1
+  updated: 2024-01-14T00:00:00Z
+  version: 1.5.0
 - authors:
   - contact: jkruck@pivotal.io
     homepage: https://github.com/krujos/
