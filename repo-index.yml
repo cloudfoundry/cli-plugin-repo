@@ -96,28 +96,31 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: ede787427180271564b48966a1f09591006a24ee
+  - checksum: f94bb1e60cd8ac712d2c0135157f5064ff450a53
     platform: osx
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-darwin-amd64
-  - checksum: 7fa5c548f2143174fe622b46887c31b2a45a47d2
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-darwin-amd64
+  - checksum: 9395e5e8c8202e255f18e87f1d68e8bb209f6ea4
+    platform: osx
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-darwin-arm64
+  - checksum: 7d0b7c8b44416e2da8f425b8e88d026a76a26f7c
     platform: linux32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-linux-386
-  - checksum: 166781a31b40ace463e6d40dc4093928496e1397
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-linux-386
+  - checksum: 745a0458411307d729c94ca6efb35f897fdf32ed
     platform: linux64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-linux-amd64
-  - checksum: 50dabf89204af90d96f0a2baa393d54625224acf
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-linux-amd64
+  - checksum: 8a96288c1f4739b891db9a165d95946475d3cdce
     platform: win32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-windows-386.exe
-  - checksum: a9010b04e10a1b79f7fc8f86bbe003b470fe0b98
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-windows-386.exe
+  - checksum: 166fba199510eb661d638488d6cc271718fb922b
     platform: win64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.4.0/adbr-plugin-windows-amd64.exe
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.5.0/adbr-plugin-windows-amd64.exe
   company: VMware
   created: 2020-08-11T00:00:00Z
   description: Tool to backup/restore Tanzu MySQL service instances
   homepage: https://docs.pivotal.io//p-mysql/backup-restore.html
   name: ApplicationDataBackupRestore
-  updated: 2022-04-01T00:49:12Z
-  version: 0.4.0
+  updated: 2024-02-29T20:33:43Z
+  version: 0.5.0
 - authors:
   - name: Christopher Brown
   binaries:
