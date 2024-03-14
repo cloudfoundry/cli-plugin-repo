@@ -1671,31 +1671,31 @@ plugins:
     homepage: https://docs.pivotal.io/spring-cloud-services
     name: spring-cloud-services
   binaries:
-  - checksum: 30609fbc362665fe73a97aae2486c04d6def6e4f
+  - checksum: 8584cbd39bb001a8ba85eb128e6273f73ea43b50
     platform: win64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-windows-amd64-1.0.24.exe
-  - checksum: 63f64c93f353821777acb074b28e814cbfc9eaf8
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-windows-amd64-1.0.25.exe
+  - checksum: f467ac3f683d058ffc6eb553b150068c92bc6c09
     platform: win32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-windows-386-1.0.24.exe
-  - checksum: 9408edbe7e1529d0312c8e0a92885b5843fdc097
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-windows-386-1.0.25.exe
+  - checksum: 68d0604bec77bce979f06f86d80b1cd16d7da85c
     platform: linux64
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-linux-amd64-1.0.24
-  - checksum: 867fb0cbae50be6649814c59f617681e3c3132ba
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-linux-amd64-1.0.25
+  - checksum: c49e36524c1d37dd25d6727901fecb98ac63f90d
     platform: linux32
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-linux-386-1.0.24
-  - checksum: c2a95b67dd7505008ff012ecf71f5a0fba011474
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-linux-386-1.0.25
+  - checksum: 63be95cc377d160221c684395c385750fdb9576a
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-darwin-amd64-1.0.24
-  - checksum: 4c2a02cf39f212a02cf713d7d8cc6f0fd40992d3
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-darwin-amd64-1.0.25
+  - checksum: 827ea0b5825a4a219a673f5ba8348ade254ba89e
     platform: osx
-    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.24/spring-cloud-services-cli-plugin-darwin-arm64-1.0.24
+    url: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin/releases/download/v1.0.25/spring-cloud-services-cli-plugin-darwin-arm64-1.0.25
   company: Pivotal
   created: 2017-10-10T08:43:23Z
   description: View and manage SCS service instance state.
   homepage: https://github.com/pivotal-cf/spring-cloud-services-cli-plugin
   name: spring-cloud-services
-  updated: 2023-10-31T09:19:00Z
-  version: 1.0.24
+  updated: 2024-03-13T09:19:00Z
+  version: 1.0.25
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
