@@ -1287,29 +1287,29 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: 69fa8d1169f7ff0df632397cec7181704ed1cb84
+  - checksum: 0168baf4fa69d4eb31e615d4a6b863758b310bdf
     platform: osx
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-darwin-amd64
-  - checksum: a8c59bf401b00b298e755242453cc24bc2295a6e
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.1/mysql-plugin-darwin-amd64
+  - checksum: dd1defd51a8a894661c2d06b019a5f9ceba96e9c
     platform: linux32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-linux-386
-  - checksum: fa41f3f0f4d10b16598baa439a7f70ffb6d1f910
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.1/mysql-plugin-linux-386
+  - checksum: df19a4ab0b078fbd6de07addefd8c0faffd74d56
     platform: linux64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-linux-amd64
-  - checksum: c6c7b7f21ef0f2bd7ec9aa04424bd8083318377a
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.1/mysql-plugin-linux-amd64
+  - checksum: 731eda82d2faf1f09a1791bd5ff0f31e4ea6f513
     platform: win32
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-windows-386.exe
-  - checksum: 418f6f2d76406c299b3e53e23ea9d3adb5fb2f6f
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.1/mysql-plugin-windows-386.exe
+  - checksum: e94c68326ec34007275126184b936a6b6e583dae
     platform: win64
-    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-windows-amd64.exe
+    url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.1/mysql-plugin-windows-amd64.exe
   company: Pivotal
   created: 2018-05-12T00:00:00Z
   description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
     v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
   name: MysqlTools
-  updated: 2023-10-09T19:25:59Z
-  version: 0.10.0
+  updated: 2024-03-26T18:56:41Z
+  version: 0.10.1
 - authors:
   - contact: long@starkandwayne.com
     homepage: http://lnguyen.io
