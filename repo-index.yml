@@ -752,29 +752,33 @@ plugins:
   - contact: philip.mugglestone@sap.com
     homepage: https://github.com/saphanaacademy
     name: Philip Mugglestone
+  - contact: tom.doil@sap.com
+    name: Tom Doil
+  - contact: daniel.statzner@sap.com
+    name: Daniel Statzner
   binaries:
-  - checksum: d5812b93d6b033e167447c4a543d686af9e3610e
+  - checksum: feca767e41d3d6a216dbfa41ae1cf40bb0238f63
     platform: linux64
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.linux64
-  - checksum: f843194ae6cddaf2d615275007d4f3f7bc577fa0
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.0/DefaultEnv.linux64
+  - checksum: 684d5fa97d9d441d84dbe300a230d53f577c91a2
     platform: linux32
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.linux32
-  - checksum: 03533645fd1261b9d17a863c6a12bcf090cabe58
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.0/DefaultEnv.linux32
+  - checksum: 97ef61273388b36634a19b9ac077d3569195e691
     platform: osx
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.osx
-  - checksum: 8f6f1c5e77802f03d0ec5d45e8193faed02c5f88
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.0/DefaultEnv.osx
+  - checksum: 44ae4c2dd529306361948ba5551d55f6542ed408
     platform: win32
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.win32
-  - checksum: 332aafecf3c4fa8513402df56cf20ddf440f62d2
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.0/DefaultEnv.win32
+  - checksum: bac89385e4d56aa3f30fadfd3efe89b2fb9a8127
     platform: win64
-    url: https://github.com/saphanaacademy/DefaultEnv/releases/download/v1.0.1/DefaultEnv.win64
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.0/DefaultEnv.win64
   company: SAP
   created: 2021-10-12T00:00:00Z
   description: Create default-env.json file with environment variables of an app.
-  homepage: https://github.com/saphanaacademy/DefaultEnv
+  homepage: https://github.com/SAP/cf-cli-defaultenv-plugin
   name: DefaultEnv
-  updated: 2022-02-27T00:00:00Z
-  version: 1.0.1
+  updated: 2024-04-09T00:00:00Z
+  version: 1.1.0
 - authors:
   - contact: jhunt@starkandwayne.com
     homepage: https://github.com/jhunt
