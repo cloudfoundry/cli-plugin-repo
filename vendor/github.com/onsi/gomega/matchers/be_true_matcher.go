@@ -1,11 +1,15 @@
+// untested sections: 2
+
 package matchers
 
 import (
 	"fmt"
+
 	"github.com/onsi/gomega/format"
 )
 
 type BeTrueMatcher struct {
+	Reason string
 }
 
 func (matcher *BeTrueMatcher) Match(actual interface{}) (success bool, err error) {
@@ -17,9 +21,17 @@ func (matcher *BeTrueMatcher) Match(actual interface{}) (success bool, err error
 }
 
 func (matcher *BeTrueMatcher) FailureMessage(actual interface{}) (message string) {
-	return format.Message(actual, "to be true")
+	if matcher.Reason == "" {
+		return format.Message(actual, "to be true")
+	} else {
+		return matcher.Reason
+	}
 }
 
 func (matcher *BeTrueMatcher) NegatedFailureMessage(actual interface{}) (message string) {
-	return format.Message(actual, "not to be true")
+	if matcher.Reason == "" {
+		return format.Message(actual, "not to be true")
+	} else {
+		return fmt.Sprintf(`Expected not true but got true\nNegation of "%s" failed`, matcher.Reason)
+	}
 }

@@ -1,0 +1,25 @@
+mode: atomic
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:24.48,30.16 4 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:30.16,32.3 1 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:34.2,35.16 2 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:35.16,37.3 1 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:39.2,42.16 3 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:42.16,44.3 1 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:46.2,54.67 8 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:54.67,55.24 1 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:55.24,58.4 2 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:59.3,61.17 3 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:61.17,63.4 1 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:66.2,69.18 3 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:69.18,75.3 2 0
+code.cloudfoundry.org/cli-plugin-repo/clipr.go:77.2,77.66 1 0
+code.cloudfoundry.org/cli-plugin-repo/main.go:10.13,17.16 5 0
+code.cloudfoundry.org/cli-plugin-repo/main.go:17.16,19.3 1 0
+code.cloudfoundry.org/cli-plugin-repo/main.go:21.2,22.16 2 0
+code.cloudfoundry.org/cli-plugin-repo/main.go:22.16,25.3 2 0
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:40.32,42.2 1 1
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:44.42,46.2 1 1
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:48.37,50.2 1 1
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:55.61,59.16 3 1
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:59.16,62.3 2 0
+code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter/sort.go:64.2,66.31 2 1

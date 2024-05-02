@@ -6,4 +6,4 @@ applications:
   instances: 4
   buildpack: go_buildpack
   memory: 128M
-  stack: cflinuxfs3
+  stack: cflinuxfs4
