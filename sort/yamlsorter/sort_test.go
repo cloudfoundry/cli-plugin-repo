@@ -3,7 +3,7 @@ package yamlsorter_test
 import (
 	. "code.cloudfoundry.org/cli-plugin-repo/sort/yamlsorter"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
 
@@ -29,12 +29,12 @@ var _ = Describe("Sorting", func() {
     platform: linux64
     url: https://github.com/odlp/antifreeze/releases/download/v0.3.0/antifreeze-linux
   company: null
-  created: 2016-04-23T00:00:00Z
+  created: "2016-04-23T00:00:00Z"
   description: Detect if an app has unexpected ENV vars or services bound which are
     missing from the manifest
   homepage: google.com
   name: antifreeze
-  updated: 2016-05-20T00:00:00Z
+  updated: "2016-05-20T00:00:00Z"
   version: 0.3.0
 - authors:
   - name: bob@gmail.com
@@ -49,13 +49,13 @@ var _ = Describe("Sorting", func() {
     platform: linux64
     url: https://github.com/concourse/autopilot/releases/download/0.0.1/autopilot-linux
   company: Concourse
-  created: 2015-03-01T00:00:00Z
+  created: "2015-03-01T00:00:00Z"
   description: |
     1. zero downtime deploy plugin for cf applications
     2. other cool stuff
   homepage: yahoo.com
   name: autopilot
-  updated: 2015-03-01T00:00:00Z
+  updated: "2015-03-01T00:00:00Z"
   version: 0.0.1
 `)
 

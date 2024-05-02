@@ -1,7 +1,7 @@
 package main_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"fmt"
@@ -24,7 +24,7 @@ var _ = Describe("Integration", func() {
 
 	Context("--force-ssl not set", func() {
 		BeforeEach(func() {
-			port = strconv.Itoa(8080 + GinkgoParallelNode())
+			port = strconv.Itoa(8080 + GinkgoParallelProcess())
 			var err error
 			session, err = gexec.Start(
 				exec.Command(buildPath, "-p", port, "-f", "fixtures/repo-index.yml"),
@@ -91,7 +91,7 @@ var _ = Describe("Integration", func() {
 
 	Context("--force-ssl is set", func() {
 		BeforeEach(func() {
-			port = strconv.Itoa(8080 + GinkgoParallelNode())
+			port = strconv.Itoa(8080 + GinkgoParallelProcess())
 			var err error
 			session, err = gexec.Start(
 				exec.Command(buildPath, "-p", port, "-f", "fixtures/repo-index.yml", "--force-ssl"),

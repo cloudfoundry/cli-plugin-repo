@@ -1,0 +1,55 @@
+name: "Deploy Plugin Repo"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'test'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Plugin repo
+      uses: actions/checkout@v4
+
+    - name: Set Up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version-file: go.mod
+        check-latest: true
+
+    - name: Run Tests
+      run: |
+        set -ex
+        export GOPATH=$PWD/gopath
+        export PATH=$GOPATH/bin:$PATH
+
+        BINARY_VALIDATION=false bin/test
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - name: Checkout Plugin repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          # Install CLI
+          # ...first add the Cloud Foundry Foundation public key and package repository to your system
+          wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
+          echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+            
+          # ...then, update your local package index, then finally install the cf CLI
+          sudo apt-get update
+          sudo apt-get install cf8-cli       
+
+      - name: Push Plugin Repo App
+        run: |
+          cf api ${{ secrets.FOUNDATION_URL }}
+          export CF_USERNAME=${{ secrets.FOUNDATION_USERNAME }}
+          export CF_PASSWORD=${{ secrets.FOUNDATION_PASSWORD }}
+
+          cf auth
+          cf target -o ${{ secrets.APP_ORG }} -s ${{ secrets.APP_SPACE }}
+          cf push --manifest manifest.yml --strategy rolling         

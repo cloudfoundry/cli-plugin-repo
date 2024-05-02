@@ -15,19 +15,15 @@
 
   # Clean up old .a files in GOPATH
   # It seems like `go clean` should do this but ... not so much
-  if [[ -d $GOPATH/pkg ]] ; then
-    pushd $GOPATH/pkg
-    rm -Rf *
-    popd
-  fi
+  go clean -modcacherw
 
-  go install github.com/onsi/ginkgo/ginkgo
+  go install github.com/onsi/ginkgo/v2/ginkgo
 
   echo -e "\n Formatting packages..."
   go fmt ./...
 
   echo -e "\n Testing packages..."
-  CF_HOME=$(pwd)/fixtures ginkgo -r -race -cover -failOnPending -randomizeAllSpecs $@
+  CF_HOME=$(pwd)/fixtures ginkgo -r -race -cover --fail-on-pending --randomize-all $@
 
   echo -e "\n Running build script to confirm everything compiles..."
   bin/build
