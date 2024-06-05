@@ -1320,8 +1320,11 @@ plugins:
     url: https://github.com/pivotal-cf/mysql-cli-plugin/releases/download/v0.10.0/mysql-plugin-windows-amd64.exe
   company: Pivotal
   created: 2018-05-12T00:00:00Z
-  description: Tool to migrate MySQL service instances from PCF MySQL v1 to PCF MySQL
-    v2
+  description: |
+    This plugin allows a user to perform the following tasks:
+      1. Setup replication between two instances deployed in separate foundations, resulting in a multi-site MySQL deployment with a primary and a secondary instance
+      2. Perform switchover of a multi-site MySQL deployment across two foundations, resulting in the secondary instance becoming primary and vice versa
+      3. Migrate MySQL service instances from PCF MySQL v1 to PCF MySQL v2
   homepage: https://github.com/pivotal-cf/mysql-cli-plugin
   name: MysqlTools
   updated: 2023-10-09T19:25:59Z
