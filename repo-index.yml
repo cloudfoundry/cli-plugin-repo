@@ -1017,29 +1017,29 @@ plugins:
     homepage: https://github.com/SAP
     name: Tim Gerlach
   binaries:
-  - checksum: 71a30527a07dae8f74e624ac73f6df69817d8d1f
+  - checksum: ef4bb0a266b12dc1e86fae12bc51bf8313e9dced
     platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-osx
-  - checksum: 089f623ec65370f266a90b9390b6b1e3683e0a8a
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.2/cf-cli-java-plugin-osx
+  - checksum: 9b045a86e5a73a1955736d7f911e23bff0b454cd
     platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-win64.exe
-  - checksum: eeb679e09f4efed44d5aef06a7bc3ac1f2a54e23
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.2/cf-cli-java-plugin-win64.exe
+  - checksum: 3c01ff15121ae95a516c5e8c5c16ae3527eed699
     platform: win32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-win32.exe
-  - checksum: f10941afbfe4759bae7d9dc43e9d50383c4f2328
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.2/cf-cli-java-plugin-win32.exe
+  - checksum: 530bb4f46e7ef18b75de975d636ef09703d497dc
     platform: linux32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux32
-  - checksum: 2faefdb6d350708973f4d65180f565658b037054
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.2/cf-cli-java-plugin-linux32
+  - checksum: 827e34ba4ca24e62931c0b686e4b7d47ecd956af
     platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.1/cf-cli-java-plugin-linux64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.2/cf-cli-java-plugin-linux64
   company: SAP
   created: 2017-03-14T09:00:00Z
   description: Obtain a heap dump or thread dump from a running, SSH-enabled Java
     application.
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: 2021-10-01T00:00:00Z
-  version: 3.0.1
+  updated: 2024-06-11T00:00:00Z
+  version: 3.0.2
 - authors:
   - contact: drnic@starkandwayne.com
     homepage: http://drnicwilliams.com
