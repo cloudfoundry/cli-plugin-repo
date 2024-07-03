@@ -25,10 +25,6 @@ jobs:
            go-version-file: go.mod
            check-latest: true
 
-      - name: Setup test
-        run: |
-          go install github.com/onsi/ginkgo/v2/ginkgo
-
       - name: Run Tests
         run: |
           export GOPATH=$HOME/cli-plugin-repo
