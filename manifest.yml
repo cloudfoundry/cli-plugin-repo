@@ -1,9 +1,9 @@
 ---
 applications:
-- name: plugins-test
+- name: plugins-dev
   env:
     GOPACKAGENAME: code.cloudfoundry.org/cli-plugin-repo
   instances: 4
   buildpack: go_buildpack
   memory: 128M
-  stack: cflinuxfs3
+  stack: cflinuxfs4

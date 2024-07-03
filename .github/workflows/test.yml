@@ -1,0 +1,35 @@
+name: "Unit Tests"
+
+on:
+  pull_request:
+    branches:
+    - test
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  test:
+    name: Running Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+         uses: actions/setup-go@v5
+         with:
+           go-version-file: go.mod
+           check-latest: true
+
+      - name: Run Tests
+        run: |
+          export GOPATH=$HOME/cli-plugin-repo
+          export PATH=$GOPATH/bin:$PATH
+          bin/test
+    env:
+      BINARY_VALIDATION: false
+

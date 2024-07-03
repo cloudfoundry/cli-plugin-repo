@@ -1,19 +1,26 @@
 module code.cloudfoundry.org/cli-plugin-repo
 
-go 1.12
+go 1.22.2
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
-	github.com/codegangsta/negroni v1.0.0 // indirect
-	github.com/golang/protobuf v1.3.2 // indirect
-	github.com/jessevdk/go-flags v0.0.0-20170926144705-f88afde2fa19
-	github.com/kr/pretty v0.1.0 // indirect
-	github.com/onsi/ginkgo v0.0.0-20171031171758-652e15c9a27e
-	github.com/onsi/gomega v0.0.0-20171105031654-1eecca0ba8e6
-	github.com/unrolled/secure v0.0.0-20180416205222-a1cf62cc2159
-	golang.org/x/net v0.0.0-20180418062111-d41e8174641f // indirect
-	golang.org/x/sys v0.0.0-20180419222023-a2a45943ae67 // indirect
-	golang.org/x/text v0.3.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
-	gopkg.in/yaml.v2 v2.0.0-20171116090243-287cf08546ab
+	github.com/jessevdk/go-flags v1.5.0
+	github.com/onsi/ginkgo/v2 v2.17.2
+	github.com/onsi/gomega v1.33.1
+	github.com/unrolled/secure v1.14.0
+	gopkg.in/yaml.v2 v2.4.0
+)
+
+require (
+	github.com/go-logr/logr v1.4.1 // indirect
+	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/pprof v0.0.0-20240424215950-a892ee059fd6 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+	golang.org/x/net v0.25.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/tools v0.20.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
