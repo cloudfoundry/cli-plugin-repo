@@ -1584,7 +1584,7 @@ plugins:
     url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-darwin-amd64-1.0.4
   - checksum: 346c523026583e239946629726267882948f8df9
     platform: osx
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-darwin-arm64-1.0.4   
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-darwin-arm64-1.0.4
   company: Pivotal
   created: "2017-10-12T10:29:23Z"
   description: For service brokers that implement a logging endpoint, this plugin
