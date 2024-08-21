@@ -1707,6 +1707,29 @@ plugins:
   updated: "2024-07-26T09:19:00Z"
   version: 1.0.26
 - authors:
+  - name: Stack Auditor Team
+  binaries:
+  - checksum: 37ce03d3e76b7ef671e6f7b1fbfbd0f3793f55c1
+    platform: osx
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.2/stack-auditor-darwin-amd64
+  - checksum: 9284458fd08dc9eee31c61134253d68d58bb91ad
+    platform: osx
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.2/stack-auditor-darwin-arm
+  - checksum: 88810ae36c38dcec0679471493c49dd15a3f6168
+    platform: linux64
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.2/stack-auditor-linux-64
+  - checksum: d269b6e427c2459f7197ed2eed4ccb3f65e47540
+    platform: win64
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.2/stack-auditor-windows-64
+  company: Broadcom
+  created: "2024-08-20T09:19:00Z"
+  description: Listing apps and their stacks, migrating apps to a new stack, and deleting
+    a stack
+  homepage: https://github.com/cloudfoundry/stack-auditor
+  name: StackAuditor
+  updated: "2024-08-20T09:19:00Z"
+  version: 0.1.2
+- authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
   binaries:
