@@ -1677,7 +1677,7 @@ plugins:
   updated: "2020-03-04T09:47:00Z"
   version: 1.0.2
 - authors:
-  - name: stack-auditor team
+  - name: Stack Auditor Team
   binaries:
   - checksum: 37ce03d3e76b7ef671e6f7b1fbfbd0f3793f55c1
     platform: osx
