@@ -1676,7 +1676,9 @@ plugins:
   name: spring-cloud-dataflow-for-pcf
   updated: "2020-03-04T09:47:00Z"
   version: 1.0.2
-- binaries:
+- authors:
+  - name: stack-auditor team
+  binaries:
   - checksum: 37ce03d3e76b7ef671e6f7b1fbfbd0f3793f55c1
     platform: osx
     url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.2/stack-auditor-darwin-amd64
