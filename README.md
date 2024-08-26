@@ -7,6 +7,7 @@ Plugin Downloads Server Uptime
 This is a public repository for community created CF CLI plugins. To submit your plugin
 approval, please submit a pull request according to the guidelines below.
 
+Test
 ## Submitting Plugins
 
 1. You need to have [git](https://git-scm.com/downloads) installed
