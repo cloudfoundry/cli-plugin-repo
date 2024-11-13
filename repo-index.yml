@@ -1711,7 +1711,6 @@ plugins:
   - checksum: f7cd43470a48eea6b8a47f7896f8a7ed815cbde2
     platform: linux64
     url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-linux-64
-  - checksum: d269b6e427c2459f7197ed2eed4ccb3f65e47540
   - checksum: 6576f45857c72b72dcd790f44f4a9dda68872f3e
     platform: win64
     url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-windows-64
