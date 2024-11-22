@@ -352,19 +352,19 @@ plugins:
   binaries:
   - checksum: 2d99d58385d6754d7cabfcccefce1e2b8d626a26
     platform: osx
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/v0.0.1/cf-lookup-route.osx
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.osx
   - checksum: 9cfc9d769fcdcfec7670d051d6ceb5993852a6ca
     platform: linux64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/v0.0.1/cf-lookup-route.linux64
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.linux64
   - checksum: 49fe70ea7fe3fae413a404fb6fd77374afa190c1
     platform: linux32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/v0.0.1/cf-lookup-route.linux32
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.linux32
   - checksum: e41f8e597524a67303dd7469adcdebeb4ed2a7c9
     platform: win32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/v0.0.1/cf-lookup-route.win32
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.win32
   - checksum: d050f56b6cd6510032bc3f86157e245ff5fe0b0e
     platform: win64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/v0.0.1/cf-lookup-route.win64
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.win64
   company: Cloud Foundry Foundation
   created: "2024-11-22T00:00:00Z"
   description: CF Route Lookup Plugin to identify applications, a given route is pointing
@@ -372,7 +372,7 @@ plugins:
   homepage: https://github.com/cloudfoundry/cf-lookup-route
   name: cf-lookup-route
   updated: "2024-11-22T00:00:00Z"
-  version: 0.0.1
+  version: 0.1.0
 - authors:
   - contact: stanislav.turlo@altoros.com
     homepage: https://github.com/nobodyzzz
