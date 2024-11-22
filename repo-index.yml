@@ -343,6 +343,12 @@ plugins:
   - contact: daria.anton@sap.com
     homepage: https://github.com/Dariquest
     name: Daria Anton
+  - contact: alexander.lais@sap.com
+    homepage: https://github.com/peanball
+    name: Alexander Lais
+  - contact: maximilian.moehl@sap.com
+    homepage: https://github.com/maxmoehl
+    name: Maximilian Möhl   
   binaries:
   - checksum: 2d99d58385d6754d7cabfcccefce1e2b8d626a26
     platform: osx
@@ -363,7 +369,7 @@ plugins:
   created: "2024-11-22T00:00:00Z"
   description: CF Route Lookup Plugin to identify applications, a given route is pointing
     to.
-  homepage: https://github.com/https://github.com/cloudfoundry/cf-lookup-route
+  homepage: https://github.com/cloudfoundry/cf-lookup-route
   name: cf-lookup-route
   updated: "2024-11-22T00:00:00Z"
   version: 0.0.1
