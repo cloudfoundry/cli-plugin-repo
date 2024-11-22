@@ -348,7 +348,7 @@ plugins:
     name: Alexander Lais
   - contact: maximilian.moehl@sap.com
     homepage: https://github.com/maxmoehl
-    name: Maximilian Möhl   
+    name: Maximilian Möhl
   binaries:
   - checksum: 2d99d58385d6754d7cabfcccefce1e2b8d626a26
     platform: osx
