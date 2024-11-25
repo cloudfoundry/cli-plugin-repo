@@ -346,7 +346,7 @@ plugins:
   - contact: alexander.lais@sap.com
     homepage: https://github.com/peanball
     name: Alexander Lais
-  - contact: maximilian.moehl@sap.com
+  - contact: cf@moehl.eu
     homepage: https://github.com/maxmoehl
     name: Maximilian Möhl
   binaries:
