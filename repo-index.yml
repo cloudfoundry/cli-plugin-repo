@@ -47,23 +47,23 @@ plugins:
   - homepage: https://github.com/orgs/cloudfoundry/teams/wg-app-runtime-interfaces-autoscaler-approvers
     name: WG App Runtime Interfaces Autoscaler Approvers
   binaries:
-  - checksum: ad9103529040feccf86aff84d2e9d5a5ff0970bb
+  - checksum: 2beb714f5555120d053e13ee0716f9e60bae8b36
     platform: osx
-    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.0.1/ascli-darwin-amd64-4.0.1-release+0
-  - checksum: c95b046c035ecfbba7af32899de9995944034072
+    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.1.0/ascli-darwin-amd64-4.1.0-release+0
+  - checksum: 29d72d1f2cf4e79467bfcff9e4b681199360fa84
     platform: linux64
-    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.0.1/ascli-linux-amd64-4.0.1-release+0
-  - checksum: fe45bef207a10c892bf1a94942537f864ff230d9
+    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.1.0/ascli-linux-amd64-4.1.0-release+0
+  - checksum: b1d98db84115bc9c0b8233905e493122dd44db07
     platform: win64
-    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.0.1/ascli-windows-amd64-4.0.1-release+0.exe
+    url: https://github.com/cloudfoundry/app-autoscaler-cli-plugin/releases/download/v4.1.0/ascli-windows-amd64-4.1.0-release+0.exe
   company: Cloud Foundry Foundation
   created: "2018-04-17T00:00:00Z"
   description: App-AutoScaler plug-in provides the command line interface to manage
     App AutoScaler service policies, retrieve metrics and scaling history.
   homepage: https://github.com/cloudfoundry/app-autoscaler-cli-plugin
   name: app-autoscaler-plugin
-  updated: "2024-08-30T15:29:00Z"
-  version: 4.0.1
+  updated: "2024-12-06T09:24:54Z"
+  version: 4.1.0
 - authors:
   - contact: warren.f.fernandes@gmail.com
     homepage: https://github.com/wfernandes
