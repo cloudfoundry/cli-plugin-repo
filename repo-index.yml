@@ -1236,28 +1236,28 @@ plugins:
 - authors:
   - name: CF Metric Registrar Team
   binaries:
-  - checksum: 33d22a9bcd3aaa9c6c68a3d400f4a309f03d433f
+  - checksum: 4589fabcb4aa3c619a4be54aa8b1e0c1438ec7e9
     platform: osx
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.6/metric-registrar-cli-darwin-amd64-1.4.6
-  - checksum: c2e352940bebfbc0d50d842fbf0cb6d0f0c24698
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.8/metric-registrar-cli-darwin-amd64-1.4.8
+  - checksum: d8c0d96e7d2eac88a27b7ad68c8fcec49f1b987b
     platform: win64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.6/metric-registrar-cli-windows-amd64-1.4.6
-  - checksum: 1123f36585250befa283e8b46a0ae5c01384db77
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.8/metric-registrar-cli-windows-amd64-1.4.8
+  - checksum: 323357ce1a7e37d0f4b32db2eef31f29d3a68d9a
     platform: win32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.6/metric-registrar-cli-windows-386-1.4.6
-  - checksum: b2b8e32865999747d01909897c84f654496c5cd4
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.8/metric-registrar-cli-windows-386-1.4.8
+  - checksum: df9345421550eb126287377bb1cc1abf96e4859f
     platform: linux64
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.6/metric-registrar-cli-linux-amd64-1.4.6
-  - checksum: 7200a10c7888e776edd41bdf6ffedf32718f2188
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.8/metric-registrar-cli-linux-amd64-1.4.8
+  - checksum: d67260b69eb85dab59f1b4c334e228615248f96c
     platform: linux32
-    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.6/metric-registrar-cli-linux-386-1.4.6
+    url: https://github.com/pivotal-cf/metric-registrar-cli/releases/download/1.4.8/metric-registrar-cli-linux-386-1.4.8
   company: VMware
   created: "2018-10-04T18:21:00Z"
   description: Allow users to register metric sources.
   homepage: https://github.com/pivotal-cf/metric-registrar-cli
   name: metric-registrar
-  updated: "2024-04-09T00:00:00Z"
-  version: 1.4.6
+  updated: "2025-01-06T00:00:00Z"
+  version: 1.4.8
 - authors:
   - contact: dimitar.donchev@sap.com
     name: Dimitar Donchev
