@@ -1736,18 +1736,18 @@ plugins:
 - authors:
   - name: Stack Auditor Team
   binaries:
-  - checksum: a59ab008ea7b466ea54cefccaac59d3db392cf1a
+  - checksum: 121a0cc97833a4dbaacad7afaae4ed9856f50ffe
     platform: osx
-    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-darwin-amd64
-  - checksum: f911b29992bca8f32a5200a1324a0ef39cc05f0f
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.5/stack-auditor-darwin-amd64
+  - checksum: 75f1ca1618699ae85d715dd91c3ff48c8502b019
     platform: osx
-    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-darwin-arm
-  - checksum: f7cd43470a48eea6b8a47f7896f8a7ed815cbde2
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.5/stack-auditor-darwin-arm
+  - checksum: 4a077155951b190ce7e558eb2fe6c415d77b5c6c
     platform: linux64
-    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-linux-64
-  - checksum: 6576f45857c72b72dcd790f44f4a9dda68872f3e
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.5/stack-auditor-linux-64
+  - checksum: b48bb1fa55e8e8f2613fb17c5f39b82887ae800a
     platform: win64
-    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.4/stack-auditor-windows-64
+    url: https://github.com/cloudfoundry/stack-auditor/releases/download/v0.1.5/stack-auditor-windows-64
   company: Broadcom
   created: "2024-08-20T09:19:00Z"
   description: Listing apps and their stacks, migrating apps to a new stack, and deleting
