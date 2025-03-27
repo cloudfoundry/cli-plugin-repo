@@ -1754,8 +1754,8 @@ plugins:
     a stack
   homepage: https://github.com/cloudfoundry/stack-auditor
   name: StackAuditor
-  updated: "2024-11-13T20:21:24Z"
-  version: 0.1.4
+  updated: "2025-03-27T20:21:24Z"
+  version: 0.1.5
 - authors:
   - contact: mark.webb@cgi.com
     name: Mark Webb
