@@ -89,31 +89,31 @@ plugins:
 - authors:
   - name: CF Dedicated MySQL
   binaries:
-  - checksum: 5bc4ce6618cd690a8b50e94c4a928a27aee73f9a
+  - checksum: 3e64c9c70fd9941fe7ce8aa86503a2fe7c077b3e
     platform: osx
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-darwin-amd64
-  - checksum: 7e74280f3de84c8b4b1989ae6b316d1ac3c8761d
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-darwin-amd64
+  - checksum: b184e336aef206c315e7326bc03279b4b2e35dad
     platform: osx
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-darwin-arm64
-  - checksum: acdfb36c8d6780782e378c62170ed8e86dfd6798
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-darwin-arm64
+  - checksum: 2b9e562ed529f2e62748f7b4513c738e54d62114
     platform: linux32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-linux-386
-  - checksum: c498f793e63c7950dc5381a8a311be9be4c86304
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-linux-386
+  - checksum: b979072d8bde785877d0e5c843b254087fe8fb3f
     platform: linux64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-linux-amd64
-  - checksum: 5653c4c283392259e342ba4290d35f1566783bc8
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-linux-amd64
+  - checksum: 00a926b3d65461d3342ec514b910178858bb705b
     platform: win32
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-windows-386.exe
-  - checksum: dc46ee1560bb1fff51b4c7d1533aa81494ef3cc6
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-windows-386.exe
+  - checksum: bb6056b8e7641ecfecd89abe36fd7a6755a5ea3f
     platform: win64
-    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.7.0/adbr-plugin-windows-amd64.exe
+    url: https://adbr-cli-plugin-public.s3-us-west-1.amazonaws.com/0.8.0/adbr-plugin-windows-amd64.exe
   company: VMware
   created: "2020-08-11T00:00:00Z"
   description: Tool to backup/restore Tanzu MySQL service instances
-  homepage: https://docs.vmware.com/en/VMware-SQL-with-MySQL-for-Tanzu-Application-Service/index.html
+  homepage: https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-for-mysql-on-cloud-foundry/3-3/mysql-for-tpcf/index.html
   name: ApplicationDataBackupRestore
-  updated: "2024-05-13T22:52:32Z"
-  version: 0.7.0
+  updated: "2025-04-14T19:29:01Z"
+  version: 0.8.0
 - authors:
   - name: Christopher Brown
   binaries:
