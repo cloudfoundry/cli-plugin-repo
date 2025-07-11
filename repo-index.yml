@@ -1040,33 +1040,27 @@ plugins:
   updated: "2023-03-02T09:53:57Z"
   version: 1.4.7
 - authors:
-  - contact: tim.gerlach@sap.com
+  - contact: johannes.bechberger@sap.com
     homepage: https://github.com/SAP
-    name: Tim Gerlach
+    name: Johannes Bechberger
   binaries:
-  - checksum: 78fc1166762ac5ff63112a659162d10ecadaf539
-    platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.3/cf-cli-java-plugin-osx
-  - checksum: c1abc29a203e1d053057a96c216ffd99a4ac9acc
-    platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.3/cf-cli-java-plugin-win64.exe
-  - checksum: 9fcbd37499edf30bdf68cb5218f0686cd25947a4
-    platform: win32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.3/cf-cli-java-plugin-win32.exe
-  - checksum: 40e595ca1a1a5d1762c247752d06f9f84aecf52c
-    platform: linux32
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.3/cf-cli-java-plugin-linux32
-  - checksum: a285fe5b3834c8d0abca4a3c7966e830930b7e14
+  - checksum: 0b4303f8dfed6a95e91eb6d12021efa1ca7dc844
     platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/3.0.3/cf-cli-java-plugin-linux64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/vmaster/cf-cli-java-plugin-linux-amd64
+  - checksum: 348bbd5cdd2055de7a25a2ab4f185bb32fa70da7
+    platform: osx
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/vmaster/cf-cli-java-plugin-macos-arm64
+  - checksum: eabc68d9118c193ec8da50467ed0f76dae356232
+    platform: win64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/vmaster/cf-cli-java-plugin-windows-amd64
   company: SAP
-  created: "2017-03-14T09:00:00Z"
-  description: Obtain a heap dump or thread dump from a running, SSH-enabled Java
-    application.
+  created: '2024-01-01T00:00:00Z'
+  description: Plugin for profiling Java applications and getting heap and thread-dumps
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: "2024-08-12T00:00:00Z"
-  version: 3.0.3
+  updated: '2025-07-11T13:48:56Z'
+  version: master
+
 - authors:
   - contact: drnic@starkandwayne.com
     homepage: http://drnicwilliams.com
