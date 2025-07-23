@@ -1,6 +1,6 @@
 module code.cloudfoundry.org/cli-plugin-repo
 
-go 1.22.2
+go 1.24.3
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
