@@ -1044,22 +1044,22 @@ plugins:
     homepage: https://github.com/SAP
     name: Johannes Bechberger
   binaries:
-  - checksum: 0b4303f8dfed6a95e91eb6d12021efa1ca7dc844
+  - checksum: 3e57ff9fb52aba266df4c47cd9aaf13a12df3d56
     platform: linux64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.0/cf-cli-java-plugin-linux-amd64
-  - checksum: 348bbd5cdd2055de7a25a2ab4f185bb32fa70da7
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.1/cf-cli-java-plugin-linux-amd64
+  - checksum: 406e42011ee711b10d9d5e39e00987d522c8a960
     platform: osx
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.0/cf-cli-java-plugin-macos-arm64
-  - checksum: eabc68d9118c193ec8da50467ed0f76dae356232
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.1/cf-cli-java-plugin-macos-arm64
+  - checksum: cb5264df6871aadda9cf2b082e8ead8fc57ce311
     platform: win64
-    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.0/cf-cli-java-plugin-windows-amd64
+    url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.1/cf-cli-java-plugin-windows-amd64
   company: SAP
   created: "2024-01-01T00:00:00Z"
   description: Plugin for profiling Java applications and getting heap and thread-dumps
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: "2025-07-11T13:48:56Z"
-  version: 4.0.0
+  updated: "2025-09-15T14:54:36Z"
+  version: 4.0.1
 - authors:
   - contact: drnic@starkandwayne.com
     homepage: http://drnicwilliams.com
