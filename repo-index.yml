@@ -1054,11 +1054,11 @@ plugins:
     platform: win64
     url: https://github.com/SAP/cf-cli-java-plugin/releases/download/4.0.1/cf-cli-java-plugin-windows-amd64
   company: SAP
-  created: '2024-01-01T00:00:00Z'
+  created: "2024-01-01T00:00:00Z"
   description: Plugin for profiling Java applications and getting heap and thread-dumps
   homepage: https://github.com/SAP/cf-cli-java-plugin
   name: java
-  updated: '2025-09-15T14:54:36Z'
+  updated: "2025-09-15T14:54:36Z"
   version: 4.0.1
 - authors:
   - contact: drnic@starkandwayne.com
