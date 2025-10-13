@@ -1279,7 +1279,7 @@ plugins:
   homepage: https://github.com/cloudfoundry/multiapps-cli-plugin
   name: multiapps
   updated: "2025-10-13T15:30:00Z"
-  version: 3.6.0
+  version: 3.8.0
 - authors:
   - contact: afleig@pivotal.io
     homepage: https://github.com/andreasf
