@@ -1794,29 +1794,29 @@ plugins:
   - contact: marius.munteanu@swisscom.com
     name: Marius Munteanu
   binaries:
-  - checksum: 802507bc9c40a5e31d37767383f9b62b7e453ed7
+  - checksum: ad589b2ea247cfca3d304d6f140c71b1671025c8
     platform: osx
-    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_osx
-  - checksum: 8eb018c95378858a293291b8efed828d7bf34bc1
+    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.3.0/appcloud-cf-cli-plugin_osx
+  - checksum: 73b242e203e7f0afde0384ed42c01b322a306a99
     platform: linux64
-    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_linux64
-  - checksum: 519eadcbf3269507d3b9374666ba1f1d6d8a6ece
+    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.3.0/appcloud-cf-cli-plugin_linux64
+  - checksum: 384d959228f16b22adedd6ad8f1cd19846caea06
     platform: linux32
-    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_linux32
-  - checksum: f8f86b4d96c4ccf7d75e7ca0ad86b5697e174f02
+    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.3.0/appcloud-cf-cli-plugin_linux32
+  - checksum: 434abf8b2230fc33d4101387b9b4533b495f12f1
     platform: win64
-    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_win64.exe
-  - checksum: 27f1d2bcd0b8b666eb325bee8dab799bd6122351
+    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.3.0/appcloud-cf-cli-plugin_win64.exe
+  - checksum: 07fcd6fdb844b9268dc5bbdacd83a6076211584d
     platform: win32
-    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.2.2/appcloud-cf-cli-plugin_win32.exe
+    url: https://github.com/swisscom/appcloud-cf-cli-plugin/releases/download/v0.3.0/appcloud-cf-cli-plugin_win32.exe
   company: Swisscom
   created: "2017-11-28T12:00:00Z"
   description: The official Swisscom Application Cloud plugin gives you access to
     all the additional features of the App Cloud
   homepage: https://developer.swisscom.com
   name: Swisscom Application Cloud
-  updated: "2022-01-06T11:00:00Z"
-  version: 0.2.2
+  updated: "2026-01-21T11:00:00Z"
+  version: 0.3.0
 - authors:
   - contact: arthur.halet@orange.com
     homepage: https://github.com/ArthurHlt
