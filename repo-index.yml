@@ -1587,32 +1587,32 @@ plugins:
     homepage: https://docs.pivotal.io/scdf
     name: service-instance-logging
   binaries:
-  - checksum: 3d285318ab40e4035c03ecad2030e482d163dc79
+  - checksum: a3b407c2c0cb74f049b893912e94c9940ff00d17
     platform: win64
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-windows-amd64-1.0.4.exe
-  - checksum: 66176eda31f7d4020dbcc22420a87a4d7352bbb4
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-windows-amd64-1.0.5.exe
+  - checksum: 59f88853772f9218a1f741682d89ad1fcaa5419b
     platform: win32
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-windows-386-1.0.4.exe
-  - checksum: 0c7a29cdadffc6f860adb085bd225bd884641e16
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-windows-386-1.0.5.exe
+  - checksum: efaac96d0d5f706067632ac6fade20c10d93dbff
     platform: linux64
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-linux-amd64-1.0.4
-  - checksum: ff66757c7d31ad8087f3319592723981c548a932
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-linux-amd64-1.0.5
+  - checksum: 5ecb7736a484a8bfa3dfd59e711cdb551b2abf6d
     platform: linux32
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-linux-386-1.0.4
-  - checksum: 60f1e1aeb0711916121a267142b44b4a7b665238
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-linux-386-1.0.5
+  - checksum: acef32a6ad4edaf3752bfff1432cd42b76e9ae33
     platform: osx
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-darwin-amd64-1.0.4
-  - checksum: 346c523026583e239946629726267882948f8df9
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-darwin-amd64-1.0.5
+  - checksum: a55d4acaf12d3bd45732fffc608c1c98fcd4380d
     platform: osx
-    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.4/service-instance-logs-cli-plugin-darwin-arm64-1.0.4
+    url: https://github.com/pivotal-cf/service-instance-logs-cli-plugin/releases/download/v1.0.5/service-instance-logs-cli-plugin-darwin-arm64-1.0.5
   company: Pivotal
   created: "2017-10-12T10:29:23Z"
   description: For service brokers that implement a logging endpoint, this plugin
     will allow recent dump and streaming of logs from that endpoint.
   homepage: https://github.com/pivotal-cf/service-instance-logs-cli-plugin
   name: Service Instance Logging
-  updated: "2024-07-29T16:08:00Z"
-  version: 1.0.4
+  updated: "2026-02-16T16:08:00Z"
+  version: 1.0.5
 - authors:
   - contact: andrew.lunde@sap.com
     homepage: https://github.com/andrewlunde
