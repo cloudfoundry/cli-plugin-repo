@@ -784,28 +784,28 @@ plugins:
   - contact: daniel.statzner@sap.com
     name: Daniel Statzner
   binaries:
-  - checksum: 1e89a24902eb4e22cfe33040b602cac1c44b2e5a
+  - checksum: e31ec65d48abf93da8f26ea88c0f6d76af45aadb
     platform: linux64
-    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.1/DefaultEnv.linux64
-  - checksum: 01b8ce0d940bdf54f2ae6b8ac34f6834ff0f504c
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v2.0.0/DefaultEnv.linux64
+  - checksum: 791e00a16082c54432a07c0fa12a283176da8888
     platform: linux32
-    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.1/DefaultEnv.linux32
-  - checksum: 47e1330242c55d9e19a8014160de5859e451f361
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v2.0.0/DefaultEnv.linux32
+  - checksum: 6df8b4a477c311d15a26af5045ff53297ebf2331
     platform: osx
-    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.1/DefaultEnv.osx
-  - checksum: 1156a7ed645fc0f065f7b2363c14687567012fa6
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v2.0.0/DefaultEnv.osx
+  - checksum: 9f788ed435fdcb72c61d1877b63be8541501e53e
     platform: win32
-    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.1/DefaultEnv.win32
-  - checksum: c4aa0468032169510cb2a05cb0ce6fd1a0ab63b0
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v2.0.0/DefaultEnv.win32
+  - checksum: e8f5236d1bf6677f2fa85a108e48b566260b52bb
     platform: win64
-    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v1.1.1/DefaultEnv.win64
+    url: https://github.com/SAP/cf-cli-defaultenv-plugin/releases/download/v2.0.0/DefaultEnv.win64
   company: SAP
   created: "2021-10-12T00:00:00Z"
   description: Create default-env.json file with environment variables of an app.
   homepage: https://github.com/SAP/cf-cli-defaultenv-plugin
   name: DefaultEnv
-  updated: "2024-06-17T00:00:00Z"
-  version: 1.1.1
+  updated: "2026-02-12T00:00:00Z"
+  version: 2.0.0
 - authors:
   - contact: jhunt@starkandwayne.com
     homepage: https://github.com/jhunt
