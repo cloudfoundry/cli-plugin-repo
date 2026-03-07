@@ -1033,11 +1033,11 @@ plugins:
     platform: win64
     url: https://github.com/SAP/cf-html5-apps-repo-cli-plugin/releases/download/v1.4.9/cf-html5-apps-repo-cli-plugin-windows-amd64.exe
   company: SAP
-  created: 2019-02-05T12:00:00Z
+  created: "2019-02-05T12:00:00Z"
   description: CLI client for SAP Cloud Platform HTML5 Applications Repository service
   homepage: https://sap.github.io/cf-html5-apps-repo-cli-plugin
   name: html5-plugin
-  updated: 2026-03-07T14:18:40Z
+  updated: "2026-03-07T14:18:40Z"
   version: 1.4.9
 - authors:
   - contact: johannes.bechberger@sap.com
