@@ -343,6 +343,9 @@ plugins:
   - contact: daria.anton@sap.com
     homepage: https://github.com/Dariquest
     name: Daria Anton
+  - contact: mykhailo.yeromko@sap.com
+    homepage: https://github.com/mike-jc
+    name: Mykhailo Yeromko
   - contact: alexander.lais@sap.com
     homepage: https://github.com/peanball
     name: Alexander Lais
@@ -350,29 +353,29 @@ plugins:
     homepage: https://github.com/maxmoehl
     name: Maximilian Moehl
   binaries:
-  - checksum: 2d99d58385d6754d7cabfcccefce1e2b8d626a26
+  - checksum: f129499fdeb3f87e521fc2cf867029dcacbee969
     platform: osx
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.osx
-  - checksum: 9cfc9d769fcdcfec7670d051d6ceb5993852a6ca
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.osx
+  - checksum: 5155bfcd8bec3f41fadb64646898a1c677ec204a
     platform: linux64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.linux64
-  - checksum: 49fe70ea7fe3fae413a404fb6fd77374afa190c1
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.linux64
+  - checksum: 9a13887775d3d71956efd0c97e95f6d7319a5d6f
     platform: linux32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.linux32
-  - checksum: e41f8e597524a67303dd7469adcdebeb4ed2a7c9
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.linux32
+  - checksum: 0fdf162bc426def63dfefeefc101ceb41ae805fe
     platform: win32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.win32
-  - checksum: d050f56b6cd6510032bc3f86157e245ff5fe0b0e
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.win32
+  - checksum: 3aab0d2d4ade6e938fc75dee9aaeee680f6590c3
     platform: win64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.1.0/cf-lookup-route.win64
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.win64
   company: Cloud Foundry Foundation
   created: "2024-11-22T00:00:00Z"
   description: CF Route Lookup Plugin to identify applications, a given route is pointing
     to.
   homepage: https://github.com/cloudfoundry/cf-lookup-route
   name: cf-lookup-route
-  updated: "2024-11-22T00:00:00Z"
-  version: 0.1.0
+  updated: "2026-04-24T00:00:00Z"
+  version: 0.2.0
 - authors:
   - contact: stanislav.turlo@altoros.com
     homepage: https://github.com/nobodyzzz
