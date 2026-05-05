@@ -353,29 +353,29 @@ plugins:
     homepage: https://github.com/maxmoehl
     name: Maximilian Moehl
   binaries:
-  - checksum: f129499fdeb3f87e521fc2cf867029dcacbee969
+  - checksum: a796056ff24a8e1c690b3a359e179c11312fb0cc
     platform: osx
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.osx
-  - checksum: 5155bfcd8bec3f41fadb64646898a1c677ec204a
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.1/cf-lookup-route.osx
+  - checksum: 21dee2c9a2eb095a28ea61ab650a780f67df6c2c
     platform: linux64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.linux64
-  - checksum: 9a13887775d3d71956efd0c97e95f6d7319a5d6f
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.1/cf-lookup-route.linux64
+  - checksum: c6b6631e1eea5b7ecaf2688644ba17c5af22b5a2
     platform: linux32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.linux32
-  - checksum: 0fdf162bc426def63dfefeefc101ceb41ae805fe
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.1/cf-lookup-route.linux32
+  - checksum: 60dda2e6bc37e72e1421c1a77cdeaec2e6511f5d
     platform: win32
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.win32
-  - checksum: 3aab0d2d4ade6e938fc75dee9aaeee680f6590c3
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.1/cf-lookup-route.win32
+  - checksum: a9eb8e49925f55b69bf07f21e87f1244bdf234ae
     platform: win64
-    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.0/cf-lookup-route.win64
+    url: https://github.com/cloudfoundry/cf-lookup-route/releases/download/0.2.1/cf-lookup-route.win64
   company: Cloud Foundry Foundation
   created: "2024-11-22T00:00:00Z"
   description: CF Route Lookup Plugin to identify applications, a given route is pointing
     to.
   homepage: https://github.com/cloudfoundry/cf-lookup-route
   name: cf-lookup-route
-  updated: "2026-04-24T00:00:00Z"
-  version: 0.2.0
+  updated: "2026-05-05T00:00:00Z"
+  version: 0.2.1
 - authors:
   - contact: stanislav.turlo@altoros.com
     homepage: https://github.com/nobodyzzz
